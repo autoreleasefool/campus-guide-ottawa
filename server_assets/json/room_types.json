@@ -1,0 +1,104 @@
+[
+  {
+    "name_en": "Study Room",
+    "name_fr": "Salle d'étude",
+    "icon": {
+      "name": "book",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Lecture Hall",
+    "name_fr": "Salle de conférence",
+    "icon": {
+      "name": "class",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Cafeteria",
+    "name_fr": "Cafétéria",
+    "icon": {
+      "name": "restaurant",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Store",
+    "name_fr": "Boutique",
+    "icon": {
+      "name": "store",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Computer Lab",
+    "name_fr": "Salle informatique",
+    "icon": {
+      "name": "computer",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Office",
+    "name_fr": "Bureau",
+    "icon": {
+      "name": "person",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Library",
+    "name_fr": "Bibliothèque",
+    "icon": {
+      "name": "local-library",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Pool",
+    "name_fr": "Piscine",
+    "icon": {
+      "name": "pool",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Gymnasium",
+    "name_fr": "Gymnase",
+    "icon": {
+      "ios": {
+        "name": "ios-basketball",
+        "class": "ionicon"
+      },
+      "android": {
+        "name": "md-basketball",
+        "class": "ionicon"
+      }
+    }
+  },
+  {
+    "name_en": "Fitness Centre",
+    "name_fr": "Centre de fitness",
+    "icon": {
+      "name": "fitness-center",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Health Clinic",
+    "name_fr": "Clinique de santé",
+    "icon": {
+      "name": "healing",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Student Services",
+    "name_fr": "Services aux étudiants",
+    "icon": {
+      "name": "school",
+      "class": "material"
+    }
+  }
+]

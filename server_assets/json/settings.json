@@ -1,0 +1,51 @@
+{
+  "Language / Langue": [
+    {
+      "name": "Language / Langue",
+      "key": "pref_lang",
+      "type": "multi",
+      "options": [
+        {
+          "name": "English"
+        },
+        {
+          "name": "Français"
+        }
+      ]
+    }
+  ],
+  "General": [
+    {
+      "name_en": "Study session",
+      "name_fr": "Session d'étude",
+      "key": "pref_semester",
+      "type": "multi",
+      "options": [
+        {
+          "name_en": "Winter 2016",
+          "name_fr": "Hiver 2016"
+        },
+        {
+          "name_en": "Spring/Summer 2016",
+          "name_fr": "Printemps/Été 2016"
+        }
+      ]
+    }
+  ],
+  "Accessibility:Accessibilité": [
+    {
+      "name_en": "Prefer accessible routes",
+      "name_fr": "Préférez routes accessibles",
+      "key": "pref_wheel",
+      "type": "boolean"
+    }
+  ],
+  "Search:Recherche": [
+    {
+      "name_en": "Always 'Search All'",
+      "name_fr": "Toujours 'chercher tous'",
+      "key": "pref_search_all_always",
+      "type": "boolean"
+    }
+  ]
+}

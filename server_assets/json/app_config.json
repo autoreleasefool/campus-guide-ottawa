@@ -1,0 +1,21 @@
+{
+  "semesters": [
+    {
+      "id": "20165",
+      "name_en": "Summer 2016",
+      "name_fr": "Été 2016",
+      "is_current": true
+    }
+  ],
+  "university": {
+    "lat": 45.4222,
+    "long": -75.6824,
+    "name_en": "University of Ottawa",
+    "name_fr": "Université d'Ottawa"
+  },
+  "bus": {
+    "name": "OC Transpo",
+    "link_en": "http://www.octranspo1.com/",
+    "link_fr": "http://www.octranspo1.com/acceuil"
+  }
+}
