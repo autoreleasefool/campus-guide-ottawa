@@ -19,7 +19,7 @@ import requests
 import sys
 import zipfile
 
-if '--update-info' in sys.argv or '-u' in sys.argv:
+def updateData():
     print('Downloading data')
     zip_url = 'http://www.octranspo1.com/files/google_transit.zip'
 
@@ -29,6 +29,9 @@ if '--update-info' in sys.argv or '-u' in sys.argv:
 
     zipped_transit_data = zipfile.ZipFile(io.BytesIO(response.content))
     zipped_transit_data.extractall(path='temp_data/txt');
+
+if '--update-info' in sys.argv or '-u' in sys.argv:
+    updateData()
 
 ###########################
 #         Parsing         #
@@ -69,6 +72,13 @@ with open('json/stops.json') as campus_stops_file:
         for stop in stop_json[campus]['stops']:
             campus_stops[stop] = campus
 
+try:
+    with open('temp_data/txt/stops.txt') as temp:
+        print('Bus data exists. Continuing.')
+except Exception as error:
+    print('Could not find bus data. Downloading.')
+    updateData()
+
 print('Open temp_data/txt/stops.txt')
 with open('temp_data/txt/stops.txt') as stop_file:
     for stop in stop_file:
@@ -92,6 +102,8 @@ with open('temp_data/txt/stops.txt') as stop_file:
                 "lat": float(stop_latitude),
                 "long": float(stop_longitude)
             }
+
+
 
 print('Open temp_data/txt/calendar.txt')
 with open('temp_data/txt/calendar.txt') as calendar_file:
