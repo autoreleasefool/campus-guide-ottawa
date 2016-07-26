@@ -1,0 +1,217 @@
+###########################
+#      Transit Data       #
+###########################
+
+# Options:
+#
+#    --update-info, -u
+#        Downloads the OC Transpo data from the web and overrides the current data
+#        before parsing the data
+#
+#    --no-times
+#        Do not include days/time data in the output.
+#
+#    --pretty
+#        If included, JSON output will be indented
+
+import io
+import requests
+import sys
+import zipfile
+
+if '--update-info' in sys.argv or '-u' in sys.argv:
+    print('Downloading data')
+    zip_url = 'http://www.octranspo1.com/files/google_transit.zip'
+
+    response = requests.get(zip_url)
+    if response.status_code != 200:
+        sys.exit(0)
+
+    zipped_transit_data = zipfile.ZipFile(io.BytesIO(response.content))
+    zipped_transit_data.extractall(path='temp_data/txt');
+
+###########################
+#         Parsing         #
+###########################
+
+import datetime
+import json
+import re
+import sys
+
+campuses = {}
+campus_stops = {}
+stops = {}
+valid_services = {}
+valid_trips = {}
+output = []
+
+# Checks if a key value pair appears anywhere in an array of dicts
+def get_key_value_index_in_array_of_dicts(key, value, array):
+    for i in range(len(array)):
+        if array[i][key] == value:
+            return i
+    return -1
+
+print('Open json/stops.json')
+with open('json/stops.json') as campus_stops_file:
+    stop_json = json.loads(campus_stops_file.read())
+    for campus in stop_json:
+        campuses[campus] = {
+            'id': campus,
+            'name_en': stop_json[campus]['name_en'],
+            'name_fr': stop_json[campus]['name_fr'],
+            'lat': stop_json[campus]['lat'],
+            'long': stop_json[campus]['long'],
+            'stops': []
+        }
+
+        for stop in stop_json[campus]['stops']:
+            campus_stops[stop] = campus
+
+print('Open temp_data/txt/stops.txt')
+with open('temp_data/txt/stops.txt') as stop_file:
+    for stop in stop_file:
+        if 'stop_id' in stop: continue
+        stop_info = re.match(r'(.*?),(.*?),(.*?),.*?,([\d.-]+),([\d.-]+),', stop)
+        stop_code = stop_info.group(2)
+
+        if stop_code in campus_stops:
+            stop_id = stop_info.group(1)
+            stop_name = stop_info.group(3)
+            stop_latitude = stop_info.group(4)
+            stop_longitude = stop_info.group(5)
+
+            # Make stop names more consistent
+            stop_name = stop_name.replace('\\', '/').replace('"', '')
+
+            stops[stop_id] = {
+                "campus": campus_stops[stop_code],
+                "code": stop_code,
+                "name": stop_name,
+                "lat": float(stop_latitude),
+                "long": float(stop_longitude)
+            }
+
+print('Open temp_data/txt/calendar.txt')
+with open('temp_data/txt/calendar.txt') as calendar_file:
+    for service in calendar_file:
+        if 'service_id' in service: continue
+        service_info = re.match(r'(.*?),(\d),(\d),(\d),(\d),(\d),(\d),(\d),(.*?),(.*?)$', service)
+        service_id = service_info.group(1)
+        service_start_date = service_info.group(9)
+        service_end_date = service_info.group(10)
+
+        service_start_month = int(service_start_date[4:6])
+        service_start_day = int(service_start_date[6:])
+        service_end_month = int(service_end_date[4:6])
+        service_end_day = int(service_end_date[6:])
+
+        current_month = datetime.date.today().month
+        current_day = datetime.date.today().day
+
+        if (current_month > service_start_month or (current_month == service_start_month and current_day >= service_start_day)) and (current_month < service_end_month or (current_month == service_end_month and current_day <= service_end_day)):
+            valid_services[service_id] = []
+            for i in range(2, 9):
+                if (service_info.group(i) == '1'): valid_services[service_id].append(str(i - 2))
+
+print('Open temp_data/txt/trips.txt')
+with open('temp_data/txt/trips.txt', encoding='utf8') as trips_file:
+    for trip in trips_file:
+        if 'route_id' in trip: continue
+        trip_info = re.match(r'(.*?),(.*?),(.*?),(.*?),(.*?),', trip)
+        service_id = trip_info.group(2)
+
+        if service_id in valid_services:
+            route_id = trip_info.group(1)
+            trip_id = trip_info.group(3)
+            trip_headsign = trip_info.group(4)
+            direction = trip_info.group(5)
+
+            valid_trips[trip_id] = {
+                'route': int(route_id[:route_id.index('-')]),
+                'headsign': trip_headsign.replace('"', ''),
+                'direction': direction,
+                'days': valid_services[service_id]
+            }
+
+print('Open temp_data/txt/stop_times.txt')
+with open('temp_data/txt/stop_times.txt') as stop_times_file:
+    for stop in stop_times_file:
+        if 'trip_id' in stop: continue
+        stop_info = re.match(r'(.*?),(.*?),.*?,(.*?),', stop)
+        trip_id = stop_info.group(1)
+        stop_id = stop_info.group(3)
+
+        if stop_id in stops and trip_id in valid_trips:
+            arrival_time = stop_info.group(2)
+            route_id = valid_trips[trip_id]['route']
+            campus = stops[stop_id]['campus']
+            campus_index = get_key_value_index_in_array_of_dicts('id', campus, output)
+            if campus_index == -1:
+                output.append(campuses[campus])
+                campus_index = len(output) - 1
+            stop_index = get_key_value_index_in_array_of_dicts('id', stop_id, output[campus_index]['stops'])
+            if stop_index == -1:
+                output[campus_index]['stops'].append({
+                    'id': stop_id,
+                    'code': stops[stop_id]['code'],
+                    'name': stops[stop_id]['name'],
+                    'lat': stops[stop_id]['lat'],
+                    'long': stops[stop_id]['long']
+                })
+                stop_index = len(output[campus_index]['stops']) - 1
+
+            if '--no-times' not in sys.argv:
+                if 'routes' not in output[campus_index]['stops'][stop_index]:
+                    output[campus_index]['stops'][stop_index]['routes'] = []
+                route_index = get_key_value_index_in_array_of_dicts('number', route_id, output[campus_index]['stops'][stop_index]['routes'])
+                if route_index == -1:
+                    output[campus_index]['stops'][stop_index]['routes'].append({
+                        'number': route_id,
+                        'sign': valid_trips[trip_id]['headsign']
+                    })
+                if 'days' not in output[campus_index]['stops'][stop_index]['routes'][route_index]:
+                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
+                for i in valid_trips[trip_id]['days']:
+                    if i not in output[campus_index]['stops'][stop_index]['routes'][route_index]['days']:
+                        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i] = []
+                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i].append(arrival_time[0:5])
+            else:
+                if 'routes' not in output[campus_index]['stops'][stop_index]:
+                    output[campus_index]['stops'][stop_index]['routes'] = set()
+                if route_id not in output[campus_index]['stops'][stop_index]['routes']:
+                    output[campus_index]['stops'][stop_index]['routes'].add(route_id)
+
+if '--no-times' not in sys.argv:
+    # Compacting data
+    print('Compacting data')
+    for campus_index in range(len(output)):
+        for stop_index in range(len(output[campus_index]['stops'])):
+            for route_index in range(len(output[campus_index]['stops'][stop_index]['routes'])):
+                days_and_times = {}
+                for day, times in output[campus_index]['stops'][stop_index]['routes'][route_index]['days'].items():
+                    if times not in days_and_times.values():
+                        days_and_times[day] = times
+                    else:
+                        for i in days_and_times:
+                            if days_and_times[i] == times:
+                                days_and_times[str(i) + str(day)] = times
+                                del days_and_times[i]
+                                break
+                output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
+                for key in days_and_times:
+                    sorted_key = ''.join(sorted(key))
+                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = days_and_times[key]
+                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = sorted(output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key])
+else:
+    for campus_index in range(len(output)):
+        for stop_index in range(len(output[campus_index]['stops'])):
+            output[campus_index]['stops'][stop_index]['routes'] = sorted(list(output[campus_index]['stops'][stop_index]['routes']))
+
+output_file = 'output-with-times.txt' if '--no-times' not in sys.argv else 'output-no-times.txt'
+with open('temp_data/' + output_file, 'w', encoding='utf8') as outfile:
+    if '--pretty' in sys.argv:
+        json.dump(output, outfile, indent=2, sort_keys=True, ensure_ascii=False)
+    else:
+        json.dump(output, outfile, sort_keys=True, ensure_ascii=False)
