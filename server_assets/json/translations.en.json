@@ -1,0 +1,83 @@
+{
+  "nil": "",
+
+  // Tabs
+  "find": "Find",
+  "schedule": "Schedule",
+  "discover": "Discover",
+  "settings": "Settings",
+
+  // Semesters
+  "spring": "Spring",
+  "summer": "Summer",
+  "autumn": "Autumn",
+  "winter": "Winter",
+
+  // General
+  "language": "English",
+  "cancel": "Cancel",
+  "not_now": "Not now",
+  "search_placeholder": "Search classes, professors...",
+  "search": "Search",
+  "search_all_instead": "Search app instead?",
+  "name": "Name",
+  "retry": "Retry",
+
+  // Updates
+  "update_available_title": "Update available",
+  "update_available_msg": "An update is available for app's configuration. This may include new courses, buildings, bus routes, and more. Would you like to update?",
+  "update": "Update",
+  "file_has_been_updated": "{0} has been updated.",
+  "file_is_updating": "{0} is being updated...",
+  "downloading": "Downloading",
+  "no_internet": "No Internet connection",
+  "no_internet_config_available": "An Internet connection was not available, but an old configuration is available. You can retry, or use the old configuration and try updating later.",
+  "no_internet_config_unavailable": "An Internet connection was not available. You must download this update to use the app.",
+
+  // Find
+  "upcoming_classes": "Upcoming Classes",
+  "building_directory": "Building Directory",
+  "address": "Address",
+  "no_courses_added": "You haven't added any courses.\nTap here to add some now.",
+  "navigate_to": "Navigate to {0}",
+
+  // Schedule
+  "edit": "Edit",
+  "filter": "Filter",
+  "edit_schedule": "Edit Schedule",
+
+  // Discover
+  "useful_links": "Useful links",
+  "cannot_open_url": "Cannot open link",
+  "copy_link": "Copy link",
+
+  // Buses & Shuttles
+  "bus_company": "OC Transpo",
+  "no_upcoming_buses": "No upcoming buses",
+  "shuttle_stop": "Shuttle stop",
+  "main_campus": "Main Campus",
+  "lees": "Lees",
+  "rgn": "RGN",
+  "mba": "MBA",
+
+  // Facilities
+  "whats_this_icon": "What's this icon?",
+  "atm": "ATMs available",
+  "food": "Restaurant or snacks available",
+  "printer": "Printers",
+  "store": "Convenience/campus store",
+  "bed": "Residence",
+  "alcohol": "Alcohol available",
+  "laundry": "Laundry services",
+  "library": "Faculty/school library",
+  "parking": "Parking available",
+  "mail": "Post office",
+  "pharmacy": "Pharmacy",
+  "gym": "Gym",
+  "pool": "Pool",
+
+  // Other
+  "continue_in": "Continue in",
+  "only_once_title": "English selected",
+  "only_once_message": "You can change languages at any time through the settings."
+}

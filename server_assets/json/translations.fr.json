@@ -1,0 +1,83 @@
+{
+  "nil": "",
+
+  // Tabs
+  "find": "Trouver",
+  "schedule": "Programme",
+  "discover": "Découvrir",
+  "settings": "Réglages",
+
+  // Semesters
+  "spring": "Printemps",
+  "summer": "Été",
+  "autumn": "Automne",
+  "winter": "Hiver",
+
+  // General
+  "language": "Français",
+  "cancel": "Annuler",
+  "not_now": "Pas maintenant",
+  "search_placeholder": "Recherche des classes, des professeurs...",
+  "search": "Rechercher",
+  "search_all_instead": "Rechercher l'application?",
+  "name": "Nom",
+  "retry": "Recommencez",
+
+  // Updates
+  "update_available_title": "Mise à jour disponible",
+  "update_available_msg": "Une mise à jour est disponible pour la configuration de l'application. Cela peut inclure de nouveaux cours, les bâtiments, les lignes de bus, et plus encore. Voulez-vous mettre à jour?",
+  "update": "Mettre à jour",
+  "file_has_been_updated": "{0} a été mise à jour.",
+  "file_is_updating": "{0} est mis à jour...",
+  "downloading": "Téléchargement en cours",
+  "no_internet": "Pas de connexion Internet",
+  "no_internet_config_available": "Une connexion Internet était pas disponible, mais une ancienne configuration est disponible. Vous pouvez réessayer ou utiliser l'ancienne configuration et essayer de mettre à jour plus tard.",
+  "no_internet_config_unavailable": "Une connexion Internet est disponible. Vous devez télécharger cette mise à jour pour utiliser l'application.",
+
+  // Find
+  "upcoming_classes": "Classes à venir",
+  "building_directory": "Annuaire bâtiment",
+  "address": "Adresse",
+  "no_courses_added": "Vous avez pas ajouté de sources.\nAppuyez ici pour ajouter un peu maintenant.",
+  "navigate_to": "Accédez au {0}",
+
+  // Schedule
+  "edit": "Éditer",
+  "filter": "Filtre",
+  "edit_schedule": "Calendrier d'édition",
+
+  // Discover
+  "useful_links": "Liens utiles",
+  "cannot_open_url": "Ne peut pas ouvrir le lien",
+  "copy_link": "Copier le lien",
+
+  // Buses & Shuttles
+  "bus_company": "OC Transpo",
+  "no_upcoming_buses": "Pas de bus à venir",
+  "shuttle_stop": "Arrêt de la navette",
+  "main_campus": "Campus principal",
+  "lees": "Lees",
+  "rgn": "RGN",
+  "mba": "MBA",
+
+  // Facilities
+  "whats_this_icon": "Quelle est cette icône?",
+  "atm": "ATM disponible",
+  "food": "Restaurant ou des collations disponibles",
+  "printer": "Imprimantes",
+  "store": "Commodité / campus magasin",
+  "bed": "Résidence",
+  "alcohol": "Alcool disponible",
+  "laundry": "Un service de blanchisserie",
+  "library": "Faculté / bibliothèque de l'école",
+  "parking": "Parking disponible",
+  "mail": "Bureau de poste",
+  "pharmacy": "Pharmacie",
+  "gym": "Gym",
+  "pool": "Piscine",
+
+  // Other
+  "continue_in": "Continuer en",
+  "only_once_title": "Français sélectionnés",
+  "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres."
+}

@@ -5,13 +5,13 @@
     "name_fr": "Campus principal",
     "lat": 45.4222669,
     "long": -75.6833472,
-    "accurate": true,
+    "is_accurate": true,
     "schedules": [
       {
         "name_en": "Regular",
         "name_fr": "Régulier",
-        "direction_en": "Main to RGN",
-        "direction_fr": "Principal à rgn",
+        "destination_en": "Main to RGN",
+        "destination_fr": "Principal à rgn",
         "start_date": "2015-09-08",
         "end_date": "2016-04-29",
         "excluded_dates": [
@@ -50,8 +50,8 @@
       {
         "name_en": "Summer",
         "name_fr": "Été",
-        "direction_en": "Main to RGN",
-        "direction_fr": "Principal à rgn",
+        "destination_en": "Main to RGN",
+        "destination_fr": "Principal à rgn",
         "start_date": "2016-05-02",
         "end_date": "2016-09-02",
         "excluded_dates": [
@@ -75,13 +75,13 @@
     "name": "Lees",
     "lat": 45.4159919,
     "long": -75.6709141,
-    "accurate": false,
+    "is_accurate": false,
     "schedules": [
       {
         "name_en": "Regular",
         "name_fr": "Régulier",
-        "direction_en": "Main to RGN",
-        "direction_fr": "Principal à rgn",
+        "destination_en": "Main to RGN",
+        "destination_fr": "Principal à rgn",
         "start_date": "2015-09-08",
         "end_date": "2016-04-29",
         "excluded_dates": [
@@ -120,8 +120,8 @@
       {
         "name_en": "Summer",
         "name_fr": "Été",
-        "direction_en": "Main to RGN",
-        "direction_fr": "Principal à rgn",
+        "destination_en": "Main to RGN",
+        "destination_fr": "Principal à rgn",
         "start_date": "2016-05-02",
         "end_date": "2016-09-02",
         "excluded_dates": [
