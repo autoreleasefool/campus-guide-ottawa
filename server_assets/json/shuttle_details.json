@@ -1,0 +1,32 @@
+[
+  {
+    "name_en": "Accessibility",
+    "name_fr": "Accessibilité",
+    "image": "/outer_placeholder_11.jpg",
+    "icon": {
+      "name": "accessible",
+      "class": "material"
+    },
+    "details_en": [
+      "Hello"
+    ],
+    "details_fr": [
+      "Bonjour"
+    ]
+  },
+  {
+    "name_en": "Summer bus tickets",
+    "name_fr": "Horaire d'autobus d'été",
+    "icon": {
+      "name": "directions-bus",
+      "class": "material"
+    },
+    "image": "/outer_placeholder_12.jpg",
+    "details_en": [
+      "Hello"
+    ],
+    "details_fr": [
+      "Bonjour"
+    ]
+  }
+]

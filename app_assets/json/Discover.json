@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pop",
+    "name_en": "Popular Destinations",
+    "name_fr": "Les destinations populaires"
+  },
+  {
+    "id": "stu",
+    "name_en": "Study Spots",
+    "name_fr": "Taches d'études"
+  },
+  {
+    "id": "use",
+    "name_en": "Useful Links",
+    "name_fr": "Liens utiles"
+  },
+  {
+    "id": "bus",
+    "name": "OC Transpo"
+  },
+  {
+    "id": "shu",
+    "name_en": "Shuttle",
+    "name_fr": "La navette"
+  }
+]
