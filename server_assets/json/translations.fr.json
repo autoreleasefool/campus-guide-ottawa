@@ -30,6 +30,13 @@
   "address": "Adresse",
   "no_courses_added": "Vous avez pas ajouté de sources.\nAppuyez ici pour ajouter un peu maintenant.",
   "navigate_to": "Accédez au {0}",
+  "pick_location": "Permettez-moi de revenir",
+  "locate_me": "Trouver mon emplacement",
+  "return_to_buildings": "Retour aux bâtiments",
+  "choose_starting_point": "Choisissez un point de départ ...",
+  "x_greater_than_y": "{0} > {1}",
+  "lobby": "Lobby",
+  "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
 
   // Schedule
   "edit": "Éditer",
