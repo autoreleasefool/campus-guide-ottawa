@@ -5,6 +5,16 @@
     "ok": "Okay",
     "cancel": "Cancel",
     "retry": "Retry",
+    "retry_update": "Retry update",
+    "later": "Later",
+
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
 
     "only_once_title": "English selected",
     "only_once_message": "You can change languages at any time through the settings.",
@@ -17,7 +27,11 @@
     "downloading": "Downloading",
     "no_internet": "No Internet connection",
     "no_internet_config_available": "An Internet connection was not available, but an old configuration is available. You can retry, or use the old configuration and try updating later.",
-    "no_internet_config_unavailable": "An Internet connection was not available. You must download this update to use the app."
+    "no_internet_config_unavailable": "An Internet connection was not available. You must download this update to use the app. Please, try again later.",
+
+    "server_unavailable": "Server unavailable",
+    "server_unavailable_config_available": "The server doesn't seem to be available, but an old configuration is available. You can retry, or use the old configuration and try updating later.",
+    "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download this update to use the app. Please, try again later."
   },
   "fr": {
     "language": "Français",
@@ -25,6 +39,16 @@
     "ok": "D'accord",
     "cancel": "Annuler",
     "retry": "Recommencez",
+    "retry_update": "Réessayez mise à jour",
+    "later": "Plus tard",
+
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
 
     "only_once_title": "Français sélectionnés",
     "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres.",
@@ -37,6 +61,10 @@
     "downloading": "Téléchargement en cours",
     "no_internet": "Pas de connexion Internet",
     "no_internet_config_available": "Une connexion Internet était pas disponible, mais une ancienne configuration est disponible. Vous pouvez réessayer ou utiliser l'ancienne configuration et essayer de mettre à jour plus tard.",
-    "no_internet_config_unavailable": "Une connexion Internet est disponible. Vous devez télécharger cette mise à jour pour utiliser l'application."
+    "no_internet_config_unavailable": "Une connexion Internet est disponible. Vous devez télécharger cette mise à jour pour utiliser l'application. Veuillez réessayer plus tard.",
+
+    "server_unavailable": "Serveur indisponible",
+    "server_unavailable_config_available": "Le serveur ne semble pas être disponible, mais une ancienne configuration est disponible. Vous pouvez réessayer ou utiliser l'ancienne configuration et essayer de mettre à jour plus tard.",
+    "server_unavailable_config_unavailable": "Le serveur ne semble pas être disponible. Vous devez télécharger cette mise à jour pour utiliser l'application. Veuillez réessayer plus tard."
   }
 }
