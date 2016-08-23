@@ -1,6 +1,6 @@
-###########################
-#      Transit Data       #
-###########################
+#
+# Transit Data
+#
 
 # Options:
 #
@@ -33,9 +33,7 @@ def updateData():
 if '--update-info' in sys.argv or '-u' in sys.argv:
     updateData()
 
-###########################
-#         Parsing         #
-###########################
+# Parsing
 
 import datetime
 import json
@@ -220,6 +218,8 @@ else:
     for campus_index in range(len(output)):
         for stop_index in range(len(output[campus_index]['stops'])):
             output[campus_index]['stops'][stop_index]['routes'] = sorted(list(output[campus_index]['stops'][stop_index]['routes']))
+
+# Output
 
 output_file = 'output-with-times.txt' if '--no-times' not in sys.argv else 'output-no-times.txt'
 with open('temp_data/' + output_file, 'w', encoding='utf8') as outfile:
