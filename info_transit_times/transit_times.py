@@ -8,9 +8,6 @@
 #        Downloads the OC Transpo data from the web and overrides the current data
 #        before parsing the data
 #
-#    --no-times
-#        Do not include days/time data in the output.
-#
 #    --pretty
 #        If included, JSON output will be indented
 
@@ -172,57 +169,45 @@ with open('temp_data/txt/stop_times.txt') as stop_times_file:
                 })
                 stop_index = len(output[campus_index]['stops']) - 1
 
-            if '--no-times' not in sys.argv:
-                if 'routes' not in output[campus_index]['stops'][stop_index]:
-                    output[campus_index]['stops'][stop_index]['routes'] = []
-                route_index = get_key_value_index_in_array_of_dicts('number', route_id, output[campus_index]['stops'][stop_index]['routes'])
-                if route_index == -1:
-                    output[campus_index]['stops'][stop_index]['routes'].append({
-                        'number': route_id,
-                        'sign': valid_trips[trip_id]['headsign']
-                    })
-                if 'days' not in output[campus_index]['stops'][stop_index]['routes'][route_index]:
-                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
-                for i in valid_trips[trip_id]['days']:
-                    if i not in output[campus_index]['stops'][stop_index]['routes'][route_index]['days']:
-                        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i] = []
-                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i].append(arrival_time[0:5])
-            else:
-                if 'routes' not in output[campus_index]['stops'][stop_index]:
-                    output[campus_index]['stops'][stop_index]['routes'] = set()
-                if route_id not in output[campus_index]['stops'][stop_index]['routes']:
-                    output[campus_index]['stops'][stop_index]['routes'].add(route_id)
-
-if '--no-times' not in sys.argv:
-    # Compacting data
-    print('Compacting data')
-    for campus_index in range(len(output)):
-        for stop_index in range(len(output[campus_index]['stops'])):
-            for route_index in range(len(output[campus_index]['stops'][stop_index]['routes'])):
-                days_and_times = {}
-                for day, times in output[campus_index]['stops'][stop_index]['routes'][route_index]['days'].items():
-                    if times not in days_and_times.values():
-                        days_and_times[day] = times
-                    else:
-                        for i in days_and_times:
-                            if days_and_times[i] == times:
-                                days_and_times[str(i) + str(day)] = times
-                                del days_and_times[i]
-                                break
+            if 'routes' not in output[campus_index]['stops'][stop_index]:
+                output[campus_index]['stops'][stop_index]['routes'] = []
+            route_index = get_key_value_index_in_array_of_dicts('number', route_id, output[campus_index]['stops'][stop_index]['routes'])
+            if route_index == -1:
+                output[campus_index]['stops'][stop_index]['routes'].append({
+                    'number': route_id,
+                    'sign': valid_trips[trip_id]['headsign']
+                })
+            if 'days' not in output[campus_index]['stops'][stop_index]['routes'][route_index]:
                 output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
-                for key in days_and_times:
-                    sorted_key = ''.join(sorted(key))
-                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = days_and_times[key]
-                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = sorted(output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key])
-else:
-    for campus_index in range(len(output)):
-        for stop_index in range(len(output[campus_index]['stops'])):
-            output[campus_index]['stops'][stop_index]['routes'] = sorted(list(output[campus_index]['stops'][stop_index]['routes']))
+            for i in valid_trips[trip_id]['days']:
+                if i not in output[campus_index]['stops'][stop_index]['routes'][route_index]['days']:
+                    output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i] = []
+                output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i].append(arrival_time[0:5])
+
+# Compacting data
+print('Compacting data')
+for campus_index in range(len(output)):
+    for stop_index in range(len(output[campus_index]['stops'])):
+        for route_index in range(len(output[campus_index]['stops'][stop_index]['routes'])):
+            days_and_times = {}
+            for day, times in output[campus_index]['stops'][stop_index]['routes'][route_index]['days'].items():
+                if times not in days_and_times.values():
+                    days_and_times[day] = times
+                else:
+                    for i in days_and_times:
+                        if days_and_times[i] == times:
+                            days_and_times[str(i) + str(day)] = times
+                            del days_and_times[i]
+                            break
+            output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
+            for key in days_and_times:
+                sorted_key = ''.join(sorted(key))
+                output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = days_and_times[key]
+                output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = sorted(output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key])
 
 # Output
 
-output_file = 'output-with-times.txt' if '--no-times' not in sys.argv else 'output-no-times.txt'
-with open('temp_data/' + output_file, 'w', encoding='utf8') as outfile:
+with open('../output/transit_times.json', 'w', encoding='utf8') as outfile:
     if '--pretty' in sys.argv:
         json.dump(output, outfile, indent=2, sort_keys=True, ensure_ascii=False)
     else:
