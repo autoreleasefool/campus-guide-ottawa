@@ -29,8 +29,8 @@
       {
         "name_en": "101 Week",
         "name_fr": "Semaine 101",
-        "link_en": "http://www.semaine101week.com/",
-        "link_fr": "http://www.semaine101week.com/fr"
+        "link_en": "http://sfuo.ca/101week/",
+        "link_fr": "http://sfuo.ca/101week/fr/"
       },
       {
         "name_en": "Library",
@@ -875,14 +875,13 @@
           {
             "name_en": "Health Sciences Student Association",
             "name_fr": "Association des étudiantes en sciences de la santé",
-            "link_en": "http://www.hssuottawa.ca/#!__english",
-            "link_fr": "http://www.hssuottawa.ca/#!__french"
+            "link_en": "http://hssauottawa.wix.com/hssauottawa",
+            "link_fr": "http://hssauottawa.wix.com/hssauottawa#!acceuil/cn58"
           },
           {
             "name_en": "Human Kinetics Student Association",
             "name_fr": "Association des étudiantes en science de l'activité physique",
-            "link_en": "http://hksa-aeeap.ca/en/",
-            "link_fr": "http://hksa-aeeap.ca/fr/"
+            "link": "https://uottawahksa.wordpress.com/"
           },
           {
             "name_en": "International Development and Globalization Student Association",
@@ -898,7 +897,8 @@
           },
           {
             "name": "Association des étudiants en nutrition",
-            "link": "http://adenut.com/"
+            "link": "http://adenut.com/",
+            "invalid": true
           },
           {
             "name_en": "International, Political and Policy Studies Students' Association",
