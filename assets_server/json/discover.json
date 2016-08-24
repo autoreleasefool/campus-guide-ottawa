@@ -1,17 +1,4 @@
 {
-  "pop": {
-    "image": "/outer_placeholder.jpg",
-    "icon": {
-      "android": {
-        "name": "whatshot",
-        "class": "material"
-      },
-      "ios": {
-        "name": "ios-flame",
-        "class": "ionicon"
-      }
-    }
-  },
   "stu": {
     "image": "/outer_placeholder_2.jpg",
     "icon": {
