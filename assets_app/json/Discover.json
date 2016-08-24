@@ -1,10 +1,5 @@
 [
   {
-    "id": "pop",
-    "name_en": "Popular Destinations",
-    "name_fr": "Les destinations populaires"
-  },
-  {
     "id": "stu",
     "name_en": "Study Spots",
     "name_fr": "Taches d'études"
