@@ -12,6 +12,12 @@
       "name_fr": "Session d'étude",
       "key": "pref_semester",
       "type": "multi"
+    },
+    {
+      "name_en": "Time format",
+      "name_fr": "Format de l'heure",
+      "key": "pref_time_format",
+      "type": "multi"
     }
   ],
   "Accessibility:Accessibilité": [
