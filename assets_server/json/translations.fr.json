@@ -42,6 +42,13 @@
   "edit": "Éditer",
   "filter": "Filtre",
   "edit_schedule": "Calendrier d'édition",
+  "class_name": "Nom du cours",
+  "add_lecture": "Ajouter conférence",
+  "save_course": "Enregistrer",
+  "day": "Jour",
+  "starting_time": "L'heure de commence",
+  "ending_time": "L'heure de finis",
+  "format": "Formate",
 
   // Discover
   "useful_links": "Liens utiles",

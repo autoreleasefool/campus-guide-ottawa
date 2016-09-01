@@ -42,6 +42,13 @@
   "edit": "Edit",
   "filter": "Filter",
   "edit_schedule": "Edit Schedule",
+  "class_name": "Class name",
+  "add_lecture": "Add lecture",
+  "save_course": "Save",
+  "day": "Day",
+  "starting_time": "Starting time",
+  "ending_time": "Ending time",
+  "format": "Format",
 
   // Discover
   "useful_links": "Useful links",
