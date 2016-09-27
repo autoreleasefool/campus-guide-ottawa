@@ -528,7 +528,7 @@ module.exports = [
   {
     code: 'CTE',
     image: require('../images/buildings/outer_placeholder_2.jpg'),
-    name: '3',
+    name: 'CTE',
     lat: 45.4230938,
     long: -75.6832885,
     address_en: '90 University Private',

@@ -5,6 +5,11 @@
       "name_en": "Summer 2016",
       "name_fr": "Été 2016",
       "is_current": true
+    },
+    {
+      "id": "20166",
+      "name_en": "Fall 2016",
+      "name_fr": "Fall 2016"
     }
   ],
   "university": {

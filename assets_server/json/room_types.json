@@ -100,5 +100,77 @@
       "name": "school",
       "class": "material"
     }
+  },
+  {
+    "name_en": "Meeting Room",
+    "name_fr": "Salle de réunion",
+    "icon": {
+      "name": "group",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Testing Room",
+    "name_fr": "Salle d'évaluation",
+    "icon": {
+      "name": "create",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Kitchen",
+    "name_fr": "Cuisine",
+    "icon": {
+      "name": "kitchen",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Research Laboratory",
+    "name_fr": "Laboratoire de recherche",
+    "icon": {
+      "name": "find-in-page",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Seminar Room",
+    "name_fr": "Salle de séminaire",
+    "icon": {
+      "name": "record-voice-over",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Men's Bathroom",
+    "name_fr": "La salle de bain pour hommes",
+    "icon": {
+      "name": "md-man",
+      "class": "ionicon"
+    }
+  },
+  {
+    "name_en": "Women's Bathroom",
+    "name_fr": "La salle de bain des femmes",
+    "icon": {
+      "name": "md-woman",
+      "class": "ionicon"
+    }
+  },
+  {
+    "name_en": "Unisex Bathroom",
+    "name_fr": "Salle de bain unisexe",
+    "icon": {
+      "name": "wc",
+      "class": "material"
+    }
+  },
+  {
+    "name_en": "Storage",
+    "name_fr": "Stockage",
+    "icon": {
+      "name": "lock",
+      "class": "material"
+    }
   }
 ]
