@@ -1,6 +1,5 @@
-{
-  "stu": {
-    "image": "/outer_placeholder_2.jpg",
+[
+  {
     "icon": {
       "android": {
         "name": "local-library",
@@ -10,27 +9,39 @@
         "name": "ios-book",
         "class": "ionicon"
       }
-    }
+    },
+    "id": "stu",
+    "image": "/outer_placeholder_2.jpg",
+    "name_en": "Study Spots",
+    "name_fr": "Taches d'études"
   },
-  "use": {
-    "image": "/outer_placeholder_3.jpg",
+  {
     "icon": {
       "name": "insert-link",
       "class": "material"
-    }
+    },
+    "id": "use",
+    "image": "/outer_placeholder_3.jpg",
+    "name_en": "Useful Links",
+    "name_fr": "Liens utiles"
   },
-  "bus": {
-    "image": "/outer_placeholder_4.jpg",
+  {
     "icon": {
       "name": "directions-bus",
       "class": "material"
-    }
+    },
+    "id": "bus",
+    "image": "/outer_placeholder_4.jpg",
+    "name": "OC Transpo"
   },
-  "shu": {
-    "image": "/outer_placeholder_5.jpg",
+  {
     "icon": {
       "name": "local-shipping",
       "class": "material"
-    }
+    },
+    "id": "shu",
+    "image": "/outer_placeholder_5.jpg",
+    "name_en": "Shuttle",
+    "name_fr": "La navette"
   }
-}
+]
