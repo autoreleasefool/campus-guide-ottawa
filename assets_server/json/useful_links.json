@@ -1,5 +1,9 @@
 [
   {
+    "icon": {
+      "name": "school",
+      "class": "material"
+    },
     "id": "university",
     "name_en": "University of Ottawa",
     "name_fr": "Université d'Ottawa",
@@ -79,6 +83,10 @@
     ]
   },
   {
+    "icon": {
+      "name": "book",
+      "class": "material"
+    },
     "id": "faculties",
     "name_en": "Faculties",
     "name_fr": "Facultés",
@@ -733,6 +741,10 @@
     ]
   },
   {
+    "icon": {
+      "name": "group",
+      "class": "material"
+    },
     "id": "sfuo",
     "name_en": "Student Federation",
     "name_fr": "Fédération étudiante",
@@ -927,6 +939,10 @@
     ]
   },
   {
+    "icon": {
+      "name": "md-american-football",
+      "class": "ionicon"
+    },
     "id": "sports",
     "name_en": "Sports & Clubs",
     "name_fr": "Sports et clubs",
@@ -965,6 +981,10 @@
     ]
   },
   {
+    "icon": {
+      "name": "md-alert",
+      "class": "ionicon"
+    },
     "id": "emergency",
     "name_en": "Emergency",
     "name_fr": "Urgence",
