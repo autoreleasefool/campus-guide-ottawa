@@ -93,6 +93,10 @@
     "image": "/outer_placeholder_7.jpg",
     "categories": [
       {
+        "icon": {
+          "name": "collections",
+          "class": "material"
+        },
         "id": "arts",
         "name": "Arts",
         "links": [
@@ -227,6 +231,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "gavel",
+          "class": "material"
+        },
         "id": "law",
         "name_en": "Law",
         "name_fr": "Droit",
@@ -256,6 +264,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "class",
+          "class": "material"
+        },
         "id": "education",
         "name_en": "Education",
         "name_fr": "Éducation",
@@ -283,6 +295,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "settings",
+          "class": "material"
+        },
         "id": "engineering",
         "name_en": "Engineering",
         "name_fr": "Ingénierie",
@@ -338,6 +354,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "school",
+          "class": "material"
+        },
         "id": "graduate",
         "name_en": "Graduate",
         "name_fr": "Études supérieures",
@@ -351,6 +371,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "local-hospital",
+          "class": "material"
+        },
         "id": "healthSciences",
         "name_en": "Health Sciences",
         "name_fr": "Sciences de la santé",
@@ -408,6 +432,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "local-pharmacy",
+          "class": "material"
+        },
         "id": "medicine",
         "name_en": "Medicine",
         "name_fr": "Médicine",
@@ -523,6 +551,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "md-beaker",
+          "class": "ionicon"
+        },
         "id": "sciences",
         "name_en": "Science",
         "name_fr": "Sciences",
@@ -576,6 +608,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "people",
+          "class": "material"
+        },
         "id": "socialSciences",
         "name_en": "Social Sciences",
         "name_fr": "Sciences sociales",
@@ -653,6 +689,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "business",
+          "class": "material"
+        },
         "id": "telfer",
         "name_en": "Telfer",
         "name_fr": "Telfer",
@@ -765,6 +805,10 @@
     ],
     "categories": [
       {
+        "icon": {
+          "name": "view-comfy",
+          "class": "material"
+        },
         "id": "sfuoServices",
         "name_en": "SFUO Services",
         "name_fr": "Services de SFUO",
@@ -838,6 +882,10 @@
         ]
       },
       {
+        "icon": {
+          "name": "people",
+          "class": "material"
+        },
         "id": "studentAssociations",
         "name_en": "Student Associations",
         "name_fr": "Associations étudiantes",
