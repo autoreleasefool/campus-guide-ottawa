@@ -18,13 +18,15 @@
   "language": "Français",
   "cancel": "Annuler",
   "not_now": "Pas maintenant",
-  "search_placeholder": "Recherche",
-  "search": "Rechercher",
-  "search_all_instead": "Rechercher l'application?",
   "name": "Nom",
   "retry": "Recommencez",
 
   // Search sections
+  "search_placeholder": "Recherche",
+  "search": "Rechercher",
+  "search_all_instead": "Rechercher l'application?",
+  "no_search_results": "Aucun résultat pour '{0}'",
+
   "buildings": "Bâtiments",
   "rooms": "Chambres",
 
@@ -72,6 +74,7 @@
   "lees": "Lees",
   "rgn": "RGN",
   "mba": "MBA",
+  "routes_and_times": "Itinéraires et horaires",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",

@@ -24,22 +24,29 @@
 
 /* eslint-disable global-require */
 
+// Imports
+import * as Constants from 'Constants';
+
 module.exports = [
   {
+    background: Constants.Colors.transparentGarnet,
+    image: require('../images/buildings/outer_placeholder.jpg'),
     name_en: 'Main Campus',
     name_fr: 'Campus principal',
-    image: require('../images/buildings/outer_placeholder.jpg'),
   },
   {
+    background: Constants.Colors.transparentCharcoalGrey,
+    image: require('../images/buildings/outer_placeholder.jpg'),
     name: 'Lees',
-    image: require('../images/buildings/outer_placeholder.jpg'),
   },
   {
+    background: Constants.Colors.transparentLightGrey,
+    image: require('../images/buildings/outer_placeholder.jpg'),
     name: 'RGN',
-    image: require('../images/buildings/outer_placeholder.jpg'),
   },
   {
-    name: 'MBA',
+    background: Constants.Colors.transparentDarkGrey,
     image: require('../images/buildings/outer_placeholder.jpg'),
+    name: 'MBA',
   },
 ];
