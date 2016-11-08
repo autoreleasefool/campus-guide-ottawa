@@ -1,5 +1,7 @@
 {
   "en": {
+    "app_name": "Campus Guide",
+
     "language": "English",
     "continue_in": "Continue in",
     "ok": "Okay",
@@ -34,6 +36,8 @@
     "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download this update to use the app. Please, try again later."
   },
   "fr": {
+    "app_name": "Guide de campus",
+
     "language": "Français",
     "continue_in": "Continuer en",
     "ok": "D'accord",
