@@ -10,6 +10,12 @@
     "retry_update": "Retry update",
     "later": "Later",
 
+    "find": "Campus Guide",
+    "schedule": "Schedule",
+    "discover": "Discover",
+    "search": "Search",
+    "settings": "Settings",
+
     "sunday": "Sunday",
     "monday": "Monday",
     "tuesday": "Tuesday",
@@ -45,6 +51,12 @@
     "retry": "Recommencez",
     "retry_update": "Réessayez mise à jour",
     "later": "Plus tard",
+
+    "find": "Guide de Campus",
+    "schedule": "Programme",
+    "discover": "Découvrir",
+    "search": "Rechercher",
+    "settings": "Réglages",
 
     "sunday": "Dimanche",
     "monday": "Lundi",
