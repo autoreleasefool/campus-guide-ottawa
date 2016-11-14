@@ -20,6 +20,7 @@
   "not_now": "Pas maintenant",
   "name": "Nom",
   "retry": "Recommencez",
+  "done": "Fini",
 
   // Search sections
   "search_placeholder": "Recherche...",

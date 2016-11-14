@@ -20,6 +20,7 @@
   "not_now": "Not now",
   "name": "Name",
   "retry": "Retry",
+  "done": "Done",
 
   // Search
   "search_placeholder": "Search...",
