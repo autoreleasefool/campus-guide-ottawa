@@ -22,17 +22,13 @@
   "retry": "Retry",
 
   // Search
-  "search_placeholder": "Search",
+  "search_placeholder": "Search...",
   "search": "Search",
-  "search_all_instead": "Search app instead?",
   "no_search_results": "No results for '{0}'",
   "buildings": "Buildings",
   "rooms": "Rooms",
 
   // Find
-  "search_placeholder_buildings": "Search buildings...",
-  "search_placeholder_rooms": "Search rooms...",
-  "search_placeholder_buildings_rooms": "Search buildings, rooms...",
   "upcoming_classes": "Upcoming Classes",
   "building_directory": "Building Directory",
   "address": "Address",
@@ -59,8 +55,6 @@
   "format": "Format",
 
   // Discover
-  "search_placeholder_links": "Search links...",
-  "search_placeholder_buses": "Search buses, stops...",
   "useful_links": "Useful links",
   "cannot_open_url": "Cannot open link",
   "copy_link": "Copy link",

@@ -35,5 +35,39 @@
       "key": "pref_search_all_always",
       "type": "boolean"
     }
+  ],
+  "About Campus Guide:À propos de Guide de Campus": [
+    {
+      "name": "Version",
+      "key": "app_version",
+      "type": "text"
+    },
+    {
+      "name_en": "Submit feedback",
+      "name_fr": "Soumettre des commentaires",
+      "key": "app_feedback",
+      "type": "link",
+      "link": "mailto:contact@josephroque.ca"
+    },
+    {
+      "name_en": "Visit developer website",
+      "name_fr": "Visitez le site du développeur",
+      "key": "app_developer_website",
+      "type": "link",
+      "link": "http://josephroque.ca"
+    },
+    {
+      "name_en": "View source on GitHub",
+      "name_fr": "Afficher la source sur GitHub",
+      "key": "app_source",
+      "type": "link",
+      "link": "https://github.com/joseph-roque/campus-guide"
+    },
+    {
+      "name_en": "Open source attributions",
+      "name_fr": "Attributions open source",
+      "key": "app_open_source",
+      "type": "text"
+    }
   ]
 }

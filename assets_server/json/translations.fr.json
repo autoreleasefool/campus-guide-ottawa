@@ -22,18 +22,13 @@
   "retry": "Recommencez",
 
   // Search sections
-  "search_placeholder": "Recherche",
+  "search_placeholder": "Recherche...",
   "search": "Rechercher",
-  "search_all_instead": "Rechercher l'application?",
   "no_search_results": "Aucun résultat pour '{0}'",
-
   "buildings": "Bâtiments",
   "rooms": "Chambres",
 
   // Find
-  "search_placeholder_buildings": "Recherche bâtiments...",
-  "search_placeholder_rooms": "Recherche chambres...",
-  "search_placeholder_buildings_rooms": "Search bâtiments, chambres...",
   "upcoming_classes": "Classes à venir",
   "building_directory": "Annuaire bâtiment",
   "address": "Adresse",
@@ -60,8 +55,6 @@
   "format": "Formate",
 
   // Discover
-  "search_placeholder_links": "Recherche liens...",
-  "search_placeholder_buses": "Recherche autobuses, arrêts...",
   "useful_links": "Liens utiles",
   "cannot_open_url": "Ne peut pas ouvrir le lien",
   "copy_link": "Copier le lien",
