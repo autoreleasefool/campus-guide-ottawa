@@ -47,21 +47,39 @@
       "name_fr": "Soumettre des commentaires",
       "key": "app_feedback",
       "type": "link",
-      "link": "mailto:contact@josephroque.ca"
+      "link": "mailto:contact@josephroque.ca?subject=Comm%2FSug:%20Ottawa%20Campus%20Guide",
+      "icon": {
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-mail"
+        },
+        "android": {
+          "class": "ionicon",
+          "name": "md-mail"
+        }
+      }
     },
     {
       "name_en": "Visit developer website",
       "name_fr": "Visitez le site du développeur",
       "key": "app_developer_website",
       "type": "link",
-      "link": "http://josephroque.ca"
+      "link": "http://josephroque.ca",
+      "icon": {
+        "class": "ionicon",
+        "name": "md-link"
+      }
     },
     {
       "name_en": "View source on GitHub",
       "name_fr": "Afficher la source sur GitHub",
       "key": "app_source",
       "type": "link",
-      "link": "https://github.com/joseph-roque/campus-guide"
+      "link": "https://github.com/joseph-roque/campus-guide",
+      "icon": {
+        "class": "ionicon",
+        "name": "logo-github"
+      }
     },
     {
       "name_en": "Open source attributions",
