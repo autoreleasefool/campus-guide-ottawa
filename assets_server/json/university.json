@@ -15,5 +15,10 @@
       "name_en": "Fall 2016",
       "name_fr": "Automne 2016"
     }
-  ]
+  ],
+  "busInfo": {
+    "name": "OC Transpo",
+    "link_en": "http://www.octranspo1.com/mobi/",
+    "link_fr": "http://www.octranspo1.com/mobi/acceuil"
+  }
 }
