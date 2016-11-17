@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import shutil
 import sys
 
@@ -13,6 +14,7 @@ if len(sys.argv) == 1:
   print('\t--push-app\t\tPush the assets from this repository to campus-guide')
   print('\t--app <directory>\tSet the location for `campus-guide`. Default is `../campus-guide`')
   print('\t--server <directory>\tSet the location for `campus-guide-server`. Default is `../campus-guide-server`')
+  print('\t--ignore <pattern>\tIgnore a pattern and do not push/pull assets matching it')
   print('\t--verbose, -v\t\tProvide in depth logs as the tool executes')
   print()
   exit()
@@ -28,6 +30,7 @@ def print_verbose_message(message):
 
 # Set default arguments
 verbose = False
+ignores = []
 
 app_directory = '../campus-guide'
 pull_app = False
@@ -36,6 +39,9 @@ push_app = False
 server_directory = '../campus-guide-server'
 pull_server = False
 push_server = False
+
+def is_ignored(filename):
+  return len([x for x in ignores if re.search(x, filename)]) > 0
 
 def push_assets(source, dest, depth = 0):
   indent = ' ' * depth
@@ -47,6 +53,9 @@ def push_assets(source, dest, depth = 0):
 
     source_path = os.path.join(source, f)
     dest_path = os.path.join(dest, f)
+
+    if is_ignored(source_path):
+      continue
 
     if os.path.isfile(source_path):
       print_verbose_message(indent + '  Copying file `' + source_path + '` to `' + dest_path + '`')
@@ -70,9 +79,11 @@ for i, arg in enumerate(sys.argv):
   # General argument parsing
   if not verbose and arg == '-v' or arg == '--verbose':
     verbose = True
+  elif arg == '--ignore' and i < len(sys.argv) - 1:
+    ignores.append(sys.argv[i + 1])
 
   # App argument parsing
-  elif arg == '--app':
+  elif arg == '--app' and i < len(sys.argv) - 1:
     if os.path.isdir(sys.argv[i + 1]):
       app_directory = sys.argv[i + 1]
     else:
@@ -84,7 +95,7 @@ for i, arg in enumerate(sys.argv):
     push_app = True
 
   # Server argument parsing
-  elif arg == '--server':
+  elif arg == '--server' and i < len(sys.argv) - 1:
     if os.path.isdir(sys.argv[i + 1]):
       server_directory = sys.argv[i + 1]
     else:
