@@ -97,9 +97,11 @@ for i, arg in enumerate(sys.argv):
 
 # Add path to assets
 app_directory = os.path.join(app_directory, 'assets')
-server_directory = os.path.join(server_directory, 'src', 'assets')
+server_directory = os.path.join(server_directory, 'src', 'assets') 
 
 if push_server and not pull_server:
+  if not os.path.exists(server_directory):
+    os.makedirs(server_directory)
   print('Pushing server assets to `' + server_directory + '`')
   push_assets('./assets_server/', server_directory)
 elif pull_server and not push_server:
@@ -109,6 +111,8 @@ elif push_server and pull_server:
   print('Cannot push and pull server assets simultaneously. Skipping.')
 
 if push_app and not pull_app:
+  if not os.path.exists(app_directory):
+    os.makedirs(app_directory)
   print('Pushing app assets to `' + app_directory + '`')
   push_assets('./assets_app/', app_directory)
 elif pull_app and not push_app:
