@@ -21,6 +21,7 @@
   "name": "Name",
   "retry": "Retry",
   "done": "Done",
+  "more": "More",
 
   // Search
   "search_placeholder": "Search...",
@@ -57,6 +58,8 @@
 
   // Discover
   "useful_links": "Useful links",
+  "external_links": "External links",
+  "see_related_links": "See related links",
   "cannot_open_url": "Cannot open link",
   "copy_link": "Copy link",
 
