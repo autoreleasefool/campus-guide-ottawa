@@ -12,6 +12,7 @@
 #        If included, JSON output will be indented
 
 import io
+import os
 import requests
 import sys
 import zipfile
@@ -42,7 +43,10 @@ campus_stops = {}
 stops = {}
 valid_services = {}
 valid_trips = {}
-output = []
+output = {
+  'stop_details': {},
+  'campuses': []
+}
 
 # Checks if a key value pair appears anywhere in an array of dicts
 def get_key_value_index_in_array_of_dicts(key, value, array):
@@ -50,6 +54,12 @@ def get_key_value_index_in_array_of_dicts(key, value, array):
     if array[i][key] == value:
       return i
   return -1
+
+print('Open json/city_transit.json')
+with open('json/city_transit.json') as city_transit_file:
+  city_transit_json = json.loads(city_transit_file.read())
+  for key in city_transit_json:
+    output[key] = city_transit_json[key]
 
 print('Open json/stops.json')
 with open('json/stops.json') as campus_stops_file:
@@ -61,7 +71,7 @@ with open('json/stops.json') as campus_stops_file:
       'name_fr': stop_json[campus]['name_fr'],
       'lat': stop_json[campus]['lat'],
       'long': stop_json[campus]['long'],
-      'stops': []
+      'stops': {}
     }
 
     for stop in stop_json[campus]['stops']:
@@ -90,15 +100,13 @@ with open('temp_data/txt/stops.txt') as stop_file:
       # Make stop names more consistent
       stop_name = stop_name.replace('\\', '/').replace('"', '')
 
-      stops[stop_id] = {
-        "campus": campus_stops[stop_code],
-        "code": stop_code,
-        "name": stop_name,
-        "lat": float(stop_latitude),
-        "long": float(stop_longitude)
+      output['stop_details'][stop_id] = {
+        'campus': campus_stops[stop_code],
+        'code': stop_code,
+        'name': stop_name,
+        'lat': float(stop_latitude),
+        'long': float(stop_longitude)
       }
-
-
 
 print('Open temp_data/txt/calendar.txt')
 with open('temp_data/txt/calendar.txt') as calendar_file:
@@ -150,47 +158,46 @@ with open('temp_data/txt/stop_times.txt') as stop_times_file:
     trip_id = stop_info.group(1)
     stop_id = stop_info.group(3)
 
-    if stop_id in stops and trip_id in valid_trips:
+    if stop_id in output['stop_details'] and trip_id in valid_trips:
       arrival_time = stop_info.group(2)
       route_id = valid_trips[trip_id]['route']
-      campus = stops[stop_id]['campus']
-      campus_index = get_key_value_index_in_array_of_dicts('id', campus, output)
+      campus = output['stop_details'][stop_id]['campus']
+      campus_index = get_key_value_index_in_array_of_dicts('id', campus, output['campuses'])
       if campus_index == -1:
-        output.append(campuses[campus])
-        campus_index = len(output) - 1
-      stop_index = get_key_value_index_in_array_of_dicts('id', stop_id, output[campus_index]['stops'])
-      if stop_index == -1:
-        output[campus_index]['stops'].append({
-          'id': stop_id,
-          'code': stops[stop_id]['code'],
-          'name': stops[stop_id]['name'],
-          'lat': stops[stop_id]['lat'],
-          'long': stops[stop_id]['long']
-        })
-        stop_index = len(output[campus_index]['stops']) - 1
+        output['campuses'].append(campuses[campus])
+        campus_index = len(output['campuses']) - 1
+      if stop_id not in output['campuses'][campus_index]['stops']:
+        output['campuses'][campus_index]['stops'][stop_id] = []
+        # output['stop_details'][stop_id] = {
+        #   'code': output['stop_details'][stop_id]['code'],
+        #   'name': output['stop_details'][stop_id]['name'],
+        #   'lat': output['stop_details'][stop_id]['lat'],
+        #   'long': output['stop_details'][stop_id]['long']
+        # }
 
-      if 'routes' not in output[campus_index]['stops'][stop_index]:
-        output[campus_index]['stops'][stop_index]['routes'] = []
-      route_index = get_key_value_index_in_array_of_dicts('number', route_id, output[campus_index]['stops'][stop_index]['routes'])
+      route_index = get_key_value_index_in_array_of_dicts('number', route_id, output['campuses'][campus_index]['stops'][stop_id])
       if route_index == -1:
-        output[campus_index]['stops'][stop_index]['routes'].append({
+        output['campuses'][campus_index]['stops'][stop_id].append({
           'number': route_id,
           'sign': valid_trips[trip_id]['headsign']
         })
-      if 'days' not in output[campus_index]['stops'][stop_index]['routes'][route_index]:
-        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
+      if 'days' not in output['campuses'][campus_index]['stops'][stop_id][route_index]:
+        output['campuses'][campus_index]['stops'][stop_id][route_index]['days'] = {}
       for i in valid_trips[trip_id]['days']:
-        if i not in output[campus_index]['stops'][stop_index]['routes'][route_index]['days']:
-          output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i] = []
-        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][i].append(arrival_time[0:5])
+        if i not in output['campuses'][campus_index]['stops'][stop_id][route_index]['days']:
+          output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][i] = []
+        output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][i].append(arrival_time[0:5])
 
 # Compacting data
 print('Compacting data')
-for campus_index in range(len(output)):
-  for stop_index in range(len(output[campus_index]['stops'])):
-    for route_index in range(len(output[campus_index]['stops'][stop_index]['routes'])):
+for stop_id in output['stop_details']:
+  del output['stop_details'][stop_id]['campus']
+
+for campus_index in range(len(output['campuses'])):
+  for stop_id in output['campuses'][campus_index]['stops']:
+    for route_index in range(len(output['campuses'][campus_index]['stops'][stop_id])):
       days_and_times = {}
-      for day, times in output[campus_index]['stops'][stop_index]['routes'][route_index]['days'].items():
+      for day, times in output['campuses'][campus_index]['stops'][stop_id][route_index]['days'].items():
         if times not in days_and_times.values():
           days_and_times[day] = times
         else:
@@ -199,15 +206,16 @@ for campus_index in range(len(output)):
               days_and_times[str(i) + str(day)] = times
               del days_and_times[i]
               break
-      output[campus_index]['stops'][stop_index]['routes'][route_index]['days'] = {}
+      output['campuses'][campus_index]['stops'][stop_id][route_index]['days'] = {}
       for key in days_and_times:
         sorted_key = ''.join(sorted(key))
-        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = days_and_times[key]
-        output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key] = sorted(output[campus_index]['stops'][stop_index]['routes'][route_index]['days'][sorted_key])
+        output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][sorted_key] = days_and_times[key]
+        output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][sorted_key] = sorted(output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][sorted_key])
 
 # Output
-
-with open('../output/transit_times.json', 'w', encoding='utf8') as outfile:
+if not os.path.exists('../output'):
+  os.mkdir('./output')
+with open('./output/bus.json', 'w', encoding='utf8') as outfile:
   if '--pretty' in sys.argv:
     json.dump(output, outfile, indent=2, sort_keys=True, ensure_ascii=False)
   else:
