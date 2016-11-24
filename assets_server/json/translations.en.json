@@ -63,8 +63,8 @@
   "cannot_open_url": "Cannot open link",
   "copy_link": "Copy link",
 
-  // Buses & Shuttles
-  "bus_company": "OC Transpo",
+  // Transit & Shuttles
+  "transit_company": "OC Transpo",
   "no_upcoming_buses": "No upcoming buses",
   "shuttle_stop": "Shuttle stop",
   "main_campus": "Main Campus",
@@ -72,6 +72,7 @@
   "rgn": "RGN",
   "mba": "MBA",
   "routes_and_times": "Routes and times",
+  "transit_routes": "Transit routes",
 
   // Facilities
   "whats_this_icon": "What's this icon?",

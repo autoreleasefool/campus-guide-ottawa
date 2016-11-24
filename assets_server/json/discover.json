@@ -30,7 +30,7 @@
       "name": "directions-bus",
       "class": "material"
     },
-    "id": "bus",
+    "id": "trn",
     "image": "/outer_placeholder_4.jpg",
     "name": "OC Transpo"
   },

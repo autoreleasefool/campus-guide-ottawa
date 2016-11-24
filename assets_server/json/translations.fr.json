@@ -63,8 +63,8 @@
   "cannot_open_url": "Ne peut pas ouvrir le lien",
   "copy_link": "Copier le lien",
 
-  // Buses & Shuttles
-  "bus_company": "OC Transpo",
+  // Transit & Shuttles
+  "transit_company": "OC Transpo",
   "no_upcoming_buses": "Pas de bus à venir",
   "shuttle_stop": "Arrêt de la navette",
   "main_campus": "Campus principal",
@@ -72,6 +72,7 @@
   "rgn": "RGN",
   "mba": "MBA",
   "routes_and_times": "Itinéraires et horaires",
+  "transit_routes": "Itinéraires de transit",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",
