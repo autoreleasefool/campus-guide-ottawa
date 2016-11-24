@@ -44,7 +44,7 @@ stops = {}
 valid_services = {}
 valid_trips = {}
 output = {
-  'stop_details': {},
+  'stopDetails': {},
   'campuses': []
 }
 
@@ -100,7 +100,7 @@ with open('temp_data/txt/stops.txt') as stop_file:
       # Make stop names more consistent
       stop_name = stop_name.replace('\\', '/').replace('"', '')
 
-      output['stop_details'][stop_id] = {
+      output['stopDetails'][stop_id] = {
         'campus': campus_stops[stop_code],
         'code': stop_code,
         'name': stop_name,
@@ -158,22 +158,16 @@ with open('temp_data/txt/stop_times.txt') as stop_times_file:
     trip_id = stop_info.group(1)
     stop_id = stop_info.group(3)
 
-    if stop_id in output['stop_details'] and trip_id in valid_trips:
+    if stop_id in output['stopDetails'] and trip_id in valid_trips:
       arrival_time = stop_info.group(2)
       route_id = valid_trips[trip_id]['route']
-      campus = output['stop_details'][stop_id]['campus']
+      campus = output['stopDetails'][stop_id]['campus']
       campus_index = get_key_value_index_in_array_of_dicts('id', campus, output['campuses'])
       if campus_index == -1:
         output['campuses'].append(campuses[campus])
         campus_index = len(output['campuses']) - 1
       if stop_id not in output['campuses'][campus_index]['stops']:
         output['campuses'][campus_index]['stops'][stop_id] = []
-        # output['stop_details'][stop_id] = {
-        #   'code': output['stop_details'][stop_id]['code'],
-        #   'name': output['stop_details'][stop_id]['name'],
-        #   'lat': output['stop_details'][stop_id]['lat'],
-        #   'long': output['stop_details'][stop_id]['long']
-        # }
 
       route_index = get_key_value_index_in_array_of_dicts('number', route_id, output['campuses'][campus_index]['stops'][stop_id])
       if route_index == -1:
@@ -190,8 +184,8 @@ with open('temp_data/txt/stop_times.txt') as stop_times_file:
 
 # Compacting data
 print('Compacting data')
-for stop_id in output['stop_details']:
-  del output['stop_details'][stop_id]['campus']
+for stop_id in output['stopDetails']:
+  del output['stopDetails'][stop_id]['campus']
 
 for campus_index in range(len(output['campuses'])):
   for stop_id in output['campuses'][campus_index]['stops']:
@@ -215,7 +209,7 @@ for campus_index in range(len(output['campuses'])):
 # Output
 if not os.path.exists('../output'):
   os.mkdir('./output')
-with open('./output/bus.json', 'w', encoding='utf8') as outfile:
+with open('./output/transit.json', 'w', encoding='utf8') as outfile:
   if '--pretty' in sys.argv:
     json.dump(output, outfile, indent=2, sort_keys=True, ensure_ascii=False)
   else:

@@ -20263,7 +20263,7 @@
   "link_en": "http://www.octranspo1.com/",
   "link_fr": "http://www.octranspo1.com/acceuil",
   "name": "OC Transpo",
-  "stop_details": {
+  "stopDetails": {
     "AJ005": {
       "code": "1806",
       "lat": 45.399914,
