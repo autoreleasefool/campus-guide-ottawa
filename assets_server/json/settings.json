@@ -28,14 +28,6 @@
       "type": "boolean"
     }
   ],
-  "Search:Recherche": [
-    {
-      "name_en": "Always 'Search All'",
-      "name_fr": "Toujours 'chercher tous'",
-      "key": "pref_search_all_always",
-      "type": "boolean"
-    }
-  ],
   "About Campus Guide:À propos de Guide de Campus": [
     {
       "name": "Version",
