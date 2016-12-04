@@ -28,19 +28,19 @@ module.exports = [
   {
     name_en: 'Main Campus',
     name_fr: 'Campus principal',
-    image: require('../images/buildings/outer_placeholder.jpg'),
+    image: require('../images/placeholders/outer_placeholder.jpg'),
   },
   {
     name: 'Lees',
-    image: require('../images/buildings/outer_placeholder.jpg'),
+    image: require('../images/placeholders/outer_placeholder.jpg'),
   },
   {
     name_en: 'St. Paul',
     name_fr: 'Saint-Paul',
-    image: require('../images/buildings/outer_placeholder.jpg'),
+    image: require('../images/placeholders/outer_placeholder.jpg'),
   },
   {
     name: 'RGN',
-    image: require('../images/buildings/outer_placeholder.jpg'),
+    image: require('../images/placeholders/outer_placeholder.jpg'),
   },
 ];

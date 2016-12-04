@@ -72,7 +72,7 @@
   "rgn": "RGN",
   "mba": "MBA",
   "routes_and_times": "Itinéraires et horaires",
-  "transit_routes": "Itinéraires de transit",
+  "transit_stops": "Arrêts de transit",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",
