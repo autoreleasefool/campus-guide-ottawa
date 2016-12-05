@@ -1,143 +1,111 @@
-[
-  {
-    "id": "Main Campus",
-    "name_en": "Main Campus",
-    "name_fr": "Campus principal",
-    "lat": 45.4222669,
-    "long": -75.6833472,
-    "is_accurate": true,
-    "schedules": [
-      {
-        "name_en": "Regular",
-        "name_fr": "Régulier",
-        "destination_en": "Main to RGN",
-        "destination_fr": "Principal à rgn",
-        "start_date": "2015-09-08",
-        "end_date": "2016-04-29",
-        "excluded_dates": [
-          "2015-09-07",
-          "2015-10-12",
-          "2015-12-22",
-          "2015-12-23",
-          "2015-12-24",
-          "2015-12-25",
-          "2015-12-26",
-          "2015-12-27",
-          "2015-12-28",
-          "2015-12-29",
-          "2015-12-30",
-          "2015-12-31",
-          "2016-01-01",
-          "2016-02-15",
-          "2016-03-25",
-          "2016-03-28"
-        ],
-        "times": [
-          {
-            "days": "01234",
-            "times": [
-              "07:30", "08:00", "08:30", "09:00", "09:30", "10:15", "10:45", "11:15", "11:45", "12:45", "13:15", "13:45", "14:15", "15:00", "15:30", "16:00", "16:30"
-            ]
-          },
-          {
-            "days": "0123",
-            "times": [
-              "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"
-            ]
-          }
-        ]
+{
+  "campuses": [
+    {
+      "id": "Main Campus",
+      "name_en": "Main Campus",
+      "name_fr": "Campus principal",
+      "lat": 45.4222669,
+      "long": -75.6833472,
+      "is_accurate": true,
+      "schedules": [
+        {
+          "name_en": "Regular",
+          "name_fr": "Régulier",
+          "destination_en": "Main to RGN",
+          "destination_fr": "Principal à rgn",
+          "start_date": "2016-09-06",
+          "end_date": "2017-04-28",
+          "excluded_dates": [
+            "2015-09-07",
+            "2015-10-12",
+            "2015-12-22",
+            "2015-12-23",
+            "2015-12-24",
+            "2015-12-25",
+            "2015-12-26",
+            "2015-12-27",
+            "2015-12-28",
+            "2015-12-29",
+            "2015-12-30",
+            "2015-12-31",
+            "2016-01-01",
+            "2016-02-15",
+            "2016-03-25",
+            "2016-03-28"
+          ],
+          "times": [
+            {
+              "days": "01234",
+              "times": [
+                "07:30", "08:00", "08:30", "09:00", "09:30", "10:15", "10:45", "11:15", "11:45", "12:45", "13:15", "13:45", "14:15", "15:00", "15:30", "16:00", "16:30"
+              ]
+            },
+            {
+              "days": "0123",
+              "times": [
+                "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"
+              ]
+            }
+          ]
+        },
+        {
+          "name_en": "Summer",
+          "name_fr": "Été",
+          "destination_en": "Main to RGN",
+          "destination_fr": "Principal à rgn",
+          "start_date": "2016-05-02",
+          "end_date": "2016-09-02",
+          "excluded_dates": [
+            "2016-05-23",
+            "2016-07-01",
+            "2016-08-01"
+          ],
+          "times": [
+            {
+              "days": "01234",
+              "times": [
+                "08:00", "11:30", "14:30"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_info": [
+    {
+      "name_en": "Accessibility",
+      "name_fr": "Accessibilité",
+      "image": "/outer_placeholder_11.jpg",
+      "icon": {
+        "name": "accessible",
+        "class": "material"
       },
-      {
-        "name_en": "Summer",
-        "name_fr": "Été",
-        "destination_en": "Main to RGN",
-        "destination_fr": "Principal à rgn",
-        "start_date": "2016-05-02",
-        "end_date": "2016-09-02",
-        "excluded_dates": [
-          "2016-05-23",
-          "2016-07-01",
-          "2016-08-01"
-        ],
-        "times": [
-          {
-            "days": "01234",
-            "times": [
-              "08:00", "11:30", "14:30"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Lees",
-    "name": "Lees",
-    "lat": 45.4159919,
-    "long": -75.6709141,
-    "is_accurate": false,
-    "schedules": [
-      {
-        "name_en": "Regular",
-        "name_fr": "Régulier",
-        "destination_en": "Main to RGN",
-        "destination_fr": "Principal à rgn",
-        "start_date": "2015-09-08",
-        "end_date": "2016-04-29",
-        "excluded_dates": [
-          "2015-09-07",
-          "2015-10-12",
-          "2015-12-22",
-          "2015-12-23",
-          "2015-12-24",
-          "2015-12-25",
-          "2015-12-26",
-          "2015-12-27",
-          "2015-12-28",
-          "2015-12-29",
-          "2015-12-30",
-          "2015-12-31",
-          "2016-01-01",
-          "2016-02-15",
-          "2016-03-25",
-          "2016-03-28"
-        ],
-        "times": [
-          {
-            "days": "01234",
-            "times": [
-              "07:35", "08:05", "08:35", "09:05", "09:35", "10:20", "10:50", "11:20", "11:50", "12:50", "13:20", "13:50", "14:20", "15:05", "15:35", "16:05", "16:35"
-            ]
-          },
-          {
-            "days": "0123",
-            "times": [
-              "17:05", "18:05", "19:05", "20:05", "21:05", "22:05"
-            ]
-          }
-        ]
-      },
-      {
-        "name_en": "Summer",
-        "name_fr": "Été",
-        "destination_en": "Main to RGN",
-        "destination_fr": "Principal à rgn",
-        "start_date": "2016-05-02",
-        "end_date": "2016-09-02",
-        "excluded_dates": [
-          "2016-05-23",
-          "2016-07-01",
-          "2016-08-01"
-        ],
-        "times": [
-          {
-            "days": "01234",
-            "times": [
-              "08:05", "11:35", "14:35"
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+      "details_en": [
+        "Shuttles provided by the University of Ottawa are not accessible. There is an alternative Taxi-Shuttle service, available for those students and employees who are physically disabled.",
+        "For more information on the Taxi-Shuttle service, refer to the details below:",
+        "[linebreak]",
+        "[bold]uOttawa Access Service",
+        "Desmarais Building, 55 Laurier Ave. East",
+        "Room 3172 (3rd Floor)",
+        "Phone: 613-562-5976",
+        "TTY: 613-562-5214",
+        "Fax: 613-562-5159",
+        "adapt@uOttawa.ca"
+      ],
+      "details_fr": [
+        "Les navettes offertes par l'Université d'Ottawa ne sont pas accessibles. Il existe un autre service de taxi-navette, disponible pour les étudiants et les employés qui sont handicapés physiques.",
+        "Pour plus d'informations sur le service Taxi-Shuttle, reportez-vous aux détails ci-dessous:",
+        "[linebreak]",
+        "[bold]Service d’accès",
+        "55, avenue Laurier est",
+        "pièce 3172 du pavillon Desmarais (DMS)",
+        "(3ème étage)",
+        "Téléphone: 613-562-5976",
+        "ATS: 613-562-5214",
+        "Télécopieur: 613-562-5159",
+        "adapt@uOttawa.ca"
+      ]
+    }
+  ]
+}
