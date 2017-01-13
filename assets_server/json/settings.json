@@ -67,7 +67,7 @@
       "name_fr": "Afficher la source sur GitHub",
       "key": "app_source",
       "type": "link",
-      "link": "https://github.com/joseph-roque/campus-guide",
+      "link": "https://github.com/josephroque/campus-guide",
       "icon": {
         "class": "ionicon",
         "name": "logo-github"
