@@ -24,8 +24,9 @@ for source in sources_json:
     print('Could not retrieve license for source: {0}'.format(source))
     exit()
   else:
-    # body = response.text.replace('"', r'\"')
-    body = re.sub(r'(?<!\n)\n(?!\n)|\n{3,}', '', response.text)
+    body = re.sub(r'(?<!\n)\n(?!\n)', ' ', response.text)
+    body = re.sub(r' {2,}', ' ', body)
+    body = re.sub(r'(?<!\n)\n(?!\n)|\n{3,}', '', body)
     licenses[source] = [body]
 
 os.makedirs('./output/', exist_ok=True)

@@ -1,19 +1,24 @@
 {
   "Babel": "https://raw.githubusercontent.com/babel/babel/master/LICENSE",
+  "babel-eslint": "https://raw.githubusercontent.com/babel/babel-eslint/master/LICENSE",
   "empty": "https://raw.githubusercontent.com/iclanzan/empty/master/LICENSE",
   "ESLint": "https://raw.githubusercontent.com/eslint/eslint/master/LICENSE",
+  "ESLint plugin for React Native": "https://raw.githubusercontent.com/Intellicode/eslint-plugin-react-native/master/LICENSE",
+  "eslint-plugin-react": "https://raw.githubusercontent.com/yannickcr/eslint-plugin-react/master/LICENSE",
   "Flow": "https://raw.githubusercontent.com/facebook/flow/master/LICENSE",
+  "flow-bin": "https://raw.githubusercontent.com/flowtype/flow-bin/master/license",
   "http-status-codes": "https://raw.githubusercontent.com/prettymuchbryce/node-http-status/master/LICENSE",
   "Jest": "https://raw.githubusercontent.com/facebook/jest/master/LICENSE",
   "React": "https://raw.githubusercontent.com/facebook/react/master/LICENSE",
   "React Native": "https://raw.githubusercontent.com/facebook/react-native/master/LICENSE",
-  "react-native-admob": "https://raw.githubusercontent.com/sbugert/react-native-admob/master/LICENSE",
   "react-native-device-info": "https://raw.githubusercontent.com/rebeccahughes/react-native-device-info/master/LICENSE",
   "react-native-fs": "https://raw.githubusercontent.com/johanneslumpe/react-native-fs/master/LICENSE",
+  "react-native-linear-gradient": "https://raw.githubusercontent.com/react-native-community/react-native-linear-gradient/master/LICENSE",
   "react-native-maps": "https://raw.githubusercontent.com/airbnb/react-native-maps/master/LICENSE",
   "react-native-scrollable-tab-view": "https://raw.githubusercontent.com/skv-headless/react-native-scrollable-tab-view/master/LICENSE.md",
   "react-native-simple-store": "https://raw.githubusercontent.com/jasonmerino/react-native-simple-store/master/LICENSE",
   "react-native-vector-icons": "https://raw.githubusercontent.com/oblador/react-native-vector-icons/master/LICENSE",
   "React Redux": "https://raw.githubusercontent.com/reactjs/react-redux/master/LICENSE.md",
-  "Redux": "https://raw.githubusercontent.com/reactjs/redux/master/LICENSE.md"
+  "Redux": "https://raw.githubusercontent.com/reactjs/redux/master/LICENSE.md",
+  "Redux Thunk": "https://raw.githubusercontent.com/gaearon/redux-thunk/master/LICENSE.md"
 }
