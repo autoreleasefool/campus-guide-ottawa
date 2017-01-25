@@ -77,7 +77,17 @@
       "name_en": "Open source attributions",
       "name_fr": "Attributions open source",
       "key": "app_open_source",
-      "type": "text"
+      "type": "link",
+      "icon": {
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-information-circle"
+        },
+        "android": {
+          "class": "ionicon",
+          "name": "md-information-circle"
+        }
+      }
     }
   ]
 }
