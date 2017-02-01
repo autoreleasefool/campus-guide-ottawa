@@ -8,6 +8,7 @@
   "settings": "Settings",
 
   // Semesters
+  "semester": "Semester",
   "spring": "Spring",
   "summer": "Summer",
   "autumn": "Autumn",
@@ -16,6 +17,8 @@
   // General
   "ok": "Okay",
   "language": "English",
+  "add": "Add",
+  "save": "Save",
   "cancel": "Cancel",
   "not_now": "Not now",
   "name": "Name",
@@ -45,16 +48,20 @@
   "select_building_or_locate": "Select the building/room you're in, or let the app locate you",
 
   // Schedule
-  "edit": "Edit",
-  "filter": "Filter",
-  "edit_schedule": "Edit Schedule",
-  "class_name": "Class name",
+  "switch": "Switch",
+  "weekly": "Weekly",
+  "by_course": "By course",
+  "add_course": "Add course",
+  "add_course": "Add course",
+  "edit_course": "Edit course",
   "add_lecture": "Add lecture",
-  "save_course": "Save",
-  "day": "Day",
-  "starting_time": "Starting time",
-  "ending_time": "Ending time",
+  "edit_lecture": "Edit lecture",
+  "course_code": "Course code",
+  "sessions": "Sessions",
   "format": "Format",
+  "day": "Day",
+  "starts": "Start",
+  "ends": "Ends",
 
   // Discover
   "useful_links": "Useful links",

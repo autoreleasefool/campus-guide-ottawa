@@ -8,6 +8,7 @@
   "settings": "Réglages",
 
   // Semesters
+  "semester": "Semestre",
   "spring": "Printemps",
   "summer": "Été",
   "autumn": "Automne",
@@ -16,6 +17,8 @@
   // General
   "ok": "D'accord",
   "language": "Français",
+  "add": "Ajouter",
+  "save": "Sauver",
   "cancel": "Annuler",
   "not_now": "Pas maintenant",
   "name": "Nom",
@@ -45,16 +48,19 @@
   "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
 
   // Schedule
-  "edit": "Éditer",
-  "filter": "Filtre",
-  "edit_schedule": "Calendrier d'édition",
-  "class_name": "Nom du cours",
-  "add_lecture": "Ajouter conférence",
-  "save_course": "Enregistrer",
+  "switch": "Changer",
+  "weekly": "Hebdomadaire",
+  "by_course": "Par cours",
+  "add_course": "Ajouter un cours",
+  "edit_course": "Modifier cours",
+  "add_lecture": "Ajouter une conférence",
+  "edit_lecture": "Modifier conférence",
+  "course_code": "Code de cours",
+  "sessions": "Sessions",
+  "format": "Format",
   "day": "Jour",
-  "starting_time": "L'heure de commence",
-  "ending_time": "L'heure de finis",
-  "format": "Formate",
+  "starts": "Départs",
+  "ends": "Fin",
 
   // Discover
   "useful_links": "Liens utiles",
