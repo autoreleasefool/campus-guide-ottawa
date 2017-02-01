@@ -1,29 +1,32 @@
 Dependency                          Covering license
 
-babel-eslint                        babel-eslint
-babel-jest                          Jest
-babel-polyfill                      Babel
-babel-preset-react-native           React Native
-empty                               empty
-eslint                              ESLint
-eslint-plugin-react-native          ESLint plugin for React Native
-eslint-plugin-react                 eslint-plugin-react
-flow                                Flow
-flow-bin                            flow-bin
-http-status-codes                   http-status-codes
-jest                                Jest
-jest-cli                            Jest
-jest-react-native                   Jest
-react                               React
-react-native                        React Native
-react-native-device-info            react-native-device-info
-react-native-fs                     react-native-fs
-react-native-linear-gradient        react-native-linear-gradient
-react-native-maps                   react-native-maps
-react-native-scrollable-tab-view    react-native-scrollable-tab-view
-react-native-simple-store           react-native-simple-store
-react-native-vector-icons           react-native-vector-icons
-react-redux                         React Redux
-react-test-renderer                 React
-redux                               Redux
-redux-thunk                         Redux Thunk
+babel-eslint                              babel-eslint
+babel-jest                                Jest
+babel-polyfill                            Babel
+babel-preset-react-native                 React Native
+empty                                     empty
+eslint                                    ESLint
+eslint-plugin-react-native                ESLint plugin for React Native
+eslint-plugin-react                       eslint-plugin-react
+flow                                      Flow
+flow-bin                                  flow-bin
+http-status-codes                         http-status-codes
+jest                                      Jest
+jest-cli                                  Jest
+jest-react-native                         Jest
+moment                                    Moment.js
+react                                     React
+react-native                              React Native
+react-native-action-button                react-native-action-button
+react-native-device-info                  react-native-device-info
+react-native-fs                           react-native-fs
+react-native-keyboard-aware-scroll-view   react-native-keyboard-aware-scroll-view
+react-native-linear-gradient              react-native-linear-gradient
+react-native-maps                         react-native-maps
+react-native-scrollable-tab-view          react-native-scrollable-tab-view
+react-native-simple-store                 react-native-simple-store
+react-native-vector-icons                 react-native-vector-icons
+react-redux                               React Redux
+react-test-renderer                       React
+redux                                     Redux
+redux-thunk                               Redux Thunk
