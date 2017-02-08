@@ -25,6 +25,7 @@
   "retry": "Retry",
   "done": "Done",
   "more": "More",
+  "none": "None",
 
   // Search
   "search_placeholder": "Search...",
@@ -52,7 +53,6 @@
   "weekly": "Weekly",
   "by_course": "By course",
   "add_course": "Add course",
-  "add_course": "Add course",
   "edit_course": "Edit course",
   "add_lecture": "Add lecture",
   "edit_lecture": "Edit lecture",
@@ -62,6 +62,9 @@
   "day": "Day",
   "starts": "Start",
   "ends": "Ends",
+  "location": "Location",
+  "building": "Building",
+  "room": "Room",
 
   // Discover
   "useful_links": "Useful links",

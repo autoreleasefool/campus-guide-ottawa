@@ -25,6 +25,7 @@
   "retry": "Recommencez",
   "done": "Fini",
   "more": "Plus",
+  "none": "Aucun",
 
   // Search sections
   "search_placeholder": "Recherche...",
@@ -61,6 +62,9 @@
   "day": "Jour",
   "starts": "Départs",
   "ends": "Fin",
+  "location": "Emplacement",
+  "building": "Bâtiment",
+  "room": "Chambre",
 
   // Discover
   "useful_links": "Liens utiles",

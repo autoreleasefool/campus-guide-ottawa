@@ -1,13 +1,28 @@
 [
   {
-    "code": "AUC",
-    "name_en": "Audioconference course",
-    "name_fr": "Cours audioconférence"
+    "code": "LEC",
+    "name_en": "Lecture",
+    "name_fr": "Lecture"
   },
   {
     "code": "DGD",
     "name_en": "Discussion Group",
     "name_fr": "Groupe de discussion"
+  },
+  {
+    "code": "LAB",
+    "name_en": "Laboratory",
+    "name_fr": "Laboratoire"
+  },
+  {
+    "code": "TUT",
+    "name_en": "Tutorial",
+    "name_fr": "Cours d'instructions"
+  },
+  {
+    "code": "AUC",
+    "name_en": "Audioconference course",
+    "name_fr": "Cours audioconférence"
   },
   {
     "code": "HYB",
@@ -18,16 +33,6 @@
     "code": "IN1",
     "name_en": "Course entirely via Internet",
     "name_fr": "Cours entièrement via Internet"
-  },
-  {
-    "code": "LAB",
-    "name_en": "Laboratory",
-    "name_fr": "Laboratoire"
-  },
-  {
-    "code": "LEC",
-    "name_en": "Lecture",
-    "name_fr": "Lecture"
   },
   {
     "code": "REC",
@@ -48,11 +53,6 @@
     "code": "TLB",
     "name_en": "Theory and laboratory",
     "name_fr": "Théorie et laboratoire"
-  },
-  {
-    "code": "TUT",
-    "name_en": "Tutorial",
-    "name_fr": "Cours d'instructions"
   },
   {
     "code": "VDC",
