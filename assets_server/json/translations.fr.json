@@ -26,11 +26,14 @@
   "done": "Fini",
   "more": "Plus",
   "none": "Aucun",
+  "edit": "Éditer",
+  "delete": "Effacer",
+  "cannot_be_undone_confirmation": "Cette action ne peut pas être annulée. Êtes-vous sûr?",
 
   // Search sections
   "search_placeholder": "Recherche...",
   "search": "Rechercher",
-  "no_search_results": "Aucun résultat pour '{0}'",
+  "no_results_for": "Aucun résultat pour",
   "buildings": "Bâtiments",
   "rooms": "Chambres",
 
@@ -44,7 +47,6 @@
   "locate_me": "Trouver mon emplacement",
   "return_to_buildings": "Retour aux bâtiments",
   "choose_starting_point": "Choisissez un point de départ ...",
-  "x_greater_than_y": "{0} > {1}",
   "lobby": "Lobby",
   "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
 

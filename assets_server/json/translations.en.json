@@ -26,11 +26,14 @@
   "done": "Done",
   "more": "More",
   "none": "None",
+  "edit": "Edit",
+  "delete": "Delete",
+  "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
 
   // Search
   "search_placeholder": "Search...",
   "search": "Search",
-  "no_search_results": "No results for '{0}'",
+  "no_results_for": "No results for",
   "buildings": "Buildings",
   "rooms": "Rooms",
 
@@ -39,12 +42,11 @@
   "building_directory": "Building Directory",
   "address": "Address",
   "no_courses_added": "You haven't added any courses.\nTap here to add some now.",
-  "navigate_to": "Navigate to {0}",
+  "navigate_to": "Navigate to",
   "pick_location": "Let me pick",
   "locate_me": "Find my location",
   "return_to_buildings": "Return to buildings",
   "choose_starting_point": "Choose a starting point...",
-  "x_greater_than_y": "{0} > {1}",
   "lobby": "Lobby",
   "select_building_or_locate": "Select the building/room you're in, or let the app locate you",
 
