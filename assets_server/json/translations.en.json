@@ -51,6 +51,7 @@
   "select_building_or_locate": "Select the building/room you're in, or let the app locate you",
 
   // Schedule
+  "course": "Course",
   "switch": "Switch",
   "weekly": "Weekly",
   "by_course": "By course",
@@ -67,6 +68,7 @@
   "location": "Location",
   "building": "Building",
   "room": "Room",
+  "delete_course": "Delete course",
 
   // Discover
   "useful_links": "Useful links",

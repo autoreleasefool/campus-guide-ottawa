@@ -51,6 +51,7 @@
   "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
 
   // Schedule
+  "course": "Cours",
   "switch": "Changer",
   "weekly": "Hebdomadaire",
   "by_course": "Par cours",
@@ -67,6 +68,7 @@
   "location": "Emplacement",
   "building": "Bâtiment",
   "room": "Chambre",
+  "delete_course": "Effacer cours",
 
   // Discover
   "useful_links": "Liens utiles",
