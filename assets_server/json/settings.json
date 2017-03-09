@@ -1,93 +1,105 @@
-{
-  "Language / Langue": [
-    {
-      "name": "Language / Langue",
-      "key": "pref_lang",
-      "type": "multi"
-    }
-  ],
-  "General": [
-    {
-      "name_en": "Study session",
-      "name_fr": "Session d'étude",
-      "key": "pref_semester",
-      "type": "multi"
-    },
-    {
-      "name_en": "Time format",
-      "name_fr": "Format de l'heure",
-      "key": "pref_time_format",
-      "type": "multi"
-    }
-  ],
-  "Accessibility:Accessibilité": [
-    {
-      "name_en": "Prefer accessible routes",
-      "name_fr": "Préférez routes accessibles",
-      "key": "pref_wheel",
-      "type": "boolean"
-    }
-  ],
-  "About Campus Guide:À propos de Guide de Campus": [
-    {
-      "name": "Version",
-      "key": "app_version",
-      "type": "text"
-    },
-    {
-      "name_en": "Submit feedback",
-      "name_fr": "Soumettre des commentaires",
-      "key": "app_feedback",
-      "type": "link",
-      "link": "mailto:contact@josephroque.ca?subject=Comm%2FSug:%20Ottawa%20Campus%20Guide",
-      "icon": {
-        "ios": {
+[
+  {
+    "key": "Language / Langue",
+    "data": [
+      {
+        "name": "Language / Langue",
+        "key": "pref_lang",
+        "type": "multi"
+      }
+    ]
+  },
+  {
+    "key": "General",
+    "data": [
+      {
+        "name_en": "Study session",
+        "name_fr": "Session d'étude",
+        "key": "pref_semester",
+        "type": "multi"
+      },
+      {
+        "name_en": "Time format",
+        "name_fr": "Format de l'heure",
+        "key": "pref_time_format",
+        "type": "multi"
+      }
+    ]
+  },
+  {
+    "key": "Accessibility:Accessibilité",
+    "data": [
+      {
+        "name_en": "Prefer accessible routes",
+        "name_fr": "Préférez routes accessibles",
+        "key": "pref_wheel",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "key": "About Campus Guide:À propos de Guide de Campus",
+    "data": [
+      {
+        "name": "Version",
+        "key": "app_version",
+        "type": "text"
+      },
+      {
+        "name_en": "Submit feedback",
+        "name_fr": "Soumettre des commentaires",
+        "key": "app_feedback",
+        "type": "link",
+        "link": "mailto:contact@josephroque.ca?subject=Comm%2FSug:%20Ottawa%20Campus%20Guide",
+        "icon": {
+          "ios": {
+            "class": "ionicon",
+            "name": "ios-mail"
+          },
+          "android": {
+            "class": "ionicon",
+            "name": "md-mail"
+          }
+        }
+      },
+      {
+        "name_en": "Visit developer website",
+        "name_fr": "Visitez le site du développeur",
+        "key": "app_developer_website",
+        "type": "link",
+        "link": "http://josephroque.ca",
+        "icon": {
           "class": "ionicon",
-          "name": "ios-mail"
-        },
-        "android": {
+          "name": "md-open"
+        }
+      },
+      {
+        "name_en": "View source on GitHub",
+        "name_fr": "Afficher la source sur GitHub",
+        "key": "app_source",
+        "type": "link",
+        "link": "https://github.com/josephroque/campus-guide",
+        "icon": {
           "class": "ionicon",
-          "name": "md-mail"
+          "name": "logo-github"
+        }
+      },
+      {
+        "name_en": "Open source attributions",
+        "name_fr": "Attributions open source",
+        "key": "app_open_source",
+        "type": "link",
+        "icon": {
+          "ios": {
+            "class": "ionicon",
+            "name": "ios-information-circle"
+          },
+          "android": {
+            "class": "ionicon",
+            "name": "md-information-circle"
+          }
         }
       }
-    },
-    {
-      "name_en": "Visit developer website",
-      "name_fr": "Visitez le site du développeur",
-      "key": "app_developer_website",
-      "type": "link",
-      "link": "http://josephroque.ca",
-      "icon": {
-        "class": "ionicon",
-        "name": "md-open"
-      }
-    },
-    {
-      "name_en": "View source on GitHub",
-      "name_fr": "Afficher la source sur GitHub",
-      "key": "app_source",
-      "type": "link",
-      "link": "https://github.com/josephroque/campus-guide",
-      "icon": {
-        "class": "ionicon",
-        "name": "logo-github"
-      }
-    },
-    {
-      "name_en": "Open source attributions",
-      "name_fr": "Attributions open source",
-      "key": "app_open_source",
-      "type": "link",
-      "icon": {
-        "ios": {
-          "class": "ionicon",
-          "name": "ios-information-circle"
-        },
-        "android": {
-          "class": "ionicon",
-          "name": "md-information-circle"
-        }
-      }
-    }
-  ]
-}
+    ]
+  }
+]
