@@ -1,0 +1,181 @@
+{
+  "filters": [
+    {
+      "icon": {
+        "android": {
+          "class": "material",
+          "name": "person"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-person"
+        }
+      },
+      "name_en": "Individual",
+      "name_fr": "Individuel",
+      "description_en": "Either has private booths, or seating for individuals",
+      "description_fr": "Ou a des cabines privées, ou des sièges pour les particuliers"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "material",
+          "name": "people"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-people"
+        }
+      },
+      "name_en": "Group",
+      "name_fr": "Groupe",
+      "description_en": "Has large tables, for groups of at least 4 people",
+      "description_fr": "A de grandes tables, pour des groupes d'au moins 4 personnes"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "ionicon",
+          "name": "md-volume-off"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-volume-off"
+        }
+      },
+      "name_en": "Silent",
+      "name_fr": "Silencieux",
+      "description_en": "This is a silent study area, with no talking allowed whatsoever",
+      "description_fr": "Il s'agit d'une zone d'étude silencieuse, sans parler de quoi que ce soit"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "material",
+          "name": "restaurant"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-restaurant"
+        }
+      },
+      "name_en": "Café nearby",
+      "name_fr": "Café à proximité",
+      "description_en": "Food and drinks can be purchased from very close by",
+      "description_fr": "La nourriture et les boissons peuvent être achetés de très près par"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "ionicon",
+          "name": "md-outlet"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-outlet"
+        }
+      },
+      "name_en": "Outlets",
+      "name_fr": "Prises électriques",
+      "description_en": "There are sufficient outlets available at this location for most seats",
+      "description_fr": "Il y a suffisamment de points de vente disponibles à cet endroit pour la plupart des sièges"
+    },
+    {
+      "icon": {
+        "class": "material",
+        "name": "computer"
+      },
+      "name_en": "Computers",
+      "name_fr": "Ordinateurs",
+      "description_en": "There are computers available for student use in this area",
+      "description_fr": "Des ordinateurs sont disponibles pour les étudiants dans ce domaine"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "ionicon",
+          "name": "md-time"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-time"
+        }
+      },
+      "name_en": "Open now",
+      "name_fr": "Ouvrez maintenant",
+      "description_en": "This space is open now, and for at least another hour",
+      "description_fr": "Cet espace est ouvert maintenant, et pour au moins une heure de plus"
+    },
+    {
+      "icon": {
+        "android": {
+          "class": "ionicon",
+          "name": "md-sunny"
+        },
+        "ios": {
+          "class": "ionicon",
+          "name": "ios-sunny"
+        }
+      },
+      "name_en": "Natural lighting",
+      "name_fr": "Éclairage naturel",
+      "description_en": "There are large windows and the area is well naturally lit",
+      "description_fr": "Il ya de grandes fenêtres et la zone est bien naturellement éclairé"
+    }
+  ],
+  "spots": [
+    {
+      "building": "MHN",
+      "room": "03",
+      "opens": "06:00",
+      "closes": "23:00",
+      "filters": [2, 3, 4],
+      "description_en": "A silent study room, with a close proximity to the Second Cup on campus.",
+      "description_fr": "Une salle d'étude silencieuse, à proximité de la deuxième coupe sur le campus.",
+      "image": "/outer_placeholder_2.jpg"
+    },
+    {
+      "building": "MHN",
+      "room": "04",
+      "opens": "06:00",
+      "closes": "23:00",
+      "filters": [4, 5, 6],
+      "description_en": "A not-so-silent study room, generally very popular",
+      "description_fr": "Une salle d'étude non-donc-silencieuse, généralement très populaire",
+      "image": "/outer_placeholder_3.jpg"
+    }
+  ],
+  "reservations": [
+    {
+      "link_en": "https://www.uottawa.ca/bibliorooms/month.php?user_lang=en",
+      "link_fr": "https://www.uottawa.ca/bibliorooms/month.php?user_lang=fr",
+      "name_en": "Morisset Library",
+      "name_fr": "Bibliothèque Morisset",
+      "description_en": "Book a group study room on the concourse level, fourth floor, or sixth floor",
+      "description_fr": "Réservez une salle d'étude de groupe sur le niveau du hall, au quatrième étage ou au sixième étage"
+    },
+    {
+      "link": "https://fss-apps.uottawa.ca/srbs/day.php",
+      "name_en": "Faculty of Social Sciences",
+      "name_fr": "Faculté des sciences sociales",
+      "description_en": "Bookings available only to undergraduate students in the Faculty of Social Sciences",
+      "description_fr": "Réservations réservées aux étudiants de premier cycle de la Faculté des sciences sociales"
+    },
+    {
+      "link_en": "http://www.uottawa.ca/communitylife/study-rooms",
+      "link_fr": "http://www.uottawa.ca/viecommunautaire/salles-d-etude",
+      "name_en": "Community Life Service, study rooms",
+      "name_fr": "Service de vie communautaire, salles d'étude",
+      "description_en": "Study rooms offered by the university for groups of up to 10 people, with a small deposit",
+      "description_fr": "Les salles d'étude offertes par l'université pour les groupes jusqu'à 10 personnes, avec un petit dépôt"
+    },
+    {
+      "link_en": "https://biblio.uottawa.ca/en/services/students/study-carrel-request",
+      "link_fr": "https://biblio.uottawa.ca/fr/services/etudiants/demande-isoloir",
+      "name_en": "Study carrel request",
+      "name_fr": "Demande d'isoloir",
+      "description_en": "Graduate students can request a study carrel, in Morisset Library, the Health Sciences Library, or at the Brian Dickson Law Library",
+      "description_fr": "Les étudiants diplômés peuvent demander un bureau d'étude, à la Bibliothèque Morisset, à la Bibliothèque des sciences de la santé ou à la Bibliothèque juridique Brian Dickson"
+    }
+  ]
+}

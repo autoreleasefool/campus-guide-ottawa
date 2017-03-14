@@ -33,7 +33,7 @@
   // Search sections
   "search_placeholder": "Recherche...",
   "search": "Rechercher",
-  "no_search": "Recherchez des bâtiments sur le campus, des itinéraires d'autobus et des renseignements sur le campus de l'Université d'Ottawa, tous en un seul endroit",
+  "no_search": "Recherchez des bâtiments sur le campus, des itinéraires d'autobus et des renseignements sur le campus de l'Université\u00a0d'Ottawa, tous en un seul endroit",
   "no_results_for": "Aucun résultat pour",
   "results": "Résultats",
   "buildings": "Bâtiments",
@@ -97,6 +97,12 @@
   "shuttle_travel_time": "Notez que la navette prend environ 5-15 pour se déplacer entre les arrêts.",
   "shuttle_id_required": "Votre étudiant doit être autorisé à être autorisé sur la navette.",
   "excluded_dates": "Dates exclues",
+
+  // Study spots
+  "study_spots": "Taches d'étude",
+  "view_full_list": "Afficher la liste complète",
+  "filters": "Filtres",
+  "filter_descriptions": "Descriptions des filtres",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",

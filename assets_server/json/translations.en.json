@@ -33,7 +33,7 @@
   // Search
   "search_placeholder": "Search...",
   "search": "Search",
-  "no_search": "Search buildings on campus, bus routes, and information about the University of Ottawa campus, all in one place",
+  "no_search": "Search buildings on campus, bus routes, and information about the University\u00a0of\u00a0Ottawa campus, all in one place",
   "no_results_for": "No results for",
   "results": "Results",
   "buildings": "Buildings",
@@ -97,6 +97,12 @@
   "shuttle_travel_time": "Note that shuttle will take approximately 5-15 to travel between stops.",
   "shuttle_id_required": "Your student id is required to be allowed on the shuttle.",
   "excluded_dates": "Excluded dates",
+
+  // Study spots
+  "study_spots": "Study spots",
+  "view_full_list": "View full list",
+  "filters": "Filters",
+  "filter_descriptions": "Filter descriptions",
 
   // Facilities
   "whats_this_icon": "What's this icon?",
