@@ -125,6 +125,8 @@
   ],
   "spots": [
     {
+      "name_en": "Hamelin Hall",
+      "name_fr": "Pavillon Hamelin",
       "building": "MHN",
       "room": "03",
       "opens": "06:00",

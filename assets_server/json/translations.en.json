@@ -52,6 +52,9 @@
   "lobby": "Lobby",
   "select_building_or_locate": "Select the building/room you're in, or let the app locate you",
 
+  // Navigation
+  "directions": "Directions",
+
   // Schedule
   "course": "Course",
   "switch": "Switch",

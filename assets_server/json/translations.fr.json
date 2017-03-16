@@ -52,6 +52,9 @@
   "lobby": "Lobby",
   "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
 
+  // Navigation
+  "directions": "Directions",
+
   // Schedule
   "course": "Cours",
   "switch": "Changer",
