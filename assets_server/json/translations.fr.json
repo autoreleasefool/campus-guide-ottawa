@@ -29,6 +29,7 @@
   "edit": "Éditer",
   "delete": "Effacer",
   "cannot_be_undone_confirmation": "Cette action ne peut pas être annulée. Êtes-vous sûr?",
+  "loading": "Chargement...",
 
   // Search sections
   "search_placeholder": "Recherche...",
@@ -54,6 +55,18 @@
 
   // Navigation
   "directions": "Directions",
+  "navigating_to": "Naviguer vers",
+  "starting_point": "Point de départ",
+  "view_map": "Voir la carte",
+  "view_list": "Voir la liste",
+  "suggested": "Suggéré",
+  "no_buildings_nearby": "Aucun bâtiment à proximité",
+  "get_directions_to_university": "Obtenir l'itinéraire vers l'Université d'Ottawa?",
+  "open_in_google_maps": "Ouvrir dans 'Google Maps'",
+  "open_in_maps": "Ouvrir dans 'Maps'",
+  "steps": "Instructions",
+  "request_detour": "Demander un détour",
+  "report_problem": "Signaler un problème",
 
   // Schedule
   "course": "Cours",
@@ -106,6 +119,8 @@
   "view_full_list": "Afficher la liste complète",
   "filters": "Filtres",
   "filter_descriptions": "Descriptions des filtres",
+  "filter_added": "Filtre ajouté",
+  "filter_removed": "Filtre retiré",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",

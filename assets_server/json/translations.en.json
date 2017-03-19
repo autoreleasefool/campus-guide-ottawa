@@ -29,6 +29,7 @@
   "edit": "Edit",
   "delete": "Delete",
   "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
+  "loading": "Loading...",
 
   // Search
   "search_placeholder": "Search...",
@@ -54,6 +55,18 @@
 
   // Navigation
   "directions": "Directions",
+  "navigating_to": "Navigating to",
+  "starting_point": "Starting point",
+  "view_map": "View map",
+  "view_list": "View list",
+  "suggested": "Suggested",
+  "no_buildings_nearby": "No buildings nearby",
+  "get_directions_to_university": "Get directions to the University of Ottawa?",
+  "open_in_google_maps": "Open in 'Google Maps'",
+  "open_in_maps": "Open in 'Maps'",
+  "steps": "Steps",
+  "request_detour": "Request detour",
+  "report_problem": "Report problem",
 
   // Schedule
   "course": "Course",
@@ -106,6 +119,8 @@
   "view_full_list": "View full list",
   "filters": "Filters",
   "filter_descriptions": "Filter descriptions",
+  "filter_added": "Filter added",
+  "filter_removed": "Filter removed",
 
   // Facilities
   "whats_this_icon": "What's this icon?",
