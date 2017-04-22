@@ -9,6 +9,8 @@ from urllib.request import urlopen
 
 # Configuration
 verbose = False
+delay = 0
+last_request = 0
 output_files = []
 scraped_exams = {}
 local_timezone = None
@@ -23,6 +25,21 @@ date_format = '%B %d, %Y %I:%M %p'
 def set_verbosity(verbosity):
   global verbose
   verbose = verbosity
+
+# Set the minimum delay between requests
+def set_delay(scraper_delay):
+  global delay
+  delay = scraper_delay
+
+# Delays a task until the minimum delay has been met
+def delay_request():
+  global last_request
+  current_time = int(time.time() * 1000)
+  while current_time - last_request < delay:
+    time.sleep((current_time - last_request) / 1000)
+    current_time = int(time.time() * 1000)
+
+  last_request = current_time
 
 # Returns the list of filenames which output was printed to
 def get_output_files():
@@ -138,6 +155,7 @@ def get_exams(browser):
 
   # Load the initial page
   print_verbose_message('Opening url:', initial_url)
+  delay_request()
   browser.get(initial_url)
 
   # Get the list of sessions for which exam schedules are currently available
@@ -158,6 +176,7 @@ def get_exams(browser):
     session_select.select_by_value(session_id)
 
     # Click the search button to get the list of courses with exams this session
+    delay_request()
     browser.find_element_by_id('ctl00_MainContentPlaceHolder_Basic_Button').click()
 
     while True:
@@ -181,6 +200,7 @@ def get_exams(browser):
 
         # Opening exam page
         print_verbose_message('Opening url:', course_exam_url)
+        delay_request()
         ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
         url_response = urlopen(course_exam_url, context=ssl_context)
         exam_html = url_response.read().decode('utf-8')
@@ -211,6 +231,7 @@ def get_exams(browser):
             })
 
       # Attempt to keep going to the next page
+      delay_request()
       browser.execute_script('__doPostBack("ctl00$MainContentPlaceHolder$ctl05","")')
       if 'ErrorInternal' in browser.current_url:
         # When this appears in the url, there are no more courses

@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import Select
 
 # Configuration
 verbose = False
+delay = 0
+last_request = 0
 output_filename = 'disciplines.json'
 
 # Regular expression to get course codes and faculties
@@ -14,6 +16,21 @@ regex_courses = re.compile(r'<a.*?>([A-Z]{3}[0-9]{4}.*?)<\/a>.*?<td class="Facul
 def set_verbosity(verbosity):
   global verbose
   verbose = verbosity
+
+# Set the minimum delay between requests
+def set_delay(scraper_delay):
+  global delay
+  delay = scraper_delay
+
+# Delays a task until the minimum delay has been met
+def delay_request():
+  global last_request
+  current_time = int(time.time() * 1000)
+  while current_time - last_request < delay:
+    time.sleep((current_time - last_request) / 1000)
+    current_time = int(time.time() * 1000)
+
+  last_request = current_time
 
 # Update the filename to output results to
 def set_output_filename(filename):
@@ -64,6 +81,7 @@ def get_disciplines(browser):
 
   # Open the initial url
   print_verbose_message('Opening url:', initial_url)
+  delay_request()
   browser.get(initial_url)
 
   # Getting the discipline names and codes
@@ -74,11 +92,13 @@ def get_disciplines(browser):
 
   # Now, get the names in french
   print_verbose_message('Retrieving French discipline names')
+  delay_request()
   browser.execute_script('WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ChLangUrlLinkButton1", "fr-CA", false, "", "", false, true))')
   discipline_dropdown = Select(browser.find_element_by_id(dropdown_id))
   discipline_codes_to_fr_names = {x.get_attribute('value'): x.text for x in discipline_dropdown.options}
 
   # Return to english now
+  delay_request()
   browser.execute_script('WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ChLangUrlLinkButton1", "en-CA", false, "", "", false, true))')
 
   disciplines = []
@@ -92,6 +112,7 @@ def get_disciplines(browser):
     # Set the next discipline to be scraped and load its search page
     discipline_dropdown = Select(browser.find_element_by_id(dropdown_id))
     discipline_dropdown.select_by_value(code)
+    delay_request()
     browser.find_element_by_id('ctl00_MainContentPlaceHolder_Basic_Button').click()
 
     # Each discipline belongs to a set of faculties, so this will just track those
@@ -106,6 +127,7 @@ def get_disciplines(browser):
       faculties = faculties.union(new_faculties)
 
       # Attempt to keep going to the next page
+      delay_request()
       browser.execute_script('__doPostBack("ctl00$MainContentPlaceHolder$ctl05","")')
       if 'ErrorInternal' in browser.current_url:
         # When this appears in the url, there are no more courses
