@@ -15,7 +15,7 @@ if sources_json is None:
   exit()
 
 # Final source to print
-licenses = {}
+licenses = []
 
 for source in sources_json:
   response = requests.get(sources_json[source])
@@ -27,7 +27,12 @@ for source in sources_json:
     body = re.sub(r'(?<!\n)\n(?!\n)', ' ', response.text)
     body = re.sub(r' {2,}', ' ', body)
     body = re.sub(r'(?<!\n)\n(?!\n)|\n{3,}', '', body)
-    licenses[source] = [body]
+    licenses.append({
+      'key': source,
+      'data': body
+    })
+
+licenses = sorted(licenses, key=lambda k: k['key'])
 
 os.makedirs('./output/', exist_ok=True)
 with open('./output/licenses.json', 'w+', encoding='utf8') as outfile:
