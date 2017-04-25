@@ -29,10 +29,13 @@ for source in sources_json:
     body = re.sub(r'(?<!\n)\n(?!\n)|\n{3,}', '', body)
     licenses.append({
       'key': source,
-      'data': body
+      'data': [{
+        'key': 0,
+        'text': body
+      }]
     })
 
-licenses = sorted(licenses, key=lambda k: k['key'])
+licenses = sorted(licenses, key=lambda k: k['key'].lower())
 
 os.makedirs('./output/', exist_ok=True)
 with open('./output/licenses.json', 'w+', encoding='utf8') as outfile:
