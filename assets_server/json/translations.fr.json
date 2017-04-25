@@ -29,11 +29,12 @@
   "edit": "Éditer",
   "delete": "Effacer",
   "cannot_be_undone_confirmation": "Cette action ne peut pas être annulée. Êtes-vous sûr?",
+  "loading": "Chargement...",
 
   // Search sections
   "search_placeholder": "Recherche...",
   "search": "Rechercher",
-  "no_search": "Recherchez des bâtiments sur le campus, des itinéraires d'autobus et des renseignements sur le campus de l'Université d'Ottawa, tous en un seul endroit",
+  "no_search": "Recherchez des bâtiments sur le campus, des itinéraires d'autobus et des renseignements sur le campus de l'Université\u00a0d'Ottawa, tous en un seul endroit",
   "no_results_for": "Aucun résultat pour",
   "results": "Résultats",
   "buildings": "Bâtiments",
@@ -51,6 +52,21 @@
   "choose_starting_point": "Choisissez un point de départ ...",
   "lobby": "Lobby",
   "select_building_or_locate": "Sélectionnez le bâtiment / chambre que vous êtes, ou laisser l'application que vous recherchez",
+
+  // Navigation
+  "directions": "Directions",
+  "navigating_to": "Naviguer vers",
+  "starting_point": "Point de départ",
+  "view_map": "Voir la carte",
+  "view_list": "Voir la liste",
+  "suggested": "Suggéré",
+  "no_buildings_nearby": "Aucun bâtiment à proximité",
+  "get_directions_to_university": "Obtenir l'itinéraire vers l'Université d'Ottawa?",
+  "open_in_google_maps": "Ouvrir dans 'Google Maps'",
+  "open_in_maps": "Ouvrir dans 'Maps'",
+  "steps": "Instructions",
+  "request_detour": "Demander un détour",
+  "report_problem": "Signaler un problème",
 
   // Schedule
   "course": "Cours",
@@ -97,6 +113,14 @@
   "shuttle_travel_time": "Notez que la navette prend environ 5-15 pour se déplacer entre les arrêts.",
   "shuttle_id_required": "Votre étudiant doit être autorisé à être autorisé sur la navette.",
   "excluded_dates": "Dates exclues",
+
+  // Study spots
+  "study_spots": "Taches d'étude",
+  "view_full_list": "Afficher la liste complète",
+  "filters": "Filtres",
+  "filter_descriptions": "Descriptions des filtres",
+  "filter_added": "Filtre ajouté",
+  "filter_removed": "Filtre retiré",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",

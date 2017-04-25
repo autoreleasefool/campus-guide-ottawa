@@ -9,12 +9,14 @@ from urllib.request import urlopen
 
 # Configuration
 verbose = False
+delay = 0
+last_request = 0
 output_files = []
 scraped_exams = {}
 local_timezone = None
 
 # Regular expression to get course codes for exams
-regex_exams = re.compile(r'<a.*?>([A-Z]{3}[0-9]{4}.*?)<\/a>.*?class=\"Faculty\">(.*?)<\/td>')
+regex_exams = re.compile(r'<a href=\"Exam[.]aspx\?id=(.*?)&amp;term=(.*?)&amp;session=(.*?)\" target=\"_blank\">(.*?)<\/a>.*?class=\"Faculty\">(.*?)<\/td>')
 
 # Setting the
 date_format = '%B %d, %Y %I:%M %p'
@@ -23,6 +25,21 @@ date_format = '%B %d, %Y %I:%M %p'
 def set_verbosity(verbosity):
   global verbose
   verbose = verbosity
+
+# Set the minimum delay between requests
+def set_delay(scraper_delay):
+  global delay
+  delay = scraper_delay
+
+# Delays a task until the minimum delay has been met
+def delay_request():
+  global last_request
+  current_time = int(time.time() * 1000)
+  while current_time - last_request < delay:
+    time.sleep((current_time - last_request) / 1000)
+    current_time = int(time.time() * 1000)
+
+  last_request = current_time
 
 # Returns the list of filenames which output was printed to
 def get_output_files():
@@ -63,16 +80,16 @@ def get_faculty_shorthand(faculty):
 def format_date(raw_date):
   return int(time.mktime(time.strptime(raw_date, date_format)))
 
-def adjust_timezone(session_time):
+def adjust_timezone(term_time):
   global local_timezone
 
   # Save the local timezone so it can be restored
   if not local_timezone:
     local_timezone = os.environ['TZ']
 
-  # Set the timezone depending on the exam session being parsed
+  # Set the timezone depending on the exam term being parsed
   timezone = 'EDT'
-  if 'Fall' in session_time:
+  if 'Fall' in term_time:
     timezone = 'EST'
 
   # If the timezone is already set, don't bother updating it again
@@ -86,7 +103,7 @@ def adjust_timezone(session_time):
   return timezone
 
 # Gets the section information from an exam page
-def parse_exam_info(session_time, course_code, exam_soup):
+def parse_exam_info(term_time, exam_soup):
   exams = []
 
   for table in exam_soup.findAll('table', class_='display exams'):
@@ -110,7 +127,7 @@ def parse_exam_info(session_time, course_code, exam_soup):
         last_valid_professor = professor
 
       # Get other info about the exam
-      timezone = adjust_timezone(session_time)
+      timezone = adjust_timezone(term_time)
       date = format_date(dates[i].getText())
       if timezone == 'EDT':
         date += 60 * 60 * 4
@@ -134,30 +151,32 @@ def get_exams(browser):
 
   # URLs for the scrape
   initial_url = 'https://web30.uottawa.ca/v3/SITS/timetable/ExamSearch.aspx'
-  base_exam_url = 'https://web30.uottawa.ca/v3/SITS/timetable/Exam.aspx?code={0}&session={1}'
+  base_exam_url = 'https://web30.uottawa.ca/v3/SITS/timetable/Exam.aspx?id={0}&term={1}&session={2}'
 
   # Load the initial page
   print_verbose_message('Opening url:', initial_url)
+  delay_request()
   browser.get(initial_url)
 
-  # Get the list of sessions for which exam schedules are currently available
-  print_verbose_message('Retrieving list of sessions to scrape.')
-  dropdown_id = 'ctl00_MainContentPlaceHolder_Basic_SessionDropDown'
-  session_select = Select(browser.find_element_by_id(dropdown_id))
-  sessions = {x.get_attribute('value') + ':' + x.get_attribute('innerHTML'): [] for x in session_select.options}
+  # Get the list of terms for which exam schedules are currently available
+  print_verbose_message('Retrieving list of terms to scrape.')
+  dropdown_id = 'ctl00_MainContentPlaceHolder_Basic_TermDropDown'
+  term_select = Select(browser.find_element_by_id(dropdown_id))
+  terms = {x.get_attribute('value') + ':' + x.get_attribute('innerHTML'): [] for x in term_select.options}
 
-  session_count = 1
-  for session in sessions:
-    session_id = session[:session.index(':')]
-    session_time = session[session.index(':') + 1:]
+  term_count = 1
+  for term in terms:
+    term_id = term[:term.index(':')]
+    term_time = term[term.index(':') + 1:]
 
-    print_verbose_message('Beginning session scrape: {0} ({1}/{2})'.format(session_id, session_count, len(sessions)))
+    print_verbose_message('Beginning term scrape: {0} ({1}/{2})'.format(term_id, term_count, len(terms)))
 
-    # Select the session to scrape
-    session_select = Select(browser.find_element_by_id(dropdown_id))
-    session_select.select_by_value(session_id)
+    # Select the term to scrape
+    term_select = Select(browser.find_element_by_id(dropdown_id))
+    term_select.select_by_value(term_id)
 
-    # Click the search button to get the list of courses with exams this session
+    # Click the search button to get the list of courses with exams this term
+    delay_request()
     browser.find_element_by_id('ctl00_MainContentPlaceHolder_Basic_Button').click()
 
     while True:
@@ -167,30 +186,35 @@ def get_exams(browser):
 
       for raw_exam in raw_exams:
         # Scrape the course page for name, faculty, etc.
-        course_code = raw_exam[0]
+        course_id = raw_exam[0]
+        session_id = raw_exam[2]
+        course_code = raw_exam[3]
+        faculty = raw_exam[4]
 
         # Don't scrape the same course twice
-        if course_code in scraped_exams:
-          scraped_exams[course_code] += 1
+        if course_id in scraped_exams:
+          scraped_exams[course_id] += 1
           continue
         else:
-          scraped_exams[course_code] = 1
+          scraped_exams[course_id] = 1
 
-        course_exam_url = base_exam_url.format(course_code, session_id)
-        exam_faculty = get_faculty_shorthand(raw_exam[1])
+        course_exam_url = base_exam_url.format(course_id, term_id, session_id)
+        exam_faculty = get_faculty_shorthand(faculty)
 
         # Opening exam page
         print_verbose_message('Opening url:', course_exam_url)
+        delay_request()
         ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
         url_response = urlopen(course_exam_url, context=ssl_context)
         exam_html = url_response.read().decode('utf-8')
 
         # Retrieving information about the exams of the course
-        exams = parse_exam_info(session_time, course_code, BeautifulSoup(exam_html, 'html.parser'))
+        exams = parse_exam_info(term_time, BeautifulSoup(exam_html, 'html.parser'))
         print_verbose_message('Found', str(len(exams)), 'instances of', course_code)
 
         for exam in exams:
           final_exam = {
+            'id': course_id,
             'code': course_code,
             'section': exam[0],
             'date': exam[1],
@@ -199,39 +223,40 @@ def get_exams(browser):
           }
 
           found_faculty = False
-          for faculty in sessions[session]:
+          for faculty in terms[term]:
             if exam_faculty == faculty['name']:
               found_faculty = True
               faculty['exams'].append(final_exam)
 
           if not found_faculty:
-            sessions[session].append({
+            terms[term].append({
               'name': exam_faculty,
               'exams': [final_exam]
             })
 
       # Attempt to keep going to the next page
+      delay_request()
       browser.execute_script('__doPostBack("ctl00$MainContentPlaceHolder$ctl05","")')
       if 'ErrorInternal' in browser.current_url:
         # When this appears in the url, there are no more courses
-        print_verbose_message('Finished scraping courses for session:', session_id)
+        print_verbose_message('Finished scraping courses for term:', term_id)
         browser.get(initial_url)
         break
 
-  for session in sessions:
-    session_id = session[:session.index(':')]
-    session_time = session[session.index(':') + 1:]
+  for term in terms:
+    term_id = term[:term.index(':')]
+    term_time = term[term.index(':') + 1:]
 
-    # Create a folder for each session
-    if not os.path.exists(session_id):
-      print_verbose_message('Creating new session folder:', session_id)
-      os.makedirs(session_id)
+    # Create a folder for each term
+    if not os.path.exists(term_id):
+      print_verbose_message('Creating new term folder:', term_id)
+      os.makedirs(term_id)
 
-    for faculty in sessions[session]:
+    for faculty in terms[term]:
       print_verbose_message('Printing faculty exams to file:', faculty['name'])
 
       # Delete the file with the faculty exams if it already exists
-      filename = os.path.join(session_id, '{0}_exams.csv'.format(faculty['name']))
+      filename = os.path.join(term_id, '{0}_exams.csv'.format(faculty['name']))
       try:
         if os.path.isfile(filename):
           os.unlink(filename)

@@ -60,6 +60,11 @@ module.exports = [
     schema: require('./json/__schemas__/shuttle.schema.json'),
   },
   {
+    name: '/study_spots.json',
+    require: require ('./json/study_spots.json'),
+    schema: require('./json/__schemas__/study_spots.schema.json'),
+  },
+  {
     name: '/transit.json',
     require: require ('./json/transit.json'),
     schema: require('./json/__schemas__/transit.schema.json'),

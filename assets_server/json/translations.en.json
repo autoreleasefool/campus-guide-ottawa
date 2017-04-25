@@ -29,11 +29,12 @@
   "edit": "Edit",
   "delete": "Delete",
   "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
+  "loading": "Loading...",
 
   // Search
   "search_placeholder": "Search...",
   "search": "Search",
-  "no_search": "Search buildings on campus, bus routes, and information about the University of Ottawa campus, all in one place",
+  "no_search": "Search buildings on campus, bus routes, and information about the University\u00a0of\u00a0Ottawa campus, all in one place",
   "no_results_for": "No results for",
   "results": "Results",
   "buildings": "Buildings",
@@ -51,6 +52,21 @@
   "choose_starting_point": "Choose a starting point...",
   "lobby": "Lobby",
   "select_building_or_locate": "Select the building/room you're in, or let the app locate you",
+
+  // Navigation
+  "directions": "Directions",
+  "navigating_to": "Navigating to",
+  "starting_point": "Starting point",
+  "view_map": "View map",
+  "view_list": "View list",
+  "suggested": "Suggested",
+  "no_buildings_nearby": "No buildings nearby",
+  "get_directions_to_university": "Get directions to the University of Ottawa?",
+  "open_in_google_maps": "Open in 'Google Maps'",
+  "open_in_maps": "Open in 'Maps'",
+  "steps": "Steps",
+  "request_detour": "Request detour",
+  "report_problem": "Report problem",
 
   // Schedule
   "course": "Course",
@@ -97,6 +113,14 @@
   "shuttle_travel_time": "Note that shuttle will take approximately 5-15 to travel between stops.",
   "shuttle_id_required": "Your student id is required to be allowed on the shuttle.",
   "excluded_dates": "Excluded dates",
+
+  // Study spots
+  "study_spots": "Study spots",
+  "view_full_list": "View full list",
+  "filters": "Filters",
+  "filter_descriptions": "Filter descriptions",
+  "filter_added": "Filter added",
+  "filter_removed": "Filter removed",
 
   // Facilities
   "whats_this_icon": "What's this icon?",

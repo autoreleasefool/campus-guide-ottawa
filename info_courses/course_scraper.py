@@ -1,6 +1,7 @@
 import os
 import re
 import ssl
+import time
 from bs4 import BeautifulSoup
 from operator import itemgetter
 from selenium.webdriver.support.ui import Select
@@ -8,6 +9,8 @@ from urllib.request import urlopen
 
 # Configuration
 verbose = False
+delay = 0
+last_request = 0
 output_files = []
 errors = []
 scraped_courses = {}
@@ -23,6 +26,21 @@ regex_time = re.compile(r'([012][0-9]:[0-9]{2}) - ([012][0-9]:[0-9]{2})')
 def set_verbosity(verbosity):
   global verbose
   verbose = verbosity
+
+# Set the minimum delay between requests
+def set_delay(scraper_delay):
+  global delay
+  delay = scraper_delay
+
+# Delays a task until the minimum delay has been met
+def delay_request():
+  global last_request
+  current_time = int(time.time() * 1000)
+  while current_time - last_request < delay:
+    time.sleep((current_time - last_request) / 1000)
+    current_time = int(time.time() * 1000)
+
+  last_request = current_time
 
 # Returns the list of filenames which output was printed to
 def get_output_files():
@@ -142,9 +160,11 @@ def get_courses(browser):
 
   # Load the initial page
   print_verbose_message('Opening url:', initial_url)
+  delay_request()
   browser.get(initial_url)
 
   # Click the search button to get ALL courses for all available semesters
+  delay_request()
   browser.find_element_by_id('ctl00_MainContentPlaceHolder_Basic_Button').click()
 
   # Each session (Fall 2015/Winter 2016/etc.) are represented by a unique integer ID
@@ -170,6 +190,8 @@ def get_courses(browser):
 
       # Opening course page
       print_verbose_message('Opening url:', course_code_url)
+
+      delay_request()
       ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
       url_response = urlopen(course_code_url, context=ssl_context)
       course_html = url_response.read().decode('utf-8')
@@ -207,6 +229,7 @@ def get_courses(browser):
           })
 
     # Attempt to keep going to the next page
+    delay_request()
     browser.execute_script('__doPostBack("ctl00$MainContentPlaceHolder$ctl05","")')
     if 'ErrorInternal' in browser.current_url:
       # When this appears in the url, there are no more courses

@@ -14,7 +14,7 @@ if len(sys.argv) == 1:
   print('\t--verbose\tProvide in depth logs as the tool executes')
   print('\t-v\t\tSee --verbose')
   print()
-  exit()
+  # exit()
 
 # Configuration
 verbose = False
@@ -36,9 +36,17 @@ if '--verbose' in sys.argv or '-v' in sys.argv:
 # Initializing browser
 browser = webdriver.Chrome()
 
+import robot
+robot.set_verbosity(verbose)
+robot_params = robot.get()
+
+# Get important params from robots.txt
+scraper_delay = int(robot_params['Crawl-delay'][0]) * 1000
+
 if retrieve_disciplines:
   import discipline_scraper
   discipline_scraper.set_verbosity(verbose)
+  discipline_scraper.set_delay(scraper_delay)
   discipline_scraper.set_output_filename('disciplines.json')
   output_files.append('disciplines.json')
   discipline_scraper.get_disciplines(browser)
@@ -46,12 +54,14 @@ if retrieve_disciplines:
 if retrieve_courses:
   import course_scraper
   course_scraper.set_verbosity(verbose)
+  course_scraper.set_delay(scraper_delay)
   course_scraper.get_courses(browser)
   output_files = output_files + course_scraper.get_output_files()
 
 if retrieve_exams:
   import exam_scraper
   exam_scraper.set_verbosity(verbose)
+  exam_scraper.set_delay(scraper_delay)
   exam_scraper.get_exams(browser)
   output_files = output_files + exam_scraper.get_output_files()
 
