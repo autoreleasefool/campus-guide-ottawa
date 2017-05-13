@@ -27,6 +27,22 @@
   },
   {
     "icon": {
+      "android": {
+        "name": "md-home",
+        "class": "ionicon"
+      },
+      "ios": {
+        "name": "ios-home",
+        "class": "ionicon"
+      }
+    },
+    "id": "hou",
+    "image": "/outer_placeholder.jpg",
+    "name_en": "Housing",
+    "name_fr": "Logement"
+  },
+  {
+    "icon": {
       "name": "directions-bus",
       "class": "material"
     },

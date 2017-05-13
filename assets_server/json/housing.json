@@ -1,0 +1,20 @@
+[
+  {
+    "id": "res",
+    "image": "/outer_placeholder.jpg",
+    "name_en": "University Residences",
+    "name_fr": "Résidences universitaires"
+  },
+  {
+    "id": "off",
+    "image": "/outer_placeholder_2.jpg",
+    "name_en": "Off Campus Housing",
+    "name_fr": "Logement hors campus"
+  },
+  {
+    "id": "oth",
+    "image": "/outer_placeholder_3.jpg",
+    "name_en": "Other Resources",
+    "name_fr": "Autres ressources"
+  }
+]

@@ -40,6 +40,11 @@ module.exports = [
     schema: require('./json/__schemas__/faculties.schema.json'),
   },
   {
+    name: '/housing.json',
+    require: require ('./json/housing.json'),
+    schema: require('./json/__schemas__/housing.schema.json'),
+  },
+  {
     name: '/lecture_formats.json',
     require: require ('./json/lecture_formats.json'),
     schema: require('./json/__schemas__/lecture_formats.schema.json'),
