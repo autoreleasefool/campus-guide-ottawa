@@ -14,7 +14,7 @@ if len(sys.argv) == 1:
   print('\t--verbose\tProvide in depth logs as the tool executes')
   print('\t-v\t\tSee --verbose')
   print()
-  # exit()
+  exit()
 
 # Configuration
 verbose = False

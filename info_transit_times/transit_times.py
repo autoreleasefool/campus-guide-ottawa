@@ -207,7 +207,7 @@ for campus_index in range(len(output['campuses'])):
         output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][sorted_key] = sorted(output['campuses'][campus_index]['stops'][stop_id][route_index]['days'][sorted_key])
 
 # Output
-if not os.path.exists('../output'):
+if not os.path.exists('./output'):
   os.mkdir('./output')
 with open('./output/transit.json', 'w', encoding='utf8') as outfile:
   if '--pretty' in sys.argv:
