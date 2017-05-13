@@ -110,7 +110,7 @@
     {
       "name_en": "Accessibility",
       "name_fr": "Accessibilité",
-      "image": "/outer_placeholder_11.jpg",
+      "image": "/outer_placeholder.jpg",
       "icon": {
         "name": "accessible",
         "class": "material"
