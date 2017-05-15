@@ -20,8 +20,8 @@ licenses = []
 for source in sources_json:
   response = requests.get(sources_json[source])
   if response.status_code != 200:
-    print('Request returned status code {0}'.format(response.status_code))
-    print('Could not retrieve license for source: {0}'.format(source))
+    print('Request returned status code {}'.format(response.status_code))
+    print('Could not retrieve license for source: {}'.format(source))
     exit()
   else:
     body = re.sub(r'(?<!\n)\n(?!\n)', ' ', response.text)
@@ -34,6 +34,7 @@ for source in sources_json:
         'text': body
       }]
     })
+    print('Retrieved license for source {}'.format(source))
 
 licenses = sorted(licenses, key=lambda k: k['key'].lower())
 
