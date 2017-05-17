@@ -1,7 +1,7 @@
 {
   "campuses": [
     {
-      "id": "Main Campus",
+      "id": "main",
       "lat": 45.4222,
       "long": -75.6824,
       "name_en": "Main Campus Stops",
@@ -8043,7 +8043,7 @@
       }
     },
     {
-      "id": "MBA",
+      "id": "emba",
       "lat": 45.4212,
       "long": -75.6981,
       "name_en": "MBA Stops",
@@ -15447,7 +15447,7 @@
       }
     },
     {
-      "id": "RGN",
+      "id": "rgn",
       "lat": 45.401,
       "long": -75.6493,
       "name_en": "RGN Stops",
@@ -17827,7 +17827,7 @@
       }
     },
     {
-      "id": "Lees",
+      "id": "lees",
       "lat": 45.4158,
       "long": -75.667,
       "name_en": "Lees Stops",
