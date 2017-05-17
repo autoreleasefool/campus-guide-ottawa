@@ -47,6 +47,14 @@ def push_assets(source, dest, depth = 0):
   indent = ' ' * depth
   directories = []
 
+  print_verbose_message(indent + ' Removing destination if exists')
+  if os.path.exists(dest):
+    shutil.rmtree(dest)
+
+  print_verbose_message(indent + ' Creating destination directory')
+  if not os.path.exists(dest):
+    os.makedirs(dest)
+
   print_verbose_message(indent + ' Pushing assets from `' + source + '` to `' + dest + '`')
   for f in os.listdir(source):
     if (f.startswith('.')): continue
@@ -108,7 +116,7 @@ for i, arg in enumerate(sys.argv):
 
 # Add path to assets
 app_directory = os.path.join(app_directory, 'assets')
-server_directory = os.path.join(server_directory, 'src', 'assets') 
+server_directory = os.path.join(server_directory, 'src', 'assets')
 
 if push_server and not pull_server:
   if not os.path.exists(server_directory):
