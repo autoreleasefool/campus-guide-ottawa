@@ -75,6 +75,11 @@ module.exports = [
     schema: require('./json/__schemas__/transit.schema.json'),
   },
   {
+    name: '/transit_campuses.json',
+    require: require ('./json/transit_campuses.json'),
+    schema: require('./json/__schemas__/transit_campuses.schema.json'),
+  },
+  {
     name: '/translations.en.json',
     require: require ('./json/translations.en.json'),
     schema: require('./json/__schemas__/translations.schema.json'),

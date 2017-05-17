@@ -1,0 +1,23 @@
+[
+  {
+    "id": "main",
+    "image": "/outer_placeholder.jpg",
+    "name_en": "Main Campus",
+    "name_fr": "Campus principal"
+  },
+  {
+    "id": "lees",
+    "image": "/outer_placeholder_2.jpg",
+    "name": "Lees"
+  },
+  {
+    "id": "rgn",
+    "image": "/outer_placeholder_3.jpg",
+    "name": "RGN"
+  },
+  {
+    "id": "emba",
+    "image": "/outer_placeholder_4.jpg",
+    "name": "EMBA"
+  }
+]
