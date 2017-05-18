@@ -138,6 +138,9 @@
   "gym": "Gym",
   "pool": "Piscine",
 
+  // Housing
+  "housing": "Logement",
+
   // Other
   "only_once_title": "Français sélectionnés",
   "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres."

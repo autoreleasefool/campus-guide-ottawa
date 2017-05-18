@@ -533,7 +533,20 @@ module.exports = [
     facilities: [],
     rooms: [],
   },
-
+  {
+    shorthand: 'Henderson',
+    image: require('../images/placeholders/outer_placeholder.jpg'),
+    name_en: 'Henderson Residence',
+    name_fr: 'Résidence Henderson',
+    location: {
+      lat: 45.4213294,
+      long: -75.6805316,
+    },
+    address_en: '202 Henderson Avenue',
+    address_fr: '202, avenue Henderson',
+    facilities: [],
+    rooms: [],
+  },
   {
     shorthand: 'HGN',
     image: require('../images/buildings/HGN.jpg'),

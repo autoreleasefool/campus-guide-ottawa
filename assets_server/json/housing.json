@@ -1,20 +1,946 @@
-[
-  {
-    "id": "res",
-    "image": "/outer_placeholder.jpg",
-    "name_en": "University Residences",
-    "name_fr": "Résidences universitaires"
-  },
-  {
-    "id": "off",
-    "image": "/outer_placeholder_2.jpg",
-    "name_en": "Off Campus Housing",
-    "name_fr": "Logement hors campus"
-  },
-  {
-    "id": "oth",
-    "image": "/outer_placeholder_3.jpg",
-    "name_en": "Other Resources",
-    "name_fr": "Autres ressources"
-  }
-]
+{
+  "categories": [
+    {
+      "key": "rooms",
+      "name_en": "Room arrangements",
+      "name_fr": "Arrangements de chambre",
+      "props": [
+        {
+          "key": "room_single",
+          "name_en": "Single bedroom",
+          "name_fr": "Chambre individuelle"
+        },
+        {
+          "key": "room_double",
+          "name_en": "Double bedroom",
+          "name_fr": "Chambre double"
+        },
+        {
+          "key": "room_single_in_2",
+          "name_en": "Single in 2-bedroom",
+          "name_fr": "Simple en 2 chambres"
+        },
+        {
+          "key": "room_single_in_3",
+          "name_en": "Single in 3-bedroom",
+          "name_fr": "Simple en 3 chambres"
+        },
+        {
+          "key": "room_single_in_4",
+          "name_en": "Single in 4-bedroom",
+          "name_fr": "Simple en 4 chambres"
+        },
+        {
+          "key": "room_comm_bathroom",
+          "name_en": "Communal bathroom",
+          "name_fr": "Salles de bain commune"
+        },
+        {
+          "key": "room_per_bathroom",
+          "name_en": "Personal bathroom",
+          "name_fr": "Salle de bain personnelle"
+        }
+      ]
+    },
+    {
+      "key": "cooking",
+      "name_en": "Cooking facilities",
+      "name_fr": "Installations de cuisine",
+      "description_en": "Note that personal items are shared between 4 or fewer people, while communal items are shared with larger groups, or entire floors.",
+      "description_fr": "Notez que les objets personnels sont partagés entre 4 personnes ou moins, tandis que les objets communaux sont partagés avec des groupes plus importants.",
+      "props": [
+        {
+          "key": "cook_comm_fridge",
+          "name_en": "Communal refigerator",
+          "name_fr": "Réfrigérateur communal"
+        },
+        {
+          "key": "cook_per_fridge",
+          "name_en": "Personal refigerator",
+          "name_fr": "Réfrigérateur personnel"
+        },
+        {
+          "key": "cook_comm_stove",
+          "name_en": "Communal stovetops",
+          "name_fr": "Poêle commun"
+        },
+        {
+          "key": "cook_per_stove",
+          "name_en": "Personal stovetops",
+          "name_fr": "Poêle personnel"
+        },
+        {
+          "key": "cook_comm_oven",
+          "name_en": "Communal oven",
+          "name_fr": "Four commun"
+        },
+        {
+          "key": "cook_per_oven",
+          "name_en": "Personal oven",
+          "name_fr": "Four personnel"
+        },
+        {
+          "key": "cook_comm_microwave",
+          "name_en": "Communal microwave",
+          "name_fr": "Micro-ondes commun"
+        },
+        {
+          "key": "cook_per_microwave",
+          "name_en": "Personal microwave",
+          "name_fr": "Micro-ondes personnel"
+        },
+        {
+          "key": "cook_comm_dishwasher",
+          "name_en": "Communal dishwasher",
+          "name_fr": "Lave-vaisselle commun"
+        },
+        {
+          "key": "cook_per_dishwasher",
+          "name_en": "Personal dishwasher",
+          "name_fr": "Lave-vaisselle personnel"
+        }
+      ]
+    },
+    {
+      "key": "utilities",
+      "name_en": "Utilities",
+      "name_fr": "Services publics",
+      "description_en": "All utilities are available in all residences. This section indicates which are included in the flat price you pay or those which are not included and cost extra.",
+      "description_fr": "Tous les services publics sont disponibles dans toutes les résidences. Cette section indique lesquels sont inclus dans le prix forfaitaire que vous payez ou ceux qui ne sont pas inclus et coûtent en supplément.",
+      "props": [
+        {
+          "key": "util_cable",
+          "name_en": "Cable",
+          "name_fr": "Câble"
+        },
+        {
+          "key": "util_internet",
+          "name_en": "Internet",
+          "name_fr": "l'Internet"
+        },
+        {
+          "key": "util_tele",
+          "name_en": "Telephone",
+          "name_fr": "Téléphone"
+        },
+        {
+          "key": "util_hydro",
+          "name_en": "Hydro (water)",
+          "name_fr": "Hydro (eau)"
+        },
+        {
+          "key": "util_elec",
+          "name_en": "Electricity",
+          "name_fr": "Électricité"
+        },
+        {
+          "key": "util_heat",
+          "name_en": "Heating",
+          "name_fr": "Chauffage"
+        },
+        {
+          "key": "util_ac",
+          "name_en": "Air conditioning",
+          "name_fr": "Air conditionné"
+        },
+        {
+          "key": "util_laundry",
+          "name_en": "Laundry",
+          "name_fr": "Blanchisserie"
+        }
+      ]
+    },
+    {
+      "key": "furnishings",
+      "name_en": "Furnishings",
+      "name_fr": "Ameublement",
+      "description_en": "Only includes furnishings which are in the bedrooms. Common spaces generally have a table, chairs, and a small couch.",
+      "description_fr": "Comprend uniquement des meubles dans les chambres. Les espaces communs ont généralement une table, des chaises et un petit canapé.",
+      "props": [
+        {
+          "key": "furn_single_bed",
+          "name_en": "Single bed",
+          "name_fr": "Lit simple"
+        },
+        {
+          "key": "furn_double_bed",
+          "name_en": "Double bed",
+          "name_fr": "Lit double"
+        },
+        {
+          "key": "furn_desk",
+          "name_en": "Desk",
+          "name_fr": "Bureau"
+        },
+        {
+          "key": "furn_chair",
+          "name_en": "Chair",
+          "name_fr": "Chaise"
+        },
+        {
+          "key": "furn_dresser",
+          "name_en": "Armoire / Dresser",
+          "name_fr": "Armoire / commode"
+        },
+        {
+          "key": "furn_closet",
+          "name_en": "Closet",
+          "name_fr": "Placard"
+        }
+      ]
+    },
+    {
+      "key": "meal",
+      "name_en": "Meal plans",
+      "name_fr": "Plans de repas",
+      "props": [
+        {
+          "key": "meal_mandatory",
+          "name_en": "Mandatory?",
+          "name_fr": "Obligatoire?"
+        },
+        {
+          "key": "meal_optional",
+          "name_en": "Optional?",
+          "name_fr": "Optionell?"
+        }
+      ]
+    },
+    {
+      "key": "lease",
+      "name_en": "Lease details",
+      "name_fr": "Détails du bail",
+      "props": [
+        {
+          "key": "lease_eight",
+          "name_en": "8-month lease",
+          "name_fr": "Bail de 8 mois"
+        },
+        {
+          "key": "lease_twelve",
+          "name_en": "12-month lease",
+          "name_fr": "Bail de 12 mois"
+        },
+        {
+          "key": "lease_renewable",
+          "name_en": "Renewable",
+          "name_fr": "Renouvelable"
+        }
+      ]
+    },
+    {
+      "key": "housekeeping",
+      "name_en": "Housekeeping",
+      "name_fr": "Ménagère",
+      "description_en": "All common areas are cleaned daily - lounges, bathrooms, hallways, and elevators. Private rooms are your own responsibility.",
+      "description_fr": "Toutes les zones communes sont nettoyées tous les jours - salons, salles de bains, couloirs et ascenseurs. Les chambres privées sont de votre propre responsabilité.",
+      "props": []
+    },
+    {
+      "key": "security",
+      "name_en": "Security",
+      "name_fr": "Sécurité",
+      "props": [
+        {
+          "key": "secure_card",
+          "name_en": "Card access",
+          "name_fr": "Accès à la carte"
+        },
+        {
+          "key": "secure_lock_suite",
+          "name_en": "Suite locks",
+          "name_fr": "Serrures à la suite"
+        },
+        {
+          "key": "secure_lock_room",
+          "name_en": "Individual room locks",
+          "name_fr": "Serrures individuelles"
+        },
+        {
+          "key": "secure_guard",
+          "name_en": "Security guards",
+          "name_fr": "Gardes de sécurité"
+        },
+        {
+          "key": "secure_video",
+          "name_en": "Video surveillance",
+          "name_fr": "Vidéosurveillance"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "res",
+      "image": "/outer_placeholder.jpg",
+      "name_en": "University Residences",
+      "name_fr": "Résidences universitaires"
+    },
+    {
+      "key": "off",
+      "image": "/outer_placeholder_2.jpg",
+      "name_en": "Off Campus Housing",
+      "name_fr": "Logement hors campus"
+    },
+    {
+      "key": "oth",
+      "image": "/outer_placeholder_3.jpg",
+      "name_en": "Other Resources",
+      "name_fr": "Autres ressources"
+    }
+  ],
+  "residences": [
+    {
+      "name": "45 Mann",
+      "address_en": "45 Mann Avenue",
+      "address_fr": "45, avenue Mann",
+      "description_en": "On the south side of campus, near SITE and the Sports Complex, 45 Mann is a residence exclusively for upper year students. It is an apartment style residence with single rooms available in 1-, 2-, 3-, or 4-bedroom apartments for 12 months at a time.",
+      "description_fr": "Sur le côté sud du campus, près du SITE et du Complexe sportif, 45 Mann est une résidence exclusivement pour les étudiants de la deuxième année. Il s'agit d'une résidence de style appartement avec des chambres simples disponibles en appartements de 1, 2, 3 ou 4 chambres pour 12 mois à la fois.",
+      "image": "/outer_placeholder.jpg",
+      "location": {
+        "lat": 45.4199681,
+        "long": -75.6760785
+      },
+      "props": {
+        "room_single": true,
+        "room_double": false,
+        "room_single_in_2": true,
+        "room_single_in_3": true,
+        "room_single_in_4": true,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": false,
+        "cook_per_fridge": true,
+        "cook_comm_stove": false,
+        "cook_per_stove": true,
+        "cook_comm_oven": false,
+        "cook_per_oven": true,
+        "cook_comm_microwave": false,
+        "cook_per_microwave": true,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": true,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": true,
+        "furn_single_bed": false,
+        "furn_double_bed": true,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": false,
+        "furn_closet": true,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": false,
+        "lease_twelve": true,
+        "lease_renewable": true,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name_en": "90 University",
+      "name_fr": "90 Université",
+      "address_en": "90 University Private",
+      "address_fr": "90, rue University",
+      "description_en": "This suite style residence is located centrally on campus, in the residence complex. Share a common space, kitchenette, and bathroom with just 1 other person, while sleeping in your own private room.",
+      "description_fr": "Cette résidence de style suite se situe centralement sur le campus principal, dans le complexe résidentiel. Partagez un espace commun, une kitchenette et une salle de bains avec une seule personne, tout en dormissant dans votre propre chambre privée.",
+      "image": "/outer_placeholder_2.jpg",
+      "location": {
+        "lat": 45.4223983,
+        "long": -75.684454
+      },
+      "props": {
+        "room_single": false,
+        "room_double": false,
+        "room_single_in_2": true,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": false,
+        "cook_per_fridge": true,
+        "cook_comm_stove": true,
+        "cook_per_stove": true,
+        "cook_comm_oven": true,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": true,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_double_bed": false,
+        "furn_single_bed": true,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": false,
+        "furn_closet": true,
+        "meal_mandatory": true,
+        "meal_optional": false,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": true,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Brooks",
+      "address_en": "620-638 King Edward Avenue",
+      "address_fr": "620-638, avenue King Edward",
+      "description_en": "Brooks is an apartment style residence located near the centre of campus. There are 17 separate clusters, each containing up to 12 units of 2- or 4-bedroom units, available for 12 months with options to renew.",
+      "description_fr": "Brooks est une résidence de style appartement située à proximité du centre du campus principal. Il existe 17 grappes séparées, chacune contenant jusqu'à 12 unités d'unités de 2 ou 4 chambres, disponible pour 12 mois avec des options de renouvellement.",
+      "image": "/outer_placeholder_3.jpg",
+      "location": {
+        "lat": 45.4226747,
+        "long": -75.680873
+      },
+      "props": {
+        "room_single": false,
+        "room_double": false,
+        "room_single_in_2": true,
+        "room_single_in_3": true,
+        "room_single_in_4": true,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": false,
+        "cook_per_fridge": true,
+        "cook_comm_stove": false,
+        "cook_per_stove": true,
+        "cook_comm_oven": false,
+        "cook_per_oven": true,
+        "cook_comm_microwave": false,
+        "cook_per_microwave": true,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": false,
+        "lease_twelve": true,
+        "lease_renewable": true,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Friel",
+      "address_en": "240 Friel Street",
+      "address_fr": "240, rue Friel",
+      "description_en": "Located downtown, approximately a 10-15 minute walk from the north end of campus, Friel offers 1- and 2-bedroom suites with a kitchenette and bathroom available for 8 months at a time",
+      "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois",
+      "image": "/outer_placeholder_4.jpg",
+      "location": {
+        "lat": 45.4305525,
+        "long": -75.6829102
+      },
+      "props": {
+        "room_single": false,
+        "room_double": true,
+        "room_single_in_2": true,
+        "room_single_in_3": true,
+        "room_single_in_4": false,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": false,
+        "cook_per_fridge": true,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": true,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": true,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": true,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Henderson",
+      "address_en": "202 Henderson Avenue",
+      "address_fr": "202, avenue Henderson",
+      "description_en": "This traditional residence is located near SITE and Sports Complex, towards the south end of campus. It offers single bedrooms connected by a bathroom shared with 1 other person, and large community kitchen and dining areas",
+      "description_fr": "Cette résidence traditionnelle est située à proximité du SITE et du Complexe sportif, vers l'extrémité sud du campus principal. Il propose des chambres simples reliées par une salle de bain partagée avec une autre personne, et une grande cuisine communautaire et des salles à manger",
+      "image": "/outer_placeholder_5.jpg",
+      "location": {
+        "lat": 45.4213361,
+        "long": -75.6783268
+      },
+      "props": {
+        "room_single": false,
+        "room_double": false,
+        "room_single_in_2": true,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": false,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": false,
+        "furn_double_bed": true,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Hyman Soloway",
+      "address_en": "157 Laurier Avenue East",
+      "address_fr": "157, avenue Laurier est",
+      "description_en": "Hyman Soloway is an apartment style residence located on the north end of campus, near Tabaret and Hamelin Hall. It offers single rooms in 2-, 3-, or 4-bedroom apartments, available for 12 months at a time.",
+      "description_fr": "Hyman Soloway est une résidence de style appartement située sur l'extrémité nord du campus, près de Tabaret et Hamelin Hall. Il propose des chambres simples dans des appartements de 2, 3 ou 4 chambres, disponibles pendant 12 mois à la fois.",
+      "image": "/outer_placeholder.jpg",
+      "location": {
+        "lat": 45.4251119,
+        "long": -75.6841931
+      },
+      "props": {
+        "room_single": false,
+        "room_double": false,
+        "room_single_in_2": true,
+        "room_single_in_3": true,
+        "room_single_in_4": true,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": false,
+        "cook_per_fridge": true,
+        "cook_comm_stove": false,
+        "cook_per_stove": true,
+        "cook_comm_oven": false,
+        "cook_per_oven": true,
+        "cook_comm_microwave": false,
+        "cook_per_microwave": true,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": false,
+        "lease_twelve": true,
+        "lease_renewable": true,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "LeBlanc",
+      "address_en": "45 Copernicus Street",
+      "address_fr": "45, rue Copernicus",
+      "description_en": "LeBlanc is a small, traditional style residence, ideal for French speaking students interested in a tight knit, francophone community. Single or double bedrooms are available, with shared bathrooms and kitchens on each floor.",
+      "description_fr": "LeBlanc est une petite résidence de style traditionnel, idéale pour les étudiants francophones intéressés par une communauté francophone. Des chambres simples ou doubles sont disponibles, avec salle de bains partagée et cuisines à chaque étage.",
+      "image": "/outer_placeholder_2.jpg",
+      "location": {
+        "lat": 45.4243663,
+        "long": -75.6830072
+      },
+      "props": {
+        "room_single": true,
+        "room_double": true,
+        "room_single_in_2": false,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": true,
+        "room_per_bathroom": false,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": false,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": true,
+        "meal_optional": false,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Marchand",
+      "address_en": "110 University Private",
+      "address_fr": "110, rue University",
+      "description_en": "This traditional style residence accommodates many international exchange students each year. It is a part of the main residence complex, located centrally on campus, with single or double bedrooms available for 8 months at a time.",
+      "description_fr": "Cette résidence de style traditionnel accueille chaque année plusieurs étudiants étrangers. C'est une partie du complexe résidentiel principal, situé centralement sur le campus, avec des chambres simples ou doubles disponibles pendant 8 mois à la fois.",
+      "image": "/outer_placeholder_3.jpg",
+      "location": {
+        "lat": 45.4219082,
+        "long": -75.6844045
+      },
+      "props": {
+        "room_single": true,
+        "room_double": true,
+        "room_single_in_2": false,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": true,
+        "room_per_bathroom": false,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": false,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": true,
+        "meal_optional": false,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": true,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Rideau",
+      "address_en": "290 Rideau Street",
+      "address_fr": "290, rue Rideau",
+      "description_en": "Rideau is a traditional style residence located downtown, approximately a 10 minute walk from the north end of campus. Students may be in large double rooms, sharing a bathroom with only their roommate, or in a single room with a private bathroom.",
+      "description_fr": "Rideau est une résidence de style traditionnel située au centre-ville, à environ 10 minutes à pied de l'extrémité nord du campus. Les étudiants peuvent être dans de grandes chambres doubles, en partageant une salle de bain avec seulement leur colocataire, ou dans une chambre simple avec salle de bain privée.",
+      "image": "/outer_placeholder_4.jpg",
+      "location": {
+        "lat": 45.4287055,
+        "long": -75.6858288
+      },
+      "props": {
+        "room_single": true,
+        "room_double": true,
+        "room_single_in_2": false,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": false,
+        "room_per_bathroom": true,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": true,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": false,
+        "furn_double_bed": true,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": false,
+        "meal_optional": true,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": false,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Stanton",
+      "address_en": "100 University Private",
+      "address_fr": "100, rue University",
+      "description_en": "Stanton is a traditional residence located centrally on campus, in the residence complex with Marchand and 90u. It offers single and double rooms for 8 months at a time.",
+      "description_fr": "Stanton est une résidence traditionnelle située au centre du campus, dans le complexe résidentiel de Marchand et 90u. Il propose des chambres simples et doubles pour 8 mois à la fois.",
+      "image": "/outer_placeholder_5.jpg",
+      "location": {
+        "lat": 45.4221234,
+        "long": -75.6848017
+      },
+      "props": {
+        "room_single": true,
+        "room_double": true,
+        "room_single_in_2": false,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": true,
+        "room_per_bathroom": false,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": false,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": true,
+        "meal_optional": false,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": true,
+        "secure_video": true
+      }
+    },
+    {
+      "name": "Thompson",
+      "address_en": "45 University Private",
+      "address_fr": "45, rue University",
+      "description_en": "This traditional residence is located at the centre of campus, next to Café Nostalgica and the university library, Morisset. There are single and double bedrooms with community lounges and bathrooms on each floor.",
+      "description_fr": "Cette résidence traditionnelle est située au centre du campus, à côté de Café Nostalgica et de la bibliothèque universitaire Morisset. Il y a des chambres simples et doubles avec des salons communautaires et des salles de bains à chaque étage.",
+      "image": "/outer_placeholder.jpg",
+      "location": {
+        "lat": 45.42373,
+        "long": -75.6836372
+      },
+      "props": {
+        "room_single": true,
+        "room_double": true,
+        "room_single_in_2": false,
+        "room_single_in_3": false,
+        "room_single_in_4": false,
+        "room_comm_bathroom": true,
+        "room_per_bathroom": false,
+        "cook_comm_fridge": true,
+        "cook_per_fridge": false,
+        "cook_comm_stove": true,
+        "cook_per_stove": false,
+        "cook_comm_oven": false,
+        "cook_per_oven": false,
+        "cook_comm_microwave": true,
+        "cook_per_microwave": false,
+        "cook_comm_dishwasher": false,
+        "cook_per_dishwasher": false,
+        "util_cable": true,
+        "util_internet": true,
+        "util_tele": true,
+        "util_hydro": true,
+        "util_elec": true,
+        "util_heat": true,
+        "util_ac": true,
+        "util_laundry": false,
+        "furn_single_bed": true,
+        "furn_double_bed": false,
+        "furn_desk": true,
+        "furn_chair": true,
+        "furn_dresser": true,
+        "furn_closet": false,
+        "meal_mandatory": true,
+        "meal_optional": false,
+        "lease_eight": true,
+        "lease_twelve": false,
+        "lease_renewable": false,
+        "secure_card": true,
+        "secure_lock_suite": true,
+        "secure_lock_room": true,
+        "secure_guard": true,
+        "secure_video": true
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name_en": "Housing Service",
+      "name_fr": "Service du logement",
+      "link_en": "http://www.uottawa.ca/housing/",
+      "link_fr": "http://www.uottawa.ca/logement/",
+      "description_en": "The home for information on housing at the University of Ottawa. If you don't find what you're looking for anywhere else, you can probably find it here.",
+      "description_fr": "La maison pour l'information sur le logement à l'Université d'Ottawa. Si vous ne trouvez pas ce que vous cherchez ailleurs, vous pouvez probablement le trouver ici."
+    },
+    {
+      "name_en": "Student Housing Billboard",
+      "name_fr": "Service du logement",
+      "link_en": "https://web5.uottawa.ca/rezweb/search.php",
+      "link_fr": "https://web5.uottawa.ca/rezweb/searchf.php"
+    },
+    {
+      "name_en": "Apply for residence",
+      "name_fr": "Demande d’hébergement",
+      "link_en": "http://www.uottawa.ca/housing/apply-for-residence",
+      "link_fr": "http://www.uottawa.ca/logement/faire-une-demande"
+    },
+    {
+      "name_en": "Living in residence",
+      "name_fr": "Vivre en résidence",
+      "link_en": "http://www.uottawa.ca/housing/living-in-residence",
+      "link_fr": "http://www.uottawa.ca/logement/vivre-en-residence"
+    },
+    {
+      "name_en": "Compare residences",
+      "name_fr": "Comparer les résidences",
+      "link_en": "http://www.uottawa.ca/housing/compare-residences",
+      "link_fr": "http://www.uottawa.ca/logement/comparer-residences-prix"
+    },
+    {
+      "name_en": "Subletting / takeover",
+      "name_fr": "Sous-location / reprise de contrat",
+      "link_en": "http://www.uottawa.ca/housing/apply-for-residence/sublet-takeover",
+      "link_fr": "http://www.uottawa.ca/logement/faire-une-demande/sous-location-reprise-de-contrat"
+    },
+    {
+      "name_en": "Short term accomodation",
+      "name_fr": "Hébergement de courte durée",
+      "link_en": "http://www.uottawa.ca/housing/short-term",
+      "link_fr": "http://www.uottawa.ca/logement/hebergement-courte-duree"
+    }
+  ]
+}
