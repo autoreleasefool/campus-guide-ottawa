@@ -1,176 +1,210 @@
-[
-  {
-    "name_en": "Study Room",
-    "name_fr": "Salle d'étude",
-    "icon": {
-      "name": "book",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Lecture Hall",
-    "name_fr": "Salle de conférence",
-    "icon": {
-      "name": "class",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Cafeteria",
-    "name_fr": "Cafétéria",
-    "icon": {
-      "name": "restaurant",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Store",
-    "name_fr": "Boutique",
-    "icon": {
-      "name": "store",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Computer Lab",
-    "name_fr": "Salle informatique",
-    "icon": {
-      "name": "computer",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Office",
-    "name_fr": "Bureau",
-    "icon": {
-      "name": "person",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Library",
-    "name_fr": "Bibliothèque",
-    "icon": {
-      "name": "local-library",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Pool",
-    "name_fr": "Piscine",
-    "icon": {
-      "name": "pool",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Gymnasium",
-    "name_fr": "Gymnase",
-    "icon": {
-      "ios": {
-        "name": "ios-basketball",
-        "class": "ionicon"
-      },
-      "android": {
-        "name": "md-basketball",
+{
+  "ids": [
+    "bath_men",
+    "bath_women",
+    "bath_uni",
+    "cafe",
+    "class",
+    "comp",
+    "fit",
+    "gym",
+    "health",
+    "kitchen",
+    "lab_res",
+    "lab_teach",
+    "library",
+    "meet",
+    "office",
+    "pool",
+    "seminar",
+    "service",
+    "storage",
+    "store",
+    "study",
+    "test"
+  ],
+  "types": {
+    "study": {
+      "name_en": "Study Room",
+      "name_fr": "Salle d'étude",
+      "icon": {
+        "name": "book",
+        "class": "material"
+      }
+    },
+    "class": {
+      "name_en": "Lecture Hall",
+      "name_fr": "Salle de conférence",
+      "icon": {
+        "name": "class",
+        "class": "material"
+      }
+    },
+    "cafe": {
+      "name_en": "Cafeteria",
+      "name_fr": "Cafétéria",
+      "icon": {
+        "name": "restaurant",
+        "class": "material"
+      }
+    },
+    "store": {
+      "name_en": "Store",
+      "name_fr": "Boutique",
+      "icon": {
+        "name": "store",
+        "class": "material"
+      }
+    },
+    "comp": {
+      "name_en": "Computer Lab",
+      "name_fr": "Salle informatique",
+      "icon": {
+        "name": "computer",
+        "class": "material"
+      }
+    },
+    "office": {
+      "name_en": "Office",
+      "name_fr": "Bureau",
+      "icon": {
+        "name": "person",
+        "class": "material"
+      }
+    },
+    "library": {
+      "name_en": "Library",
+      "name_fr": "Bibliothèque",
+      "icon": {
+        "name": "local-library",
+        "class": "material"
+      }
+    },
+    "pool": {
+      "name_en": "Pool",
+      "name_fr": "Piscine",
+      "icon": {
+        "name": "pool",
+        "class": "material"
+      }
+    },
+    "gym": {
+      "name_en": "Gymnasium",
+      "name_fr": "Gymnase",
+      "icon": {
+        "ios": {
+          "name": "ios-basketball",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-basketball",
+          "class": "ionicon"
+        }
+      }
+    },
+    "fit": {
+      "name_en": "Fitness Centre",
+      "name_fr": "Centre de fitness",
+      "icon": {
+        "name": "fitness-center",
+        "class": "material"
+      }
+    },
+    "health": {
+      "name_en": "Health Clinic",
+      "name_fr": "Clinique de santé",
+      "icon": {
+        "name": "healing",
+        "class": "material"
+      }
+    },
+    "service": {
+      "name_en": "Student Services",
+      "name_fr": "Services aux étudiants",
+      "icon": {
+        "name": "school",
+        "class": "material"
+      }
+    },
+    "meet": {
+      "name_en": "Meeting Room",
+      "name_fr": "Salle de réunion",
+      "icon": {
+        "name": "group",
+        "class": "material"
+      }
+    },
+    "test": {
+      "name_en": "Testing Room",
+      "name_fr": "Salle d'évaluation",
+      "icon": {
+        "name": "create",
+        "class": "material"
+      }
+    },
+    "kitchen": {
+      "name_en": "Kitchen",
+      "name_fr": "Cuisine",
+      "icon": {
+        "name": "kitchen",
+        "class": "material"
+      }
+    },
+    "lab_res": {
+      "name_en": "Research Laboratory",
+      "name_fr": "Laboratoire de recherche",
+      "icon": {
+        "name": "find-in-page",
+        "class": "material"
+      }
+    },
+    "lab_teach": {
+      "name_en": "Teaching Laboratory",
+      "name_fr": "Laboratoire d'enseignement",
+      "icon": {
+        "name": "find-in-page",
+        "class": "material"
+      }
+    },
+    "seminar": {
+      "name_en": "Seminar Room",
+      "name_fr": "Salle de séminaire",
+      "icon": {
+        "name": "record-voice-over",
+        "class": "material"
+      }
+    },
+    "bath_men": {
+      "name_en": "Men's Bathroom",
+      "name_fr": "La salle de bain pour hommes",
+      "icon": {
+        "name": "md-man",
         "class": "ionicon"
       }
-    }
-  },
-  {
-    "name_en": "Fitness Centre",
-    "name_fr": "Centre de fitness",
-    "icon": {
-      "name": "fitness-center",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Health Clinic",
-    "name_fr": "Clinique de santé",
-    "icon": {
-      "name": "healing",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Student Services",
-    "name_fr": "Services aux étudiants",
-    "icon": {
-      "name": "school",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Meeting Room",
-    "name_fr": "Salle de réunion",
-    "icon": {
-      "name": "group",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Testing Room",
-    "name_fr": "Salle d'évaluation",
-    "icon": {
-      "name": "create",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Kitchen",
-    "name_fr": "Cuisine",
-    "icon": {
-      "name": "kitchen",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Research Laboratory",
-    "name_fr": "Laboratoire de recherche",
-    "icon": {
-      "name": "find-in-page",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Seminar Room",
-    "name_fr": "Salle de séminaire",
-    "icon": {
-      "name": "record-voice-over",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Men's Bathroom",
-    "name_fr": "La salle de bain pour hommes",
-    "icon": {
-      "name": "md-man",
-      "class": "ionicon"
-    }
-  },
-  {
-    "name_en": "Women's Bathroom",
-    "name_fr": "La salle de bain des femmes",
-    "icon": {
-      "name": "md-woman",
-      "class": "ionicon"
-    }
-  },
-  {
-    "name_en": "Unisex Bathroom",
-    "name_fr": "Salle de bain unisexe",
-    "icon": {
-      "name": "wc",
-      "class": "material"
-    }
-  },
-  {
-    "name_en": "Storage",
-    "name_fr": "Stockage",
-    "icon": {
-      "name": "lock",
-      "class": "material"
+    },
+    "bath_women": {
+      "name_en": "Women's Bathroom",
+      "name_fr": "La salle de bain des femmes",
+      "icon": {
+        "name": "md-woman",
+        "class": "ionicon"
+      }
+    },
+    "bath_uni": {
+      "name_en": "Unisex Bathroom",
+      "name_fr": "Salle de bain unisexe",
+      "icon": {
+        "name": "wc",
+        "class": "material"
+      }
+    },
+    "storage": {
+      "name_en": "Storage",
+      "name_fr": "Stockage",
+      "icon": {
+        "name": "lock",
+        "class": "material"
+      }
     }
   }
-]
+}
