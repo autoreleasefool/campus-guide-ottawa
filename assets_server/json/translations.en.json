@@ -140,6 +140,14 @@
 
   // Housing
   "housing": "Housing",
+  "university_residences": "University Residences",
+  "residences": "Residences",
+  "description": "Description",
+  "compare_residences": "Compare residences",
+  "select_to_compare": "Select to compare",
+  "compare_with": "Compare with...",
+  "other_resources": "Other resources",
+  "select_at_least_two": "Select at least 2!",
 
   // Other
   "only_once_title": "English selected",

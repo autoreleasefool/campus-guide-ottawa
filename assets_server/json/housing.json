@@ -4,7 +4,7 @@
       "key": "rooms",
       "name_en": "Room arrangements",
       "name_fr": "Arrangements de chambre",
-      "props": [
+      "data": [
         {
           "key": "room_single",
           "name_en": "Single bedroom",
@@ -48,7 +48,7 @@
       "name_fr": "Installations de cuisine",
       "description_en": "Note that personal items are shared between 4 or fewer people, while communal items are shared with larger groups, or entire floors.",
       "description_fr": "Notez que les objets personnels sont partagés entre 4 personnes ou moins, tandis que les objets communaux sont partagés avec des groupes plus importants.",
-      "props": [
+      "data": [
         {
           "key": "cook_comm_fridge",
           "name_en": "Communal refigerator",
@@ -107,7 +107,7 @@
       "name_fr": "Services publics",
       "description_en": "All utilities are available in all residences. This section indicates which are included in the flat price you pay or those which are not included and cost extra.",
       "description_fr": "Tous les services publics sont disponibles dans toutes les résidences. Cette section indique lesquels sont inclus dans le prix forfaitaire que vous payez ou ceux qui ne sont pas inclus et coûtent en supplément.",
-      "props": [
+      "data": [
         {
           "key": "util_cable",
           "name_en": "Cable",
@@ -156,7 +156,7 @@
       "name_fr": "Ameublement",
       "description_en": "Only includes furnishings which are in the bedrooms. Common spaces generally have a table, chairs, and a small couch.",
       "description_fr": "Comprend uniquement des meubles dans les chambres. Les espaces communs ont généralement une table, des chaises et un petit canapé.",
-      "props": [
+      "data": [
         {
           "key": "furn_single_bed",
           "name_en": "Single bed",
@@ -193,7 +193,7 @@
       "key": "meal",
       "name_en": "Meal plans",
       "name_fr": "Plans de repas",
-      "props": [
+      "data": [
         {
           "key": "meal_mandatory",
           "name_en": "Mandatory?",
@@ -210,7 +210,7 @@
       "key": "lease",
       "name_en": "Lease details",
       "name_fr": "Détails du bail",
-      "props": [
+      "data": [
         {
           "key": "lease_eight",
           "name_en": "8-month lease",
@@ -234,13 +234,17 @@
       "name_fr": "Ménagère",
       "description_en": "All common areas are cleaned daily - lounges, bathrooms, hallways, and elevators. Private rooms are your own responsibility.",
       "description_fr": "Toutes les zones communes sont nettoyées tous les jours - salons, salles de bains, couloirs et ascenseurs. Les chambres privées sont de votre propre responsabilité.",
-      "props": []
+      "data": [
+        {
+          "key": "none"
+        }
+      ]
     },
     {
       "key": "security",
       "name_en": "Security",
       "name_fr": "Sécurité",
-      "props": [
+      "data": [
         {
           "key": "secure_card",
           "name_en": "Card access",
@@ -267,26 +271,6 @@
           "name_fr": "Vidéosurveillance"
         }
       ]
-    }
-  ],
-  "sections": [
-    {
-      "key": "res",
-      "image": "/outer_placeholder.jpg",
-      "name_en": "University Residences",
-      "name_fr": "Résidences universitaires"
-    },
-    {
-      "key": "off",
-      "image": "/outer_placeholder_2.jpg",
-      "name_en": "Off Campus Housing",
-      "name_fr": "Logement hors campus"
-    },
-    {
-      "key": "oth",
-      "image": "/outer_placeholder_3.jpg",
-      "name_en": "Other Resources",
-      "name_fr": "Autres ressources"
     }
   ],
   "residences": [
@@ -897,50 +881,114 @@
       }
     }
   ],
-  "resources": [
+  "resources": {
+    "icon": {
+      "android": {
+        "class": "material",
+        "name": "info-outline"
+      },
+      "ios": {
+        "class": "ionicon",
+        "name": "ios-information-circle"
+      }
+    },
+    "id": "housing",
+    "name_en": "Other resources",
+    "name_fr": "Autre ressources",
+    "image": "/outer_placeholder_5.jpg",
+    "links": [
+      {
+        "name_en": "Housing Service",
+        "name_fr": "Service du logement",
+        "link_en": "http://www.uottawa.ca/housing/",
+        "link_fr": "http://www.uottawa.ca/logement/",
+        "description_en": "The home for information on housing at the University of Ottawa. If you don't find what you're looking for anywhere else, you can probably find it here.",
+        "description_fr": "La maison pour l'information sur le logement à l'Université d'Ottawa. Si vous ne trouvez pas ce que vous cherchez ailleurs, vous pouvez probablement le trouver ici."
+      },
+      {
+        "name_en": "Student Housing Billboard",
+        "name_fr": "Service du logement",
+        "link_en": "https://web5.uottawa.ca/rezweb/search.php",
+        "link_fr": "https://web5.uottawa.ca/rezweb/searchf.php"
+      },
+      {
+        "name_en": "Apply for residence",
+        "name_fr": "Demande d’hébergement",
+        "link_en": "http://www.uottawa.ca/housing/apply-for-residence",
+        "link_fr": "http://www.uottawa.ca/logement/faire-une-demande"
+      },
+      {
+        "name_en": "Living in residence",
+        "name_fr": "Vivre en résidence",
+        "link_en": "http://www.uottawa.ca/housing/living-in-residence",
+        "link_fr": "http://www.uottawa.ca/logement/vivre-en-residence"
+      },
+      {
+        "name_en": "Compare residences",
+        "name_fr": "Comparer les résidences",
+        "link_en": "http://www.uottawa.ca/housing/compare-residences",
+        "link_fr": "http://www.uottawa.ca/logement/comparer-residences-prix"
+      },
+      {
+        "name_en": "Subletting / takeover",
+        "name_fr": "Sous-location / reprise de contrat",
+        "link_en": "http://www.uottawa.ca/housing/apply-for-residence/sublet-takeover",
+        "link_fr": "http://www.uottawa.ca/logement/faire-une-demande/sous-location-reprise-de-contrat"
+      },
+      {
+        "name_en": "Off campus housing",
+        "name_fr": "Logement hors campus",
+        "link_en": "http://www.uottawa.ca/housing/off-campus-housing",
+        "link_fr": "http://www.uottawa.ca/logement/logement-hors-campus"
+      },
+      {
+        "name_en": "Short term accomodation",
+        "name_fr": "Hébergement de courte durée",
+        "link_en": "http://www.uottawa.ca/housing/short-term",
+        "link_fr": "http://www.uottawa.ca/logement/hebergement-courte-duree"
+      }
+    ]
+  },
+  "sections": [
     {
-      "name_en": "Housing Service",
-      "name_fr": "Service du logement",
-      "link_en": "http://www.uottawa.ca/housing/",
-      "link_fr": "http://www.uottawa.ca/logement/",
-      "description_en": "The home for information on housing at the University of Ottawa. If you don't find what you're looking for anywhere else, you can probably find it here.",
-      "description_fr": "La maison pour l'information sur le logement à l'Université d'Ottawa. Si vous ne trouvez pas ce que vous cherchez ailleurs, vous pouvez probablement le trouver ici."
+      "icon": {
+        "name": "hotel",
+        "class": "material"
+      },
+      "id": "res",
+      "image": "/outer_placeholder.jpg",
+      "name_en": "University Residences",
+      "name_fr": "Résidences universitaires"
     },
     {
-      "name_en": "Student Housing Billboard",
-      "name_fr": "Service du logement",
-      "link_en": "https://web5.uottawa.ca/rezweb/search.php",
-      "link_fr": "https://web5.uottawa.ca/rezweb/searchf.php"
+      "icon": {
+        "name": "insert-link",
+        "class": "material"
+      },
+      "id": "off",
+      "image": "/outer_placeholder_2.jpg",
+      "name_en": "Off Campus Housing",
+      "name_fr": "Logement hors campus"
     },
     {
-      "name_en": "Apply for residence",
-      "name_fr": "Demande d’hébergement",
-      "link_en": "http://www.uottawa.ca/housing/apply-for-residence",
-      "link_fr": "http://www.uottawa.ca/logement/faire-une-demande"
-    },
-    {
-      "name_en": "Living in residence",
-      "name_fr": "Vivre en résidence",
-      "link_en": "http://www.uottawa.ca/housing/living-in-residence",
-      "link_fr": "http://www.uottawa.ca/logement/vivre-en-residence"
-    },
-    {
-      "name_en": "Compare residences",
-      "name_fr": "Comparer les résidences",
-      "link_en": "http://www.uottawa.ca/housing/compare-residences",
-      "link_fr": "http://www.uottawa.ca/logement/comparer-residences-prix"
-    },
-    {
-      "name_en": "Subletting / takeover",
-      "name_fr": "Sous-location / reprise de contrat",
-      "link_en": "http://www.uottawa.ca/housing/apply-for-residence/sublet-takeover",
-      "link_fr": "http://www.uottawa.ca/logement/faire-une-demande/sous-location-reprise-de-contrat"
-    },
-    {
-      "name_en": "Short term accomodation",
-      "name_fr": "Hébergement de courte durée",
-      "link_en": "http://www.uottawa.ca/housing/short-term",
-      "link_fr": "http://www.uottawa.ca/logement/hebergement-courte-duree"
+      "icon": {
+        "android": {
+          "name": "md-information-circle",
+          "class": "ionicon"
+        },
+        "ios": {
+          "name": "ios-information-circle",
+          "class": "ionicon"
+        }
+      },
+      "id": "oth",
+      "image": "/outer_placeholder_3.jpg",
+      "name_en": "Other Resources",
+      "name_fr": "Autres ressources"
     }
-  ]
+  ],
+  "offCampusHousing": {
+    "link_en": "http://www.uottawa.ca/housing/off-campus-housing",
+    "link_fr": "http://www.uottawa.ca/logement/logement-hors-campus"
+  }
 }
