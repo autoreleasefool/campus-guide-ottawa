@@ -121,6 +121,7 @@
   "filter_descriptions": "Descriptions des filtres",
   "filter_added": "Filtre ajouté",
   "filter_removed": "Filtre retiré",
+  "reserve_study_spot": "Réserver un lieu d'étude",
 
   // Facilities
   "whats_this_icon": "Quelle est cette icône?",
