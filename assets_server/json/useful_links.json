@@ -7,7 +7,7 @@
     "id": "university",
     "name_en": "University of Ottawa",
     "name_fr": "Université d'Ottawa",
-    "image": "/outer_placeholder.jpg",
+    "image": "/university.jpg",
     "links": [
       {
         "name_en": "Home",
@@ -90,7 +90,7 @@
     "id": "faculties",
     "name_en": "Faculties",
     "name_fr": "Facultés",
-    "image": "/outer_placeholder_2.jpg",
+    "image": "/faculties.jpg",
     "categories": [
       {
         "icon": {
@@ -788,7 +788,7 @@
     "id": "sfuo",
     "name_en": "Student Federation",
     "name_fr": "Fédération étudiante",
-    "image": "/outer_placeholder_3.jpg",
+    "image": "/sfuo.jpg",
     "links": [
       {
         "name_en": "SFUO Home",
@@ -994,7 +994,7 @@
     "id": "sports",
     "name_en": "Sports & Clubs",
     "name_fr": "Sports et clubs",
-    "image": "/outer_placeholder_4.jpg",
+    "image": "/sports.jpg",
     "links": [
       {
         "name_en": "SFUO Clubs",
@@ -1036,7 +1036,7 @@
     "id": "emergency",
     "name_en": "Emergency",
     "name_fr": "Urgence",
-    "image": "/outer_placeholder_5.jpg",
+    "image": "/emergency.jpg",
     "links": [
       {
         "name_fr": "Urgence sur le campus",

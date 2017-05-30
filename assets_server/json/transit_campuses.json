@@ -1,23 +1,23 @@
 [
   {
     "id": "main",
-    "image": "/outer_placeholder.jpg",
+    "image": "/octranspo_main.jpg",
     "name_en": "Main Campus",
     "name_fr": "Campus principal"
   },
   {
     "id": "lees",
-    "image": "/outer_placeholder_2.jpg",
+    "image": "/octranspo_lees.jpg",
     "name": "Lees"
   },
   {
     "id": "rgn",
-    "image": "/outer_placeholder_3.jpg",
+    "image": "/octranspo_rgn.jpg",
     "name": "RGN"
   },
   {
     "id": "emba",
-    "image": "/outer_placeholder_4.jpg",
+    "image": "/octranspo_mba.jpg",
     "name": "EMBA"
   }
 ]
