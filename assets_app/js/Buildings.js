@@ -28,7 +28,8 @@ module.exports = [
 
   {
     shorthand: '3',
-    image: require('../images/buildings/3.jpg'),
+    image: require('../images/buildings/full/3.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/3.jpg'),
     name_en: 'William Commanda Hall',
     name_fr: 'Pavillon William Commanda',
     location: {
@@ -43,7 +44,8 @@ module.exports = [
 
   {
     shorthand: '34',
-    image: require('../images/buildings/34.jpg'),
+    image: require('../images/buildings/full/34.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/34.jpg'),
     name_en: 'Centre for Bahá\'i Studies',
     name_fr: 'Centre d\'études bahá\'ies',
     location: {
@@ -58,7 +60,8 @@ module.exports = [
 
   {
     shorthand: '109',
-    image: require('../images/buildings/109.jpg'),
+    image: require('../images/buildings/full/109.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/109.jpg'),
     name: 'La Rotonde',
     location: {
       lat: 45.424038,
@@ -72,7 +75,8 @@ module.exports = [
 
   {
     shorthand: '113',
-    image: require('../images/buildings/113.jpg'),
+    image: require('../images/buildings/full/113.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/113.jpg'),
     name_en: 'Association des juristes d\'expression française de l\'Ontario and Legal Translation and Documentation Centre',
     name_fr: 'Association des juristes d\'expression française de l\'Ontario et Centre de traduction et de documentation juridiques',
     location: {
@@ -87,7 +91,8 @@ module.exports = [
 
   {
     shorthand: '242',
-    image: require('../images/buildings/242.jpg'),
+    image: require('../images/buildings/full/242.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/242.jpg'),
     name_en: 'UOITP - University of Ottawa IT Professionals',
     name_fr: 'PTIUO - Professionels des technologies de l\'information de l\'Université d\'Ottawa',
     location: {
@@ -102,7 +107,8 @@ module.exports = [
 
   {
     shorthand: '243',
-    image: require('../images/buildings/243.jpg'),
+    image: require('../images/buildings/full/243.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/243.jpg'),
     name_en: 'External Relations',
     name_fr: 'Relations extérieures',
     location: {
@@ -117,7 +123,8 @@ module.exports = [
 
   {
     shorthand: '244',
-    image: require('../images/buildings/244.jpg'),
+    image: require('../images/buildings/full/244.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/244.jpg'),
     name_en: 'Bilingual Canadian Dictionary',
     name_fr: 'Dictionnaire Canadien bilingue',
     location: {
@@ -132,7 +139,8 @@ module.exports = [
 
   {
     shorthand: '275',
-    image: require('../images/buildings/275.jpg'),
+    image: require('../images/buildings/full/275.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/275.jpg'),
     name_en: 'Community Legal Clinic',
     name_fr: 'Clinique juridique communautaire',
     location: {
@@ -147,7 +155,8 @@ module.exports = [
 
   {
     shorthand: '538',
-    image: require('../images/buildings/538.jpg'),
+    image: require('../images/buildings/full/538.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/538.jpg'),
     name_en: 'Faculty of Health Sciences Dean\'s Office and Administration',
     name_fr: 'Faculté de sciences de la santé Décanat et administration',
     location: {
@@ -162,7 +171,8 @@ module.exports = [
 
   {
     shorthand: '542',
-    image: require('../images/buildings/542.jpg'),
+    image: require('../images/buildings/full/542.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/542.jpg'),
     name_en: 'University of Ottawa Press',
     name_fr: 'Les Presses de l\'Université d\'Ottawa',
     location: {
@@ -177,7 +187,8 @@ module.exports = [
 
   {
     shorthand: '545',
-    image: require('../images/buildings/545.jpg'),
+    image: require('../images/buildings/full/545.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/545.jpg'),
     name_en: 'Reosurces and Information Office',
     name_fr: 'Bureau des ressources et de l\'information',
     location: {
@@ -192,7 +203,8 @@ module.exports = [
 
   {
     shorthand: '554',
-    image: require('../images/buildings/554.jpg'),
+    image: require('../images/buildings/full/554.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/554.jpg'),
     name_en: 'Faculty of Law',
     name_fr: 'Faculté de droit',
     location: {
@@ -207,7 +219,8 @@ module.exports = [
 
   {
     shorthand: '556',
-    image: require('../images/buildings/556.jpg'),
+    image: require('../images/buildings/full/556.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/556.jpg'),
     name_en: 'Department of Communication',
     name_fr: 'Département de communication',
     location: {
@@ -222,7 +235,8 @@ module.exports = [
 
   {
     shorthand: '558',
-    image: require('../images/buildings/558.jpg'),
+    image: require('../images/buildings/full/558.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/558.jpg'),
     name_en: 'Department of Communication',
     name_fr: 'Département de communication',
     location: {
@@ -237,7 +251,8 @@ module.exports = [
 
   {
     shorthand: '559',
-    image: require('../images/buildings/559.jpg'),
+    image: require('../images/buildings/full/559.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/559.jpg'),
     name_en: 'Chair of Ukranian Studies, Support Staff - OSSTF, and Regroupement des organismes du patrimoine franco-ontarien',
     name_fr: 'Chair détudes ukrainiennes, Personnel de soutien - FEÉSO, et Regroupement des organismes du patrimoine franco-ontarien',
     location: {
@@ -252,7 +267,8 @@ module.exports = [
 
   {
     shorthand: '562',
-    image: require('../images/buildings/562.jpg'),
+    image: require('../images/buildings/full/562.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/562.jpg'),
     name_en: 'Official Languages and Bilingualism Institute',
     name_fr: 'Institut des langues officielles et du bilinguisme',
     location: {
@@ -267,7 +283,8 @@ module.exports = [
 
   {
     shorthand: '577',
-    image: require('../images/buildings/577.jpg'),
+    image: require('../images/buildings/full/577.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/577.jpg'),
     name_en: 'Canadian Mathematical Society',
     name_fr: 'Société mathématique du Canada',
     location: {
@@ -282,7 +299,8 @@ module.exports = [
 
   {
     shorthand: '598',
-    image: require('../images/buildings/598.jpg'),
+    image: require('../images/buildings/full/598.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/598.jpg'),
     name_en: 'Department of Physics',
     name_fr: 'Département de physique',
     location: {
@@ -297,7 +315,8 @@ module.exports = [
 
   {
     shorthand: '600',
-    image: require('../images/buildings/600.jpg'),
+    image: require('../images/buildings/full/600.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/600.jpg'),
     name_en: 'Bernard Syron Law Student Centre',
     name_fr: 'Centre des étudiants en droit Bernard Syron',
     location: {
@@ -312,7 +331,8 @@ module.exports = [
 
   {
     shorthand: '603',
-    image: require('../images/buildings/603.jpg'),
+    image: require('../images/buildings/full/603.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/603.jpg'),
     name_en: 'Canada Research Chair on Occupational Health and Safety Law',
     name_fr: 'Chaire de recherche du Canada en droit de la santé et de la sécurité du travail',
     location: {
@@ -327,7 +347,8 @@ module.exports = [
 
   {
     shorthand: '647',
-    image: require('../images/buildings/647.jpg'),
+    image: require('../images/buildings/full/647.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/647.jpg'),
     name_en: 'Free Store',
     name_fr: 'Gratuiterie',
     location: {
@@ -342,7 +363,8 @@ module.exports = [
 
   {
     shorthand: '90U',
-    image: require('../images/buildings/90U.jpg'),
+    image: require('../images/buildings/full/90U.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/90U.jpg'),
     name_en: '90 University',
     name_fr: '90 Université',
     location: {
@@ -357,7 +379,8 @@ module.exports = [
 
   {
     shorthand: 'ARC',
-    image: require('../images/buildings/ARC.jpg'),
+    image: require('../images/buildings/full/ARC.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/ARC.jpg'),
     name_en: 'Advanced Research Centre',
     name_fr: 'Complexe de recherche avancée',
     location: {
@@ -372,7 +395,8 @@ module.exports = [
 
   {
     shorthand: 'ATK',
-    image: require('../images/buildings/ATK.jpg'),
+    image: require('../images/buildings/full/ATK.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/ATK.jpg'),
     name_en: 'Alex Trebek Alumni Hall',
     name_fr: 'Pavillon des diplômés Alex-Trebek',
     location: {
@@ -387,7 +411,8 @@ module.exports = [
 
   {
     shorthand: 'AWHC',
-    image: require('../images/buildings/AWHC.jpg'),
+    image: require('../images/buildings/full/AWHC.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/AWHC.jpg'),
     name_en: 'Academic Writing Help Centre',
     name_fr: 'Centre d’aide à la rédaction des travaux universitaires',
     location: {
@@ -402,7 +427,8 @@ module.exports = [
 
   {
     shorthand: 'BSC',
-    image: require('../images/buildings/BSC.jpg'),
+    image: require('../images/buildings/full/BSC.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/BSC.jpg'),
     name_en: 'Biosciences Complex',
     name_fr: 'Complexe des biosciences',
     location: {
@@ -417,7 +443,8 @@ module.exports = [
 
   {
     shorthand: 'CRG',
-    image: require('../images/buildings/CRG.jpg'),
+    image: require('../images/buildings/full/CRG.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/CRG.jpg'),
     name: 'CAREG',
     location: {
       lat: 45.421134,
@@ -431,7 +458,8 @@ module.exports = [
 
   {
     shorthand: 'CTE',
-    image: require('../images/buildings/CTE.jpg'),
+    image: require('../images/buildings/full/CTE.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/CTE.jpg'),
     name_en: 'Power Plant',
     name_fr: 'Centrale thermique',
     location: {
@@ -446,7 +474,8 @@ module.exports = [
 
   {
     shorthand: 'DMS',
-    image: require('../images/buildings/DMS.jpg'),
+    image: require('../images/buildings/full/DMS.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/DMS.jpg'),
     name_en: 'Desmarais Hall',
     name_fr: 'Pavillon Desmarais',
     location: {
@@ -461,7 +490,8 @@ module.exports = [
 
   {
     shorthand: 'DRO',
-    image: require('../images/buildings/DRO.jpg'),
+    image: require('../images/buildings/full/DRO.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/DRO.jpg'),
     name_en: 'D\'Iorio Hall',
     name_fr: 'Pavillon D\'Iorio',
     location: {
@@ -476,7 +506,8 @@ module.exports = [
 
   {
     shorthand: 'FSS',
-    image: require('../images/buildings/FSS.jpg'),
+    image: require('../images/buildings/full/FSS.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/FSS.jpg'),
     name_en: 'Social Sciences Building',
     name_fr: 'Pavillon des Sciences sociales',
     location: {
@@ -491,7 +522,8 @@ module.exports = [
 
   {
     shorthand: 'FTX',
-    image: require('../images/buildings/FTX.jpg'),
+    image: require('../images/buildings/full/FTX.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/FTX.jpg'),
     name_en: 'Fauteux Hall',
     name_fr: 'Pavillon Fauteux',
     location: {
@@ -506,7 +538,8 @@ module.exports = [
 
   {
     shorthand: 'GNN',
-    image: require('../images/buildings/GNN.jpg'),
+    image: require('../images/buildings/full/GNN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/GNN.jpg'),
     name_en: 'Gendron Hall',
     name_fr: 'Pavillon Gendron',
     location: {
@@ -521,7 +554,8 @@ module.exports = [
 
   {
     shorthand: 'GSD',
-    image: require('../images/buildings/GSD.jpg'),
+    image: require('../images/buildings/full/GSD.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/GSD.jpg'),
     name_en: 'GSAED Grad House',
     name_fr: 'Maison des Étudians Diplômés GSAED',
     location: {
@@ -549,7 +583,8 @@ module.exports = [
   },
   {
     shorthand: 'HGN',
-    image: require('../images/buildings/HGN.jpg'),
+    image: require('../images/buildings/full/HGN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/HGN.jpg'),
     name_en: 'Hagen Hall',
     name_fr: 'Pavillon Hagen',
     location: {
@@ -564,7 +599,8 @@ module.exports = [
 
   {
     shorthand: 'HSY',
-    image: require('../images/buildings/HSY.jpg'),
+    image: require('../images/buildings/full/HSY.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/HSY.jpg'),
     name_en: 'Hyman Soloway Residence',
     name_fr: 'Résidence Hyman Soloway',
     location: {
@@ -579,7 +615,8 @@ module.exports = [
 
   {
     shorthand: 'KEB',
-    image: require('../images/buildings/KEB.jpg'),
+    image: require('../images/buildings/full/KEB.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/KEB.jpg'),
     name_en: 'Fulcrum, OPIRG',
     name_fr: 'Fulcrum, GRIPO',
     location: {
@@ -594,7 +631,8 @@ module.exports = [
 
   {
     shorthand: 'KED',
-    image: require('../images/buildings/KED.jpg'),
+    image: require('../images/buildings/full/KED.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/KED.jpg'),
     name_en: 'Department of Mathematics and Statistics',
     name_fr: 'Département de mathématiques et statistique',
     location: {
@@ -609,7 +647,8 @@ module.exports = [
 
   {
     shorthand: 'LBC',
-    image: require('../images/buildings/LBC.jpg'),
+    image: require('../images/buildings/full/LBC.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LBC.jpg'),
     name_en: 'Leblanc Residence',
     name_fr: 'Résidence Leblanc',
     location: {
@@ -624,7 +663,8 @@ module.exports = [
 
   {
     shorthand: 'LMX',
-    image: require('../images/buildings/LMX.jpg'),
+    image: require('../images/buildings/full/LMX.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LMX.jpg'),
     name_en: 'Lamoureux Hall',
     name_fr: 'Pavillon Lamoureux',
     location: {
@@ -639,7 +679,8 @@ module.exports = [
 
   {
     shorthand: 'LPR',
-    image: require('../images/buildings/LPR.jpg'),
+    image: require('../images/buildings/full/LPR.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LPR.jpg'),
     name_en: 'Louis-Pasteur',
     name_fr: 'Louis-Pasteur',
     location: {
@@ -654,7 +695,8 @@ module.exports = [
 
   {
     shorthand: 'LR3',
-    image: require('../images/buildings/LR3.jpg'),
+    image: require('../images/buildings/full/LR3.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LR3.jpg'),
     name_en: 'Development Office',
     name_fr: 'Bureau du développement',
     location: {
@@ -669,7 +711,8 @@ module.exports = [
 
   {
     shorthand: 'LRR',
-    image: require('../images/buildings/LRR.jpg'),
+    image: require('../images/buildings/full/LRR.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LRR.jpg'),
     name_en: '100 Laurier',
     name_fr: '100 Laurier',
     location: {
@@ -684,7 +727,8 @@ module.exports = [
 
   {
     shorthand: 'MCE',
-    image: require('../images/buildings/MCE.jpg'),
+    image: require('../images/buildings/full/MCE.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MCE.jpg'),
     name: '100 Marie-Curie',
     location: {
       lat: 45.421752,
@@ -698,7 +742,8 @@ module.exports = [
 
   {
     shorthand: 'MHN',
-    image: require('../images/buildings/MHN.jpg'),
+    image: require('../images/buildings/full/MHN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MHN.jpg'),
     name_en: 'Hamelin Hall',
     name_fr: 'Pavillon Hamelin',
     location: {
@@ -1050,7 +1095,8 @@ module.exports = [
 
   {
     shorthand: 'MNO',
-    image: require('../images/buildings/MNO.jpg'),
+    image: require('../images/buildings/full/MNO.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MNO.jpg'),
     name_en: 'Minto Sports Complex',
     name_fr: 'Complexe sportif Minto',
     location: {
@@ -1065,7 +1111,8 @@ module.exports = [
 
   {
     shorthand: 'MNT',
-    image: require('../images/buildings/MNT.jpg'),
+    image: require('../images/buildings/full/MNT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MNT.jpg'),
     name_en: 'Montpetit Hall',
     name_fr: 'Pavillon Montpetit',
     location: {
@@ -1080,7 +1127,8 @@ module.exports = [
 
   {
     shorthand: 'MRD',
-    image: require('../images/buildings/MRD.jpg'),
+    image: require('../images/buildings/full/MRD.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MRD.jpg'),
     name_en: 'Marchand Residence',
     name_fr: 'Résidence Marchand',
     location: {
@@ -1095,7 +1143,8 @@ module.exports = [
 
   {
     shorthand: 'MRN',
-    image: require('../images/buildings/MRN.jpg'),
+    image: require('../images/buildings/full/MRN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MRN.jpg'),
     name_en: 'Marion Hall',
     name_fr: 'Pavillon Marion',
     location: {
@@ -1110,7 +1159,8 @@ module.exports = [
 
   {
     shorthand: 'MRT',
-    image: require('../images/buildings/MRT.jpg'),
+    image: require('../images/buildings/full/MRT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MRT.jpg'),
     name_en: 'Morisset Hall',
     name_fr: 'Pavillon Morisset',
     location: {
@@ -1125,7 +1175,8 @@ module.exports = [
 
   {
     shorthand: 'PRZ',
-    image: require('../images/buildings/PRZ.jpg'),
+    image: require('../images/buildings/full/PRZ.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/PRZ.jpg'),
     name_en: 'Pérez Hall',
     name_fr: 'Pavillon Pérez',
     location: {
@@ -1140,7 +1191,8 @@ module.exports = [
 
   {
     shorthand: 'SCR',
-    image: require('../images/buildings/SCR.jpg'),
+    image: require('../images/buildings/full/SCR.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/SCR.jpg'),
     name: 'Sacré-Coeur',
     location: {
       lat: 45.423824,
@@ -1154,7 +1206,8 @@ module.exports = [
 
   {
     shorthand: 'SCS',
-    image: require('../images/buildings/MNO.jpg'),
+    image: require('../images/buildings/full/MNO.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MNO.jpg'),
     name_en: 'Minto Sports Complex',
     name_fr: 'Complexe sportif Minto',
     location: {
@@ -1169,7 +1222,8 @@ module.exports = [
 
   {
     shorthand: 'SMD',
-    image: require('../images/buildings/SMD.jpg'),
+    image: require('../images/buildings/full/SMD.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/SMD.jpg'),
     name_en: 'Simard Hall',
     name_fr: 'Pavillon Simard',
     location: {
@@ -1184,7 +1238,8 @@ module.exports = [
 
   {
     shorthand: 'SMN',
-    image: require('../images/buildings/SMN.jpg'),
+    image: require('../images/buildings/full/SMN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/SMN.jpg'),
     name_en: 'Academic Hall',
     name_fr: 'Salle académique',
     location: {
@@ -1199,7 +1254,8 @@ module.exports = [
 
   {
     shorthand: 'STE',
-    image: require('../images/buildings/STE.jpg'),
+    image: require('../images/buildings/full/STE.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/STE.jpg'),
     name: 'SITE',
     location: {
       lat: 45.419359,
@@ -1213,7 +1269,8 @@ module.exports = [
 
   {
     shorthand: 'STN',
-    image: require('../images/buildings/STN.jpg'),
+    image: require('../images/buildings/full/STN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/STN.jpg'),
     name_en: 'Stanton Residence',
     name_fr: 'Résidence Stanton',
     location: {
@@ -1228,7 +1285,8 @@ module.exports = [
 
   {
     shorthand: 'STT',
-    image: require('../images/buildings/STT.jpg'),
+    image: require('../images/buildings/full/STT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/STT.jpg'),
     name: '1 Stewart',
     location: {
       lat: 45.425652,
@@ -1242,7 +1300,8 @@ module.exports = [
 
   {
     shorthand: 'SWT',
-    image: require('../images/buildings/SWT.jpg'),
+    image: require('../images/buildings/full/SWT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/SWT.jpg'),
     name_en: 'Centre for Academic Leadership',
     name_fr: 'Centre de leadership scolaire',
     location: {
@@ -1257,7 +1316,8 @@ module.exports = [
 
   {
     shorthand: 'TBT',
-    image: require('../images/buildings/TBT.jpg'),
+    image: require('../images/buildings/full/TBT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/TBT.jpg'),
     name_en: 'Tabaret Hall',
     name_fr: 'Pavillon Tabaret',
     location: {
@@ -1272,7 +1332,8 @@ module.exports = [
 
   {
     shorthand: 'THN',
-    image: require('../images/buildings/THN.jpg'),
+    image: require('../images/buildings/full/THN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/THN.jpg'),
     name_en: 'Thompson Residence',
     name_fr: 'Résidence Thompson',
     location: {
@@ -1287,7 +1348,8 @@ module.exports = [
 
   {
     shorthand: 'UCU',
-    image: require('../images/buildings/UCU.jpg'),
+    image: require('../images/buildings/full/UCU.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/UCU.jpg'),
     name_en: 'Jock-Turcot University Centre',
     name_fr: 'Centre universitaire Jock-Turcot',
     location: {
@@ -1302,7 +1364,8 @@ module.exports = [
 
   {
     shorthand: 'VNR',
-    image: require('../images/buildings/VNR.jpg'),
+    image: require('../images/buildings/full/VNR.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/VNR.jpg'),
     name_en: 'Vanier Hall',
     name_fr: 'Pavillon Vanier',
     location: {
@@ -1317,7 +1380,8 @@ module.exports = [
 
   {
     shorthand: 'WLD',
-    image: require('../images/buildings/WLD.jpg'),
+    image: require('../images/buildings/full/WLD.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/WLD.jpg'),
     name: 'Wilbrod',
     location: {
       lat: 45.426043,
