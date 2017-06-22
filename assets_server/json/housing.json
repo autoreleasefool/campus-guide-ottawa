@@ -282,8 +282,8 @@
       "description_fr": "Sur le côté sud du campus, près du SITE et du Complexe sportif, 45 Mann est une résidence exclusivement pour les étudiants de la deuxième année. Il s'agit d'une résidence de style appartement avec des chambres simples disponibles en appartements de 1, 2, 3 ou 4 chambres pour 12 mois à la fois.",
       "image": "/outer_placeholder.jpg",
       "location": {
-        "lat": 45.4199681,
-        "long": -75.6760785
+        "latitude": 45.4199681,
+        "longitude": -75.6760785
       },
       "props": {
         "room_single": true,
@@ -338,8 +338,8 @@
       "description_fr": "Cette résidence de style suite se situe centralement sur le campus principal, dans le complexe résidentiel. Partagez un espace commun, une kitchenette et une salle de bains avec une seule personne, tout en dormissant dans votre propre chambre privée.",
       "image": "/outer_placeholder_2.jpg",
       "location": {
-        "lat": 45.4223983,
-        "long": -75.684454
+        "latitude": 45.4223983,
+        "longitude": -75.684454
       },
       "props": {
         "room_single": false,
@@ -393,8 +393,8 @@
       "description_fr": "Brooks est une résidence de style appartement située à proximité du centre du campus principal. Il existe 17 grappes séparées, chacune contenant jusqu'à 12 unités d'unités de 2 ou 4 chambres, disponible pour 12 mois avec des options de renouvellement.",
       "image": "/outer_placeholder_3.jpg",
       "location": {
-        "lat": 45.4226747,
-        "long": -75.680873
+        "latitude": 45.4226747,
+        "longitude": -75.680873
       },
       "props": {
         "room_single": false,
@@ -448,8 +448,8 @@
       "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois",
       "image": "/outer_placeholder_4.jpg",
       "location": {
-        "lat": 45.4305525,
-        "long": -75.6829102
+        "latitude": 45.4305525,
+        "longitude": -75.6829102
       },
       "props": {
         "room_single": false,
@@ -503,8 +503,8 @@
       "description_fr": "Cette résidence traditionnelle est située à proximité du SITE et du Complexe sportif, vers l'extrémité sud du campus principal. Il propose des chambres simples reliées par une salle de bain partagée avec une autre personne, et une grande cuisine communautaire et des salles à manger",
       "image": "/outer_placeholder_5.jpg",
       "location": {
-        "lat": 45.4213361,
-        "long": -75.6783268
+        "latitude": 45.4213361,
+        "longitude": -75.6783268
       },
       "props": {
         "room_single": false,
@@ -558,8 +558,8 @@
       "description_fr": "Hyman Soloway est une résidence de style appartement située sur l'extrémité nord du campus, près de Tabaret et Hamelin Hall. Il propose des chambres simples dans des appartements de 2, 3 ou 4 chambres, disponibles pendant 12 mois à la fois.",
       "image": "/outer_placeholder.jpg",
       "location": {
-        "lat": 45.4251119,
-        "long": -75.6841931
+        "latitude": 45.4251119,
+        "longitude": -75.6841931
       },
       "props": {
         "room_single": false,
@@ -613,8 +613,8 @@
       "description_fr": "LeBlanc est une petite résidence de style traditionnel, idéale pour les étudiants francophones intéressés par une communauté francophone. Des chambres simples ou doubles sont disponibles, avec salle de bains partagée et cuisines à chaque étage.",
       "image": "/outer_placeholder_2.jpg",
       "location": {
-        "lat": 45.4243663,
-        "long": -75.6830072
+        "latitude": 45.4243663,
+        "longitude": -75.6830072
       },
       "props": {
         "room_single": true,
@@ -668,8 +668,8 @@
       "description_fr": "Cette résidence de style traditionnel accueille chaque année plusieurs étudiants étrangers. C'est une partie du complexe résidentiel principal, situé centralement sur le campus, avec des chambres simples ou doubles disponibles pendant 8 mois à la fois.",
       "image": "/outer_placeholder_3.jpg",
       "location": {
-        "lat": 45.4219082,
-        "long": -75.6844045
+        "latitude": 45.4219082,
+        "longitude": -75.6844045
       },
       "props": {
         "room_single": true,
@@ -723,8 +723,8 @@
       "description_fr": "Rideau est une résidence de style traditionnel située au centre-ville, à environ 10 minutes à pied de l'extrémité nord du campus. Les étudiants peuvent être dans de grandes chambres doubles, en partageant une salle de bain avec seulement leur colocataire, ou dans une chambre simple avec salle de bain privée.",
       "image": "/outer_placeholder_4.jpg",
       "location": {
-        "lat": 45.4287055,
-        "long": -75.6858288
+        "latitude": 45.4287055,
+        "longitude": -75.6858288
       },
       "props": {
         "room_single": true,
@@ -778,8 +778,8 @@
       "description_fr": "Stanton est une résidence traditionnelle située au centre du campus, dans le complexe résidentiel de Marchand et 90u. Il propose des chambres simples et doubles pour 8 mois à la fois.",
       "image": "/outer_placeholder_5.jpg",
       "location": {
-        "lat": 45.4221234,
-        "long": -75.6848017
+        "latitude": 45.4221234,
+        "longitude": -75.6848017
       },
       "props": {
         "room_single": true,
@@ -833,8 +833,8 @@
       "description_fr": "Cette résidence traditionnelle est située au centre du campus, à côté de Café Nostalgica et de la bibliothèque universitaire Morisset. Il y a des chambres simples et doubles avec des salons communautaires et des salles de bains à chaque étage.",
       "image": "/outer_placeholder.jpg",
       "location": {
-        "lat": 45.42373,
-        "long": -75.6836372
+        "latitude": 45.42373,
+        "longitude": -75.6836372
       },
       "props": {
         "room_single": true,

@@ -4,26 +4,26 @@
       "id": "main",
       "name_en": "Main Campus",
       "name_fr": "Campus principal",
-      "lat": 45.4222669,
-      "long": -75.6833472
+      "latitude": 45.4222669,
+      "longitude": -75.6833472
     },
     {
       "id": "lees",
       "name": "200 Lees",
-      "lat": 45.4222669,
-      "long": -75.6833472
+      "latitude": 45.4222669,
+      "longitude": -75.6833472
     },
     {
       "id": "stpaul",
       "name": "St. Paul",
-      "lat": 45.4222669,
-      "long": -75.6833472
+      "latitude": 45.4222669,
+      "longitude": -75.6833472
     },
     {
       "id": "rgn",
       "name": "RGN",
-      "lat": 45.4222669,
-      "long": -75.6833472
+      "latitude": 45.4222669,
+      "longitude": -75.6833472
     }
   ],
   "schedules": [
