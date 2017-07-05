@@ -30,7 +30,7 @@ def print_verbose_message(message):
 
 # Set default arguments
 verbose = False
-ignores = []
+ignores = ['__schemas__', '__tests__']
 
 app_directory = '../campus-guide'
 pull_app = False
