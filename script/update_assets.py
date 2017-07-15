@@ -50,7 +50,7 @@ APP_DIRECTORY = '../campus-guide'
 PULL_APP = False
 PUSH_APP = False
 
-SERVER_DIRECTORY = '../campus-guide-server'
+SERVER_DIRECTORY = '../campus-guide-backend'
 PULL_SERVER = False
 PUSH_SERVER = False
 
