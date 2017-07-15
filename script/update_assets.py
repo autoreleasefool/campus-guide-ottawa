@@ -18,8 +18,8 @@ if len(sys.argv) == 1:
     print('\t--push-server\t\tPush the assets from this repository to campus-guide-server')
     print('\t--push-app\t\tPush the assets from this repository to campus-guide')
     print('\t--app <directory>\tSet the location for `campus-guide`. Default is `../campus-guide`')
-    print('\t--server <directory>\tSet the location for `campus-guide-server`.'
-          + 'Default is `../campus-guide-server`')
+    print('\t--server <directory>\tSet the location for `campus-guide-server`.' +
+          'Default is `../campus-guide-server`')
     print('\t--ignore <pattern>\tIgnore a pattern and do not push/pull assets matching it')
     print('\t--verbose, -v\t\tProvide in depth logs as the tool executes')
     print()
@@ -33,7 +33,7 @@ if os.getcwd().split(os.sep)[-1] != 'campus-guide-ottawa':
 VERBOSE = False
 IGNORES = ['__schemas__', '__tests__']
 
-# Prints a message if the verbose flag was provided
+
 def print_verbose_message(message):
     """
     Prints a message only if verbose mode is enabled.
@@ -54,6 +54,7 @@ SERVER_DIRECTORY = '../campus-guide-server'
 PULL_SERVER = False
 PUSH_SERVER = False
 
+
 def is_ignored(filename):
     """
     Checks if the filename matches any of the ignored keywords
@@ -66,6 +67,7 @@ def is_ignored(filename):
         `bool`
     """
     return len([x for x in IGNORES if re.search(x, filename)]) > 0
+
 
 def push_assets(source, dest, depth=0):
     """
