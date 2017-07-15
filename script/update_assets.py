@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+"""
+Push or pull assets to or from working directories for the application
+and backend of the Campus Guide app.
+"""
+
 import os
 import re
 import shutil
@@ -7,136 +12,177 @@ import sys
 
 # Output instructions to use the scraper, then exit
 if len(sys.argv) == 1:
-  print('\nUse this tool to update your campus-guide and campus-guide-server assets.')
-  print('\t--pull-server\t\tPull the assets from campus-guide-server to this repository')
-  print('\t--pull-app\t\tPull the assets from campus-guide to this repository')
-  print('\t--push-server\t\tPush the assets from this repository to campus-guide-server')
-  print('\t--push-app\t\tPush the assets from this repository to campus-guide')
-  print('\t--app <directory>\tSet the location for `campus-guide`. Default is `../campus-guide`')
-  print('\t--server <directory>\tSet the location for `campus-guide-server`. Default is `../campus-guide-server`')
-  print('\t--ignore <pattern>\tIgnore a pattern and do not push/pull assets matching it')
-  print('\t--verbose, -v\t\tProvide in depth logs as the tool executes')
-  print()
-  exit()
+    print('\nUse this tool to update your campus-guide and campus-guide-server assets.')
+    print('\t--pull-server\t\tPull the assets from campus-guide-server to this repository')
+    print('\t--pull-app\t\tPull the assets from campus-guide to this repository')
+    print('\t--push-server\t\tPush the assets from this repository to campus-guide-server')
+    print('\t--push-app\t\tPush the assets from this repository to campus-guide')
+    print('\t--app <directory>\tSet the location for `campus-guide`. Default is `../campus-guide`')
+    print('\t--server <directory>\tSet the location for `campus-guide-server`.'
+          + 'Default is `../campus-guide-server`')
+    print('\t--ignore <pattern>\tIgnore a pattern and do not push/pull assets matching it')
+    print('\t--verbose, -v\t\tProvide in depth logs as the tool executes')
+    print()
+    exit()
 
 if os.getcwd().split(os.sep)[-1] != 'campus-guide-ottawa':
-  print('\nYou must use this script from the `campus-guide-ottawa` directory.\n')
-  exit()
+    print('\nYou must use this script from the `campus-guide-ottawa` directory.\n')
+    exit()
+
+# Set default arguments
+VERBOSE = False
+IGNORES = ['__schemas__', '__tests__']
 
 # Prints a message if the verbose flag was provided
 def print_verbose_message(message):
-  if verbose:
-    print(message)
+    """
+    Prints a message only if verbose mode is enabled.
 
-# Set default arguments
-verbose = False
-ignores = ['__schemas__', '__tests__']
+    :param message:
+        The message to print
+    :type message:
+        `str`
+    """
+    if VERBOSE:
+        print(message)
 
-app_directory = '../campus-guide'
-pull_app = False
-push_app = False
+APP_DIRECTORY = '../campus-guide'
+PULL_APP = False
+PUSH_APP = False
 
-server_directory = '../campus-guide-server'
-pull_server = False
-push_server = False
+SERVER_DIRECTORY = '../campus-guide-server'
+PULL_SERVER = False
+PUSH_SERVER = False
 
 def is_ignored(filename):
-  return len([x for x in ignores if re.search(x, filename)]) > 0
+    """
+    Checks if the filename matches any of the ignored keywords
 
-def push_assets(source, dest, depth = 0):
-  indent = ' ' * depth
-  directories = []
+    :param filename:
+        The filename to check
+    :type filename:
+        `str`
+    :rtype:
+        `bool`
+    """
+    return len([x for x in IGNORES if re.search(x, filename)]) > 0
 
-  if dest.startswith('./assets_server/') or dest.startswith('./assets_app/'):
-    print_verbose_message(indent + ' Removing destination if exists')
-    if os.path.exists(dest):
-      shutil.rmtree(dest)
+def push_assets(source, dest, depth=0):
+    """
+    Recursively copy assets from the source directory to the destination.
 
-  print_verbose_message(indent + ' Creating destination directory')
-  if not os.path.exists(dest):
-    os.makedirs(dest)
+    :param source:
+        Source directory to copy from
+    :type source:
+        `str`
+    :param dest:
+        Destination directory to copy to
+    :type dest:
+        `str`
+    :param depth:
+        Recursion depth
+    :type depth:
+        `int`
+    """
+    indent = ' ' * depth
+    directories = []
 
-  print_verbose_message(indent + ' Pushing assets from `' + source + '` to `' + dest + '`')
-  for f in os.listdir(source):
-    if (f.startswith('.')): continue
+    if dest.startswith('./assets_server/') or dest.startswith('./assets_app/'):
+        print_verbose_message(indent + ' Removing destination if exists')
+        if os.path.exists(dest):
+            shutil.rmtree(dest)
 
-    source_path = os.path.join(source, f)
-    dest_path = os.path.join(dest, f)
+    print_verbose_message(indent + ' Creating destination directory')
+    if not os.path.exists(dest):
+        os.makedirs(dest)
 
-    if is_ignored(source_path):
-      continue
+    print_verbose_message(indent + ' Pushing assets from `' + source + '` to `' + dest + '`')
+    for file in os.listdir(source):
+        if file.startswith('.'):
+            continue
 
-    if os.path.isfile(source_path):
-      print_verbose_message(indent + '  Copying file `' + source_path + '` to `' + dest_path + '`')
-      # Copy files to the destination directory
-      shutil.copy(source_path, dest_path)
-    else:
-      directories.append(f)
+        source_path = os.path.join(source, file)
+        dest_path = os.path.join(dest, file)
 
-  for d in directories:
-    source_path = os.path.join(source, d)
-    dest_path = os.path.join(dest, d)
+        if is_ignored(source_path):
+            continue
 
-    # Recursively push assets in directories
-    if not os.path.exists(dest_path):
-      os.mkdir(dest_path)
-    push_assets(source_path, dest_path, depth + 1)
+        if os.path.isfile(source_path):
+            print_verbose_message('{0}  Copying file `{1}` to `{2}`'.format(
+                indent,
+                source_path,
+                dest_path,
+            ))
+            # Copy files to the destination directory
+            shutil.copy(source_path, dest_path)
+        else:
+            directories.append(file)
+
+    for directory in directories:
+        source_path = os.path.join(source, directory)
+        dest_path = os.path.join(dest, directory)
+
+        # Recursively push assets in directories
+        if not os.path.exists(dest_path):
+            os.mkdir(dest_path)
+        push_assets(source_path, dest_path, depth + 1)
 
 for i, arg in enumerate(sys.argv):
-  if not arg.startswith('-'): continue
+    if not arg.startswith('-'):
+        continue
 
-  # General argument parsing
-  if not verbose and arg == '-v' or arg == '--verbose':
-    verbose = True
-  elif arg == '--ignore' and i < len(sys.argv) - 1:
-    ignores.append(sys.argv[i + 1])
+    # General argument parsing
+    if not VERBOSE and arg == '-v' or arg == '--verbose':
+        VERBOSE = True
+    elif arg == '--ignore' and i < len(sys.argv) - 1:
+        IGNORES.append(sys.argv[i + 1])
 
-  # App argument parsing
-  elif arg == '--app' and i < len(sys.argv) - 1:
-    if os.path.isdir(sys.argv[i + 1]):
-      app_directory = sys.argv[i + 1]
-    else:
-      print('`' + sys.argv[i + 1] + '` is not a directory. Exiting.')
-      exit()
-  elif not pull_app and arg == '--pull-app':
-    pull_app = True
-  elif not push_app and arg == '--push-app':
-    push_app = True
+    # App argument parsing
+    elif arg == '--app' and i < len(sys.argv) - 1:
+        if os.path.isdir(sys.argv[i + 1]):
+            APP_DIRECTORY = sys.argv[i + 1]
+        else:
+            print('`' + sys.argv[i + 1] + '` is not a directory. Exiting.')
+            exit()
+    elif not PULL_APP and arg == '--pull-app':
+        PULL_APP = True
+    elif not PUSH_APP and arg == '--push-app':
+        PUSH_APP = True
 
-  # Server argument parsing
-  elif arg == '--server' and i < len(sys.argv) - 1:
-    if os.path.isdir(sys.argv[i + 1]):
-      server_directory = sys.argv[i + 1]
-    else:
-      print('`' + sys.argv[i + 1] + '` is not a directory. Exiting.')
-      exit()
-  elif not pull_server and arg == '--pull-server':
-    pull_server = True
-  elif not push_server and arg == '--push-server':
-    push_server = True
+    # Server argument parsing
+    elif arg == '--server' and i < len(sys.argv) - 1:
+        if os.path.isdir(sys.argv[i + 1]):
+            SERVER_DIRECTORY = sys.argv[i + 1]
+        else:
+            print('`' + sys.argv[i + 1] + '` is not a directory. Exiting.')
+            exit()
+    elif not PULL_SERVER and arg == '--pull-server':
+        PULL_SERVER = True
+    elif not PUSH_SERVER and arg == '--push-server':
+        PUSH_SERVER = True
 
 # Add path to assets
-app_directory = os.path.join(app_directory, 'assets')
-server_directory = os.path.join(server_directory, 'assets')
+APP_DIRECTORY = os.path.join(APP_DIRECTORY, 'assets')
+SERVER_DIRECTORY = os.path.join(SERVER_DIRECTORY, 'assets')
 
-if push_server and not pull_server:
-  if not os.path.exists(server_directory):
-    os.makedirs(server_directory)
-  print('Pushing server assets to `' + server_directory + '`')
-  push_assets('./assets_server/', server_directory)
-elif pull_server and not push_server:
-  print('Pulling server assets from `' + server_directory + '`')
-  push_assets(server_directory, './assets_server/')
-elif push_server and pull_server:
-  print('Cannot push and pull server assets simultaneously. Skipping.')
+if PUSH_SERVER and not PULL_SERVER:
+    if not os.path.exists(SERVER_DIRECTORY):
+        os.makedirs(SERVER_DIRECTORY)
+    print('Pushing server assets to `' + SERVER_DIRECTORY + '`')
+    push_assets('./assets_server/', SERVER_DIRECTORY)
+elif PULL_SERVER and not PUSH_SERVER:
+    print('Pulling server assets from `' + SERVER_DIRECTORY + '`')
+    push_assets(SERVER_DIRECTORY, './assets_server/')
+elif PUSH_SERVER and PULL_SERVER:
+    print('Cannot push and pull server assets simultaneously. Skipping.')
 
-if push_app and not pull_app:
-  if not os.path.exists(app_directory):
-    os.makedirs(app_directory)
-  print('Pushing app assets to `' + app_directory + '`')
-  push_assets('./assets_app/', app_directory)
-elif pull_app and not push_app:
-  print('Pulling app assets from `' + app_directory + '`')
-  push_assets(app_directory, './assets_app/')
-elif push_app and pull_app:
-  print('Cannot push and pull app assets simultaneously. Skipping.')
+if PUSH_APP and not PULL_APP:
+    if not os.path.exists(APP_DIRECTORY):
+        os.makedirs(APP_DIRECTORY)
+    print('Pushing app assets to `' + APP_DIRECTORY + '`')
+    push_assets('./assets_app/', APP_DIRECTORY)
+elif PULL_APP and not PUSH_APP:
+    print('Pulling app assets from `' + APP_DIRECTORY + '`')
+    push_assets(APP_DIRECTORY, './assets_app/')
+elif PUSH_APP and PULL_APP:
+    print('Cannot push and pull app assets simultaneously. Skipping.')
