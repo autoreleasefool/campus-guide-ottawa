@@ -6,7 +6,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/bsc_upper.jpg",
       "version": 1,
-      "zsize": 46039
+      "zsize": 46039,
+      "zurl": true
     },
     {
       "name": "/cby_basement.jpg",
@@ -14,7 +15,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/cby_basement.jpg",
       "version": 1,
-      "zsize": 37755
+      "zsize": 37755,
+      "zurl": true
     },
     {
       "name": "/cby_first.jpg",
@@ -22,7 +24,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/cby_first.jpg",
       "version": 1,
-      "zsize": 39990
+      "zsize": 39990,
+      "zurl": true
     },
     {
       "name": "/cby_upper.jpg",
@@ -30,7 +33,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/cby_upper.jpg",
       "version": 1,
-      "zsize": 48310
+      "zsize": 48310,
+      "zurl": true
     },
     {
       "name": "/emergency.jpg",
@@ -38,7 +42,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/emergency.jpg",
       "version": 1,
-      "zsize": 125016
+      "zsize": 125016,
+      "zurl": true
     },
     {
       "name": "/faculties.jpg",
@@ -46,7 +51,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/faculties.jpg",
       "version": 1,
-      "zsize": 277658
+      "zsize": 277658,
+      "zurl": true
     },
     {
       "name": "/fss_lower.jpg",
@@ -54,7 +60,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/fss_lower.jpg",
       "version": 1,
-      "zsize": 40476
+      "zsize": 40476,
+      "zurl": true
     },
     {
       "name": "/ftx_lib.jpg",
@@ -62,7 +69,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/ftx_lib.jpg",
       "version": 1,
-      "zsize": 39019
+      "zsize": 39019,
+      "zurl": true
     },
     {
       "name": "/ftx_third.jpg",
@@ -70,7 +78,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/ftx_third.jpg",
       "version": 1,
-      "zsize": 54953
+      "zsize": 54953,
+      "zurl": true
     },
     {
       "name": "/housing.jpg",
@@ -78,7 +87,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/housing.jpg",
       "version": 1,
-      "zsize": 322526
+      "zsize": 322526,
+      "zurl": true
     },
     {
       "name": "/lee_foyer.jpg",
@@ -86,7 +96,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/lee_foyer.jpg",
       "version": 1,
-      "zsize": 47058
+      "zsize": 47058,
+      "zurl": true
     },
     {
       "name": "/mrn_basement.jpg",
@@ -94,7 +105,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/mrn_basement.jpg",
       "version": 1,
-      "zsize": 52299
+      "zsize": 52299,
+      "zurl": true
     },
     {
       "name": "/mrt_basement.jpg",
@@ -102,7 +114,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/mrt_basement.jpg",
       "version": 1,
-      "zsize": 42542
+      "zsize": 42542,
+      "zurl": true
     },
     {
       "name": "/oc_transpo.jpg",
@@ -110,7 +123,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/oc_transpo.jpg",
       "version": 1,
-      "zsize": 258551
+      "zsize": 258551,
+      "zurl": true
     },
     {
       "name": "/octranspo_main.jpg",
@@ -118,7 +132,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/octranspo_main.jpg",
       "version": 1,
-      "zsize": 318966
+      "zsize": 318966,
+      "zurl": true
     },
     {
       "name": "/octranspo_mba.jpg",
@@ -126,7 +141,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/octranspo_mba.jpg",
       "version": 1,
-      "zsize": 310848
+      "zsize": 310848,
+      "zurl": true
     },
     {
       "name": "/octranspo_rgn.jpg",
@@ -134,7 +150,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/octranspo_rgn.jpg",
       "version": 1,
-      "zsize": 386074
+      "zsize": 386074,
+      "zurl": true
     },
     {
       "name": "/outer_placeholder.jpg",
@@ -142,7 +159,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/outer_placeholder.jpg",
       "version": 1,
-      "zsize": 730927
+      "zsize": 730927,
+      "zurl": true
     },
     {
       "name": "/outer_placeholder_2.jpg",
@@ -150,7 +168,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/outer_placeholder_2.jpg",
       "version": 1,
-      "zsize": 150673
+      "zsize": 150673,
+      "zurl": true
     },
     {
       "name": "/outer_placeholder_3.jpg",
@@ -158,7 +177,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/outer_placeholder_3.jpg",
       "version": 1,
-      "zsize": 198434
+      "zsize": 198434,
+      "zurl": true
     },
     {
       "name": "/outer_placeholder_4.jpg",
@@ -166,7 +186,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/outer_placeholder_4.jpg",
       "version": 1,
-      "zsize": 234139
+      "zsize": 234139,
+      "zurl": true
     },
     {
       "name": "/outer_placeholder_5.jpg",
@@ -174,7 +195,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/outer_placeholder_5.jpg",
       "version": 1,
-      "zsize": 761657
+      "zsize": 761657,
+      "zurl": true
     },
     {
       "name": "/rgn_lounge.jpg",
@@ -182,7 +204,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/rgn_lounge.jpg",
       "version": 1,
-      "zsize": 47467
+      "zsize": 47467,
+      "zurl": true
     },
     {
       "name": "/sfuo.jpg",
@@ -190,7 +213,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/sfuo.jpg",
       "version": 1,
-      "zsize": 211306
+      "zsize": 211306,
+      "zurl": true
     },
     {
       "name": "/shuttle.jpg",
@@ -198,7 +222,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/shuttle.jpg",
       "version": 1,
-      "zsize": 236268
+      "zsize": 236268,
+      "zurl": true
     },
     {
       "name": "/site_lower.jpg",
@@ -206,7 +231,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/site_lower.jpg",
       "version": 1,
-      "zsize": 54214
+      "zsize": 54214,
+      "zurl": true
     },
     {
       "name": "/sports.jpg",
@@ -214,7 +240,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/sports.jpg",
       "version": 1,
-      "zsize": 215765
+      "zsize": 215765,
+      "zurl": true
     },
     {
       "name": "/study_spots.jpg",
@@ -222,7 +249,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/study_spots.jpg",
       "version": 1,
-      "zsize": 287681
+      "zsize": 287681,
+      "zurl": true
     },
     {
       "name": "/tbt_lounge.jpg",
@@ -230,7 +258,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/tbt_lounge.jpg",
       "version": 1,
-      "zsize": 47200
+      "zsize": 47200,
+      "zurl": true
     },
     {
       "name": "/ucu_lounge.jpg",
@@ -238,7 +267,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/ucu_lounge.jpg",
       "version": 1,
-      "zsize": 34765
+      "zsize": 34765,
+      "zurl": true
     },
     {
       "name": "/university.jpg",
@@ -246,7 +276,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/university.jpg",
       "version": 1,
-      "zsize": 316217
+      "zsize": 316217,
+      "zurl": true
     },
     {
       "name": "/uo_info.jpg",
@@ -254,7 +285,8 @@
       "type": "image",
       "url": "http://localhost:8080/images/uo_info.jpg",
       "version": 1,
-      "zsize": 343497
+      "zsize": 343497,
+      "zurl": true
     },
     {
       "name": "/disciplines.json",
@@ -262,7 +294,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/disciplines.json",
       "version": 1,
-      "zsize": 2603
+      "zsize": 2603,
+      "zurl": true
     },
     {
       "name": "/discover.json",
@@ -270,7 +303,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/discover.json",
       "version": 1,
-      "zsize": 314
+      "zsize": 314,
+      "zurl": true
     },
     {
       "name": "/faculties.json",
@@ -278,7 +312,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/faculties.json",
       "version": 1,
-      "zsize": 431
+      "zsize": 431,
+      "zurl": true
     },
     {
       "name": "/housing.json",
@@ -286,7 +321,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/housing.json",
       "version": 1,
-      "zsize": 5149
+      "zsize": 5149,
+      "zurl": true
     },
     {
       "name": "/lecture_formats.json",
@@ -294,7 +330,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/lecture_formats.json",
       "version": 1,
-      "zsize": 387
+      "zsize": 387,
+      "zurl": true
     },
     {
       "name": "/room_types.json",
@@ -302,7 +339,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/room_types.json",
       "version": 1,
-      "zsize": 813
+      "zsize": 813,
+      "zurl": true
     },
     {
       "name": "/settings.json",
@@ -310,7 +348,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/settings.json",
       "version": 1,
-      "zsize": 616
+      "zsize": 616,
+      "zurl": true
     },
     {
       "name": "/shuttle.json",
@@ -318,7 +357,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/shuttle.json",
       "version": 1,
-      "zsize": 1149
+      "zsize": 1149,
+      "zurl": true
     },
     {
       "name": "/study_spots.json",
@@ -326,7 +366,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/study_spots.json",
       "version": 1,
-      "zsize": 5203
+      "zsize": 5203,
+      "zurl": true
     },
     {
       "name": "/transit.json",
@@ -334,7 +375,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/transit.json",
       "version": 1,
-      "zsize": 29381
+      "zsize": 29381,
+      "zurl": true
     },
     {
       "name": "/transit_campuses.json",
@@ -342,7 +384,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/transit_campuses.json",
       "version": 1,
-      "zsize": 172
+      "zsize": 172,
+      "zurl": true
     },
     {
       "name": "/translations.en.json",
@@ -350,7 +393,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/translations.en.json",
       "version": 1,
-      "zsize": 1685
+      "zsize": 1685,
+      "zurl": true
     },
     {
       "name": "/translations.fr.json",
@@ -358,7 +402,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/translations.fr.json",
       "version": 1,
-      "zsize": 2039
+      "zsize": 2039,
+      "zurl": true
     },
     {
       "name": "/university.json",
@@ -366,7 +411,8 @@
       "type": "json",
       "url": "http://localhost:8080/json/university.json",
       "version": 1,
-      "zsize": 254
+      "zsize": 254,
+      "zurl": true
     },
     {
       "name": "/useful_links.json",
@@ -374,8 +420,9 @@
       "type": "json",
       "url": "http://localhost:8080/json/useful_links.json",
       "version": 1,
-      "zsize": 5931
+      "zsize": 5931,
+      "zurl": true
     }
   ],
-  "lastUpdatedAt": 1500387618
+  "lastUpdatedAt": 1500473793
 }
