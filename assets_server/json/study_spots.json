@@ -135,6 +135,7 @@
   },
   "spots": [
     {
+      "id": "bsc_upper_floors",
       "name_en": "Biosciences Upper floors",
       "name_fr": "Biosciences, étages supérieurs",
       "description_en": "The 2nd, 3rd, and 4th floors of the Biosciences complex offer a medium sized study area, ideal for small groups looking to meet up. There are some outlets, but not enough for everybody when the rooms are full.",
@@ -147,6 +148,7 @@
       "image": "/bsc_upper.jpg"
     },
     {
+      "id": "cby_basement_lab",
       "name_en": "Colonel By, Basement computer lab",
       "name_fr": "Colonel By, salle informatique de sous-sol",
       "description_en": "Two rooms in the basement of Colonel By offer great study spaces for groups and individuals. Group spaces are large desks with a computer at each, and individual spaces offer large monitors (NO COMPUTERS) in a silent room.",
@@ -159,6 +161,7 @@
       "image": "/cby_basement.jpg"
     },
     {
+      "id": "cby_first_lab",
       "name_en": "Colonel By, 1st Floor computer lab",
       "name_fr": "Colonel By, salle informatique au 1er étage",
       "description_en": "A small computer lab for engineering students. Each desk has a computer only accessible by those in the Faculty of Engineering. It's not a large room and is often packed with many students working.",
@@ -171,6 +174,7 @@
       "image": "/cby_first.jpg"
     },
     {
+      "id": "cby_upper_floors",
       "name_en": "Colonel By, Upper floors",
       "name_fr": "Colonel By, étages supérieurs",
       "description_en": "Each floor of Colonel By has a small inlet right beside the elevators and main staircase, often convenient for individuals, and sometimes for small discussion groups.",
@@ -183,6 +187,7 @@
       "image": "/cby_upper.jpg"
     },
     {
+      "id": "dejavu",
       "name": "Déjà-vu",
       "description_en": "This alcove just off the 2nd floor of Morisset and above the UCU is a satisfying study spot, with booths and individual seating, and a small café selling light snacks and drinks.",
       "description_fr": "Cette alcôve juste au deuxième étage de Morisset et au-dessus de l'UCU est un lieu d'étude satisfaisant, avec des cabines et des sièges individuels, et un petit café vendant des collations légères et des boissons.",
@@ -194,6 +199,7 @@
       "image": "/outer_placeholder.jpg"
     },
     {
+      "id": "ftx_third",
       "name_en": "Fauteux, 3rd Floor",
       "name_fr": "Fauteux, 3e étage",
       "description_en": "A large open area with large windows, ideal for small groups and individuals. It's often a quiet place to work, thought not silent. A small café nearby offers light snacks and drinks, and there are plenty of microwaves for you to warm up your own meals.",
@@ -206,8 +212,9 @@
       "image": "/ftx_third.jpg"
     },
     {
+      "id": "ftx_library",
       "name_en": "Fauteux, Law library",
-      "name_fr": "Morisset, bibliothèque de droit",
+      "name_fr": "Fauteux, bibliothèque de droit",
       "description_en": "The fourth and fifth floors of Fauteux offer a vast amount of silent and quiet study spaces, perfect for individuals. There are many outlets available, and even some natural lighting on the fourth floor.",
       "description_fr": "Les quatrième et cinquième étages de Fauteux offrent une grande quantité d'espaces d'étude silencieux et silencieux, parfaits pour les particuliers. Il existe de nombreux points de vente disponibles, et même un éclairage naturel au quatrième étage.",
       "building": "FTX",
@@ -218,6 +225,7 @@
       "image": "/ftx_lib.jpg"
     },
     {
+      "id": "fss_lower_floors",
       "name_en": "FSS, Lower floors",
       "name_fr": "FSS, étages inférieurs",
       "description_en": "The first 3 floors of FSS offer a modern looking study space, with many tables for groups, and seating for individuals. Première Moisson on the first floor also offers a variety of sandwiches and drinks for hungry students.",
@@ -230,6 +238,7 @@
       "image": "/fss_lower.jpg"
     },
     {
+      "id": "lees_foyer",
       "name_en": "Lees Foyer",
       "name_fr": "Lees foyer",
       "description_en": "The main entrance of the Lees campus building offers a large area for students to eat and study. There is a decently stocked café, and booths for up to 4. It's a high traffic area, however, and can be loud between classes.",
@@ -242,6 +251,7 @@
       "image": "/lee_foyer.jpg"
     },
     {
+      "id": "mrn_lounge",
       "name_en": "Marion, Student lounge",
       "name_fr": "Marion, salon étudiant",
       "description_en": "A very large space for students to work, with a kitchenette for preparing meals (sinks and microwaves). Long tables offer plenty of room for groups, with seating for individuals lining the walls.",
@@ -254,6 +264,7 @@
       "image": "/mrn_basement.jpg"
     },
     {
+      "id": "mrt_basement",
       "name_en": "Morisset, Basement study room",
       "name_fr": "Morisset, salle d'étude sous sol",
       "description_en": "A 24/7 silent study room available to students throughout the year. Privacy cubbies allow you to be your most productive, outlets keep your computer running all day, and the Second Cup upstairs helps keep you fed.",
@@ -266,6 +277,7 @@
       "image": "/mrt_basement.jpg"
     },
     {
+      "id": "rgn_lounge",
       "name_en": "RGN, Student lounge",
       "name_fr": "RGN, salon étudiant",
       "description_en": "A large lounge with plenty of room for groups. There are large windows, and even some seating outside. Nearby, students can find a GO café, offering light snacks and drinks.",
@@ -278,6 +290,7 @@
       "image": "/rgn_lounge.jpg"
     },
     {
+      "id": "ste_lower",
       "name_en": "SITE, Lower floors",
       "name_fr": "SITE, étages inférieurs",
       "description_en": "SITE boasts tonnes of study space, accompanied by outlets, a huge wall of windows, and a full cafeteria. The first floor has many tables, comfortably fitting groups of up to 6, while upper floors are primarily for individuals.",
@@ -290,6 +303,7 @@
       "image": "/site_lower.jpg"
     },
     {
+      "id": "ste_lab",
       "name_en": "SITE, computer lab",
       "name_fr": "SITE, salle informatique",
       "description_en": "The basement of SITE contains a large study area filled with computers accessible only by students in the Faculty of Engineering. The space is often busy and can be loud at times, but is very convenient and usually has room for one or two more.",
@@ -302,6 +316,7 @@
       "image": "/outer_placeholder.jpg"
     },
     {
+      "id": "tbt_lounge",
       "name_en": "Tabaret, Student lounges",
       "name_fr": "Tabaret, salons d'étudiants",
       "description_en": "The first floor of Tabaret has a number of medium to large lounges for students to work and socialize. Seating is perfect for small groups and individuals, and do not suffer from much noise pollution in between classes.",
@@ -314,6 +329,7 @@
       "image": "/tbt_lounge.jpg"
     },
     {
+      "id": "ucu_lounge",
       "name_en": "UCU, Student lounge",
       "name_fr": "Tabaret, salon étudiant",
       "description_en": "Just outside the caféteria in UCU, there is a very large study space for students and groups. There is seating for small to medium sized groups, as well as abundant seating for individuals lining the walls, which are also large windows.",
@@ -337,6 +353,7 @@
     "image": "/outer_placeholder_2.jpg",
     "links": [
       {
+        "id": "mrt_library",
         "link_en": "https://www.uottawa.ca/bibliorooms/month.php?user_lang=en",
         "link_fr": "https://www.uottawa.ca/bibliorooms/month.php?user_lang=fr",
         "name_en": "Morisset Library",
@@ -345,6 +362,7 @@
         "description_fr": "Réservez une salle d'étude de groupe sur le niveau du hall, au quatrième étage ou au sixième étage"
       },
       {
+        "id": "fss",
         "link": "https://fss-apps.uottawa.ca/srbs/day.php",
         "name_en": "Faculty of Social Sciences",
         "name_fr": "Faculté des sciences sociales",
@@ -352,6 +370,7 @@
         "description_fr": "Réservations réservées aux étudiants de premier cycle de la Faculté des sciences sociales"
       },
       {
+        "id": "cls_study_rooms",
         "link_en": "http://www.uottawa.ca/communitylife/study-rooms",
         "link_fr": "http://www.uottawa.ca/viecommunautaire/salles-d-etude",
         "name_en": "Community Life Service, study rooms",
@@ -360,6 +379,7 @@
         "description_fr": "Les salles d'étude offertes par l'université pour les groupes jusqu'à 10 personnes, avec un petit dépôt"
       },
       {
+        "id": "study_carrel_request",
         "link_en": "https://biblio.uottawa.ca/en/services/students/study-carrel-request",
         "link_fr": "https://biblio.uottawa.ca/fr/services/etudiants/demande-isoloir",
         "name_en": "Study carrel request",

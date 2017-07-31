@@ -1,12 +1,6 @@
 {
   "nil": "",
 
-  // Tabs
-  "find": "Trouver",
-  "schedule": "Programme",
-  "discover": "Découvrir",
-  "settings": "Réglages",
-
   // Semesters
   "semester": "Semestre",
   "spring": "Printemps",
@@ -15,14 +9,10 @@
   "winter": "Hiver",
 
   // General
-  "ok": "D'accord",
-  "language": "Français",
   "add": "Ajouter",
   "save": "Sauver",
-  "cancel": "Annuler",
   "not_now": "Pas maintenant",
   "name": "Nom",
-  "retry": "Recommencez",
   "done": "Fini",
   "more": "Plus",
   "none": "Aucun",

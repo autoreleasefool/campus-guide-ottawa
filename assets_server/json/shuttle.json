@@ -28,6 +28,7 @@
   ],
   "schedules": [
     {
+      "id": "regular",
       "name_en": "Regular",
       "name_fr": "Régulier",
       "start_date": "2016-09-06",
@@ -74,6 +75,7 @@
       ]
     },
     {
+      "id": "summer",
       "name_en": "Summer",
       "name_fr": "Été",
       "start_date": "2017-05-01",
@@ -103,42 +105,6 @@
             "01234": ["10:00", "13:00", "16:30"]
           }
         }
-      ]
-    }
-  ],
-  "additional_info": [
-    {
-      "name_en": "Accessibility",
-      "name_fr": "Accessibilité",
-      "image": "/outer_placeholder.jpg",
-      "icon": {
-        "name": "accessible",
-        "class": "material"
-      },
-      "details_en": [
-        "Shuttles provided by the University of Ottawa are not accessible. There is an alternative Taxi-Shuttle service, available for those students and employees who are physically disabled.",
-        "For more information on the Taxi-Shuttle service, refer to the details below:",
-        "[]",
-        "[b]uOttawa Access Service",
-        "Desmarais Building, 55 Laurier Ave. East",
-        "Room 3172 (3rd Floor)",
-        "Phone: 613-562-5976",
-        "TTY: 613-562-5214",
-        "Fax: 613-562-5159",
-        "adapt@uOttawa.ca"
-      ],
-      "details_fr": [
-        "Les navettes offertes par l'Université d'Ottawa ne sont pas accessibles. Il existe un autre service de taxi-navette, disponible pour les étudiants et les employés qui sont handicapés physiques.",
-        "Pour plus d'informations sur le service Taxi-Shuttle, reportez-vous aux détails ci-dessous:",
-        "[]",
-        "[b]Service d’accès",
-        "55, avenue Laurier est",
-        "pièce 3172 du pavillon Desmarais (DMS)",
-        "(3ème étage)",
-        "Téléphone: 613-562-5976",
-        "ATS: 613-562-5214",
-        "Télécopieur: 613-562-5159",
-        "adapt@uOttawa.ca"
       ]
     }
   ]

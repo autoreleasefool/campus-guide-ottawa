@@ -51,12 +51,12 @@
       "data": [
         {
           "key": "cook_comm_fridge",
-          "name_en": "Communal refigerator",
+          "name_en": "Communal refrigerator",
           "name_fr": "Réfrigérateur communal"
         },
         {
           "key": "cook_per_fridge",
-          "name_en": "Personal refigerator",
+          "name_en": "Personal refrigerator",
           "name_fr": "Réfrigérateur personnel"
         },
         {
@@ -125,8 +125,8 @@
         },
         {
           "key": "util_hydro",
-          "name_en": "Hydro (water)",
-          "name_fr": "Hydro (eau)"
+          "name_en": "Hydro",
+          "name_fr": "Hydro"
         },
         {
           "key": "util_elec",
@@ -275,6 +275,7 @@
   ],
   "residences": [
     {
+      "id": "mann",
       "name": "45 Mann",
       "address_en": "45 Mann Avenue",
       "address_fr": "45, avenue Mann",
@@ -330,6 +331,7 @@
       }
     },
     {
+      "id": "90u",
       "name_en": "90 University",
       "name_fr": "90 Université",
       "address_en": "90 University Private",
@@ -386,6 +388,7 @@
       }
     },
     {
+      "id": "brooks",
       "name": "Brooks",
       "address_en": "620-638 King Edward Avenue",
       "address_fr": "620-638, avenue King Edward",
@@ -441,11 +444,12 @@
       }
     },
     {
+      "id": "friel",
       "name": "Friel",
       "address_en": "240 Friel Street",
       "address_fr": "240, rue Friel",
-      "description_en": "Located downtown, approximately a 10-15 minute walk from the north end of campus, Friel offers 1- and 2-bedroom suites with a kitchenette and bathroom available for 8 months at a time",
-      "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois",
+      "description_en": "Located downtown, approximately a 10-15 minute walk from the north end of campus, Friel offers 1- and 2-bedroom suites with a kitchenette and bathroom available for 8 months at a time.",
+      "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois.",
       "image": "/outer_placeholder_4.jpg",
       "location": {
         "latitude": 45.4305525,
@@ -496,10 +500,11 @@
       }
     },
     {
+      "id": "henderson",
       "name": "Henderson",
       "address_en": "202 Henderson Avenue",
       "address_fr": "202, avenue Henderson",
-      "description_en": "This traditional residence is located near SITE and Sports Complex, towards the south end of campus. It offers single bedrooms connected by a bathroom shared with 1 other person, and large community kitchen and dining areas",
+      "description_en": "This traditional residence is located near SITE and Sports Complex, towards the south end of campus. It offers single bedrooms connected by a bathroom shared with 1 other person, and large community kitchen and dining areas.",
       "description_fr": "Cette résidence traditionnelle est située à proximité du SITE et du Complexe sportif, vers l'extrémité sud du campus principal. Il propose des chambres simples reliées par une salle de bain partagée avec une autre personne, et une grande cuisine communautaire et des salles à manger",
       "image": "/outer_placeholder_5.jpg",
       "location": {
@@ -551,6 +556,7 @@
       }
     },
     {
+      "id": "hymansoloway",
       "name": "Hyman Soloway",
       "address_en": "157 Laurier Avenue East",
       "address_fr": "157, avenue Laurier est",
@@ -606,6 +612,7 @@
       }
     },
     {
+      "id": "leblanc",
       "name": "LeBlanc",
       "address_en": "45 Copernicus Street",
       "address_fr": "45, rue Copernicus",
@@ -661,6 +668,7 @@
       }
     },
     {
+      "id": "marchand",
       "name": "Marchand",
       "address_en": "110 University Private",
       "address_fr": "110, rue University",
@@ -716,6 +724,7 @@
       }
     },
     {
+      "id": "rideau",
       "name": "Rideau",
       "address_en": "290 Rideau Street",
       "address_fr": "290, rue Rideau",
@@ -771,6 +780,7 @@
       }
     },
     {
+      "id": "stanton",
       "name": "Stanton",
       "address_en": "100 University Private",
       "address_fr": "100, rue University",
@@ -826,6 +836,7 @@
       }
     },
     {
+      "id": "stanton",
       "name": "Thompson",
       "address_en": "45 University Private",
       "address_fr": "45, rue University",
@@ -898,6 +909,7 @@
     "image": "/outer_placeholder_5.jpg",
     "links": [
       {
+        "id": "housing_service",
         "name_en": "Housing Service",
         "name_fr": "Service du logement",
         "link_en": "http://www.uottawa.ca/housing/",
@@ -906,42 +918,49 @@
         "description_fr": "La maison pour l'information sur le logement à l'Université d'Ottawa. Si vous ne trouvez pas ce que vous cherchez ailleurs, vous pouvez probablement le trouver ici."
       },
       {
+        "id": "student_billboard",
         "name_en": "Student Housing Billboard",
         "name_fr": "Service du logement",
         "link_en": "https://web5.uottawa.ca/rezweb/search.php",
         "link_fr": "https://web5.uottawa.ca/rezweb/searchf.php"
       },
       {
+        "id": "apply_for_res",
         "name_en": "Apply for residence",
         "name_fr": "Demande d’hébergement",
         "link_en": "http://www.uottawa.ca/housing/apply-for-residence",
         "link_fr": "http://www.uottawa.ca/logement/faire-une-demande"
       },
       {
+        "id": "living_in_res",
         "name_en": "Living in residence",
         "name_fr": "Vivre en résidence",
         "link_en": "http://www.uottawa.ca/housing/living-in-residence",
         "link_fr": "http://www.uottawa.ca/logement/vivre-en-residence"
       },
       {
+        "id": "compare_res",
         "name_en": "Compare residences",
         "name_fr": "Comparer les résidences",
         "link_en": "http://www.uottawa.ca/housing/compare-residences",
         "link_fr": "http://www.uottawa.ca/logement/comparer-residences-prix"
       },
       {
+        "id": "subletting",
         "name_en": "Subletting / takeover",
         "name_fr": "Sous-location / reprise de contrat",
         "link_en": "http://www.uottawa.ca/housing/apply-for-residence/sublet-takeover",
         "link_fr": "http://www.uottawa.ca/logement/faire-une-demande/sous-location-reprise-de-contrat"
       },
       {
+        "id": "off_campus_housing",
         "name_en": "Off campus housing",
         "name_fr": "Logement hors campus",
         "link_en": "http://www.uottawa.ca/housing/off-campus-housing",
         "link_fr": "http://www.uottawa.ca/logement/logement-hors-campus"
       },
       {
+        "id": "short_term_accomodation",
         "name_en": "Short term accomodation",
         "name_fr": "Hébergement de courte durée",
         "link_en": "http://www.uottawa.ca/housing/short-term",

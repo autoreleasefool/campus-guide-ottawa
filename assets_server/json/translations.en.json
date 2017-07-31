@@ -1,12 +1,6 @@
 {
   "nil": "",
 
-  // Tabs
-  "find": "Find",
-  "schedule": "Schedule",
-  "discover": "Discover",
-  "settings": "Settings",
-
   // Semesters
   "semester": "Semester",
   "spring": "Spring",
@@ -15,14 +9,10 @@
   "winter": "Winter",
 
   // General
-  "ok": "Okay",
-  "language": "English",
   "add": "Add",
   "save": "Save",
-  "cancel": "Cancel",
   "not_now": "Not now",
   "name": "Name",
-  "retry": "Retry",
   "done": "Done",
   "more": "More",
   "none": "None",
@@ -33,7 +23,6 @@
 
   // Search
   "search_placeholder": "Search...",
-  "search": "Search",
   "no_search": "Search buildings on campus, bus routes, and information about the University\u00a0of\u00a0Ottawa campus, all in one place",
   "no_results_for": "No results for",
   "results": "Results",
@@ -81,7 +70,7 @@
   "sessions": "Sessions",
   "format": "Format",
   "day": "Day",
-  "starts": "Start",
+  "starts": "Starts",
   "ends": "Ends",
   "location": "Location",
   "building": "Building",

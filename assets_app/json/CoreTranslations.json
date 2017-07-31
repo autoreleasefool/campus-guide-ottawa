@@ -10,13 +10,11 @@
     "retry_update": "Retry update",
     "later": "Later",
 
-    "find": "Campus Guide",
+    "find": "Find",
     "schedule": "Schedule",
     "discover": "Discover",
     "search": "Search",
     "settings": "Settings",
-
-    "find_search_placeholder": "Search buildings",
 
     "sunday": "Sunday",
     "monday": "Monday",
@@ -26,21 +24,15 @@
     "friday": "Friday",
     "saturday": "Saturday",
 
-    "only_once_title": "English selected",
-    "only_once_message": "You can change languages at any time through the settings.",
-
-    "update_available_title": "Update available",
-    "update_available_msg": "An update is available for app's configuration. This may include new courses, buildings, bus routes, and more. Would you like to update?",
     "update": "Update",
-    "downloading": "Downloading",
     "downloaded": "Downloaded",
     "no_internet": "No Internet connection",
-    "no_internet_config_available": "An Internet connection was not available, but an old configuration is available. You can retry, or use the old configuration and try updating later.",
-    "no_internet_config_unavailable": "An Internet connection was not available. You must download this update to use the app. Please, try again later.",
+    "no_internet_config_available": "An Internet connection was not available, but an old configuration was found. You can retry, or update later.",
+    "no_internet_config_unavailable": "An Internet connection was not available. You must download an update to use the app. Please, try again later.",
 
     "server_unavailable": "Server unavailable",
-    "server_unavailable_config_available": "The server doesn't seem to be available, but an old configuration is available. You can retry, or use the old configuration and try updating later.",
-    "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download this update to use the app. Please, try again later."
+    "server_unavailable_config_available": "The server doesn't seem to be available, but an old configuration was found. You can retry, or update later.",
+    "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download an update to use the app. Please, try again later."
   },
   "fr": {
     "app_name": "Guide de campus",
@@ -53,13 +45,11 @@
     "retry_update": "Réessayez mise à jour",
     "later": "Plus tard",
 
-    "find": "Guide de Campus",
+    "find": "Trouver",
     "schedule": "Programme",
     "discover": "Découvrir",
     "search": "Rechercher",
     "settings": "Réglages",
-
-    "find_search_placeholder": "Recherche de bâtiments",
 
     "sunday": "Dimanche",
     "monday": "Lundi",
@@ -69,14 +59,8 @@
     "friday": "Vendredi",
     "saturday": "Samedi",
 
-    "only_once_title": "Français sélectionnés",
-    "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres.",
-
-    "update_available_title": "Mise à jour disponible",
-    "update_available_msg": "Une mise à jour est disponible pour la configuration de l'application. Cela peut inclure de nouveaux cours, les bâtiments, les lignes de bus, et plus encore. Voulez-vous mettre à jour?",
     "update": "Mettre à jour",
     "downloaded": "Téléchargé",
-    "downloading": "Téléchargement de",
     "no_internet": "Pas de connexion Internet",
     "no_internet_config_available": "Une connexion Internet était pas disponible, mais une ancienne configuration est disponible. Vous pouvez réessayer ou utiliser l'ancienne configuration et essayer de mettre à jour plus tard.",
     "no_internet_config_unavailable": "Une connexion Internet est disponible. Vous devez télécharger cette mise à jour pour utiliser l'application. Veuillez réessayer plus tard.",
