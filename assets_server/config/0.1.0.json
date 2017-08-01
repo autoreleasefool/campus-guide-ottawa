@@ -427,11 +427,11 @@
       "name": "/MHN_graph.txt",
       "size": 1986,
       "type": "text",
-      "url": "http://localhost:8080/assets/text/MHN_graph.txt",
+      "url": "http://localhost:8080/text/MHN_graph.txt",
       "version": 1,
       "zsize": 811,
       "zurl": true
     }
   ],
-  "lastUpdatedAt": 1501567303
+  "lastUpdatedAt": 1501571706
 }
