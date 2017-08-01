@@ -317,11 +317,11 @@
     },
     {
       "name": "/housing.json",
-      "size": 25841,
+      "size": 26178,
       "type": "json",
       "url": "http://localhost:8080/json/housing.json",
       "version": 1,
-      "zsize": 5149,
+      "zsize": 5232,
       "zurl": true
     },
     {
@@ -353,20 +353,20 @@
     },
     {
       "name": "/shuttle.json",
-      "size": 3209,
+      "size": 2100,
       "type": "json",
       "url": "http://localhost:8080/json/shuttle.json",
       "version": 1,
-      "zsize": 1149,
+      "zsize": 558,
       "zurl": true
     },
     {
       "name": "/study_spots.json",
-      "size": 16501,
+      "size": 16890,
       "type": "json",
       "url": "http://localhost:8080/json/study_spots.json",
       "version": 1,
-      "zsize": 5203,
+      "zsize": 5312,
       "zurl": true
     },
     {
@@ -389,20 +389,20 @@
     },
     {
       "name": "/translations.en.json",
-      "size": 3847,
+      "size": 3683,
       "type": "json",
       "url": "http://localhost:8080/json/translations.en.json",
       "version": 1,
-      "zsize": 1685,
+      "zsize": 1617,
       "zurl": true
     },
     {
       "name": "/translations.fr.json",
-      "size": 4368,
+      "size": 4201,
       "type": "json",
       "url": "http://localhost:8080/json/translations.fr.json",
       "version": 1,
-      "zsize": 2039,
+      "zsize": 1959,
       "zurl": true
     },
     {
@@ -422,7 +422,16 @@
       "version": 1,
       "zsize": 5931,
       "zurl": true
+    },
+    {
+      "name": "/MHN_graph.txt",
+      "size": 1986,
+      "type": "text",
+      "url": "http://localhost:8080/assets/text/MHN_graph.txt",
+      "version": 1,
+      "zsize": 811,
+      "zurl": true
     }
   ],
-  "lastUpdatedAt": 1500473793
+  "lastUpdatedAt": 1501567303
 }
