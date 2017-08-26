@@ -350,7 +350,7 @@
     "id": "study_spots",
     "name_en": "Reservations",
     "name_fr": "Réservations",
-    "image": "/outer_placeholder_2.jpg",
+    "image": "/outer_placeholder.jpg",
     "links": [
       {
         "id": "mrt_library",

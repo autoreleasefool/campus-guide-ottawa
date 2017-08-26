@@ -281,7 +281,7 @@
       "address_fr": "45, avenue Mann",
       "description_en": "On the south side of campus, near SITE and the Sports Complex, 45 Mann is a residence exclusively for upper year students. It is an apartment style residence with single rooms available in 1-, 2-, 3-, or 4-bedroom apartments for 12 months at a time.",
       "description_fr": "Sur le côté sud du campus, près du SITE et du Complexe sportif, 45 Mann est une résidence exclusivement pour les étudiants de la deuxième année. Il s'agit d'une résidence de style appartement avec des chambres simples disponibles en appartements de 1, 2, 3 ou 4 chambres pour 12 mois à la fois.",
-      "image": "/outer_placeholder.jpg",
+      "image": "/housing_mann.jpg",
       "location": {
         "latitude": 45.4199681,
         "longitude": -75.6760785
@@ -338,7 +338,7 @@
       "address_fr": "90, rue University",
       "description_en": "This suite style residence is located centrally on campus, in the residence complex. Share a common space, kitchenette, and bathroom with just 1 other person, while sleeping in your own private room.",
       "description_fr": "Cette résidence de style suite se situe centralement sur le campus principal, dans le complexe résidentiel. Partagez un espace commun, une kitchenette et une salle de bains avec une seule personne, tout en dormissant dans votre propre chambre privée.",
-      "image": "/outer_placeholder_2.jpg",
+      "image": "/housing_90u.jpg",
       "location": {
         "latitude": 45.4223983,
         "longitude": -75.684454
@@ -394,7 +394,7 @@
       "address_fr": "620-638, avenue King Edward",
       "description_en": "Brooks is an apartment style residence located near the centre of campus. There are 17 separate clusters, each containing up to 12 units of 2- or 4-bedroom units, available for 12 months with options to renew.",
       "description_fr": "Brooks est une résidence de style appartement située à proximité du centre du campus principal. Il existe 17 grappes séparées, chacune contenant jusqu'à 12 unités d'unités de 2 ou 4 chambres, disponible pour 12 mois avec des options de renouvellement.",
-      "image": "/outer_placeholder_3.jpg",
+      "image": "/housing_brooks.jpg",
       "location": {
         "latitude": 45.4226747,
         "longitude": -75.680873
@@ -450,7 +450,7 @@
       "address_fr": "240, rue Friel",
       "description_en": "Located downtown, approximately a 10-15 minute walk from the north end of campus, Friel offers 1- and 2-bedroom suites with a kitchenette and bathroom available for 8 months at a time.",
       "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois.",
-      "image": "/outer_placeholder_4.jpg",
+      "image": "/housing_friel.jpg",
       "location": {
         "latitude": 45.4305525,
         "longitude": -75.6829102
@@ -506,7 +506,7 @@
       "address_fr": "202, avenue Henderson",
       "description_en": "This traditional residence is located near SITE and Sports Complex, towards the south end of campus. It offers single bedrooms connected by a bathroom shared with 1 other person, and large community kitchen and dining areas.",
       "description_fr": "Cette résidence traditionnelle est située à proximité du SITE et du Complexe sportif, vers l'extrémité sud du campus principal. Il propose des chambres simples reliées par une salle de bain partagée avec une autre personne, et une grande cuisine communautaire et des salles à manger",
-      "image": "/outer_placeholder_5.jpg",
+      "image": "/housing_henderson.jpg",
       "location": {
         "latitude": 45.4213361,
         "longitude": -75.6783268
@@ -562,7 +562,7 @@
       "address_fr": "157, avenue Laurier est",
       "description_en": "Hyman Soloway is an apartment style residence located on the north end of campus, near Tabaret and Hamelin Hall. It offers single rooms in 2-, 3-, or 4-bedroom apartments, available for 12 months at a time.",
       "description_fr": "Hyman Soloway est une résidence de style appartement située sur l'extrémité nord du campus, près de Tabaret et Hamelin Hall. Il propose des chambres simples dans des appartements de 2, 3 ou 4 chambres, disponibles pendant 12 mois à la fois.",
-      "image": "/outer_placeholder.jpg",
+      "image": "/housing_hymansoloway.jpg",
       "location": {
         "latitude": 45.4251119,
         "longitude": -75.6841931
@@ -618,7 +618,7 @@
       "address_fr": "45, rue Copernicus",
       "description_en": "LeBlanc is a small, traditional style residence, ideal for French speaking students interested in a tight knit, francophone community. Single or double bedrooms are available, with shared bathrooms and kitchens on each floor.",
       "description_fr": "LeBlanc est une petite résidence de style traditionnel, idéale pour les étudiants francophones intéressés par une communauté francophone. Des chambres simples ou doubles sont disponibles, avec salle de bains partagée et cuisines à chaque étage.",
-      "image": "/outer_placeholder_2.jpg",
+      "image": "/housing_leblanc.jpg",
       "location": {
         "latitude": 45.4243663,
         "longitude": -75.6830072
@@ -674,7 +674,7 @@
       "address_fr": "110, rue University",
       "description_en": "This traditional style residence accommodates many international exchange students each year. It is a part of the main residence complex, located centrally on campus, with single or double bedrooms available for 8 months at a time.",
       "description_fr": "Cette résidence de style traditionnel accueille chaque année plusieurs étudiants étrangers. C'est une partie du complexe résidentiel principal, situé centralement sur le campus, avec des chambres simples ou doubles disponibles pendant 8 mois à la fois.",
-      "image": "/outer_placeholder_3.jpg",
+      "image": "/housing_marchand.jpg",
       "location": {
         "latitude": 45.4219082,
         "longitude": -75.6844045
@@ -730,7 +730,7 @@
       "address_fr": "290, rue Rideau",
       "description_en": "Rideau is a traditional style residence located downtown, approximately a 10 minute walk from the north end of campus. Students may be in large double rooms, sharing a bathroom with only their roommate, or in a single room with a private bathroom.",
       "description_fr": "Rideau est une résidence de style traditionnel située au centre-ville, à environ 10 minutes à pied de l'extrémité nord du campus. Les étudiants peuvent être dans de grandes chambres doubles, en partageant une salle de bain avec seulement leur colocataire, ou dans une chambre simple avec salle de bain privée.",
-      "image": "/outer_placeholder_4.jpg",
+      "image": "/outer_placeholder.jpg",
       "location": {
         "latitude": 45.4287055,
         "longitude": -75.6858288
@@ -786,7 +786,7 @@
       "address_fr": "100, rue University",
       "description_en": "Stanton is a traditional residence located centrally on campus, in the residence complex with Marchand and 90u. It offers single and double rooms for 8 months at a time.",
       "description_fr": "Stanton est une résidence traditionnelle située au centre du campus, dans le complexe résidentiel de Marchand et 90u. Il propose des chambres simples et doubles pour 8 mois à la fois.",
-      "image": "/outer_placeholder_5.jpg",
+      "image": "/housing_stanton.jpg",
       "location": {
         "latitude": 45.4221234,
         "longitude": -75.6848017
@@ -836,13 +836,13 @@
       }
     },
     {
-      "id": "stanton",
+      "id": "thompson",
       "name": "Thompson",
       "address_en": "45 University Private",
       "address_fr": "45, rue University",
       "description_en": "This traditional residence is located at the centre of campus, next to Café Nostalgica and the university library, Morisset. There are single and double bedrooms with community lounges and bathrooms on each floor.",
       "description_fr": "Cette résidence traditionnelle est située au centre du campus, à côté de Café Nostalgica et de la bibliothèque universitaire Morisset. Il y a des chambres simples et doubles avec des salons communautaires et des salles de bains à chaque étage.",
-      "image": "/outer_placeholder.jpg",
+      "image": "/housing_thompson.jpg",
       "location": {
         "latitude": 45.42373,
         "longitude": -75.6836372
@@ -906,7 +906,7 @@
     "id": "housing",
     "name_en": "Other resources",
     "name_fr": "Autre ressources",
-    "image": "/outer_placeholder_5.jpg",
+    "image": "/housing_other.jpg",
     "links": [
       {
         "id": "housing_service",
@@ -975,7 +975,7 @@
         "class": "material"
       },
       "id": "res",
-      "image": "/outer_placeholder.jpg",
+      "image": "/housing.jpg",
       "name_en": "University Residences",
       "name_fr": "Résidences universitaires"
     },
@@ -985,7 +985,7 @@
         "class": "material"
       },
       "id": "off",
-      "image": "/outer_placeholder_2.jpg",
+      "image": "/outer_placeholder.jpg",
       "name_en": "Off Campus Housing",
       "name_fr": "Logement hors campus"
     },
@@ -1001,7 +1001,7 @@
         }
       },
       "id": "oth",
-      "image": "/outer_placeholder_3.jpg",
+      "image": "/housing_other.jpg",
       "name_en": "Other Resources",
       "name_fr": "Autres ressources"
     }
