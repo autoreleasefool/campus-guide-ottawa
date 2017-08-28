@@ -27,341 +27,6 @@
 module.exports = [
 
   {
-    shorthand: '3',
-    image: require('../images/buildings/full/3.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/3.jpg'),
-    name_en: 'William Commanda Hall',
-    name_fr: 'Pavillon William Commanda',
-    location: {
-      latitude: 45.423165,
-      longitude: -75.684842,
-    },
-    address_en: '52 University Private',
-    address_fr: '52, rue University',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '34',
-    image: require('../images/buildings/full/34.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/34.jpg'),
-    name_en: 'Centre for Bahá\'i Studies',
-    name_fr: 'Centre d\'études bahá\'ies',
-    location: {
-      latitude: 45.424885,
-      longitude: -75.683797,
-    },
-    address_en: '34 Copernicus Street',
-    address_fr: '34, rue Copernicus',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '109',
-    image: require('../images/buildings/full/109.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/109.jpg'),
-    name: 'La Rotonde',
-    location: {
-      latitude: 45.424038,
-      longitude: -75.680850,
-    },
-    address_en: '109 Osgoode Street',
-    address_fr: '109, rue Osgoode',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '113',
-    image: require('../images/buildings/full/113.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/113.jpg'),
-    name_en: 'Association des juristes d\'expression française de l\'Ontario and Legal Translation and Documentation Centre',
-    name_fr: 'Association des juristes d\'expression française de l\'Ontario et Centre de traduction et de documentation juridiques',
-    location: {
-      latitude: 45.424066,
-      longitude: -75.6830636,
-    },
-    address_en: '113 Osgoode Street',
-    address_fr: '113, rue Osgoode',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '242',
-    image: require('../images/buildings/full/242.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/242.jpg'),
-    name_en: 'UOITP - University of Ottawa IT Professionals',
-    name_fr: 'PTIUO - Professionels des technologies de l\'information de l\'Université d\'Ottawa',
-    location: {
-      latitude: 45.425848,
-      longitude: -75.686444,
-    },
-    address_en: '34/36 Stewart Street',
-    address_fr: '34/36, rue Stewart',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '243',
-    image: require('../images/buildings/full/243.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/243.jpg'),
-    name_en: 'External Relations',
-    name_fr: 'Relations extérieures',
-    location: {
-      latitude: 45.425926,
-      longitude: -75.686433,
-    },
-    address_en: '38 Stewart Street',
-    address_fr: '38, rue Stewart',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '244',
-    image: require('../images/buildings/full/244.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/244.jpg'),
-    name_en: 'Bilingual Canadian Dictionary',
-    name_fr: 'Dictionnaire Canadien bilingue',
-    location: {
-      latitude: 45.425945,
-      longitude: -75.686390,
-    },
-    address_en: '40 Stewart Street',
-    address_fr: '40, rue Stewart',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '275',
-    image: require('../images/buildings/full/275.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/275.jpg'),
-    name_en: 'Community Legal Clinic',
-    name_fr: 'Clinique juridique communautaire',
-    location: {
-      latitude: 45.423824,
-      longitude: -75.684096,
-    },
-    address_en: '17 Copernicus Street',
-    address_fr: '17, rue Copernicus',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '538',
-    image: require('../images/buildings/full/538.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/538.jpg'),
-    name_en: 'Faculty of Health Sciences Dean\'s Office and Administration',
-    name_fr: 'Faculté de sciences de la santé Décanat et administration',
-    location: {
-      latitude: 45.424984,
-      longitude: -75.682841,
-    },
-    address_en: '538 King Edward Avenue',
-    address_fr: '538, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '542',
-    image: require('../images/buildings/full/542.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/542.jpg'),
-    name_en: 'University of Ottawa Press',
-    name_fr: 'Les Presses de l\'Université d\'Ottawa',
-    location: {
-      latitude: 45.424860,
-      longitude: -75.682800,
-    },
-    address_en: '542 King Edward Avenue',
-    address_fr: '542, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '545',
-    image: require('../images/buildings/full/545.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/545.jpg'),
-    name_en: 'Reosurces and Information Office',
-    name_fr: 'Bureau des ressources et de l\'information',
-    location: {
-      latitude: 45.424991,
-      longitude: -75.682568,
-    },
-    address_en: '545 King Edward Avenue',
-    address_fr: '545, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '554',
-    image: require('../images/buildings/full/554.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/554.jpg'),
-    name_en: 'Faculty of Law',
-    name_fr: 'Faculté de droit',
-    location: {
-      latitude: 45.424519,
-      longitude: -75.682514,
-    },
-    address_en: '554 King Edward Avenue',
-    address_fr: '554, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '556',
-    image: require('../images/buildings/full/556.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/556.jpg'),
-    name_en: 'Department of Communication',
-    name_fr: 'Département de communication',
-    location: {
-      latitude: 45.424326,
-      longitude: -75.682073,
-    },
-    address_en: '556 King Edward Avenue',
-    address_fr: '556, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '558',
-    image: require('../images/buildings/full/558.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/558.jpg'),
-    name_en: 'Department of Communication',
-    name_fr: 'Département de communication',
-    location: {
-      latitude: 45.424326,
-      longitude: -75.682073,
-    },
-    address_en: '558 King Edward Avenue',
-    address_fr: '558, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '559',
-    image: require('../images/buildings/full/559.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/559.jpg'),
-    name_en: 'Chair of Ukranian Studies, Support Staff - OSSTF, and Regroupement des organismes du patrimoine franco-ontarien',
-    name_fr: 'Chair détudes ukrainiennes, Personnel de soutien - FEÉSO, et Regroupement des organismes du patrimoine franco-ontarien',
-    location: {
-      latitude: 45.424860,
-      longitude: -75.682270,
-    },
-    address_en: '559 King Edward Avenue',
-    address_fr: '559, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '562',
-    image: require('../images/buildings/full/562.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/562.jpg'),
-    name_en: 'Official Languages and Bilingualism Institute',
-    name_fr: 'Institut des langues officielles et du bilinguisme',
-    location: {
-      latitude: 45.424243,
-      longitude: -75.682273,
-    },
-    address_en: '562 King Edward Avenue',
-    address_fr: '562, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '577',
-    image: require('../images/buildings/full/577.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/577.jpg'),
-    name_en: 'Canadian Mathematical Society',
-    name_fr: 'Société mathématique du Canada',
-    location: {
-      latitude: 45.424644,
-      longitude: -75.682113,
-    },
-    address_en: '577 King Edward Avenue',
-    address_fr: '577, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '598',
-    image: require('../images/buildings/full/598.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/598.jpg'),
-    name_en: 'Department of Physics',
-    name_fr: 'Département de physique',
-    location: {
-      latitude: 45.424011,
-      longitude: -75.681805,
-    },
-    address_en: '598 King Edward Avenue',
-    address_fr: '598, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '600',
-    image: require('../images/buildings/full/600.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/600.jpg'),
-    name_en: 'Bernard Syron Law Student Centre',
-    name_fr: 'Centre des étudiants en droit Bernard Syron',
-    location: {
-      latitude: 45.423937,
-      longitude: -75.681923,
-    },
-    address_en: '600 King Edward Avenu',
-    address_fr: '600, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '603',
-    image: require('../images/buildings/full/603.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/603.jpg'),
-    name_en: 'Canada Research Chair on Occupational Health and Safety Law',
-    name_fr: 'Chaire de recherche du Canada en droit de la santé et de la sécurité du travail',
-    location: {
-      latitude: 45.423946,
-      longitude: -75.681706,
-    },
-    address_en: '603 King Edward Avenue',
-    address_fr: '603, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: '647',
-    image: require('../images/buildings/full/647.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/647.jpg'),
-    name_en: 'Free Store',
-    name_fr: 'Gratuiterie',
-    location: {
-      latitude: 45.422870,
-      longitude: -75.680793,
-    },
-    address_en: '647 King Edward Avenue',
-    address_fr: '647, avenue King Edward',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
     shorthand: '90U',
     image: require('../images/buildings/full/90U.jpg'),
     thumbnail: require('../images/buildings/thumbnail/90U.jpg'),
@@ -421,6 +86,22 @@ module.exports = [
     },
     address_en: '110 University Private',
     address_fr: '110, rue University',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'BRS',
+    image: require('../images/buildings/full/BRS.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/BRS.jpg'),
+    name_en: 'Brooks Residence',
+    name_fr: 'Résidence Brooks',
+    location: {
+      latitude: 45.423329,
+      longitude: -75.681810,
+    },
+    address_en: '100 Thomas More Private, 622-638 King Edward Avenue',
+    address_fr: '100, rue Thomas More; 622-638, avenue King Edward',
     facilities: [],
     rooms: [],
   },
@@ -505,6 +186,37 @@ module.exports = [
   },
 
   {
+    shorthand: 'EMBA',
+    image: require('../images/buildings/full/EMBA.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/EMBA.jpg'),
+    name: 'Executive MBA Program',
+    location: {
+      latitude: 45.421237,
+      longitude: -75.698082,
+    },
+    address_en: '45 O\'Connor Street',
+    address_fr: '45, rue O\'Connor',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'FRL',
+    image: require('../images/buildings/full/FRL.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/FRL.jpg'),
+    name_en: 'Friel Residence',
+    name_fr: 'Résidence Friel',
+    location: {
+      latitude: 45.430552,
+      longitude: -75.682910,
+    },
+    address_en: '240 Friel St',
+    address_fr: '240, rue Friel',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'FSS',
     image: require('../images/buildings/full/FSS.jpg'),
     thumbnail: require('../images/buildings/thumbnail/FSS.jpg'),
@@ -567,20 +279,7 @@ module.exports = [
     facilities: [],
     rooms: [],
   },
-  {
-    shorthand: 'Henderson',
-    image: require('../images/placeholders/outer_placeholder.jpg'),
-    name_en: 'Henderson Residence',
-    name_fr: 'Résidence Henderson',
-    location: {
-      latitude: 45.4213294,
-      longitude: -75.6805316,
-    },
-    address_en: '202 Henderson Avenue',
-    address_fr: '202, avenue Henderson',
-    facilities: [],
-    rooms: [],
-  },
+
   {
     shorthand: 'HGN',
     image: require('../images/buildings/full/HGN.jpg'),
@@ -593,6 +292,22 @@ module.exports = [
     },
     address_en: '115 Séraphin Marion Private',
     address_fr: '115, rue Séraphin Marion',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'HNN',
+    image: require('../images/buildings/full/HNN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/HNN.jpg'),
+    name_en: 'Henderson Residence',
+    name_fr: 'Résidence Henderson',
+    location: {
+      latitude: 45.4213294,
+      longitude: -75.6805316,
+    },
+    address_en: '202 Henderson Avenue',
+    address_fr: '202, avenue Henderson',
     facilities: [],
     rooms: [],
   },
@@ -662,6 +377,21 @@ module.exports = [
   },
 
   {
+    shorthand: 'LEES',
+    image: require('../images/buildings/full/LEES.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LEES.jpg'),
+    name: '200 Lees',
+    location: {
+      latitude: 45.416261,
+      longitude: -75.669485,
+    },
+    address_en: '200 Lees Avenu',
+    address_fr: '200, avenue Lees',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'LMX',
     image: require('../images/buildings/full/LMX.jpg'),
     thumbnail: require('../images/buildings/thumbnail/LMX.jpg'),
@@ -689,22 +419,6 @@ module.exports = [
     },
     address_en: '141 Louis Pasteur Private',
     address_fr: '141, rue Louis Pasteur',
-    facilities: [],
-    rooms: [],
-  },
-
-  {
-    shorthand: 'LR3',
-    image: require('../images/buildings/full/LR3.jpg'),
-    thumbnail: require('../images/buildings/thumbnail/LR3.jpg'),
-    name_en: 'Development Office',
-    name_fr: 'Bureau du développement',
-    location: {
-      latitude: 45.425265,
-      longitude: -75.682407,
-    },
-    address_en: '190 Laurier Avenue East',
-    address_fr: '190, avenue Laurier est',
     facilities: [],
     rooms: [],
   },
@@ -1094,6 +808,21 @@ module.exports = [
   },
 
   {
+    shorthand: 'MNN',
+    image: require('../images/buildings/full/MNN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/MNN.jpg'),
+    name: '45 Mann',
+    location: {
+      latitude: 45.419971,
+      longitude: -75.676069,
+    },
+    address_en: '45 Mann Avenue',
+    address_fr: '45, avenue Mann',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'MNO',
     image: require('../images/buildings/full/MNO.jpg'),
     thumbnail: require('../images/buildings/thumbnail/MNO.jpg'),
@@ -1174,6 +903,37 @@ module.exports = [
   },
 
   {
+    shorthand: 'NCL',
+    image: require('../images/placeholders/outer_placeholder.jpg'),
+    thumbnail: require('../images/placeholders/outer_placeholder.jpg'),
+    name: '1 Nicholas',
+    location: {
+      latitude: 45.426515,
+      longitude: -75.690035,
+    },
+    address_en: '1 Nicholas Street',
+    address_fr: '1, rue Nicholas',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'ODL',
+    image: require('../images/buildings/full/ODL.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/ODL.jpg'),
+    name_en: 'Odell Hous',
+    name_fr: 'Maison Odell',
+    location: {
+      latitude: 45.422696,
+      longitude: -75.686121,
+    },
+    address_en: '180 Waller Street',
+    address_fr: '180, rue Waller',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'PRZ',
     image: require('../images/buildings/full/PRZ.jpg'),
     thumbnail: require('../images/buildings/thumbnail/PRZ.jpg'),
@@ -1185,6 +945,53 @@ module.exports = [
     },
     address_en: '50 University Private',
     address_fr: '50, rue University',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'RDU',
+    image: require('../images/placeholders/outer_placeholder.jpg'),
+    thumbnail: require('../images/placeholders/outer_placeholder.jpg'),
+    name_en: 'Rideau Residence',
+    name_fr: 'Résidence Rideau',
+    location: {
+      latitude: 45.428705,
+      longitude: -75.685829,
+    },
+    address_en: '290 Rideau Street',
+    address_fr: '290, rue Rideau',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'RGN',
+    image: require('../images/buildings/full/RGN.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/RGN.jpg'),
+    name_en: 'Roger Guindon Hall',
+    name_fr: 'Pavillon Roger Guindon',
+    location: {
+      latitude: 45.402476,
+      longitude: -75.650102,
+    },
+    address_en: '451 Smyth Road',
+    address_fr: '451, rue Smyth',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'La Rotonde',
+    image: require('../images/buildings/full/LaRotonde.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/LaRotonde.jpg'),
+    name: 'La Rotonde',
+    location: {
+      latitude: 45.424038,
+      longitude: -75.680850,
+    },
+    address_en: '109 Osgoode Street',
+    address_fr: '109, rue Osgoode',
     facilities: [],
     rooms: [],
   },
@@ -1363,6 +1170,38 @@ module.exports = [
   },
 
   {
+    shorthand: 'UOHS FHT/ÉSF du SSUO',
+    image: require('../images/buildings/full/UOHSFHT.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/UOHSFHT.jpg'),
+    name_en: 'UOHS - Family Health Team',
+    name_fr: 'SSUO - L\'Équipe de santé familiale',
+    location: {
+      latitude: 45.428973,
+      longitude: -75.684934,
+    },
+    address_en: '316 Rideau Street',
+    address_fr: '316, rue Rideau',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'UOITP/PTIUO',
+    image: require('../images/buildings/full/UOITP.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/UOITP.jpg'),
+    name_en: 'UOITP - University of Ottawa IT Professionals',
+    name_fr: 'PTIUO - Professionels des technologies de l\'information de l\'Université d\'Ottawa',
+    location: {
+      latitude: 45.425848,
+      longitude: -75.686444,
+    },
+    address_en: '34/36 Stewart Street',
+    address_fr: '34/36, rue Stewart',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'VNR',
     image: require('../images/buildings/full/VNR.jpg'),
     thumbnail: require('../images/buildings/thumbnail/VNR.jpg'),
@@ -1379,16 +1218,397 @@ module.exports = [
   },
 
   {
+    shorthand: 'WCA',
+    image: require('../images/buildings/full/WCA.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/WCA.jpg'),
+    name_en: 'William Commanda Hall',
+    name_fr: 'Pavillon William Commanda',
+    location: {
+      latitude: 45.423165,
+      longitude: -75.684842,
+    },
+    address_en: '52 University Private',
+    address_fr: '52, rue University',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'WLD',
     image: require('../images/buildings/full/WLD.jpg'),
     thumbnail: require('../images/buildings/thumbnail/WLD.jpg'),
-    name: 'Wilbrod',
+    name: '200 Wilbrod',
     location: {
       latitude: 45.426043,
       longitude: -75.684203,
     },
     address_en: '200 Wilbrod Street',
     address_fr: '200, rue Wilbrod',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '17 Copernicus',
+    image: require('../images/buildings/full/17Copernicus.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/17Copernicus.jpg'),
+    name_en: 'Community Legal Clinic',
+    name_fr: 'Clinique juridique communautaire',
+    location: {
+      latitude: 45.423824,
+      longitude: -75.684096,
+    },
+    address_en: '17 Copernicus Street',
+    address_fr: '17, rue Copernicus',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '34 Copernicus',
+    image: require('../images/buildings/full/34Copernicus.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/34Copernicus.jpg'),
+    name_en: 'Centre for Bahá\'i Studies',
+    name_fr: 'Centre d\'études bahá\'ies',
+    location: {
+      latitude: 45.424885,
+      longitude: -75.683797,
+    },
+    address_en: '34 Copernicus Street',
+    address_fr: '34, rue Copernicus',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '38 Stewart',
+    image: require('../images/buildings/full/38Stewart.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/38Stewart.jpg'),
+    name_en: 'External Relations',
+    name_fr: 'Relations extérieures',
+    location: {
+      latitude: 45.425926,
+      longitude: -75.686433,
+    },
+    address_en: '38 Stewart Street',
+    address_fr: '38, rue Stewart',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '40 Stewart',
+    image: require('../images/buildings/full/40Stewart.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/40Stewart.jpg'),
+    name_en: 'Bilingual Canadian Dictionary',
+    name_fr: 'Dictionnaire Canadien bilingue',
+    location: {
+      latitude: 45.425945,
+      longitude: -75.686390,
+    },
+    address_en: '40 Stewart Street',
+    address_fr: '40, rue Stewart',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '113 Osgoode',
+    image: require('../images/buildings/full/113Osgoode.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/113Osgoode.jpg'),
+    name_en: 'Association des juristes d\'expression française de l\'Ontario and Legal Translation and Documentation Centre',
+    name_fr: 'Association des juristes d\'expression française de l\'Ontario et Centre de traduction et de documentation juridiques',
+    location: {
+      latitude: 45.424066,
+      longitude: -75.6830636,
+    },
+    address_en: '113 Osgoode Street',
+    address_fr: '113, rue Osgoode',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '143 Séraphin-Marion',
+    image: require('../images/buildings/full/143Seraphin.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/143Seraphin.jpg'),
+    name: '143 Séraphin-Marion',
+    location: {
+      latitude: 45.425664,
+      longitude: -75.685695,
+    },
+    address_en: '143 Séraphin-Marion Private',
+    address_fr: '143, privé Séraphin-Marion',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '170 Waller',
+    image: require('../images/buildings/full/170Waller.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/170Waller.jpg'),
+    name: 'APUO',
+    location: {
+      latitude: 45.422888,
+      longitude: -75.686271,
+    },
+    address_en: '170 Waller Street',
+    address_fr: '170, rue Waller',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '190 Laurier',
+    image: require('../images/buildings/full/190Laurier.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/190Laurier.jpg'),
+    name_en: 'Development Office',
+    name_fr: 'Bureau du développement',
+    location: {
+      latitude: 45.425265,
+      longitude: -75.682407,
+    },
+    address_en: '190 Laurier Avenue East',
+    address_fr: '190, avenue Laurier est',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '538 King Edward',
+    image: require('../images/buildings/full/538KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/538KingEdward.jpg'),
+    name_en: 'Faculty of Health Sciences Dean\'s Office and Administration',
+    name_fr: 'Faculté de sciences de la santé Décanat et administration',
+    location: {
+      latitude: 45.424984,
+      longitude: -75.682841,
+    },
+    address_en: '538 King Edward Avenue',
+    address_fr: '538, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '542 King Edward',
+    image: require('../images/buildings/full/542KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/542KingEdward.jpg'),
+    name_en: 'University of Ottawa Press',
+    name_fr: 'Les Presses de l\'Université d\'Ottawa',
+    location: {
+      latitude: 45.424860,
+      longitude: -75.682800,
+    },
+    address_en: '542 King Edward Avenue',
+    address_fr: '542, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '545 King Edward',
+    image: require('../images/buildings/full/545KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/545KingEdward.jpg'),
+    name_en: 'Resources and Information Office',
+    name_fr: 'Bureau des ressources et de l\'information',
+    location: {
+      latitude: 45.424991,
+      longitude: -75.682568,
+    },
+    address_en: '545 King Edward Avenue',
+    address_fr: '545, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '554 King Edward',
+    image: require('../images/buildings/full/554KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/554KingEdward.jpg'),
+    name_en: 'Faculty of Law',
+    name_fr: 'Faculté de droit',
+    location: {
+      latitude: 45.424519,
+      longitude: -75.682514,
+    },
+    address_en: '554 King Edward Avenue',
+    address_fr: '554, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '556 King Edward',
+    image: require('../images/buildings/full/556KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/556KingEdward.jpg'),
+    name_en: 'Department of Communication',
+    name_fr: 'Département de communication',
+    location: {
+      latitude: 45.424326,
+      longitude: -75.682073,
+    },
+    address_en: '556 King Edward Avenue',
+    address_fr: '556, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '558 King Edward',
+    image: require('../images/buildings/full/558KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/558KingEdward.jpg'),
+    name_en: 'Department of Communication',
+    name_fr: 'Département de communication',
+    location: {
+      latitude: 45.424326,
+      longitude: -75.682073,
+    },
+    address_en: '558 King Edward Avenue',
+    address_fr: '558, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '559 King Edward',
+    image: require('../images/buildings/full/559KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/559KingEdward.jpg'),
+    name_en: 'Chair of Ukrainian Studies, Support Staff - OSSTF, and Regroupement des organismes du patrimoine franco-ontarien',
+    name_fr: 'Chair détudes ukrainiennes, Personnel de soutien - FEÉSO, et Regroupement des organismes du patrimoine franco-ontarien',
+    location: {
+      latitude: 45.424860,
+      longitude: -75.682270,
+    },
+    address_en: '559 King Edward Avenue',
+    address_fr: '559, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '562 King Edward',
+    image: require('../images/buildings/full/562KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/562KingEdward.jpg'),
+    name_en: 'Official Languages and Bilingualism Institute',
+    name_fr: 'Institut des langues officielles et du bilinguisme',
+    location: {
+      latitude: 45.424243,
+      longitude: -75.682273,
+    },
+    address_en: '562 King Edward Avenue',
+    address_fr: '562, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '577 King Edward',
+    image: require('../images/buildings/full/577KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/577KingEdward.jpg'),
+    name_en: 'Canadian Mathematical Society',
+    name_fr: 'Société mathématique du Canada',
+    location: {
+      latitude: 45.424644,
+      longitude: -75.682113,
+    },
+    address_en: '577 King Edward Avenue',
+    address_fr: '577, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '598 King Edward',
+    image: require('../images/buildings/full/598KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/598KingEdward.jpg'),
+    name_en: 'Department of Physics',
+    name_fr: 'Département de physique',
+    location: {
+      latitude: 45.424011,
+      longitude: -75.681805,
+    },
+    address_en: '598 King Edward Avenue',
+    address_fr: '598, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '600 King Edward',
+    image: require('../images/buildings/full/600KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/600KingEdward.jpg'),
+    name_en: 'Bernard Syron Law Student Centre',
+    name_fr: 'Centre des étudiants en droit Bernard Syron',
+    location: {
+      latitude: 45.423937,
+      longitude: -75.681923,
+    },
+    address_en: '600 King Edward Avenue',
+    address_fr: '600, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '600 Peter Morand',
+    image: require('../images/buildings/full/600PeterMorand.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/600PeterMorand.jpg'),
+    name_en: 'Interprofessional Rehabilitation Clinic',
+    name_fr: 'Clinique interprofessionnelle de réadaptation',
+    location: {
+      latitude: 45.403144,
+      longitude: -75.642256,
+    },
+    address_en: '600 Peter Morand Crescent',
+    address_fr: '600, rue Peter Morand',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '603 King Edward',
+    image: require('../images/buildings/full/603KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/603KingEdward.jpg'),
+    name_en: 'Canada Research Chair on Occupational Health and Safety Law',
+    name_fr: 'Chaire de recherche du Canada en droit de la santé et de la sécurité du travail',
+    location: {
+      latitude: 45.423946,
+      longitude: -75.681706,
+    },
+    address_en: '603 King Edward Avenue',
+    address_fr: '603, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '647 King Edward',
+    image: require('../images/buildings/full/647KingEdward.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/647KingEdward.jpg'),
+    name_en: 'Free Store',
+    name_fr: 'Gratuiterie',
+    location: {
+      latitude: 45.422870,
+      longitude: -75.680793,
+    },
+    address_en: '647 King Edward Avenue',
+    address_fr: '647, avenue King Edward',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
+    shorthand: '850 Peter Morand',
+    image: require('../images/buildings/full/850PeterMorand.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/850PeterMorand.jpg'),
+    name: '850 Peter Morand',
+    location: {
+      latitude: 45.402696,
+      longitude: -75.642303,
+    },
+    address_en: '850 Peter Morand Crescent',
+    address_fr: '850, rue Peter Morand',
     facilities: [],
     rooms: [],
   },
