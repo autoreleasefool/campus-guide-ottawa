@@ -123,6 +123,22 @@ module.exports = [
   },
 
   {
+    shorthand: 'CBY',
+    image: require('../images/buildings/full/CBY.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/CBY.jpg'),
+    name_en: 'Colonel By Hall',
+    name_fr: 'Pavillon Colonel By',
+    location: {
+      latitude: 45.419883,
+      longitude: -75.679473,
+    },
+    address_en: '161 Louis Pasteur Private',
+    address_fr: '161, rue Louis Pasteur',
+    facilities: [],
+    rooms: [],
+  },
+
+  {
     shorthand: 'CRG',
     image: require('../images/buildings/full/CRG.jpg'),
     thumbnail: require('../images/buildings/thumbnail/CRG.jpg'),
@@ -904,8 +920,8 @@ module.exports = [
 
   {
     shorthand: 'NCL',
-    image: require('../images/placeholders/outer_placeholder.jpg'),
-    thumbnail: require('../images/placeholders/outer_placeholder.jpg'),
+    image: require('../images/buildings/full/NCL.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/NCL.jpg'),
     name: '1 Nicholas',
     location: {
       latitude: 45.426515,
