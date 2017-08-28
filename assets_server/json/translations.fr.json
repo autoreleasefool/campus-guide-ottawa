@@ -57,6 +57,9 @@
   "steps": "Instructions",
   "request_detour": "Demander un détour",
   "report_problem": "Signaler un problème",
+  "location_permission_denied": "Vous avez désactivé les autorisations de localisation pour Campus\u00a0Guide. Pour activer, allez dans les paramètres de votre appareil",
+  "location_position_unavailable": "Votre emplacement n'a pas pu être déterminé. Appuyez pour essayer à nouveau",
+  "location_timeout": "Il a fallu trop de temps pour récupérer votre emplacement. Appuyez pour essayer à nouveau",
 
   // Schedule
   "course": "Cours",
@@ -139,9 +142,6 @@
   "select_to_compare": "Selectionne pour comparer",
   "compare_with": "Comparer avec...",
   "other_resources": "Autre ressources",
-  "select_at_least_two": "TRANSLATE ME",
+  "select_at_least_two": "Sélectionnez au moins 2!"
 
-  // Other
-  "only_once_title": "Français sélectionnés",
-  "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres."
 }

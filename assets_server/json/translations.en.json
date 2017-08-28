@@ -56,6 +56,9 @@
   "steps": "Steps",
   "request_detour": "Request detour",
   "report_problem": "Report problem",
+  "location_permission_denied": "You have disable location permissions for Campus\u00a0Guide. To enable, go to your device settings",
+  "location_position_unavailable": "Your location could not be determined. Tap to try again",
+  "location_timeout": "It took too long to retrieve your location. Tap to try again",
 
   // Schedule
   "course": "Course",
@@ -138,9 +141,6 @@
   "select_to_compare": "Select to compare",
   "compare_with": "Compare with...",
   "other_resources": "Other resources",
-  "select_at_least_two": "Select at least 2!",
+  "select_at_least_two": "Select at least 2!"
 
-  // Other
-  "only_once_title": "English selected",
-  "only_once_message": "You can change languages at any time through the settings."
 }

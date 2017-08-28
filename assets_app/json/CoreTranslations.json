@@ -32,7 +32,15 @@
 
     "server_unavailable": "Server unavailable",
     "server_unavailable_config_available": "The server doesn't seem to be available, but an old configuration was found. You can retry, or update later.",
-    "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download an update to use the app. Please, try again later."
+    "server_unavailable_config_unavailable": "The server doesn't seem to be available. You must download an update to use the app. Please, try again later.",
+
+    "only_once_title": "English selected",
+    "only_once_message": "You can change languages at any time through the settings",
+
+    "update_rejected": "Update rejected",
+    "update_rejected_config_unavailable": "You must download this content update in order to use the app.",
+    "update_available_title": "Update available",
+    "update_available_msg": "A content update is available and is approximately {} in size. Download it to learn even more about your school!"
   },
   "fr": {
     "app_name": "Guide de campus",
@@ -67,6 +75,14 @@
 
     "server_unavailable": "Serveur indisponible",
     "server_unavailable_config_available": "Le serveur ne semble pas être disponible, mais une ancienne configuration est disponible. Vous pouvez réessayer ou utiliser l'ancienne configuration et essayer de mettre à jour plus tard.",
-    "server_unavailable_config_unavailable": "Le serveur ne semble pas être disponible. Vous devez télécharger cette mise à jour pour utiliser l'application. Veuillez réessayer plus tard."
+    "server_unavailable_config_unavailable": "Le serveur ne semble pas être disponible. Vous devez télécharger cette mise à jour pour utiliser l'application. Veuillez réessayer plus tard.",
+
+    "only_once_title": "Français sélectionnés",
+    "only_once_message": "Vous pouvez changer de langue à tout moment à travers les paramètres",
+
+    "update_rejected": "Mise à jour rejetée",
+    "update_rejected_config_unavailable": "Vous devez télécharger cette mise à jour de contenu afin d'utiliser l'application.",
+    "update_available_title": "Mise à jour disponible",
+    "update_available_msg": "Une mise à jour de contenu est disponible et est approximativement de {} dans la taille. Téléchargez-le pour en savoir plus sur votre école!"
   }
 }
