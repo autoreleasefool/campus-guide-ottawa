@@ -74,8 +74,7 @@ def print_missing_rooms(rooms):
     room_names = [x for x in rooms]
     room_names.sort()
     for room_name in room_names:
-        print('\t{0}'.format(room_name[1:]))
-        pass
+        print('  {0}'.format(room_name[1:]))
 
 building_rooms, graph_rooms = load_files()
 if building_rooms is None:
@@ -85,10 +84,11 @@ if graph_rooms is None:
     print('Could not find assets_server/text/{0}_graph.txt'.format(building_shorthand))
     exit()
 
-print('Missing from {0}_graph.txt:'.format(building_shorthand))
+print('\nMissing from {0}_graph.txt:'.format(building_shorthand))
 missing_rooms = building_rooms - graph_rooms
 print_missing_rooms(missing_rooms)
 
-print('Missing from Buildings.js:')
+print('\nMissing from Buildings.js:')
 missing_rooms = graph_rooms - building_rooms
 print_missing_rooms(missing_rooms)
+print()
