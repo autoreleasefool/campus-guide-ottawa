@@ -967,8 +967,8 @@ module.exports = [
 
   {
     shorthand: 'RDU',
-    image: require('../images/placeholders/outer_placeholder.jpg'),
-    thumbnail: require('../images/placeholders/outer_placeholder.jpg'),
+    image: require('../images/buildings/full/RDU.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/RDU.jpg'),
     name_en: 'Rideau Residence',
     name_fr: 'Résidence Rideau',
     location: {
