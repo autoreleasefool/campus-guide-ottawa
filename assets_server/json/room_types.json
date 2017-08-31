@@ -18,7 +18,6 @@
     "pool",
     "seminar",
     "service",
-    "storage",
     "store",
     "study",
     "test"
@@ -195,14 +194,6 @@
       "name_fr": "Salle de bain unisexe",
       "icon": {
         "name": "wc",
-        "class": "material"
-      }
-    },
-    "storage": {
-      "name_en": "Storage",
-      "name_fr": "Stockage",
-      "icon": {
-        "name": "lock",
         "class": "material"
       }
     }

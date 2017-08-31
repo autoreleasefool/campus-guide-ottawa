@@ -550,7 +550,6 @@ module.exports = [
       { name: '112' },
       { name: '114' },
       { name: '115' },
-      { name: '116', type: 'storage', },
       {
         name: '117',
         type: 'service',
@@ -558,7 +557,6 @@ module.exports = [
         alt_name_fr: 'Services d\'evaluation linguistique',
       },
       { name: '118' },
-      { name: '119', type: 'storage', },
       { name: '120', type: 'bath_men' },
       { name: '121' },
       { name: '122' },
