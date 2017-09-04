@@ -60,6 +60,18 @@
   "location_permission_denied": "Vous avez désactivé les autorisations de localisation pour Campus\u00a0Guide. Pour activer, allez dans les paramètres de votre appareil",
   "location_position_unavailable": "Votre emplacement n'a pas pu être déterminé. Appuyez pour essayer à nouveau",
   "location_timeout": "Il a fallu trop de temps pour récupérer votre emplacement. Appuyez pour essayer à nouveau",
+  "no_accessible_path_found": "Nous n'avons pas pu trouver un chemin accessible à cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre.",
+  "no_path_found": "Nous ne pouvions pas trouver un chemin vers cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre.",
+
+  // Directions
+  "door": "porte",
+  "staircase": "escalier",
+  "elevator": "ascenseur",
+  "room": "salle",
+  "street": "rue",
+  "path": "sentier",
+  "hallway": "couloir",
+  "intersection": "intersection",
 
   // Schedule
   "course": "Cours",

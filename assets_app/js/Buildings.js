@@ -1271,7 +1271,7 @@ module.exports = [
         type: 'service',
         alt_name_en: 'Student Mentoring Centre',
         alt_name_fr: 'Centre de mentorat',
-      }
+      },
       {
         name: '322',
         type: 'lab_teach',

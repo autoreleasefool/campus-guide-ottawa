@@ -56,9 +56,21 @@
   "steps": "Steps",
   "request_detour": "Request detour",
   "report_problem": "Report problem",
-  "location_permission_denied": "You have disable location permissions for Campus\u00a0Guide. To enable, go to your device settings",
+  "location_permission_denied": "You have disabled location permissions for Campus\u00a0Guide. To enable, go to your device settings",
   "location_position_unavailable": "Your location could not be determined. Tap to try again",
   "location_timeout": "It took too long to retrieve your location. Tap to try again",
+  "no_accessible_path_found": "We couldn't find an accessible path to this location! If you think this might be an error, please report it with the room you were trying to reach.",
+  "no_path_found": "We couldn't find a path to this location! If you think this might be an error, please report it with the room you were trying to reach.",
+
+  // Directions
+  "door": "Door",
+  "staircase": "Staircase",
+  "elevator": "Elevator",
+  "room": "Room",
+  "street": "Street",
+  "path": "Path",
+  "hallway": "Hallway",
+  "intersection": "Intersection",
 
   // Schedule
   "course": "Course",
