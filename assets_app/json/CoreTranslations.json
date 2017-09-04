@@ -94,13 +94,13 @@
     "update_available_title": "Mise à jour disponible",
     "update_available_msg": "Une mise à jour de contenu est disponible et est approximativement de {} dans la taille. Téléchargez-le pour en savoir plus sur votre école!",
 
-    "door": "porte",
-    "staircase": "escalier",
-    "elevator": "ascenseur",
-    "room": "salle",
-    "street": "rue",
-    "path": "sentier",
-    "hallway": "couloir",
-    "intersection": "intersection"
+    "door": "Porte",
+    "staircase": "Escalier",
+    "elevator": "Ascenseur",
+    "room": "Salle",
+    "street": "Rue",
+    "path": "Sentier",
+    "hallway": "Couloir",
+    "intersection": "Intersection"
   }
 }
