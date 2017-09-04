@@ -40,7 +40,16 @@
     "update_rejected": "Update rejected",
     "update_rejected_config_unavailable": "You must download this content update in order to use the app.",
     "update_available_title": "Update available",
-    "update_available_msg": "A content update is available and is approximately {} in size. Download it to learn even more about your school!"
+    "update_available_msg": "A content update is available and is approximately {} in size. Download it to learn even more about your school!",
+
+    "door": "Door",
+    "staircase": "Staircase",
+    "elevator": "Elevator",
+    "room": "Room",
+    "street": "Street",
+    "path": "Path",
+    "hallway": "Hallway",
+    "intersection": "Intersection"
   },
   "fr": {
     "app_name": "Guide de campus",
@@ -83,6 +92,15 @@
     "update_rejected": "Mise à jour rejetée",
     "update_rejected_config_unavailable": "Vous devez télécharger cette mise à jour de contenu afin d'utiliser l'application.",
     "update_available_title": "Mise à jour disponible",
-    "update_available_msg": "Une mise à jour de contenu est disponible et est approximativement de {} dans la taille. Téléchargez-le pour en savoir plus sur votre école!"
+    "update_available_msg": "Une mise à jour de contenu est disponible et est approximativement de {} dans la taille. Téléchargez-le pour en savoir plus sur votre école!",
+
+    "door": "porte",
+    "staircase": "escalier",
+    "elevator": "ascenseur",
+    "room": "salle",
+    "street": "rue",
+    "path": "sentier",
+    "hallway": "couloir",
+    "intersection": "intersection"
   }
 }

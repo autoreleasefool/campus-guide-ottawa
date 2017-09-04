@@ -62,16 +62,6 @@
   "no_accessible_path_found": "We couldn't find an accessible path to this location! If you think this might be an error, please report it with the room you were trying to reach.",
   "no_path_found": "We couldn't find a path to this location! If you think this might be an error, please report it with the room you were trying to reach.",
 
-  // Directions
-  "door": "Door",
-  "staircase": "Staircase",
-  "elevator": "Elevator",
-  "room": "Room",
-  "street": "Street",
-  "path": "Path",
-  "hallway": "Hallway",
-  "intersection": "Intersection",
-
   // Schedule
   "course": "Course",
   "switch": "Switch",
