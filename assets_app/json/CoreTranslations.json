@@ -49,7 +49,9 @@
     "street": "Street",
     "path": "Path",
     "hallway": "Hallway",
-    "intersection": "Intersection"
+    "intersection": "Intersection",
+    "no_accessible_path_found": "We couldn't find an accessible path to this location! If you think this might be an error, please report it with the room you were trying to reach.",
+    "no_path_found": "We couldn't find a path to this location! If you think this might be an error, please report it with the room you were trying to reach."
   },
   "fr": {
     "app_name": "Guide de campus",
@@ -101,6 +103,8 @@
     "street": "Rue",
     "path": "Sentier",
     "hallway": "Couloir",
-    "intersection": "Intersection"
+    "intersection": "Intersection",
+    "no_accessible_path_found": "Nous n'avons pas pu trouver un chemin accessible à cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre.",
+    "no_path_found": "Nous ne pouvions pas trouver un chemin vers cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre."
   }
 }
