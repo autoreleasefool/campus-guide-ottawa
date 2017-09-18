@@ -1524,16 +1524,6 @@ module.exports = [
         alt_name_fr: 'Productions Zoom',
       },
       {
-        name: '026',
-        type: 'service',
-        alt_name: 'Carrefour francophone',
-      },
-      {
-        name: '028',
-        type: 'service',
-        alt_name: 'Portraits Now',
-      },
-      {
         name: '02A',
         type: 'service',
         alt_name_en: 'Crime Prevention - Lost and Found Service',
@@ -1558,10 +1548,20 @@ module.exports = [
         alt_name_fr: 'FÉUO',
       },
       {
-        name: '08A'
+        name: '08A',
         type: 'service',
         alt_name_en: 'Foot Patrol',
         alt_name_fr: 'Service de raccompagnement',
+      },
+      {
+        name: '026',
+        type: 'service',
+        alt_name: 'Carrefour francophone',
+      },
+      {
+        name: '028',
+        type: 'service',
+        alt_name: 'Portraits Now',
       },
       {
         name: '030',
@@ -1691,7 +1691,7 @@ module.exports = [
         alt_name_fr: 'SCFP 2626',
       },
       {
-        name: '307'
+        name: '307',
         alt_name_en: 'Ombudsperson\'s Office',
         alt_name_fr: 'Bureau de l\'Ombudsman',
       },
