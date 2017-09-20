@@ -18,6 +18,19 @@ if len(sys.argv) < 2:
 
 building_shorthand = sys.argv[1]
 
+def get_numeric_name(name):
+    """
+    Strips non-numeric characters from a string and returns a string with only numeric values in it.
+
+    :param name:
+        Name of a room
+    :type name:
+        `str`
+    :rtype:
+        `str`
+    """
+    return ''.join([x for x in name if x.isnumeric()])
+
 def load_files():
     """
     Loads rooms from relevant files and returns two sets, or None in place of a set for a file
@@ -33,17 +46,18 @@ def load_files():
         json_room_listing = set()
         line = building_file.readline()
         collect_rooms = False
-        last_name = ''
+        last_name_numeric = ''
         while line:
             name_pos = line.find(' name:')
             if name_pos > 0 and collect_rooms:
                 room_name = line[name_pos + 8:line.find('\'', name_pos + 8)]
                 if room_name in json_room_listing:
                     print('  Duplicate name found! `{0}`'.format(room_name))
-                if room_name < last_name:
+                room_name_numeric = get_numeric_name(room_name)
+                if room_name_numeric < last_name_numeric:
                     print('  Room out of order! `{0}`'.format(room_name))
                 json_room_listing.add('R{0}'.format(room_name))
-                last_name = room_name
+                last_name_numeric = room_name_numeric
             elif 'shorthand' in line:
                 shorthand = line[line.find('shorthand') + 12:line.rfind('\'')]
                 if shorthand == building_shorthand:
