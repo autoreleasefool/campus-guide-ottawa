@@ -1,5 +1,6 @@
 {
   "ids": [
+    "auditorium",
     "bath_men",
     "bath_women",
     "bath_uni",
@@ -15,6 +16,7 @@
     "library",
     "meet",
     "office",
+    "other",
     "pool",
     "seminar",
     "service",
@@ -194,6 +196,22 @@
       "name_fr": "Salle de bain unisexe",
       "icon": {
         "name": "wc",
+        "class": "material"
+      }
+    },
+    "auditorium": {
+      "name_en": "Auditorium",
+      "name_fr": "Grande salle",
+      "icon": {
+        "name": "event-seat",
+        "class": "material"
+      }
+    },
+    "other": {
+      "name_en": "Other",
+      "name_fr": "Autre",
+      "icon": {
+        "name": "more-horiz",
         "class": "material"
       }
     }
