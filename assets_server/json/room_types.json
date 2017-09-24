@@ -18,7 +18,6 @@
     "office",
     "other",
     "pool",
-    "seminar",
     "service",
     "store",
     "study",
@@ -164,14 +163,6 @@
       "name_fr": "Laboratoire d'enseignement",
       "icon": {
         "name": "find-in-page",
-        "class": "material"
-      }
-    },
-    "seminar": {
-      "name_en": "Seminar Room",
-      "name_fr": "Salle de séminaire",
-      "icon": {
-        "name": "record-voice-over",
         "class": "material"
       }
     },
