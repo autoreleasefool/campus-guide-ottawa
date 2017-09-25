@@ -1,6 +1,6 @@
 {
   "Concurrently": "https://raw.githubusercontent.com/kimmobrunfeldt/concurrently/master/LICENSE",
-  "DefinitelyTyped": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE",
+  "DefinitelyTyped": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/LICENSE",
   "empty": "https://raw.githubusercontent.com/iclanzan/empty/master/LICENSE",
   "FastPriorityQueue.js": "https://raw.githubusercontent.com/lemire/FastPriorityQueue.js/master/LICENSE",
   "http-status-codes": "https://raw.githubusercontent.com/prettymuchbryce/node-http-status/master/LICENSE",
@@ -16,7 +16,7 @@
   "react-native-maps": "https://raw.githubusercontent.com/airbnb/react-native-maps/master/LICENSE",
   "react-native-scrollable-tab-view": "https://raw.githubusercontent.com/skv-headless/react-native-scrollable-tab-view/master/LICENSE.md",
   "React Native Simple Store": "https://raw.githubusercontent.com/jasonmerino/react-native-simple-store/master/LICENSE",
-  "eact Native Snackbar": "https://raw.githubusercontent.com/cooperka/react-native-snackbar/master/LICENSE",
+  "React Native Snackbar": "https://raw.githubusercontent.com/cooperka/react-native-snackbar/master/LICENSE",
   "react-native-vector-icons": "https://raw.githubusercontent.com/oblador/react-native-vector-icons/master/LICENSE",
   "React Redux": "https://raw.githubusercontent.com/reactjs/react-redux/master/LICENSE.md",
   "Redux": "https://raw.githubusercontent.com/reactjs/redux/master/LICENSE.md",
