@@ -1,7 +1,7 @@
 /**
  *
  * @license
- * Copyright (C) 2016 Joseph Roque
+ * Copyright (C) 2016-2017 Joseph Roque
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,8 +21,6 @@
  *
  */
 'use strict';
-
-/* eslint-disable */
 
 module.exports = [
 
@@ -98,7 +96,7 @@ module.exports = [
     name_fr: 'Résidence Brooks',
     location: {
       latitude: 45.423329,
-      longitude: -75.681810,
+      longitude: -75.68181,
     },
     address_en: '100 Thomas More Private, 622-638 King Edward Avenue',
     address_fr: '100, rue Thomas More; 622-638, avenue King Edward',
@@ -114,7 +112,7 @@ module.exports = [
     name_fr: 'Complexe des biosciences',
     location: {
       latitude: 45.421329,
-      longitude: -75.681500,
+      longitude: -75.6815,
     },
     address_en: '30 Marie-Curie Private',
     address_fr: '30, privé Marie-Curie',
@@ -161,7 +159,7 @@ module.exports = [
     name_fr: 'Centrale thermique',
     location: {
       latitude: 45.421031,
-      longitude: -75.679920,
+      longitude: -75.67992,
     },
     address_en: '720 King Edward Avenue',
     address_fr: '720, avenue King Edward',
@@ -224,7 +222,7 @@ module.exports = [
     name_fr: 'Résidence Friel',
     location: {
       latitude: 45.430552,
-      longitude: -75.682910,
+      longitude: -75.68291,
     },
     address_en: '240 Friel St',
     address_fr: '240, rue Friel',
@@ -272,7 +270,7 @@ module.exports = [
     name_fr: 'Pavillon Gendron',
     location: {
       latitude: 45.421329,
-      longitude: -75.681500,
+      longitude: -75.6815,
     },
     address_en: '30 Marie-Curie Private',
     address_fr: '30, privé Marie-Curie',
@@ -478,7 +476,7 @@ module.exports = [
     name_fr: 'Pavillon Hamelin',
     location: {
       latitude: 45.423807,
-      longitude: -75.685800,
+      longitude: -75.6858,
     },
     address_en: '70 Laurier Avenue East',
     address_fr: '70, avenue Laurier est',
@@ -530,7 +528,7 @@ module.exports = [
         type: 'cafe',
         alt_name: 'GO Café',
       },
-      { name: '033', type: 'class', },
+      { name: '033', type: 'class' },
       { name: '101' },
       { name: '102' },
       { name: '103' },
@@ -577,12 +575,12 @@ module.exports = [
       { name: '137' },
       { name: '138' },
       { name: '139' },
-      { name: '140', type: 'test', },
+      { name: '140', type: 'test' },
       { name: '141' },
-      { name: '142', type: 'kitchen', },
+      { name: '142', type: 'kitchen' },
       { name: '143' },
       { name: '144' },
-      { name: '145', type: 'meet', },
+      { name: '145', type: 'meet' },
       { name: '201' },
       { name: '202' },
       { name: '203' },
@@ -618,7 +616,7 @@ module.exports = [
       { name: '230', type: 'bath_women' },
       { name: '231' },
       { name: '232' },
-      { name: '233', type: 'kitchen', },
+      { name: '233', type: 'kitchen' },
       {
         name: '234',
         type: 'service',
@@ -636,7 +634,7 @@ module.exports = [
       { name: '243' },
       { name: '244' },
       { name: '245' },
-      { name: '246', type: 'meet', },
+      { name: '246', type: 'meet' },
       { name: '247' },
       { name: '248' },
       { name: '249' },
@@ -644,8 +642,8 @@ module.exports = [
       { name: '251' },
       { name: '252' },
       { name: '253' },
-      { name: '257', type: 'class', },
-      { name: '301', type: 'meet', },
+      { name: '257', type: 'class' },
+      { name: '301', type: 'meet' },
       { name: '302' },
       { name: '303' },
       { name: '304' },
@@ -704,7 +702,7 @@ module.exports = [
       { name: '347' },
       { name: '348' },
       { name: '349' },
-      { name: '350', type: 'class', },
+      { name: '350', type: 'class' },
       { name: '351' },
       { name: '352' },
       { name: '353' },
@@ -790,9 +788,9 @@ module.exports = [
         alt_name_fr: 'Salle Brian Harris',
       },
       { name: '507' },
-      { name: '509', type: 'meet', },
+      { name: '509', type: 'meet' },
       { name: '511' },
-      { name: '513', type: 'bath_uni', },
+      { name: '513', type: 'bath_uni' },
       { name: '515' },
       { name: '516' },
       { name: '517' },
@@ -801,7 +799,7 @@ module.exports = [
       { name: '520' },
       { name: '521' },
       { name: '522' },
-      { name: '523', type: 'class', },
+      { name: '523', type: 'class' },
       { name: '524' },
       { name: '525' },
       {
@@ -841,7 +839,7 @@ module.exports = [
     name_fr: 'Complexe sportif Minto',
     location: {
       latitude: 45.419746,
-      longitude: -75.677470,
+      longitude: -75.67747,
     },
     address_en: '801 King Edward Avenue',
     address_fr: '801, avenue King Edward',
@@ -979,7 +977,7 @@ module.exports = [
       { name: '07' },
       { name: '08' },
       { name: '010' },
-      { name: '015', type: 'class'},
+      { name: '015', type: 'class' },
       { name: '016', type: 'study' },
       {
         name: '018',
@@ -1097,7 +1095,7 @@ module.exports = [
       { name: '409', type: 'meet' },
       { name: '410', type: 'meet' },
       { name: '411', type: 'meet' },
-      { name: '412', type: 'meet'},
+      { name: '412', type: 'meet' },
       { name: '415', type: 'meet' },
       { name: '416', type: 'meet' },
       { name: '417', type: 'meet' },
@@ -1214,7 +1212,7 @@ module.exports = [
     name: 'La Rotonde',
     location: {
       latitude: 45.424038,
-      longitude: -75.680850,
+      longitude: -75.68085,
     },
     address_en: '109 Osgoode Street',
     address_fr: '109, rue Osgoode',
@@ -1245,7 +1243,7 @@ module.exports = [
     name_fr: 'Complexe sportif Minto',
     location: {
       latitude: 45.419746,
-      longitude: -75.677470,
+      longitude: -75.67747,
     },
     address_en: '801 King Edward Avenue',
     address_fr: '801, avenue King Edward',
@@ -1669,7 +1667,7 @@ module.exports = [
       { name: 'W0011G' },
       { name: 'W0011H' },
       { name: 'W0011J' },
-      { name: 'W0013', type: 'meeting' },
+      { name: 'W0013', type: 'meet' },
       { name: 'W0015' },
       { name: 'W0019', type: 'class' },
       { name: 'W0021', type: 'class' },
@@ -1982,7 +1980,7 @@ module.exports = [
     name_en: 'Thompson Residence',
     name_fr: 'Résidence Thompson',
     location: {
-      latitude: 45.424130,
+      latitude: 45.42413,
       longitude: -75.683206,
     },
     address_en: '25 University Private',
@@ -2193,7 +2191,7 @@ module.exports = [
       { name: '218' },
       {
         name: '219',
-        type: 'food',
+        type: 'cafe',
         alt_name: 'Tim Horton\'s',
       },
       {
@@ -2411,7 +2409,7 @@ module.exports = [
     name_fr: 'Dictionnaire Canadien bilingue',
     location: {
       latitude: 45.425945,
-      longitude: -75.686390,
+      longitude: -75.68639,
     },
     address_en: '40 Stewart Street',
     address_fr: '40, rue Stewart',
@@ -2504,8 +2502,8 @@ module.exports = [
     name_en: 'University of Ottawa Press',
     name_fr: 'Les Presses de l\'Université d\'Ottawa',
     location: {
-      latitude: 45.424860,
-      longitude: -75.682800,
+      latitude: 45.42486,
+      longitude: -75.6828,
     },
     address_en: '542 King Edward Avenue',
     address_fr: '542, avenue King Edward',
@@ -2584,8 +2582,8 @@ module.exports = [
     name_en: 'Chair of Ukrainian Studies, Support Staff - OSSTF, and Regroupement des organismes du patrimoine franco-ontarien',
     name_fr: 'Chair détudes ukrainiennes, Personnel de soutien - FEÉSO, et Regroupement des organismes du patrimoine franco-ontarien',
     location: {
-      latitude: 45.424860,
-      longitude: -75.682270,
+      latitude: 45.42486,
+      longitude: -75.68227,
     },
     address_en: '559 King Edward Avenue',
     address_fr: '559, avenue King Edward',
@@ -2696,7 +2694,7 @@ module.exports = [
     name_en: 'Free Store',
     name_fr: 'Gratuiterie',
     location: {
-      latitude: 45.422870,
+      latitude: 45.42287,
       longitude: -75.680793,
     },
     address_en: '647 King Edward Avenue',
