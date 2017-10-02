@@ -41,22 +41,24 @@
     "name_fr": "Logement"
   },
   {
-    "icon": {
-      "name": "directions-bus",
-      "class": "material"
+    "left": {
+      "icon": {
+        "name": "directions-bus",
+        "class": "material"
+      },
+      "id": "trn",
+      "image": "/oc_transpo.jpg",
+      "name": "OC Transpo"
     },
-    "id": "trn",
-    "image": "/oc_transpo.jpg",
-    "name": "OC Transpo"
-  },
-  {
-    "icon": {
-      "name": "local-shipping",
-      "class": "material"
-    },
-    "id": "shu",
-    "image": "/shuttle.jpg",
-    "name_en": "Shuttle",
-    "name_fr": "La navette"
+    "right": {
+      "icon": {
+        "name": "local-shipping",
+        "class": "material"
+      },
+      "id": "shu",
+      "image": "/shuttle.jpg",
+      "name_en": "Shuttle",
+      "name_fr": "La navette"
+    }
   }
 ]
