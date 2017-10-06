@@ -271,8 +271,9 @@
       "description_fr": "Une salle d'étude silencieuse 24 heures sur 24, 7 jours sur 7, disponible pour les étudiants tout au long de l'année. Les cubbies de confidentialité vous permettent d'être vos débouchés les plus productifs, ce qui vous permet de garder votre ordinateur en marche toute la journée, et la deuxième Cup à l'étage aide à vous nourrir.",
       "building": "MRT",
       "room": "022",
-      "opens": "06:00",
-      "closes": "23:00",
+      "opens": "N/A",
+      "closes": "N/A",
+      "alwaysOpen": true,
       "filters": [ "food", "individual", "lighting", "silent", "outlets" ],
       "image": "/mrt_basement.jpg"
     },
