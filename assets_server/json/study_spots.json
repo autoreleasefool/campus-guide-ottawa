@@ -142,8 +142,8 @@
       "description_fr": "Les 2ème, 3ème et 4ème étages du complexe Biosciences offrent une zone d'étude de taille moyenne, idéale pour les petits groupes qui souhaitent se retrouver. Il y a des points de vente, mais pas assez pour tout le monde lorsque les chambres sont pleines.",
       "building": "BSC",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "group", "outlets", "lighting" ],
       "image": "/bsc_upper.jpg"
     },
@@ -155,8 +155,8 @@
       "description_fr": "Deux salles au sous-sol du colonel By offrent de grands espaces d'étude pour les groupes et les individus. Les espaces de groupe sont de grands bureaux avec un ordinateur à chacun, et les espaces individuels offrent de grands moniteurs (NON COMPUTATEURS) dans une pièce silencieuse.",
       "building": "CBY",
       "room": "C08",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "group", "individual", "computers", "outlets", "silent" ],
       "image": "/cby_basement.jpg"
     },
@@ -168,8 +168,8 @@
       "description_fr": "Un petit laboratoire informatique pour les étudiants en génie. Chaque bureau dispose d'un ordinateur accessible uniquement par la Faculté d'ingénierie. Ce n'est pas une grande pièce et est souvent regroupé avec beaucoup d'étudiants travaillant.",
       "building": "CBY",
       "room": "B102",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "computers", "individual", "outlets" ],
       "image": "/cby_first.jpg"
     },
@@ -181,8 +181,8 @@
       "description_fr": "Chaque étage de Colonel By a une petite entrée juste à côté des ascenseurs et de l'escalier principal, souvent pratique pour les particuliers, et parfois pour les petits groupes de discussion.",
       "building": "CBY",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "individual", "lighting" ],
       "image": "/cby_upper.jpg"
     },
@@ -193,10 +193,10 @@
       "description_fr": "Cette alcôve juste au deuxième étage de Morisset et au-dessus de l'UCU est un lieu d'étude satisfaisant, avec des cabines et des sièges individuels, et un petit café vendant des collations légères et des boissons.",
       "building": "UCU",
       "room": "230",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "group", "individual", "outlets", "lighting" ],
-      "image": "/outer_placeholder.jpg"
+      "image": "/dejavu.jpg"
     },
     {
       "id": "ftx_third",
@@ -206,8 +206,8 @@
       "description_fr": "Un grand espace ouvert avec de grandes fenêtres, idéal pour les petits groupes et les individus. C'est souvent un endroit calme pour travailler, pensé pas silencieux. Un petit café à proximité offre des collations légères et des boissons, et il y a plein de micro-ondes pour vous réchauffer vos propres repas.",
       "building": "FTX",
       "room": "370",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "group", "individual", "lighting" ],
       "image": "/ftx_third.jpg"
     },
@@ -219,8 +219,8 @@
       "description_fr": "Les quatrième et cinquième étages de Fauteux offrent une grande quantité d'espaces d'étude silencieux et silencieux, parfaits pour les particuliers. Il existe de nombreux points de vente disponibles, et même un éclairage naturel au quatrième étage.",
       "building": "FTX",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "individual", "lighting", "silent", "computers" ],
       "image": "/ftx_lib.jpg"
     },
@@ -232,8 +232,8 @@
       "description_fr": "Les 3 premiers étages du FSS offrent un espace d'étude moderne, avec de nombreuses tables pour groupes et des sièges individuels. Première Moisson au premier étage offre également une variété de sandwichs et de boissons aux étudiants affamés.",
       "building": "FSS",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "group", "individual", "outlets", "lighting" ],
       "image": "/fss_lower.jpg"
     },
@@ -245,8 +245,8 @@
       "description_fr": "L'entrée principale du bâtiment du campus de Lees offre un vaste espace pour les étudiants à manger et à étudier. Il y a un café bien approvisionné, et des cabines pouvant aller jusqu'à 4. Il s'agit d'une zone à fort trafic, mais peut être bruyant entre les classes.",
       "building": "LEE",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "individual", "group", "lighting", "food", "outlets" ],
       "image": "/lee_foyer.jpg"
     },
@@ -258,8 +258,8 @@
       "description_fr": "Un espace très large pour les étudiants à travailler, avec une kitchenette pour la préparation des repas (éviers et micro-ondes). Les longues tables offrent beaucoup de place pour les groupes, avec des sièges pour les personnes qui bordent les murs.",
       "building": "MRN",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "group", "individual", "lighting", "outlets" ],
       "image": "/mrn_basement.jpg"
     },
@@ -271,8 +271,8 @@
       "description_fr": "Une salle d'étude silencieuse 24 heures sur 24, 7 jours sur 7, disponible pour les étudiants tout au long de l'année. Les cubbies de confidentialité vous permettent d'être vos débouchés les plus productifs, ce qui vous permet de garder votre ordinateur en marche toute la journée, et la deuxième Cup à l'étage aide à vous nourrir.",
       "building": "MRT",
       "room": "022",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "individual", "lighting", "silent", "outlets" ],
       "image": "/mrt_basement.jpg"
     },
@@ -284,8 +284,8 @@
       "description_fr": "Un grand salon avec beaucoup de place pour les groupes. Il y a de grandes fenêtres, et même des sièges à l'extérieur. A proximité, les étudiants peuvent trouver un café GO, offrant des collations légères et des boissons.",
       "building": "RGN",
       "room": "1012",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "group", "lighting", "food" ],
       "image": "/rgn_lounge.jpg"
     },
@@ -297,8 +297,8 @@
       "description_fr": "Le site dispose de tonnes d'espace d'étude, accompagné de points de vente, d'un immense mur de fenêtres et d'une cafétéria complète. Le premier étage comporte de nombreuses tables, regroupant confortablement des groupes jusqu'à 6, tandis que les étages supérieurs s'adressent principalement aux particuliers.",
       "building": "SITE",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "individual", "group", "food", "lighting", "outlets" ],
       "image": "/site_lower.jpg"
     },
@@ -310,10 +310,10 @@
       "description_fr": "Le sous-sol du SITE contient une vaste zone d'étude remplie d'ordinateurs accessibles uniquement par des étudiants de la Faculté d'ingénierie. L'espace est souvent occupé et peut être bruyant parfois, mais il est très pratique et a habituellement une place pour un ou deux de plus.",
       "building": "SITE",
       "room": "0110",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "computers", "group", "individual", "outlets" ],
-      "image": "/outer_placeholder.jpg"
+      "image": "/site_basement.jpg"
     },
     {
       "id": "tbt_lounge",
@@ -323,8 +323,8 @@
       "description_fr": "Le premier étage de Tabaret compte plusieurs salons de moyenne à grande pour que les étudiants puissent travailler et socialiser. Les sièges sont parfaits pour les petits groupes et les individus, et ne souffrent pas d'une forte pollution sonore entre les classes.",
       "building": "TBT",
       "room": null,
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "group", "individual", "outlets", "lighting" ],
       "image": "/tbt_lounge.jpg"
     },
@@ -336,8 +336,8 @@
       "description_fr": "Juste à l'extérieur de la caféteria dans UCU, il existe un très grand espace d'étude pour les étudiants et les groupes. Il existe des sièges pour les groupes de petite et moyenne taille, ainsi que des sièges abondants pour les personnes qui bordent les murs, qui sont également de grandes fenêtres.",
       "building": "UCU",
       "room": "102",
-      "opens": "N/A",
-      "closes": "N/A",
+      "opens": "06:00",
+      "closes": "23:00",
       "filters": [ "food", "group", "individual", "outlets", "lighting" ],
       "image": "/ucu_lounge.jpg"
     }
@@ -350,7 +350,7 @@
     "id": "study_spots",
     "name_en": "Reservations",
     "name_fr": "Réservations",
-    "image": "/outer_placeholder.jpg",
+    "image": "/study_reservations.jpg",
     "links": [
       {
         "id": "mrt_library",

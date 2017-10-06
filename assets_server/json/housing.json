@@ -730,7 +730,7 @@
       "address_fr": "290, rue Rideau",
       "description_en": "Rideau is a traditional style residence located downtown, approximately a 10 minute walk from the north end of campus. Students may be in large double rooms, sharing a bathroom with only their roommate, or in a single room with a private bathroom.",
       "description_fr": "Rideau est une résidence de style traditionnel située au centre-ville, à environ 10 minutes à pied de l'extrémité nord du campus. Les étudiants peuvent être dans de grandes chambres doubles, en partageant une salle de bain avec seulement leur colocataire, ou dans une chambre simple avec salle de bain privée.",
-      "image": "/outer_placeholder.jpg",
+      "image": "/housing_rideau.jpg",
       "location": {
         "latitude": 45.4287055,
         "longitude": -75.6858288
@@ -985,7 +985,7 @@
         "class": "material"
       },
       "id": "off",
-      "image": "/outer_placeholder.jpg",
+      "image": "/off_campus_housing.jpg",
       "name_en": "Off Campus Housing",
       "name_fr": "Logement hors campus"
     },
