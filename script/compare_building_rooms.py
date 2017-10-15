@@ -11,6 +11,8 @@ import os
 import re
 import sys
 
+from natsort import natsorted, ns
+
 if len(sys.argv) < 2:
     print('\nUse this tool to ensure buildings rooms have all been accounted for.')
     print('Usage: ./script/compare_building_rooms.py <building_code>')
@@ -84,6 +86,7 @@ def load_files():
 
     return json_room_listing, graph_room_listing
 
+
 def print_missing_rooms(rooms):
     """
     Print a list of missing rooms in alphanumeric order.
@@ -96,8 +99,7 @@ def print_missing_rooms(rooms):
     if not rooms:
         print('\tNone!')
         return
-    room_names = [x for x in rooms]
-    room_names.sort()
+    room_names = natsorted(rooms, alg=ns.IGNORECASE)
     for room_name in room_names:
         print('  {', end='')
         print(' name: \'{0}\' '.format(room_name[1:]), end='')
