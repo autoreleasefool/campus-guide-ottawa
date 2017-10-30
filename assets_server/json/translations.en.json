@@ -17,6 +17,7 @@
   "more": "More",
   "none": "None",
   "edit": "Edit",
+  "quit": "Quit",
   "delete": "Delete",
   "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
   "loading": "Loading...",
@@ -79,6 +80,8 @@
   "building": "Building",
   "room": "Room",
   "delete_course": "Delete course",
+  "quit_without_saving": "Unsaved changes",
+  "quit_without_saving_msg": "You have unsaved changes. Are you sure you want to quit?",
 
   // Discover
   "uo_info": "uO Info",
