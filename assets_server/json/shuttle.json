@@ -33,6 +33,16 @@
       "name_fr": "Régulier",
       "start_date": "2016-09-06",
       "end_date": "2017-04-28",
+      "icon": {
+        "ios": {
+          "name": "ios-paper",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-paper",
+          "class": "ionicon"
+        }
+      },
       "excluded_dates": [
         "2016-09-05",
         "2016-10-10",
@@ -80,6 +90,16 @@
       "name_fr": "Été",
       "start_date": "2017-05-01",
       "end_date": "2017-09-01",
+      "icon": {
+        "ios": {
+          "name": "ios-sunny",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-sunny",
+          "class": "ionicon"
+        }
+      },
       "excluded_dates": [
         "2017-05-22",
         "2017-07-01",
