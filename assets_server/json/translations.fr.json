@@ -110,6 +110,7 @@
   "shuttle_travel_time": "Notez que la navette prend environ 5-15 pour se déplacer entre les arrêts.",
   "shuttle_id_required": "Votre étudiant doit être autorisé à être autorisé sur la navette.",
   "excluded_dates": "Dates exclues",
+  "departure_times": "Heures de départ",
 
   // Study spots
   "study_spots": "Taches d'étude",

@@ -109,6 +109,7 @@
   "shuttle_travel_time": "Note that shuttle will take approximately 5-15 to travel between stops.",
   "shuttle_id_required": "Your student id is required to be allowed on the shuttle.",
   "excluded_dates": "Excluded dates",
+  "departure_times": "Departure times",
 
   // Study spots
   "study_spots": "Study spots",
