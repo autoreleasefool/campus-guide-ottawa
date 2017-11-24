@@ -24,6 +24,19 @@
     "friday": "Friday",
     "saturday": "Saturday",
 
+    "prev": "Prev",
+    "next": "Next",
+    "skip": "Skip",
+
+    "onboarding_general_title": "Welcome to Campus Guide",
+    "onboarding_general_description": "Your resource for learning all about your university",
+    "onboarding_navigation_title": "Get directions to any room on campus",
+    "onboarding_navigation_description": "Select the building and room you’re looking for, then pick your starting location for step by step directions",
+    "onboarding_discover_title": "Discover your campus",
+    "onboarding_discover_description": "Learn more about the services offered by your university. Check back often for new sections!",
+    "onboarding_settings_title": "Making the app fit you",
+    "onboarding_settings_description": "Accessibility, language, and display preferences can be found in settings",
+
     "update": "Update",
     "downloaded": "Downloaded",
     "no_internet": "No Internet connection",
@@ -77,6 +90,19 @@
     "thursday": "Jeudi",
     "friday": "Vendredi",
     "saturday": "Samedi",
+
+    "prev": "Précédent",
+    "next": "Prochain",
+    "skip": "Passer",
+
+    "onboarding_general_title": "Bienvenue sur le Campus Guide",
+    "onboarding_general_description": "Votre ressource pour apprendre tout sur votre université",
+    "onboarding_navigation_title": "Obtenez les directions à n'importe quelle pièce sur le campus",
+    "onboarding_navigation_description": "Sélectionnez le bâtiment et la pièce que vous recherchez, puis choisissez votre emplacement de départ pour les instructions étape par étape",
+    "onboarding_discover_title": "Découvrez votre campus",
+    "onboarding_discover_description": "En savoir plus sur les services offerts par votre université. Revenez souvent pour de nouvelles sections!",
+    "onboarding_settings_title": "Rendre l'application vous convient",
+    "onboarding_settings_description": "L'accessibilité, la langue et les préférences d'affichage peuvent être trouvées dans les paramètres",
 
     "update": "Mettre à jour",
     "downloaded": "Téléchargé",
