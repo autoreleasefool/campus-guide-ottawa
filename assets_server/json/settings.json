@@ -38,12 +38,23 @@
     ]
   },
   {
-    "key": "About Campus Guide:À propos de Guide de Campus",
+    "key": "Help and Feedback:Aide et commentaires",
     "data": [
       {
-        "name": "Version",
-        "key": "app_version",
-        "type": "text"
+        "name_en": "View intro tour",
+        "name_fr": "Voir le tour d'intro",
+        "key": "app_help_tour",
+        "type": "custom",
+        "icon": {
+          "ios": {
+            "class": "ionicon",
+            "name": "ios-help-circle"
+          },
+          "android": {
+            "class": "ionicon",
+            "name": "md-help-circle"
+          }
+        }
       },
       {
         "name_en": "Submit feedback",
@@ -61,6 +72,16 @@
             "name": "md-mail"
           }
         }
+      }
+    ]
+  },
+  {
+    "key": "About Campus Guide:À propos de Guide de Campus",
+    "data": [
+      {
+        "name": "Version",
+        "key": "app_version",
+        "type": "text"
       },
       {
         "name_en": "Visit developer website",
@@ -88,7 +109,7 @@
         "name_en": "Open source attributions",
         "name_fr": "Attributions open source",
         "key": "app_open_source",
-        "type": "link",
+        "type": "custom",
         "icon": {
           "ios": {
             "class": "ionicon",
