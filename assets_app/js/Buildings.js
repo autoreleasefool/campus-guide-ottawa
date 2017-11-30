@@ -1942,8 +1942,27 @@ module.exports = [
     },
     address_en: '601 Cumberland Street',
     address_fr: '601, rue Cumberland',
-    facilities: [],
-    rooms: [],
+    facilities: [
+      'food',
+      'alcohol',
+    ],
+    rooms: [
+      { name: '006' },
+      { name: '009' },
+      {
+        name: '107',
+        alt_name: 'Café Nostalgica',
+        type: 'cafe',
+      },
+      { name: '204' },
+      { name: '205', type: 'meet' },
+      { name: '208' },
+      { name: '209', type: 'meet' },
+      { name: '211', type: 'meet' },
+      { name: '305' },
+      { name: '306' },
+      { name: '307', type: 'meet' },
+    ],
   },
 
   {
