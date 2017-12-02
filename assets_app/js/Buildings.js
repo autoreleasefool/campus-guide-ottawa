@@ -2630,6 +2630,7 @@ module.exports = [
         alt_name_en: 'School of Human Kinetics',
         alt_name_fr: 'L\'École des sciences de l\'activité physique',
       },
+      { name: '241' },
       { name: '302' },
       { name: '303', type: 'lab_res' },
       { name: '306', type: 'lab_res' },
