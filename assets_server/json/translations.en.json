@@ -21,6 +21,7 @@
   "delete": "Delete",
   "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
   "loading": "Loading...",
+  "not_affiliated_with": "Not affiliated with the ",
 
   // Search
   "search_placeholder": "Search...",

@@ -21,6 +21,7 @@
   "delete": "Effacer",
   "cannot_be_undone_confirmation": "Cette action ne peut pas être annulée. Êtes-vous sûr?",
   "loading": "Chargement...",
+  "not_affiliated_with": "Non affilié à l'",
 
   // Search sections
   "search_placeholder": "Recherche...",
