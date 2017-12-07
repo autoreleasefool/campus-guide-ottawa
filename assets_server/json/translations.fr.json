@@ -62,6 +62,8 @@
   "location_permission_denied": "Vous avez désactivé les autorisations de localisation pour Campus\u00a0Guide. Pour activer, allez dans les paramètres de votre appareil",
   "location_position_unavailable": "Votre emplacement n'a pas pu être déterminé. Appuyez pour essayer à nouveau",
   "location_timeout": "Il a fallu trop de temps pour récupérer votre emplacement. Appuyez pour essayer à nouveau",
+  "choose_rooms_to_navigate": "Choisissez une pièce pour obtenir les directions, ou appuyez sur ci-dessous pour les directions à cet immeuble",
+  "no_additional_rooms": "Pas de pièces supplémentaires",
 
   // Schedule
   "course": "Cours",
