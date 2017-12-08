@@ -36,7 +36,15 @@ module.exports = [
     },
     address_en: '90 University Private',
     address_fr: '90, privé University',
-    facilities: [],
+    facilities: [
+      'bed',
+      'food',
+      'laundry',
+      'mail',
+      'parking',
+      'service',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -52,7 +60,9 @@ module.exports = [
     },
     address_en: '25 Templeton Street',
     address_fr: '25, rue Templeton',
-    facilities: [],
+    facilities: [
+      'lab'
+    ],
     rooms: [],
   },
 
@@ -68,7 +78,11 @@ module.exports = [
     },
     address_en: '155 Séraphin-Marion Private',
     address_fr: '155, rue Séraphin-Marion',
-    facilities: [],
+    facilities: [
+      'parking',
+      'service',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -84,7 +98,11 @@ module.exports = [
     },
     address_en: '110 University Private',
     address_fr: '110, privé University',
-    facilities: [],
+    facilities: [
+      'parking',
+      'service',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -100,7 +118,13 @@ module.exports = [
     },
     address_en: '100 Thomas More Private, 622-638 King Edward Avenue',
     address_fr: '100, rue Thomas More; 622-638, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'bed',
+      'class',
+      'laundry',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -116,7 +140,10 @@ module.exports = [
     },
     address_en: '30 Marie-Curie Private',
     address_fr: '30, privé Marie-Curie',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+    ],
     rooms: [],
   },
 
@@ -132,7 +159,11 @@ module.exports = [
     },
     address_en: '161 Louis-Pasteur Private',
     address_fr: '161, privé Louis-Pasteur',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+      'printer',
+    ],
     rooms: [],
   },
 
@@ -147,7 +178,10 @@ module.exports = [
     },
     address_en: '20 Marie-Curie Private',
     address_fr: '20, privé Marie-Curie',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+    ],
     rooms: [],
   },
 
@@ -163,7 +197,9 @@ module.exports = [
     },
     address_en: '720 King Edward Avenue',
     address_fr: '720, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'lab',
+    ],
     rooms: [],
   },
 
@@ -182,6 +218,7 @@ module.exports = [
     facilities: [
       'library',
       'parking',
+      'service',
     ],
     rooms: [
       { name: '1000A', alt_name: 'Info', type: 'service' },
@@ -962,7 +999,9 @@ module.exports = [
     },
     address_en: '10 Marie-Curie Private',
     address_fr: '10, privé Marie-Curie',
-    facilities: [],
+    facilities: [
+      'lab',
+    ],
     rooms: [],
   },
 
@@ -977,7 +1016,9 @@ module.exports = [
     },
     address_en: '45 O\'Connor Street',
     address_fr: '45, rue O\'Connor',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -993,7 +1034,11 @@ module.exports = [
     },
     address_en: '240 Friel St',
     address_fr: '240, rue Friel',
-    facilities: [],
+    facilities: [
+      'bed',
+      'laundry',
+      'parking',
+    ],
     rooms: [],
   },
 
@@ -1010,8 +1055,11 @@ module.exports = [
     address_en: '120 University Private',
     address_fr: '120, privé University',
     facilities: [
+      'class',
       'food',
+      'lab',
       'library',
+      'service'
     ],
     rooms: [
       {
@@ -1910,7 +1958,13 @@ module.exports = [
     },
     address_en: '57 Louis-Pasteur Private',
     address_fr: '57, privé Louis-Pasteur',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+      'library',
+      'printer',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -1926,7 +1980,10 @@ module.exports = [
     },
     address_en: '30 Marie-Curie Private',
     address_fr: '30, privé Marie-Curie',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+    ],
     rooms: [],
   },
 
@@ -1943,8 +2000,11 @@ module.exports = [
     address_en: '601 Cumberland Street',
     address_fr: '601, rue Cumberland',
     facilities: [
-      'food',
       'alcohol',
+      'class',
+      'food',
+      'parking',
+      'service',
     ],
     rooms: [
       { name: '006' },
@@ -1977,7 +2037,10 @@ module.exports = [
     },
     address_en: '115 Séraphin Marion Private',
     address_fr: '115, rue Séraphin Marion',
-    facilities: [],
+    facilities: [
+      'class',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -1993,7 +2056,10 @@ module.exports = [
     },
     address_en: '202 Henderson Avenue',
     address_fr: '202, avenue Henderson',
-    facilities: [],
+    facilities: [
+      'bed',
+      'laundry',
+    ],
     rooms: [],
   },
 
@@ -2009,7 +2075,12 @@ module.exports = [
     },
     address_en: '157 Laurier Avenue East',
     address_fr: '157, avenue Laurier est',
-    facilities: [],
+    facilities: [
+      'bed',
+      'food',
+      'laundry',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2025,7 +2096,9 @@ module.exports = [
     },
     address_en: '631 King Edward Avenue',
     address_fr: '631, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2041,7 +2114,9 @@ module.exports = [
     },
     address_en: '585 King Edward Avenue',
     address_fr: '585, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'class',
+    ],
     rooms: [],
   },
 
@@ -2057,7 +2132,12 @@ module.exports = [
     },
     address_en: '45 Louis-Pasteur Private',
     address_fr: '45, privé Louis-Pasteur',
-    facilities: [],
+    facilities: [
+      'bed',
+      'laundry',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2072,7 +2152,14 @@ module.exports = [
     },
     address_en: '200 Lees Avenu',
     address_fr: '200, avenue Lees',
-    facilities: [],
+    facilities: [
+      'class',
+      'food',
+      'lab',
+      'parking',
+      'printer',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2088,7 +2175,12 @@ module.exports = [
     },
     address_en: '145 Jean-Jacques-Lussier Private',
     address_fr: '145, privé Jean-Jacques-Lussier',
-    facilities: [],
+    facilities: [
+      'class',
+      'food',
+      'lab',
+      'library',
+    ],
     rooms: [],
   },
 
@@ -2104,7 +2196,12 @@ module.exports = [
     },
     address_en: '141 Louis-Pasteur Private',
     address_fr: '141, privé Louis-Pasteur',
-    facilities: [],
+    facilities: [
+      'class',
+      'mail',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2120,7 +2217,10 @@ module.exports = [
     },
     address_en: '100 Laurier Avenue East',
     address_fr: '100, avenue Laurier est',
-    facilities: [],
+    facilities: [
+      'class',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -2135,7 +2235,14 @@ module.exports = [
     },
     address_en: '100 Marie-Curie Private',
     address_fr: '100, privé Marie-Curie',
-    facilities: [],
+    facilities: [
+      'atm',
+      'food',
+      'parking',
+      'pharmacy',
+      'service',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -2152,10 +2259,12 @@ module.exports = [
     address_en: '70 Laurier Avenue East',
     address_fr: '70, avenue Laurier est',
     facilities: [
+      'class',
       'food',
-      'printer',
+      'lab',
       'library',
       'parking',
+      'printer',
     ],
     rooms: [
       {
@@ -2498,7 +2607,11 @@ module.exports = [
     },
     address_en: '45 Mann Avenue',
     address_fr: '45, avenue Mann',
-    facilities: [],
+    facilities: [
+      'bed',
+      'laundry',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2514,7 +2627,13 @@ module.exports = [
     },
     address_en: '801 King Edward Avenue',
     address_fr: '801, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'class',
+      'food',
+      'gym',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2531,6 +2650,7 @@ module.exports = [
     address_en: '125 University Private',
     address_fr: '125, privé University',
     facilities: [
+      'class',
       'gym',
       'pool'
     ],
@@ -2728,7 +2848,13 @@ module.exports = [
     },
     address_en: '90 University Private',
     address_fr: '90, privé University',
-    facilities: [],
+    facilities: [
+      'bed',
+      'food',
+      'laundry',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -2744,7 +2870,10 @@ module.exports = [
     },
     address_en: '140 Louis-Pasteur Private',
     address_fr: '140, privé Louis-Pasteur',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+    ],
     rooms: [
       { name: '003' },
       { name: '004' },
@@ -2858,10 +2987,11 @@ module.exports = [
     address_en: '65 University Private',
     address_fr: '65, privé University',
     facilities: [
+      'class',
       'food',
+      'library',
       'printer',
       'store',
-      'library',
     ],
     rooms: [
       { name: '003' },
@@ -3087,7 +3217,9 @@ module.exports = [
     },
     address_en: '1 Nicholas Street',
     address_fr: '1, rue Nicholas',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3103,7 +3235,9 @@ module.exports = [
     },
     address_en: '180 Waller Street',
     address_fr: '180, rue Waller',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3119,7 +3253,11 @@ module.exports = [
     },
     address_en: '50 University Private',
     address_fr: '50, privé University',
-    facilities: [],
+    facilities: [
+      'class',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3135,7 +3273,13 @@ module.exports = [
     },
     address_en: '290 Rideau Street',
     address_fr: '290, rue Rideau',
-    facilities: [],
+    facilities: [
+      'alcohol',
+      'bed',
+      'laundry',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3151,7 +3295,16 @@ module.exports = [
     },
     address_en: '451 Smyth Road',
     address_fr: '451, rue Smyth',
-    facilities: [],
+    facilities: [
+      'class',
+      'food',
+      'lab',
+      'library',
+      'parking',
+      'printer',
+      'service',
+      'store',
+    ],
     rooms: [],
   },
 
@@ -3166,7 +3319,9 @@ module.exports = [
     },
     address_en: '109 Osgoode Street',
     address_fr: '109, rue Osgoode',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3181,7 +3336,10 @@ module.exports = [
     },
     address_en: '591 Cumberland Street',
     address_fr: '591, rue Cumberland',
-    facilities: [],
+    facilities: [
+      'class',
+      'parking',
+    ],
     rooms: [],
   },
 
@@ -3197,7 +3355,13 @@ module.exports = [
     },
     address_en: '801 King Edward Avenue',
     address_fr: '801, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'class',
+      'food',
+      'gym',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3214,8 +3378,11 @@ module.exports = [
     address_en: '60 University Private',
     address_fr: '60, privé University',
     facilities: [
+      'class',
       'food',
+      'lab',
       'printer',
+      'service',
     ],
     rooms: [
 
@@ -3526,7 +3693,11 @@ module.exports = [
     },
     address_en: '133/135 Séraphin Marion Private',
     address_fr: '133/135, rue Séraphin Marion',
-    facilities: [],
+    facilities: [
+      'class',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3543,8 +3714,11 @@ module.exports = [
     address_fr: '800, avenue King Edward',
     facilities: [
       'atm',
+      'class',
       'food',
+      'lab',
       'printer',
+      'service',
     ],
     rooms: [
       { name: 'A0150', type: 'class' },
@@ -3789,7 +3963,13 @@ module.exports = [
     },
     address_en: '90 University Private',
     address_fr: '90, privé University',
-    facilities: [],
+    facilities: [
+      'bed',
+      'food',
+      'laundry',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3804,7 +3984,9 @@ module.exports = [
     },
     address_en: '1 Stewart Street',
     address_fr: '1, rue Stewart',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3820,7 +4002,9 @@ module.exports = [
     },
     address_en: '30/32 Stewart Street',
     address_fr: '30/32, rue Stewart',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -3837,7 +4021,9 @@ module.exports = [
     address_en: '75 Laurier Avenue East',
     address_fr: '75, avenue Laurier est',
     facilities: [
+      'class',
       'food',
+      'service',
     ],
     rooms: [
       { name: 'W005' },
@@ -4167,7 +4353,12 @@ module.exports = [
     },
     address_en: '25 University Private',
     address_fr: '25, privé University',
-    facilities: [],
+    facilities: [
+      'bed',
+      'class',
+      'laundry',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4184,11 +4375,13 @@ module.exports = [
     address_en: '85 University Private',
     address_fr: '85, privé University',
     facilities: [
+      'alcohol',
       'atm',
+      'class',
       'food',
       'printer',
+      'service',
       'store',
-      'alcohol',
     ],
     rooms: [
       { name: 'AUD', type: 'class' },
@@ -4468,7 +4661,9 @@ module.exports = [
     },
     address_en: '316 Rideau Street',
     address_fr: '316, rue Rideau',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4484,7 +4679,9 @@ module.exports = [
     },
     address_en: '34/36 Stewart Street',
     address_fr: '34/36, rue Stewart',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4500,7 +4697,12 @@ module.exports = [
     },
     address_en: '136 Jean-Jacques Lussier Private',
     address_fr: '136, rue Jean-Jacques Lussier',
-    facilities: [],
+    facilities: [
+      'class',
+      'lab',
+      'library',
+      'service',
+    ],
     rooms: [
       {
         name: '1001',
@@ -4838,7 +5040,9 @@ module.exports = [
     },
     address_en: '52 University Private',
     address_fr: '52, privé University',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4853,7 +5057,11 @@ module.exports = [
     },
     address_en: '200 Wilbrod Street',
     address_fr: '200, rue Wilbrod',
-    facilities: [],
+    facilities: [
+      'class',
+      'parking',
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4869,7 +5077,9 @@ module.exports = [
     },
     address_en: '17 Copernicus Street',
     address_fr: '17, rue Copernicus',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4885,7 +5095,9 @@ module.exports = [
     },
     address_en: '34 Copernicus Street',
     address_fr: '34, rue Copernicus',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4901,7 +5113,9 @@ module.exports = [
     },
     address_en: '38 Stewart Street',
     address_fr: '38, rue Stewart',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4917,7 +5131,9 @@ module.exports = [
     },
     address_en: '40 Stewart Street',
     address_fr: '40, rue Stewart',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4933,7 +5149,9 @@ module.exports = [
     },
     address_en: '113 Osgoode Street',
     address_fr: '113, rue Osgoode',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4948,7 +5166,9 @@ module.exports = [
     },
     address_en: '143 Séraphin-Marion Private',
     address_fr: '143, rue Séraphin-Marion',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4963,7 +5183,9 @@ module.exports = [
     },
     address_en: '170 Waller Street',
     address_fr: '170, rue Waller',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4979,7 +5201,9 @@ module.exports = [
     },
     address_en: '190 Laurier Avenue East',
     address_fr: '190, avenue Laurier est',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -4995,7 +5219,9 @@ module.exports = [
     },
     address_en: '538 King Edward Avenue',
     address_fr: '538, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5011,7 +5237,9 @@ module.exports = [
     },
     address_en: '542 King Edward Avenue',
     address_fr: '542, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5027,7 +5255,9 @@ module.exports = [
     },
     address_en: '545 King Edward Avenue',
     address_fr: '545, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5043,7 +5273,9 @@ module.exports = [
     },
     address_en: '554 King Edward Avenue',
     address_fr: '554, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5059,7 +5291,9 @@ module.exports = [
     },
     address_en: '556 King Edward Avenue',
     address_fr: '556, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5075,7 +5309,9 @@ module.exports = [
     },
     address_en: '558 King Edward Avenue',
     address_fr: '558, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5091,7 +5327,9 @@ module.exports = [
     },
     address_en: '559 King Edward Avenue',
     address_fr: '559, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5107,7 +5345,9 @@ module.exports = [
     },
     address_en: '562 King Edward Avenue',
     address_fr: '562, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5123,7 +5363,9 @@ module.exports = [
     },
     address_en: '577 King Edward Avenue',
     address_fr: '577, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5139,7 +5381,9 @@ module.exports = [
     },
     address_en: '598 King Edward Avenue',
     address_fr: '598, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5155,7 +5399,9 @@ module.exports = [
     },
     address_en: '600 King Edward Avenue',
     address_fr: '600, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5171,7 +5417,9 @@ module.exports = [
     },
     address_en: '600 Peter Morand Crescent',
     address_fr: '600, rue Peter Morand',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5187,7 +5435,9 @@ module.exports = [
     },
     address_en: '603 King Edward Avenue',
     address_fr: '603, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5203,7 +5453,9 @@ module.exports = [
     },
     address_en: '647 King Edward Avenue',
     address_fr: '647, avenue King Edward',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
@@ -5218,7 +5470,9 @@ module.exports = [
     },
     address_en: '850 Peter Morand Crescent',
     address_fr: '850, rue Peter Morand',
-    facilities: [],
+    facilities: [
+      'service',
+    ],
     rooms: [],
   },
 
