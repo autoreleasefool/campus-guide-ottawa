@@ -2232,7 +2232,36 @@ module.exports = [
       'class',
       'service',
     ],
-    rooms: [],
+    rooms: [
+      { name: '104' },
+      {
+        name: '105',
+        alt_name_en: 'Paul Hagen Room',
+        alt_name_fr: 'Salle Paul Hagen',
+        type: 'meet',
+      },
+      {
+        name: '107',
+        alt_name_en: 'Faculty of Graduate and Postdoctoral Studies',
+        alt_name_fr: 'Faculté des études supérieures et postdoctorales',
+      },
+      { name: '201' },
+      { name: '202' },
+      { name: '208' },
+      { name: '209' },
+      {
+        name: '210',
+        alt_name_en: 'Nicole Bégin-Heick Room',
+        alt_name_fr: 'Salle Nicole Bégin-Heick',
+        type: 'meet',
+      },
+      { name: '211' },
+      { name: '212' },
+      { name: '213' },
+      { name: '302', type: 'class' },
+      { name: '305', type: 'class' },
+      { name: '306' },
+    ],
   },
 
   {
