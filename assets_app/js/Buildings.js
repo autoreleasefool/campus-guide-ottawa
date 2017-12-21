@@ -3132,8 +3132,8 @@ module.exports = [
       'pool'
     ],
     rooms: [
-      { name: '08' },
-      { name: '09' },
+      { name: '08', type: 'locker_men' },
+      { name: '09', type: 'locker_women' },
       { name: '020', type: 'pool' },
       {
         name: '022',

@@ -14,6 +14,8 @@
     "lab_res",
     "lab_teach",
     "library",
+    "locker_men",
+    "locker_women",
     "meet",
     "office",
     "other",
@@ -204,6 +206,22 @@
       "icon": {
         "name": "more-horiz",
         "class": "material"
+      }
+    },
+    "locker_men": {
+      "name_en": "Men's Locker Room",
+      "name_fr": "Vestiaire des hommes",
+      "icon": {
+        "name": "md-man",
+        "class": "ionicon"
+      }
+    },
+    "locker_women": {
+      "name_en": "Women's Locker Room",
+      "name_fr": "Vestiaire des femmes",
+      "icon": {
+        "name": "md-woman",
+        "class": "ionicon"
       }
     }
   }
