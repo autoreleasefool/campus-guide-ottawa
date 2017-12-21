@@ -22,6 +22,8 @@
     "pool",
     "service",
     "store",
+    "studio_art",
+    "studio_music",
     "study",
     "test"
   ],
@@ -172,16 +174,28 @@
       "name_en": "Men's Bathroom",
       "name_fr": "La salle de bain pour hommes",
       "icon": {
-        "name": "md-man",
-        "class": "ionicon"
+        "ios": {
+          "name": "ios-man",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-man",
+          "class": "ionicon"
+        }
       }
     },
     "bath_women": {
       "name_en": "Women's Bathroom",
       "name_fr": "La salle de bain des femmes",
       "icon": {
-        "name": "md-woman",
-        "class": "ionicon"
+        "ios": {
+          "name": "ios-woman",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-woman",
+          "class": "ionicon"
+        }
       }
     },
     "bath_uni": {
@@ -212,16 +226,56 @@
       "name_en": "Men's Locker Room",
       "name_fr": "Vestiaire des hommes",
       "icon": {
-        "name": "md-man",
-        "class": "ionicon"
+        "ios": {
+          "name": "ios-man",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-man",
+          "class": "ionicon"
+        }
       }
     },
     "locker_women": {
       "name_en": "Women's Locker Room",
       "name_fr": "Vestiaire des femmes",
       "icon": {
-        "name": "md-woman",
-        "class": "ionicon"
+        "ios": {
+          "name": "ios-woman",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-woman",
+          "class": "ionicon"
+        }
+      }
+    },
+    "studio_art": {
+      "name_en": "Art Studio",
+      "name_fr": "Studio d'art",
+      "icon": {
+        "ios": {
+          "name": "ios-brush",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-brush",
+          "class": "ionicon"
+        }
+      }
+    },
+    "studio_music": {
+      "name_en": "Music Studio",
+      "name_fr": "Studio de musique",
+      "icon": {
+        "ios": {
+          "name": "ios-musical-notes",
+          "class": "ionicon"
+        },
+        "android": {
+          "name": "md-musical-notes",
+          "class": "ionicon"
+        }
       }
     }
   }
