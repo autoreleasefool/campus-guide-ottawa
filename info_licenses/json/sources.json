@@ -7,6 +7,7 @@
   "Jest": "https://raw.githubusercontent.com/facebook/jest/master/LICENSE",
   "Moment.js": "https://raw.githubusercontent.com/moment/moment/develop/LICENSE",
   "pre-commit": "https://raw.githubusercontent.com/observing/pre-commit/master/LICENSE",
+  "prop-types": "https://raw.githubusercontent.com/facebook/prop-types/master/LICENSE",
   "React": "https://raw.githubusercontent.com/facebook/react/master/LICENSE",
   "React Native": "https://raw.githubusercontent.com/facebook/react-native/master/LICENSE",
   "react-native-action-button": "https://raw.githubusercontent.com/mastermoo/react-native-action-button/master/LICENSE",
