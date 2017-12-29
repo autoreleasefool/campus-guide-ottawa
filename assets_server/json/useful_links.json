@@ -517,8 +517,7 @@
           {
             "name_en": "Ophthalmology",
             "name_fr": "Ophthalmologie",
-            "link_en": "http://www.ottawahospital.on.ca/wps/portal/Base/TheHospital/ClinicalServices/DeptPgrmCS/Programs/EyeInstitute/!ut/p/c5/jdBLU4MwFAXgX2RzQ3iEJTSBhBYbQCxl4_TJxPLQ4mjLr5eOG8cZq_cuvzlncVCJxm_X77pav-muXdeoQKX9xKgjQmkaALFwQdpAKKMGXrjW6KtvTu2cg0wCV-HEN1wT_pP2AaczkotYzHEAkkUxUYkFIOw_0hEq9aaZfGybCUwc7FqUEmradGQgaMm2xzPrvIpxlvaDD7XYGNFChppHWefxWNR3TetclH-EbUJWVcea9kFbp2JQSe3UIMMWL_XenD-H0M-mxqpo8a68UCMshzNWvQ761x3N2VTVqV0dnLgjAVpeF7y9yNUfHQ6ujz1YyJyC9FIzYRknoJzbntk_-2PGxv4pDX3BMID55bc2vTr8ch6ge9E1e5QdTuilyYthf0x5Sr1Pu7B2NA!!/dl3/d3/L0lHSkovd0RNQURrQUVnQSEhL1lCZncvZW4!/",
-            "link_fr": "http://www.ottawahospital.on.ca/wps/portal/Base/TheHospital/ClinicalServices/DeptPgrmCS/Programs/EyeInstitute/!ut/p/c5/jdBLU4MwFAXgX2RzQ4CEJTRAQosNIJaycfpAJpaHiqMtv146bhxnrN67_OacxUElmr7bvut6-6b7btugApX2A2dUhNI0AGLhgLSBMM4MvHKsyTffnNm5DzIJHIUTz3BM-E_aA5wuSC5iscQBSB7FRCUWgLD_SEeo1Lt29rFvZzCj2LEYI8y02cRA0JrvjyfeuzX3eTqMHjRiZ0QrGWo_ynrXj0Vz03b0rLwj7BOyqXvednfaei1GlTS0ARl2eK0rc_kUwrCYG5uiw4fyzIywHE9YDToYXg4s53PVpHb9SOOeBGh9WfD6Ihe_pz44HnZhJXMG0k3NhGc-AUWve2b_7I85n_rnLPQExwDml1_b9OLwy7mAbkXfViirOvTc5sVYHVM_Ze4ng3dMaQ!!/dl3/d3/L0lHSkovd0RNQURrQUVnQSEhL1lCZncvZnI!/"
+            "link": "http://med.uottawa.ca/ophthalmology/"
           },
           {
             "name_en": "Oto-rhino-laryngology",
@@ -957,8 +956,8 @@
           },
           {
             "name": "Association des étudiants en nutrition",
-            "link": "http://adenut.com/",
-            "invalid": true
+            "link_fr": "http://sante.uottawa.ca/nutrition/vie-etudiante/associations-etudiantes",
+            "link_en": "http://health.uottawa.ca/nutrition/student-life/student-associations"
           },
           {
             "name_en": "International, Political and Policy Studies Students' Association",
@@ -979,8 +978,7 @@
           {
             "name_en": "Telfer Student Council",
             "name_fr": "Conseil étudiant Telfer",
-            "link_en": "http://cetsc.ca/",
-            "link_fr": "http://cetsc.ca/fr/"
+            "link": "https://cetsc.ca/"
           }
         ]
       }
@@ -1000,13 +998,7 @@
         "name_en": "SFUO Clubs",
         "name_fr": "Clubs de la FÉUO",
         "link_en": "http://sfuo.ca/clubs/",
-        "link_fr": "http://sfuo.ca/clubs/fr/"
-      },
-      {
-        "name_en": "SFUO Club Listings",
-        "name_fr": "Liste des clubs de la FÉUO",
-        "link_en": "http://sfuo.ca/clubs/clubs-listing/",
-        "link_fr": "http://sfuo.ca/clubs/fr/liste-des-clubs/"
+        "link_fr": "http://sfuo.ca/fr/clubs/"
       },
       {
         "name_en": "Gee-Gees Campus Rec",
@@ -1024,7 +1016,7 @@
         "name_en": "Gym Hours of Operation",
         "name_fr": "Heures d'ouverture du gymnase",
         "link_en": "https://www.geegees.ca/en/rec/hours-of-operation",
-        "link_fr": "https://www.geegees.ca/fr/rec/heures-douverture"
+        "link_fr": "https://www.geegees.ca/fr/rec/heures-ouverture"
       }
     ]
   },
