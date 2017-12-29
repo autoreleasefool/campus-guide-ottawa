@@ -3,9 +3,6 @@
 import json
 import requests
 
-# Disable warnings, since we are just loading the page to make sure it returns 200
-requests.packages.urllib3.disable_warnings()
-
 
 def add_link(link, valid, invalid):
     """Add a link to either the valid or invalid list."""
@@ -59,7 +56,7 @@ def main():
     invalid_links = []
 
     # Open the set of links
-    with open('../assets_server/json/useful_links.json') as useful_links:
+    with open('./assets_server/json/useful_links.json') as useful_links:
         links_json = json.loads(useful_links.read())
         retrieve_links(links_json, links, invalid_links)
 
