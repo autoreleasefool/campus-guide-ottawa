@@ -2,7 +2,22 @@
 
 
 import argparse
+import os
 import sys
+from .useful_links.verify import check_links
+
+
+def get_asset_dir(component):
+    """Get the asset directory path.
+
+    :param component:
+        either 'app' or 'server'
+    :type component:
+        `str`
+    """
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                        '..',
+                        'assets_{}'.format(component))
 
 
 def main(args=None):
@@ -48,8 +63,7 @@ def main(args=None):
         # TODO: setup licenses.py script
         print('This script has not been merged.')
     elif parsed_args.links:
-        # TODO: setup dead link checker
-        print('This script has not been merged.')
+        check_links(os.path.join(get_asset_dir('server'), 'json', 'useful_links.json'))
     elif parsed_args.shuttle:
         # TODO: setup shuttle script
         print('This script has not been merged.')

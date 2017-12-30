@@ -1,5 +1,6 @@
 """Verify useful links are still valid."""
 
+
 import json
 import requests
 
@@ -40,8 +41,8 @@ def retrieve_links(categories, valid, invalid):
             retrieve_links(category['categories'], valid, invalid)
 
 
-def check_links():
-    """Main."""
+def check_links(filename):
+    """Check links in provided file"""
     # pylint:disable=W0703
 
     # List of links to check
@@ -56,7 +57,7 @@ def check_links():
     invalid_links = []
 
     # Open the set of links
-    with open('./assets_server/json/useful_links.json') as useful_links:
+    with open(filename) as useful_links:
         links_json = json.loads(useful_links.read())
         retrieve_links(links_json, links, invalid_links)
 
@@ -98,7 +99,3 @@ def check_links():
     print('Total invalid links:', len(invalid_links))
     for invalid in invalid_links:
         print('Invalid:', invalid)
-
-
-if __name__ == '__main__':
-    check_links()
