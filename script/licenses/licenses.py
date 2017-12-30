@@ -13,7 +13,7 @@ def main():
     sources_json = None
 
     # Open the set of sources for modules
-    with open('./json/sources.json') as sources:
+    with open('.script/licenses/json/sources.json') as sources:
         sources_json = json.loads(sources.read(), object_pairs_hook=OrderedDict)
 
     # If no sources were loaded, exit

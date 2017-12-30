@@ -40,7 +40,7 @@ def retrieve_links(categories, valid, invalid):
             retrieve_links(category['categories'], valid, invalid)
 
 
-def main():
+def check_links():
     """Main."""
     # pylint:disable=W0703
 
@@ -101,4 +101,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    check_links()
