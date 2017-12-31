@@ -2,7 +2,7 @@
 # pylint:disable=W0703
 
 import argparse
-import datetime
+from datetime import datetime
 import io
 import json
 import re
@@ -10,6 +10,7 @@ import os
 import zipfile
 import shutil
 import sys
+import pytz
 import requests
 
 
@@ -122,11 +123,15 @@ def parse_calendar():
             service_start_date = service_info.group(9)
             service_end_date = service_info.group(10)
 
-            service_start = datetime.datetime.strptime(service_start_date, '%Y%m%d')
-            service_end = datetime.datetime.strptime(service_end_date, '%Y%m%d')
-            today = datetime.datetime.today()
+            service_start = datetime.strptime(service_start_date, '%Y%m%d')
+            service_end = datetime.strptime(service_end_date, '%Y%m%d')
+            today = datetime.today()
 
-            # pylint:disable=R0916
+            timezone = pytz.timezone("Canada/Eastern")
+            service_start = timezone.localize(service_start)
+            service_end = timezone.localize(service_end)
+            today = timezone.localize(today)
+
             if today >= service_start and today <= service_end:
                 valid_services[service_id] = []
                 for i in range(2, 9):
