@@ -4,28 +4,10 @@
 import argparse
 import os
 import sys
+from .assets.update_assets import update_assets
 from .licenses.oss import get_oss_licenses
 from .useful_links.verify import check_links
-
-
-def get_asset_dir(component):
-    """Get the asset directory path.
-
-    :param component:
-        either 'app' or 'server'
-    :type component:
-        `str`
-    """
-    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                        '..',
-                        'assets_{}'.format(component))
-
-
-def get_output_dir():
-    """Get the output directory path."""
-    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                        '..',
-                        'output')
+from .util.path import get_asset_dir, get_output_dir, get_root_dir
 
 
 def main(args=None):
@@ -34,7 +16,7 @@ def main(args=None):
         args = sys.argv[1:]
 
     base_args = args[0:1]
-    script_args = args[1:] if len(args) > 2 else None
+    script_args = args[1:] if len(args) > 1 else None
 
     arg_parser = argparse.ArgumentParser(description='Campus Guide Scripts (University of Ottawa)')
     arg_parser.add_argument('--compare',
@@ -79,8 +61,9 @@ def main(args=None):
         # TODO: setup transit script
         print('This script has not been merged.')
     elif parsed_args.update_assets:
-        # TODO: setup update_assets script
-        print('This script has not been merged.')
+        update_assets(script_args,
+                      os.path.join(get_root_dir(), '..', 'campus-guide'),
+                      os.path.join(get_root_dir(), '..', 'campus-guide-backend'))
     else:
         print('No script provided. Use -h for help.')
         sys.exit(0)
