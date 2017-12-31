@@ -4,6 +4,7 @@
 import argparse
 import os
 import sys
+from .assets.compare_building_rooms import compare_rooms
 from .assets.update_assets import update_assets
 from .licenses.oss import get_oss_licenses
 from .useful_links.verify import check_links
@@ -45,25 +46,24 @@ def main(args=None):
     os.makedirs(get_output_dir(), exist_ok=True)
 
     if parsed_args.compare:
-        # TODO: setup compare_building_rooms script
-        print('This script has not been merged.')
-    elif parsed_args.courses:
-        # TODO: setup campus_scraper script
-        print('This script has not been merged.')
+        compare_rooms(script_args)
     elif parsed_args.licenses:
         get_oss_licenses(os.path.join(get_output_dir(), 'licenses.json'))
     elif parsed_args.links:
         check_links(os.path.join(get_asset_dir('server'), 'json', 'useful_links.json'))
+    elif parsed_args.update_assets:
+        update_assets(script_args,
+                      os.path.join(get_root_dir(), '..', 'campus-guide'),
+                      os.path.join(get_root_dir(), '..', 'campus-guide-backend'))
+    elif parsed_args.courses:
+        # TODO: setup campus_scraper script
+        print('This script has not been merged.')
     elif parsed_args.shuttle:
         # TODO: setup shuttle script
         print('This script has not been merged.')
     elif parsed_args.transit:
         # TODO: setup transit script
         print('This script has not been merged.')
-    elif parsed_args.update_assets:
-        update_assets(script_args,
-                      os.path.join(get_root_dir(), '..', 'campus-guide'),
-                      os.path.join(get_root_dir(), '..', 'campus-guide-backend'))
     else:
         print('No script provided. Use -h for help.')
         sys.exit(0)

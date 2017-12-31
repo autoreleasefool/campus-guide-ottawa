@@ -1,24 +1,16 @@
-#!/usr/bin/env python3
-
 """
 Compare rooms identified by assets_server/text/*_graph.txt to those in assets_app/js/Building.js
 and list rooms which appear in one, but not the other.
 """
-
 # pylint:disable=C0103
 
+
+import argparse
 import os
 import re
-import sys
-
 from natsort import natsorted, ns
+from ..util.path import get_asset_dir
 
-if len(sys.argv) < 2:
-    print('\nUse this tool to ensure buildings rooms have all been accounted for.')
-    print('Usage: ./script/compare_building_rooms.py <building_code>')
-    exit()
-
-building_shorthand = sys.argv[1]
 
 def get_numeric_name(name):
     """
@@ -33,7 +25,8 @@ def get_numeric_name(name):
     """
     return ''.join([x for x in name if x.isnumeric()])
 
-def load_files():
+
+def load_files(building_shorthand):
     """
     Loads rooms from relevant files and returns two sets, or None in place of a set for a file
     which could not be opened.
@@ -44,7 +37,7 @@ def load_files():
     json_room_listing = None
     graph_room_listing = None
     print('Parsing Buildings.js')
-    with open(os.path.join('assets_app', 'js', 'Buildings.js')) as building_file:
+    with open(os.path.join(get_asset_dir('app'), 'js', 'Buildings.js')) as building_file:
         json_room_listing = set()
         line = building_file.readline()
         collect_rooms = False
@@ -69,11 +62,10 @@ def load_files():
             line = building_file.readline()
 
     print('Parsing {0}_graph.txt'.format(building_shorthand))
-    with open(os.path.join(
-        'assets_server',
-        'text',
-        '{0}_graph.txt'.format(building_shorthand)
-        )) as graph_file:
+    with open(os.path.join(get_asset_dir('server'),
+                           'text',
+                           '{0}_graph.txt'.format(building_shorthand)
+                          )) as graph_file:
         graph_room_listing = set()
         line = graph_file.readline()
         while line:
@@ -105,20 +97,31 @@ def print_missing_rooms(rooms):
         print(' name: \'{0}\' '.format(room_name[1:]), end='')
         print('},')
 
-print()
-building_rooms, graph_rooms = load_files()
-if building_rooms is None:
-    print('Could not find assets_app/js/Buildings.js')
-    exit()
-if graph_rooms is None:
-    print('Could not find assets_server/text/{0}_graph.txt'.format(building_shorthand))
-    exit()
 
-print('\nMissing from {0}_graph.txt:'.format(building_shorthand))
-missing_rooms = building_rooms - graph_rooms
-print_missing_rooms(missing_rooms)
+def compare_rooms(args):
+    """Compare the rooms between building files."""
+    if args is None:
+        args = []
 
-print('\nMissing from Buildings.js:')
-missing_rooms = graph_rooms - building_rooms
-print_missing_rooms(missing_rooms)
-print()
+    arg_parser = argparse.ArgumentParser(description='Building room comparator')
+    arg_parser.add_argument('code', help='building code')
+    parsed_args = arg_parser.parse_args(args)
+    building_shorthand = parsed_args.code
+
+    print()
+    building_rooms, graph_rooms = load_files(building_shorthand)
+    if building_rooms is None:
+        print('Could not find assets_app/js/Buildings.js')
+        exit()
+    if graph_rooms is None:
+        print('Could not find assets_server/text/{0}_graph.txt'.format(building_shorthand))
+        exit()
+
+    print('\nMissing from {0}_graph.txt:'.format(building_shorthand))
+    missing_rooms = building_rooms - graph_rooms
+    print_missing_rooms(missing_rooms)
+
+    print('\nMissing from Buildings.js:')
+    missing_rooms = graph_rooms - building_rooms
+    print_missing_rooms(missing_rooms)
+    print()
