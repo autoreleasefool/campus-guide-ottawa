@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-
 """Parse license files for Campus Guide application."""
+
 
 import json
 import os
@@ -8,12 +7,30 @@ import re
 from collections import OrderedDict
 import requests
 
-def main():
-    """Main"""
+
+def get_license_sources():
+    """Filepath for open source license sources."""
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                        'json',
+                        'sources.json')
+
+
+def get_oss_licenses(output):
+    """Get open source licenses and combine into single file.
+
+    :param filename:
+        location of the licensing source file.
+    :type filename:
+        `str`
+    :param output:
+        output location
+    :type output:
+        `str`
+    """
     sources_json = None
 
     # Open the set of sources for modules
-    with open('.script/licenses/json/sources.json') as sources:
+    with open(get_license_sources()) as sources:
         sources_json = json.loads(sources.read(), object_pairs_hook=OrderedDict)
 
     # If no sources were loaded, exit
@@ -46,9 +63,6 @@ def main():
 
     licenses = sorted(licenses, key=lambda k: k['key'].lower())
 
-    os.makedirs('./output/', exist_ok=True)
-    with open('./output/licenses.json', 'w+', encoding='utf8') as outfile:
+    # os.makedirs('./output/', exist_ok=True)
+    with open(output, 'w+', encoding='utf8') as outfile:
         json.dump(licenses, outfile, sort_keys=True, ensure_ascii=False)
-
-if __name__ == '__main__':
-    main()

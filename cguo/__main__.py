@@ -4,6 +4,7 @@
 import argparse
 import os
 import sys
+from .licenses.oss import get_oss_licenses
 from .useful_links.verify import check_links
 
 
@@ -18,6 +19,13 @@ def get_asset_dir(component):
     return os.path.join(os.path.dirname(os.path.realpath(__file__)),
                         '..',
                         'assets_{}'.format(component))
+
+
+def get_output_dir():
+    """Get the output directory path."""
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                        '..',
+                        'output')
 
 
 def main(args=None):
@@ -52,6 +60,7 @@ def main(args=None):
                             help='Push or pull assets from the respective repository')
 
     parsed_args = arg_parser.parse_args(base_args)
+    os.makedirs(get_output_dir(), exist_ok=True)
 
     if parsed_args.compare:
         # TODO: setup compare_building_rooms script
@@ -60,8 +69,7 @@ def main(args=None):
         # TODO: setup campus_scraper script
         print('This script has not been merged.')
     elif parsed_args.licenses:
-        # TODO: setup licenses.py script
-        print('This script has not been merged.')
+        get_oss_licenses(os.path.join(get_output_dir(), 'licenses.json'))
     elif parsed_args.links:
         check_links(os.path.join(get_asset_dir('server'), 'json', 'useful_links.json'))
     elif parsed_args.shuttle:

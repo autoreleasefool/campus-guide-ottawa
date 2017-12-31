@@ -62,5 +62,5 @@ target/
 .ipynb_checkpoints
 
 # Script output
-*/output/*
+**/output/**
 temp_data/
