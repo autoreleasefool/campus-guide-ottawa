@@ -2,8 +2,8 @@
   "campuses": [
     {
       "id": "Main Campus",
-      "lat": 45.421697,
-      "long": -75.683862,
+      "latitude": 45.421697,
+      "longitude": -75.683862,
       "name_en": "Main Campus Stops",
       "name_fr": "Arrêts de campus principal",
       "stops": {
@@ -14257,8 +14257,8 @@
     },
     {
       "id": "MBA",
-      "lat": 45.420497,
-      "long": -75.700091,
+      "latitude": 45.420497,
+      "longitude": -75.700091,
       "name_en": "MBA Stops",
       "name_fr": "Arrêts MBA",
       "stops": {
@@ -23082,8 +23082,8 @@
     },
     {
       "id": "Lees",
-      "lat": 45.416261,
-      "long": -75.669485,
+      "latitude": 45.416261,
+      "longitude": -75.669485,
       "name_en": "Lees Stops",
       "name_fr": "Arrêts Lees",
       "stops": {
@@ -25444,8 +25444,8 @@
     },
     {
       "id": "RGN",
-      "lat": 45.402412,
-      "long": -75.650246,
+      "latitude": 45.402412,
+      "longitude": -75.650246,
       "name_en": "RGN Stops",
       "name_fr": "Arrêts RGN",
       "stops": {
@@ -28690,248 +28690,248 @@
   "stopDetails": {
     "AJ005": {
       "code": "1806",
-      "lat": 45.39993,
-      "long": -75.648735,
+      "latitude": 45.39993,
+      "longitude": -75.648735,
       "name": "RING ROAD / GENERAL HOSPITAL"
     },
     "AJ008": {
       "code": "7072",
-      "lat": 45.399725,
-      "long": -75.651001,
+      "latitude": 45.399725,
+      "longitude": -75.651001,
       "name": "CHEO HOSPITAL"
     },
     "AJ010": {
       "code": "1808",
-      "lat": 45.400849,
-      "long": -75.652401,
+      "latitude": 45.400849,
+      "longitude": -75.652401,
       "name": "RING ROAD / CHILDRENS HOSPITAL"
     },
     "AJ015": {
       "code": "7231",
-      "lat": 45.402166,
-      "long": -75.653431,
+      "latitude": 45.402166,
+      "longitude": -75.653431,
       "name": "RING ROAD / RONALD MCDONALD HOUSE"
     },
     "AJ020": {
       "code": "1591",
-      "lat": 45.402968,
-      "long": -75.649785,
+      "latitude": 45.402968,
+      "longitude": -75.649785,
       "name": "RING ROAD / REHABILITATION/CENTRE"
     },
     "AJ022": {
       "code": "7232",
-      "lat": 45.403666,
-      "long": -75.64856,
+      "latitude": 45.403666,
+      "longitude": -75.64856,
       "name": "RING ROAD"
     },
     "AJ025": {
       "code": "2089",
-      "lat": 45.403384,
-      "long": -75.646249,
+      "latitude": 45.403384,
+      "longitude": -75.646249,
       "name": "RING ROAD"
     },
     "AJ028": {
       "code": "7233",
-      "lat": 45.40214,
-      "long": -75.645227,
+      "latitude": 45.40214,
+      "longitude": -75.645227,
       "name": "RING ROAD / CANCER CENTRE"
     },
     "AJ030": {
       "code": "7234",
-      "lat": 45.400001,
-      "long": -75.647445,
+      "latitude": 45.400001,
+      "longitude": -75.647445,
       "name": "RING ROAD / GENERAL HOSPITAL"
     },
     "AJ110": {
       "code": "7237",
-      "lat": 45.398838,
-      "long": -75.654978,
+      "latitude": 45.398838,
+      "longitude": -75.654978,
       "name": "SMYTH / BARNHART"
     },
     "AJ120": {
       "code": "7236",
-      "lat": 45.398922,
-      "long": -75.65536,
+      "latitude": 45.398922,
+      "longitude": -75.65536,
       "name": "SMYTH / BARNHART"
     },
     "AJ130": {
       "code": "7238",
-      "lat": 45.398927,
-      "long": -75.653569,
+      "latitude": 45.398927,
+      "longitude": -75.653569,
       "name": "SMYTH / SOUTHHAVEN"
     },
     "AJ150": {
       "code": "7239",
-      "lat": 45.39918,
-      "long": -75.650069,
+      "latitude": 45.39918,
+      "longitude": -75.650069,
       "name": "SMYTH / HIGHLAND"
     },
     "AJ180": {
       "code": "8565",
-      "lat": 45.39939,
-      "long": -75.64691,
+      "latitude": 45.39939,
+      "longitude": -75.64691,
       "name": "SMYTH / LYNDA"
     },
     "AJ190": {
       "code": "8564",
-      "lat": 45.399652,
-      "long": -75.645743,
+      "latitude": 45.399652,
+      "longitude": -75.645743,
       "name": "SMYTH / LYNDA"
     },
     "CA080": {
       "code": "7682",
-      "lat": 45.420668,
-      "long": -75.701087,
+      "latitude": 45.420668,
+      "longitude": -75.701087,
       "name": "BANK / QUEEN"
     },
     "CA090": {
       "code": "7687",
-      "lat": 45.419401,
-      "long": -75.700032,
+      "latitude": 45.419401,
+      "longitude": -75.700032,
       "name": "BANK / SLATER"
     },
     "CA100": {
       "code": "7688",
-      "lat": 45.419118,
-      "long": -75.699486,
+      "latitude": 45.419118,
+      "longitude": -75.699486,
       "name": "BANK / SLATER"
     },
     "CB240": {
       "code": "7561",
-      "lat": 45.420347,
-      "long": -75.701168,
+      "latitude": 45.420347,
+      "longitude": -75.701168,
       "name": "QUEEN / BANK"
     },
     "CB910": {
       "code": "3002",
-      "lat": 45.420432,
-      "long": -75.699506,
+      "latitude": 45.420432,
+      "longitude": -75.699506,
       "name": "ALBERT / BANK"
     },
     "CB960": {
       "code": "3007",
-      "lat": 45.419754,
-      "long": -75.698727,
+      "latitude": 45.419754,
+      "longitude": -75.698727,
       "name": "SLATER / BANK"
     },
     "CD900": {
       "code": "3000",
-      "lat": 45.42414,
-      "long": -75.689371,
+      "latitude": 45.42414,
+      "longitude": -75.689371,
       "name": "MACKENZIE KING 1A"
     },
     "CD910": {
       "code": "3000",
-      "lat": 45.424126,
-      "long": -75.689985,
+      "latitude": 45.424126,
+      "longitude": -75.689985,
       "name": "MACKENZIE KING 2A"
     },
     "CD955": {
       "code": "3020",
-      "lat": 45.424504,
-      "long": -75.68718,
+      "latitude": 45.424504,
+      "longitude": -75.68718,
       "name": "LAURIER 1A"
     },
     "CD960": {
       "code": "3020",
-      "lat": 45.424717,
-      "long": -75.687012,
+      "latitude": 45.424717,
+      "longitude": -75.687012,
       "name": "LAURIER 2A"
     },
     "CE140": {
       "code": "7609",
-      "lat": 45.425524,
-      "long": -75.68277,
+      "latitude": 45.425524,
+      "longitude": -75.68277,
       "name": "LAURIER / KING EDWARD"
     },
     "CE160": {
       "code": "6819",
-      "lat": 45.424736,
-      "long": -75.684647,
+      "latitude": 45.424736,
+      "longitude": -75.684647,
       "name": "LAURIER / CUMBERLAND"
     },
     "CE161": {
       "code": "1011",
-      "lat": 45.424451,
-      "long": -75.685233,
+      "latitude": 45.424451,
+      "longitude": -75.685233,
       "name": "LAURIER / CUMBERLAND"
     },
     "CE170": {
       "code": "7610",
-      "lat": 45.424864,
-      "long": -75.683938,
+      "latitude": 45.424864,
+      "longitude": -75.683938,
       "name": "LAURIER E / CUMBERLAND"
     },
     "CE195": {
       "code": "6782",
-      "lat": 45.42037,
-      "long": -75.678609,
+      "latitude": 45.42037,
+      "longitude": -75.678609,
       "name": "KING EDWARD / TEMPLETON"
     },
     "CE200": {
       "code": "6783",
-      "lat": 45.420258,
-      "long": -75.678752,
+      "latitude": 45.420258,
+      "longitude": -75.678752,
       "name": "KING EDWARD / TEMPLETON"
     },
     "CE205": {
       "code": "8259",
-      "lat": 45.422196,
-      "long": -75.679699,
+      "latitude": 45.422196,
+      "longitude": -75.679699,
       "name": "SOMERSET E / KING EDWARD"
     },
     "CE210": {
       "code": "6796",
-      "lat": 45.422233,
-      "long": -75.679984,
+      "latitude": 45.422233,
+      "longitude": -75.679984,
       "name": "SOMERSET E / KING EDWARD"
     },
     "CE365": {
       "code": "7613",
-      "lat": 45.423651,
-      "long": -75.681392,
+      "latitude": 45.423651,
+      "longitude": -75.681392,
       "name": "KING EDWARD / OSGOODE"
     },
     "CE368": {
       "code": "7612",
-      "lat": 45.423915,
-      "long": -75.681784,
+      "latitude": 45.423915,
+      "longitude": -75.681784,
       "name": "KING EDWARD / OSGOODE"
     },
     "CE960": {
       "code": "3022",
-      "lat": 45.415991,
-      "long": -75.67042,
+      "latitude": 45.415991,
+      "longitude": -75.67042,
       "name": "LEES 3A"
     },
     "CE965": {
       "code": "3022",
-      "lat": 45.415273,
-      "long": -75.672089,
+      "latitude": 45.415273,
+      "longitude": -75.672089,
       "name": "LEES 3B"
     },
     "CE971": {
       "code": "3022",
-      "lat": 45.414871,
-      "long": -75.672655,
+      "latitude": 45.414871,
+      "longitude": -75.672655,
       "name": "LEES 4A"
     },
     "CE975": {
       "code": "3022",
-      "lat": 45.41638,
-      "long": -75.669221,
+      "latitude": 45.41638,
+      "longitude": -75.669221,
       "name": "LEES 4C"
     },
     "CE980": {
       "code": "3022",
-      "lat": 45.416301,
-      "long": -75.66938,
+      "latitude": 45.416301,
+      "longitude": -75.66938,
       "name": "LEES 4D"
     },
     "CE985": {
       "code": "3022",
-      "lat": 45.415943,
-      "long": -75.670137,
+      "latitude": 45.415943,
+      "longitude": -75.670137,
       "name": "LEES 4B"
     }
   }

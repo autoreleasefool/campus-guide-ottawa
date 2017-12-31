@@ -1,7 +1,7 @@
 {
   "Main Campus": {
-    "lat": 45.421697,
-    "long": -75.683862,
+    "latitude": 45.421697,
+    "longitude": -75.683862,
     "name_en": "Main Campus Stops",
     "name_fr": "Arrêts de campus principal",
     "stops": [
@@ -9,8 +9,8 @@
     ]
   },
   "Lees": {
-    "lat": 45.416261,
-    "long": -75.669485,
+    "latitude": 45.416261,
+    "longitude": -75.669485,
     "name_en": "Lees Stops",
     "name_fr": "Arrêts Lees",
     "stops": [
@@ -18,8 +18,8 @@
     ]
   },
   "MBA": {
-    "lat": 45.420497,
-    "long": -75.700091,
+    "latitude": 45.420497,
+    "longitude": -75.700091,
     "name_en": "MBA Stops",
     "name_fr": "Arrêts MBA",
     "stops": [
@@ -27,8 +27,8 @@
     ]
   },
   "RGN": {
-    "lat": 45.402412,
-    "long": -75.650246,
+    "latitude": 45.402412,
+    "longitude": -75.650246,
     "name_en": "RGN Stops",
     "name_fr": "Arrêts RGN",
     "stops": [

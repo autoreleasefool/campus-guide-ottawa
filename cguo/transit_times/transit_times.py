@@ -69,8 +69,8 @@ def import_campuses_and_stops():
                 'id': campus,
                 'name_en': stop_json[campus]['name_en'],
                 'name_fr': stop_json[campus]['name_fr'],
-                'lat': stop_json[campus]['lat'],
-                'long': stop_json[campus]['long'],
+                'latitude': stop_json[campus]['latitude'],
+                'longitude': stop_json[campus]['longitude'],
                 'stops': {},
             }
 
@@ -103,8 +103,8 @@ def parse_stops(campus_stops):
                     'campus': campus_stops[stop_code],
                     'code': stop_code,
                     'name': stop_name,
-                    'lat': float(stop_latitude),
-                    'long': float(stop_longitude),
+                    'latitude': float(stop_latitude),
+                    'longitude': float(stop_longitude),
                 }
     return output
 
