@@ -7,6 +7,7 @@ import sys
 from .assets.compare_building_rooms import compare_rooms
 from .assets.update_assets import update_assets
 from .licenses.oss import get_oss_licenses
+from .transit_times.transit_times import parse_transit_times
 from .useful_links.verify import check_links
 from .util.path import get_asset_dir, get_output_dir, get_root_dir
 
@@ -62,8 +63,7 @@ def main(args=None):
         # TODO: setup shuttle script
         print('This script has not been merged.')
     elif parsed_args.transit:
-        # TODO: setup transit script
-        print('This script has not been merged.')
+        parse_transit_times(script_args, os.path.join(get_output_dir(), 'transit.json'))
     else:
         print('No script provided. Use -h for help.')
         sys.exit(0)
