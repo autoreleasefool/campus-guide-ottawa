@@ -105,6 +105,7 @@
   "mba": "MBA",
   "routes_and_times": "Itinéraires et horaires",
   "transit_stops": "Arrêts de transit",
+  "transit_approximate_times": "Les heures d'arrivée ne sont pas en direct.",
 
   // Shuttle
   "shuttle": "La navette",
