@@ -30,12 +30,6 @@
     "key": "Navigation",
     "data": [
       {
-        "name_en": "Prefer shortest route",
-        "name_fr": "Préférez routes plus courte",
-        "key": "pref_shortest_route",
-        "type": "boolean"
-      },
-      {
         "name_en": "Prefer accessible routes",
         "name_fr": "Préférez routes accessibles",
         "key": "pref_wheel",
