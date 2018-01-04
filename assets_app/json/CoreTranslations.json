@@ -1,6 +1,6 @@
 {
   "en": {
-    "app_name": "Campus Guide",
+    "app_name": "Campus Guide - University of Ottawa",
 
     "language": "English",
     "continue_in": "Continue in",
@@ -75,7 +75,7 @@
     "no_path_between_campuses": "Directions cannot currently be given between different campuses. If you think this might be an error, please report it with the room you were trying to reach."
   },
   "fr": {
-    "app_name": "Guide du campus",
+    "app_name": "Guide du campus - l'Univerité d'Ottawa",
 
     "language": "Français",
     "continue_in": "Continuer dans",
