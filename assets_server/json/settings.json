@@ -31,7 +31,7 @@
     "data": [
       {
         "name_en": "Prefer accessible routes",
-        "name_fr": "Préférez routes accessibles",
+        "name_fr": "Préférence aux routes accessibles",
         "key": "pref_wheel",
         "type": "boolean"
       }
@@ -58,7 +58,7 @@
       },
       {
         "name_en": "Submit feedback",
-        "name_fr": "Soumettre des commentaires",
+        "name_fr": "Soumettre une rétroaction",
         "key": "app_feedback",
         "type": "link",
         "link": "mailto:contact@josephroque.ca?subject=Comm%2FSug:%20Ottawa%20Campus%20Guide",
@@ -85,7 +85,7 @@
       },
       {
         "name_en": "Visit developer website",
-        "name_fr": "Visitez le site du développeur",
+        "name_fr": "Visité le développeur du site web",
         "key": "app_developer_website",
         "type": "link",
         "link": "http://josephroque.ca",
@@ -96,7 +96,7 @@
       },
       {
         "name_en": "View source on GitHub",
-        "name_fr": "Afficher la source sur GitHub",
+        "name_fr": "Visionner la source sur GitHub",
         "key": "app_source",
         "type": "link",
         "link": "https://github.com/josephroque/campus-guide",
@@ -124,7 +124,7 @@
       },
       {
         "name_en": "Open source attributions",
-        "name_fr": "Attributions open source",
+        "name_fr": "Attributions aux sources ouvertes",
         "key": "app_open_source",
         "type": "custom",
         "icon": {

@@ -91,7 +91,7 @@ module.exports = [
     image: require('../images/buildings/full/AWHC.jpg'),
     thumbnail: require('../images/buildings/thumbnail/AWHC.jpg'),
     name_en: 'Academic Writing Help Centre',
-    name_fr: 'Centre d’aide à la rédaction des travaux universitaires',
+    name_fr: 'Centre d\'aide à la rédaction des travaux universitaires',
     location: {
       latitude: 45.421908,
       longitude: -75.684414,
@@ -1767,7 +1767,7 @@ module.exports = [
       {
         name: '10035',
         alt_name_en: 'Multimedia Anthropology Collaboratory (MAC)',
-        alt_name_fr: 'Collaboratoire d’Anthropologie Multimédia (CAM)',
+        alt_name_fr: 'Collaboratoire d\'Anthropologie Multimédia (CAM)',
       },
       { name: '10036' },
       { name: '10037' },
@@ -3804,7 +3804,7 @@ module.exports = [
       { name: '202' },
       {
         name: '203',
-        alt_name_en: 'Undergraduate Music Students’ Association (ADEMSA)',
+        alt_name_en: 'Undergraduate Music Student\' Association (ADEMSA)',
         alt_name_fr: 'Association des étudiant(e)s de premier cycle en musique (ADEMSA)'
       },
       {
@@ -3828,7 +3828,7 @@ module.exports = [
       },
       {
         name: '213',
-        alt_name_en: 'Graduate Music Students’ Association (GMSA-AÉDM)',
+        alt_name_en: 'Graduate Music Students\' Association (GMSA-AÉDM)',
         alt_name_fr: 'Association des étudiant(e)s diplômé(e)s de musique (GMSA-AÉDM)'
       },
       {

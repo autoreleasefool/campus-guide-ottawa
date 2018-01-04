@@ -24,7 +24,7 @@
       "name_en": "Individual",
       "name_fr": "Individuel",
       "description_en": "Either has private booths, or seating for individuals",
-      "description_fr": "Ou a des cabines privées, ou des sièges pour les particuliers"
+      "description_fr": "Soit qu'il y a des kiosques privés ou des sièges individuels"
     },
     "group": {
       "icon": {
@@ -40,7 +40,7 @@
       "name_en": "Group",
       "name_fr": "Groupe",
       "description_en": "Has large tables, for groups of at least 4 people",
-      "description_fr": "A de grandes tables, pour des groupes d'au moins 4 personnes"
+      "description_fr": "Il y a de grandes tables disponibles pour des groupes d'au moins 4 personnes"
     },
     "silent": {
       "icon": {
@@ -54,9 +54,9 @@
         }
       },
       "name_en": "Silent",
-      "name_fr": "Silencieux",
+      "name_fr": "Étude silencieuse",
       "description_en": "This is a silent study area, with no talking allowed whatsoever",
-      "description_fr": "Il s'agit d'une zone d'étude silencieuse, sans parler de quoi que ce soit"
+      "description_fr": "Un endroit complètement silencieux pour l'étude individuelle"
     },
     "food": {
       "icon": {
@@ -72,7 +72,7 @@
       "name_en": "Food nearby",
       "name_fr": "Nourriture à proximité",
       "description_en": "Food and drinks can be purchased from very close by",
-      "description_fr": "La nourriture et les boissons peuvent être achetés de très près par"
+      "description_fr": "Accessibilité à l'achat de nourritures et de boisson"
     },
     "outlets": {
       "icon": {
@@ -88,7 +88,7 @@
       "name_en": "Outlets",
       "name_fr": "Prises électriques",
       "description_en": "There are sufficient outlets available at this location for most seats",
-      "description_fr": "Il y a suffisamment de points de vente disponibles à cet endroit pour la plupart des sièges"
+      "description_fr": "Accessibilité suffisante aux prises électriques à cet endroit pour la plupart des sièges"
     },
     "computers": {
       "icon": {
@@ -98,7 +98,7 @@
       "name_en": "Computers",
       "name_fr": "Ordinateurs",
       "description_en": "There are computers available for student use in this area",
-      "description_fr": "Des ordinateurs sont disponibles pour les étudiants dans ce domaine"
+      "description_fr": "Il y a des ordinateurs disponibles pour les étudiants dans cet endroit"
     },
     "open": {
       "icon": {
@@ -114,7 +114,7 @@
       "name_en": "Open now",
       "name_fr": "Ouvrez maintenant",
       "description_en": "This space is open now, and for at least another hour",
-      "description_fr": "Cet espace est ouvert maintenant, et pour au moins une heure de plus"
+      "description_fr": "Cet endroit est ouvert et le sera pour au moins une autre heure"
     },
     "lighting": {
       "icon": {
@@ -128,9 +128,9 @@
         }
       },
       "name_en": "Natural lighting",
-      "name_fr": "Éclairage naturel",
+      "name_fr": "Lumière naturelle",
       "description_en": "There are large windows and the area is well naturally lit",
-      "description_fr": "Il ya de grandes fenêtres et la zone est bien naturellement éclairé"
+      "description_fr": "Il y a de grandes fenêtres et l'endroit est bien illuminé par la lumière naturelle."
     }
   },
   "spots": [
@@ -139,7 +139,7 @@
       "name_en": "Biosciences Upper floors",
       "name_fr": "Biosciences, étages supérieurs",
       "description_en": "The 2nd, 3rd, and 4th floors of the Biosciences complex offer a medium sized study area, ideal for small groups looking to meet up. There are some outlets, but not enough for everybody when the rooms are full.",
-      "description_fr": "Les 2ème, 3ème et 4ème étages du complexe Biosciences offrent une zone d'étude de taille moyenne, idéale pour les petits groupes qui souhaitent se retrouver. Il y a des points de vente, mais pas assez pour tout le monde lorsque les chambres sont pleines.",
+      "description_fr": "Le 2e, 3e, et 4e étage du complexe de Bioscience offre un endroit d'étude de grandeur moyenne. C'est idéal pour de petits groupes qui cherchent à se rencontrer. Il y a des prises électriques disponibles, mais pas pour chaque membre du groupe lorsque les salles sont pleines.",
       "building": "BSC",
       "room": null,
       "opens": "06:00",
@@ -150,9 +150,9 @@
     {
       "id": "cby_basement_lab",
       "name_en": "Colonel By, Basement computer lab",
-      "name_fr": "Colonel By, salle informatique de sous-sol",
+      "name_fr": "Colonel By, laboratoire informatique au sous-sol",
       "description_en": "Two rooms in the basement of Colonel By offer great study spaces for groups and individuals. Group spaces are large desks with a computer at each, and individual spaces offer large monitors (NO COMPUTERS) in a silent room.",
-      "description_fr": "Deux salles au sous-sol du colonel By offrent de grands espaces d'étude pour les groupes et les individus. Les espaces de groupe sont de grands bureaux avec un ordinateur à chacun, et les espaces individuels offrent de grands moniteurs (NON COMPUTATEURS) dans une pièce silencieuse.",
+      "description_fr": "Deux salles dans le sous-sol de Colonel By offrent un bon espace d'étude pour des groupes et des individus. Les espaces de groupes sont de grands bureaux chacun avec des ordinateurs et les espaces individuels offrent des moniteurs (mais aucun ordinateur) dans une salle silencieuse.",
       "building": "CBY",
       "room": "C08",
       "opens": "06:00",
@@ -163,9 +163,9 @@
     {
       "id": "cby_first_lab",
       "name_en": "Colonel By, 1st Floor computer lab",
-      "name_fr": "Colonel By, salle informatique au 1er étage",
+      "name_fr": "Colonel By, laboratoire informatique au premier niveau",
       "description_en": "A small computer lab for engineering students. Each desk has a computer only accessible by those in the Faculty of Engineering. It's not a large room and is often packed with many students working.",
-      "description_fr": "Un petit laboratoire informatique pour les étudiants en génie. Chaque bureau dispose d'un ordinateur accessible uniquement par la Faculté d'ingénierie. Ce n'est pas une grande pièce et est souvent regroupé avec beaucoup d'étudiants travaillant.",
+      "description_fr": "Un petit laboratoire informatique pour les élèves en ingénierie. Chaque bureau à un ordinateur dont seulement les étudiants dans la faculté d'ingénierie y ont accès. Ce n'est pas une grande salle et elle est souvent remplie d'étudiant.",
       "building": "CBY",
       "room": "B102",
       "opens": "06:00",
@@ -178,7 +178,7 @@
       "name_en": "Colonel By, Upper floors",
       "name_fr": "Colonel By, étages supérieurs",
       "description_en": "Each floor of Colonel By has a small study area right beside the elevators and main staircase, often convenient for individuals, and sometimes for small discussion groups.",
-      "description_fr": "Chaque étage de Colonel By a une petite entrée juste à côté des ascenseurs et de l'escalier principal, souvent pratique pour les particuliers, et parfois pour les petits groupes de discussion.",
+      "description_fr": "Chaque étage dans Colonel By a une petite zone d'étude à côté de l'ascenseur et l'escalier central",
       "building": "CBY",
       "room": null,
       "opens": "06:00",
@@ -190,7 +190,7 @@
       "id": "dejavu",
       "name": "Déjà-vu",
       "description_en": "This alcove just off the 2nd floor of Morisset and above the UCU is a satisfying study spot, with booths and individual seating, and a small café selling light snacks and drinks.",
-      "description_fr": "Cette alcôve juste au deuxième étage de Morisset et au-dessus de l'UCU est un lieu d'étude satisfaisant, avec des cabines et des sièges individuels, et un petit café vendant des collations légères et des boissons.",
+      "description_fr": "Une alcôve en arrivant au deuxième étage de Morisset et au-dessus de UCU est un endroit agréable pour étudier, avec des kiosques et des bureaux individuels. Il y a aussi un petit café qui vend des collations et des boissons.",
       "building": "UCU",
       "room": "230",
       "opens": "06:00",
@@ -201,9 +201,9 @@
     {
       "id": "ftx_third",
       "name_en": "Fauteux, 3rd Floor",
-      "name_fr": "Fauteux, 3e étage",
+      "name_fr": "Fauteux, 3e niveau",
       "description_en": "A large open area with large windows, ideal for small groups and individuals. It's often a quiet place to work, thought not silent. A small café nearby offers light snacks and drinks, and there are plenty of microwaves for you to warm up your own meals.",
-      "description_fr": "Un grand espace ouvert avec de grandes fenêtres, idéal pour les petits groupes et les individus. C'est souvent un endroit calme pour travailler, pensé pas silencieux. Un petit café à proximité offre des collations légères et des boissons, et il y a plein de micro-ondes pour vous réchauffer vos propres repas.",
+      "description_fr": "Une grande espace ouverte avec de grandes fenêtres, un endroit idéal pour de petits groupes et des personnes individuelles. C'est souvent un endroit tranquille pour travailler, mais pas un endroit complètement silencieux. Un petit café en proximité offre de petites collations et des breuvages, il y a aussi plusieurs micro-ondes pour réchauffer vos repas.",
       "building": "FTX",
       "room": "370",
       "opens": "06:00",
@@ -216,7 +216,7 @@
       "name_en": "Fauteux, Law library",
       "name_fr": "Fauteux, bibliothèque de droit",
       "description_en": "The fourth and fifth floors of Fauteux offer a vast amount of silent and quiet study spaces, perfect for individuals. There are many outlets available, and even some natural lighting on the fourth floor.",
-      "description_fr": "Les quatrième et cinquième étages de Fauteux offrent une grande quantité d'espaces d'étude silencieux et silencieux, parfaits pour les particuliers. Il existe de nombreux points de vente disponibles, et même un éclairage naturel au quatrième étage.",
+      "description_fr": "Les quatrième et cinquième étages de Fauteux offrent une grande quantité d'espaces d'étude silencieux et calmes, parfaits pour les individus voulant étudier seuls. Il y a de nombreuses prises électriques disponibles. D'ailleurs, il y a un éclairage naturel au quatrième étage.",
       "building": "FTX",
       "room": null,
       "opens": "06:00",
@@ -229,7 +229,7 @@
       "name_en": "FSS, Lower floors",
       "name_fr": "FSS, étages inférieurs",
       "description_en": "The first 3 floors of FSS offer a modern looking study space, with many tables for groups, and seating for individuals. Première Moisson on the first floor also offers a variety of sandwiches and drinks for hungry students.",
-      "description_fr": "Les 3 premiers étages du FSS offrent un espace d'étude moderne, avec de nombreuses tables pour groupes et des sièges individuels. Première Moisson au premier étage offre également une variété de sandwichs et de boissons aux étudiants affamés.",
+      "description_fr": "Les 3 premiers étages du bâtiment FSS offrent un espace moderne pour étudier avec plusieurs tables pour étudier en groupes ou des sièges individuels. Le café, Première moisson, est au premier étage qui offre une variété de sandwichs et des boissons.",
       "building": "FSS",
       "room": null,
       "opens": "06:00",
@@ -240,10 +240,10 @@
     {
       "id": "lees_foyer",
       "name_en": "Lees Foyer",
-      "name_fr": "Lees foyer",
+      "name_fr": "Le foyer Lees",
       "description_en": "The main entrance of the Lees campus building offers a large area for students to eat and study. There is a decently stocked café, and booths for up to 4. It's a high traffic area, however, and can be loud between classes.",
-      "description_fr": "L'entrée principale du bâtiment du campus de Lees offre un vaste espace pour les étudiants à manger et à étudier. Il y a un café bien approvisionné, et des cabines pouvant aller jusqu'à 4. Il s'agit d'une zone à fort trafic, mais peut être bruyant entre les classes.",
-      "building": "LEE",
+      "description_fr": "L'entrée principale du bâtiment du campus de Lees offre un vaste espace où les étudiants peuvent étudier ou manger. Il y a un café bien  approvisionné et des banquets qui peuvent accueillir jusqu'à 4 personnes. Il y a beaucoup de circulation dans cette zone. De plus, c'est bruyant entre les classes.",
+      "building": "LEES",
       "room": null,
       "opens": "06:00",
       "closes": "23:00",
@@ -255,7 +255,7 @@
       "name_en": "Marion, Student lounge",
       "name_fr": "Marion, salon étudiant",
       "description_en": "A very large space for students to work, with a kitchenette for preparing meals (sinks and microwaves). Long tables offer plenty of room for groups, with seating for individuals lining the walls.",
-      "description_fr": "Un espace très large pour les étudiants à travailler, avec une kitchenette pour la préparation des repas (éviers et micro-ondes). Les longues tables offrent beaucoup de place pour les groupes, avec des sièges pour les personnes qui bordent les murs.",
+      "description_fr": "Un espace très vaste pour que les étudiants puissent faire leurs travaux, ayant aussi une cuisinette pour la préparation des repas (éviers et micro-ondes). Il y a de longues tables qui offrent beaucoup de place pour les groups et des bureaux individuels qui longent le mur.",
       "building": "MRN",
       "room": null,
       "opens": "06:00",
@@ -266,9 +266,9 @@
     {
       "id": "mrt_basement",
       "name_en": "Morisset, Basement study room",
-      "name_fr": "Morisset, salle d'étude sous sol",
+      "name_fr": "Morisset, salle d'étude au sous-sol",
       "description_en": "A 24/7 silent study room available to students throughout the year. Privacy cubbies allow you to be your most productive, outlets keep your computer running all day, and the Second Cup upstairs helps keep you fed.",
-      "description_fr": "Une salle d'étude silencieuse 24 heures sur 24, 7 jours sur 7, disponible pour les étudiants tout au long de l'année. Les cubbies de confidentialité vous permettent d'être vos débouchés les plus productifs, ce qui vous permet de garder votre ordinateur en marche toute la journée, et la deuxième Cup à l'étage aide à vous nourrir.",
+      "description_fr": "Une salle d'étude silencieuse 24 heures sur 24, 7 jours sur 7, disponibles pour les étudiants tout au long de l'année. Il y a des cubicules privés qui vous permettent d'être productif. Chacun a une prise électrique qui permet à vos ordinateurs de fonctionner toute la journée. Ainsi, il y a un Second Cup à l'étage supérieur qui pourra vous nourrir.",
       "building": "MRT",
       "room": "022",
       "opens": "N/A",
@@ -282,7 +282,7 @@
       "name_en": "RGN, Student lounge",
       "name_fr": "RGN, salon étudiant",
       "description_en": "A large lounge with plenty of room for groups. There are large windows, and even some seating outside. Nearby, students can find a GO café, offering light snacks and drinks.",
-      "description_fr": "Un grand salon avec beaucoup de place pour les groupes. Il y a de grandes fenêtres, et même des sièges à l'extérieur. A proximité, les étudiants peuvent trouver un café GO, offrant des collations légères et des boissons.",
+      "description_fr": "Un grand salon avec beaucoup de place pour les groupes. Il y a de grandes fenêtres, et même des sièges à l'extérieur. À proximité, les étudiants peuvent trouver le GO Café, qui offre des collations légères et des boissons.",
       "building": "RGN",
       "room": "1012",
       "opens": "06:00",
@@ -293,10 +293,10 @@
     {
       "id": "ste_lower",
       "name_en": "SITE, Lower floors",
-      "name_fr": "SITE, étages inférieurs",
+      "name_fr": "EITI, etages inférieurs",
       "description_en": "SITE boasts tonnes of study space, accompanied by outlets, a huge wall of windows, and a full cafeteria. The first floor has many tables, comfortably fitting groups of up to 6, while upper floors are primarily for individuals.",
-      "description_fr": "Le site dispose de tonnes d'espace d'étude, accompagné de points de vente, d'un immense mur de fenêtres et d'une cafétéria complète. Le premier étage comporte de nombreuses tables, regroupant confortablement des groupes jusqu'à 6, tandis que les étages supérieurs s'adressent principalement aux particuliers.",
-      "building": "SITE",
+      "description_fr": "EITI offre plein d'espace d'étude ayant des prises électroniques, un immense mur de fenêtres et une cafétéria. Le premier étage comporte de nombreuses tables qui peuvent regrouper jusqu'à 6 personnes, tandis que les étages supérieurs c'est plutôt pour le travail individuel.",
+      "building": "STE",
       "room": null,
       "opens": "06:00",
       "closes": "23:00",
@@ -306,10 +306,10 @@
     {
       "id": "ste_lab",
       "name_en": "SITE, computer lab",
-      "name_fr": "SITE, salle informatique",
+      "name_fr": "EITI, salle informatique",
       "description_en": "The basement of SITE contains a large study area filled with computers accessible only by students in the Faculty of Engineering. The space is often busy and can be loud at times, but is very convenient and usually has room for one or two more.",
-      "description_fr": "Le sous-sol du SITE contient une vaste zone d'étude remplie d'ordinateurs accessibles uniquement par des étudiants de la Faculté d'ingénierie. L'espace est souvent occupé et peut être bruyant parfois, mais il est très pratique et a habituellement une place pour un ou deux de plus.",
-      "building": "SITE",
+      "description_fr": "Le sous-sol du EITI contient une grande zone d'étude remplie d'ordinateurs accessibles uniquement par des étudiants de la Faculté d'Ingénierie. L'espace est souvent occupé et peut être bruyant, mais il est très pratique.",
+      "building": "STE",
       "room": "0110",
       "opens": "06:00",
       "closes": "23:00",
@@ -319,9 +319,9 @@
     {
       "id": "tbt_lounge",
       "name_en": "Tabaret, Student lounges",
-      "name_fr": "Tabaret, salons d'étudiants",
+      "name_fr": "Tabaret, salons étudiant",
       "description_en": "The first floor of Tabaret has a number of medium to large lounges for students to work and socialize. Seating is perfect for small groups and individuals, and do not suffer from much noise pollution in between classes.",
-      "description_fr": "Le premier étage de Tabaret compte plusieurs salons de moyenne à grande pour que les étudiants puissent travailler et socialiser. Les sièges sont parfaits pour les petits groupes et les individus, et ne souffrent pas d'une forte pollution sonore entre les classes.",
+      "description_fr": "Le premier étage de Tabaret possède quelques salons de taille moyenne et large où les étudiants peuvent travailler et socialiser. Les sièges sont parfaits pour les petits groupes et les individus. Ainsi, les salons ne souffrent pas d'une forte pollution sonore entre les classes.",
       "building": "TBT",
       "room": null,
       "opens": "06:00",
@@ -332,9 +332,9 @@
     {
       "id": "ucu_lounge",
       "name_en": "UCU, Student lounge",
-      "name_fr": "Tabaret, salon étudiant",
+      "name_fr": "UCU, salon étudiant",
       "description_en": "Just outside the caféteria in UCU, there is a very large study space for students and groups. There is seating for small to medium sized groups, as well as abundant seating for individuals lining the walls, which are also large windows.",
-      "description_fr": "Juste à l'extérieur de la caféteria dans UCU, il existe un très grand espace d'étude pour les étudiants et les groupes. Il existe des sièges pour les groupes de petite et moyenne taille, ainsi que des sièges abondants pour les personnes qui bordent les murs, qui sont également de grandes fenêtres.",
+      "description_fr": "À l'extérieur de la cafétéria dans UCU, il existe un très grand espace d'étude pour les étudiants et les groupes. Il y a des sièges pour les groupes de petites et moyennes tailles, ainsi que des sièges abondants pour les personnes qui veulent étudier seules qui longent les murs et qui sont également de grandes fenêtres.",
       "building": "UCU",
       "room": "102",
       "opens": "06:00",
@@ -360,7 +360,7 @@
         "name_en": "Morisset Library",
         "name_fr": "Bibliothèque Morisset",
         "description_en": "Book a group study room on the concourse level, fourth floor, or sixth floor",
-        "description_fr": "Réservez une salle d'étude de groupe sur le niveau du hall, au quatrième étage ou au sixième étage"
+        "description_fr": "Réservez une salle d'étude en groupe au niveau du hall, au quatrième étage ou au sixième étage"
       },
       {
         "id": "fss",
@@ -368,16 +368,16 @@
         "name_en": "Faculty of Social Sciences",
         "name_fr": "Faculté des sciences sociales",
         "description_en": "Bookings available only to undergraduate students in the Faculty of Social Sciences",
-        "description_fr": "Réservations réservées aux étudiants de premier cycle de la Faculté des sciences sociales"
+        "description_fr": "Les réservations sont disponibles uniquement pour les étudiants de premier cycle à la Faculté des sciences sociales"
       },
       {
         "id": "cls_study_rooms",
         "link_en": "http://www.uottawa.ca/communitylife/study-rooms",
         "link_fr": "http://www.uottawa.ca/viecommunautaire/salles-d-etude",
         "name_en": "Community Life Service, study rooms",
-        "name_fr": "Service de vie communautaire, salles d'étude",
+        "name_fr": "Soutien aux activités étudiantes, salles d'étude",
         "description_en": "Study rooms offered by the university for groups of up to 10 people, with a small deposit",
-        "description_fr": "Les salles d'étude offertes par l'université pour les groupes jusqu'à 10 personnes, avec un petit dépôt"
+        "description_fr": "Les salles d'étude offertes par l'université pour des groupes pouvant accueillir jusqu'à 10 personnes, avec un petit dépôt"
       },
       {
         "id": "study_carrel_request",
@@ -386,7 +386,7 @@
         "name_en": "Study carrel request",
         "name_fr": "Demande d'isoloir",
         "description_en": "Graduate students can request a study carrel, in Morisset Library, the Health Sciences Library, or at the Brian Dickson Law Library",
-        "description_fr": "Les étudiants diplômés peuvent demander un bureau d'étude, à la Bibliothèque Morisset, à la Bibliothèque des sciences de la santé ou à la Bibliothèque juridique Brian Dickson"
+        "description_fr": "Les étudiants des cycles supérieurs peuvent faire une demande d'isoloir à la Bibliothèque Morisset, à la Bibliothèque des sciences de la santé, ou à la Bibliothèque de droit Brian-Dickson"
       }
     ]
   }

@@ -3,56 +3,56 @@
     {
       "key": "rooms",
       "name_en": "Room arrangements",
-      "name_fr": "Arrangements de chambre",
+      "name_fr": "Coordination de chambres",
       "data": [
         {
           "key": "room_single",
           "name_en": "Single bedroom",
-          "name_fr": "Chambre individuelle"
+          "name_fr": "Chambre pour une personne"
         },
         {
           "key": "room_double",
           "name_en": "Double bedroom",
-          "name_fr": "Chambre double"
+          "name_fr": "Chambre pour deux personnes"
         },
         {
           "key": "room_single_in_2",
-          "name_en": "Single in 2-bedroom",
-          "name_fr": "Simple en 2 chambres"
+          "name_en": "Single room in 2-bedroom",
+          "name_fr": "Simple en suite de 2 chambres"
         },
         {
           "key": "room_single_in_3",
-          "name_en": "Single in 3-bedroom",
-          "name_fr": "Simple en 3 chambres"
+          "name_en": "Single room in 3-bedroom",
+          "name_fr": "Simple en suite de 3 chambres"
         },
         {
           "key": "room_single_in_4",
-          "name_en": "Single in 4-bedroom",
-          "name_fr": "Simple en 4 chambres"
+          "name_en": "Single room in 4-bedroom",
+          "name_fr": "Simple en suite de 4 chambres"
         },
         {
           "key": "room_comm_bathroom",
           "name_en": "Communal bathroom",
-          "name_fr": "Salles de bain commune"
+          "name_fr": "Salle de bain commune"
         },
         {
           "key": "room_per_bathroom",
           "name_en": "Personal bathroom",
-          "name_fr": "Salle de bain personnelle"
+          "name_fr": "Salle de bain individuel"
         }
       ]
     },
     {
       "key": "cooking",
       "name_en": "Cooking facilities",
-      "name_fr": "Installations de cuisine",
+      "name_fr": "Espaces cuisines",
       "description_en": "Note that personal items are shared between 4 or fewer people, while communal items are shared with larger groups, or entire floors.",
-      "description_fr": "Notez que les objets personnels sont partagés entre 4 personnes ou moins, tandis que les objets communaux sont partagés avec des groupes plus importants.",
+      "description_fr": "Veuillez noter que vos articles personnels seront partagés entre quatre personnes ou moins. Les articles collectifs seront partagés avec plusieurs groupes ou parfois un plancher entier en résidence.",
       "data": [
         {
           "key": "cook_comm_fridge",
           "name_en": "Communal refrigerator",
-          "name_fr": "Réfrigérateur communal"
+          "name_fr": "Réfrigérateur commun"
         },
         {
           "key": "cook_per_fridge",
@@ -62,12 +62,12 @@
         {
           "key": "cook_comm_stove",
           "name_en": "Communal stovetops",
-          "name_fr": "Poêle commun"
+          "name_fr": "Cuisinières collectives"
         },
         {
           "key": "cook_per_stove",
           "name_en": "Personal stovetops",
-          "name_fr": "Poêle personnel"
+          "name_fr": "Cuisinières personnelles"
         },
         {
           "key": "cook_comm_oven",
@@ -82,12 +82,12 @@
         {
           "key": "cook_comm_microwave",
           "name_en": "Communal microwave",
-          "name_fr": "Micro-ondes commun"
+          "name_fr": "Micro-ondes communs"
         },
         {
           "key": "cook_per_microwave",
           "name_en": "Personal microwave",
-          "name_fr": "Micro-ondes personnel"
+          "name_fr": "Micro-ondes personnels"
         },
         {
           "key": "cook_comm_dishwasher",
@@ -106,7 +106,7 @@
       "name_en": "Utilities",
       "name_fr": "Services publics",
       "description_en": "All utilities are available in all residences. This section indicates which are included in the flat price you pay or those which are not included and cost extra.",
-      "description_fr": "Tous les services publics sont disponibles dans toutes les résidences. Cette section indique lesquels sont inclus dans le prix forfaitaire que vous payez ou ceux qui ne sont pas inclus et coûtent en supplément.",
+      "description_fr": "Tous les services publics sont disponibles dans toutes les résidences. Cette section indique ceux qui font partie du prix fixe et ceux qui ne sont pas inclus et coute extra.",
       "data": [
         {
           "key": "util_cable",
@@ -115,8 +115,7 @@
         },
         {
           "key": "util_internet",
-          "name_en": "Internet",
-          "name_fr": "l'Internet"
+          "name": "Internet",
         },
         {
           "key": "util_tele",
@@ -125,8 +124,7 @@
         },
         {
           "key": "util_hydro",
-          "name_en": "Hydro",
-          "name_fr": "Hydro"
+          "name": "Hydro"
         },
         {
           "key": "util_elec",
@@ -146,7 +144,7 @@
         {
           "key": "util_laundry",
           "name_en": "Laundry",
-          "name_fr": "Blanchisserie"
+          "name_fr": "Buanderie"
         }
       ]
     },
@@ -155,7 +153,7 @@
       "name_en": "Furnishings",
       "name_fr": "Ameublement",
       "description_en": "Only includes furnishings which are in the bedrooms. Common spaces generally have a table, chairs, and a small couch.",
-      "description_fr": "Comprend uniquement des meubles dans les chambres. Les espaces communs ont généralement une table, des chaises et un petit canapé.",
+      "description_fr": "Comprends uniquement les meubles dans les chambres. Les espaces communs ont généralement une table, des chaises et un petit canapé.",
       "data": [
         {
           "key": "furn_single_bed",
@@ -185,14 +183,14 @@
         {
           "key": "furn_closet",
           "name_en": "Closet",
-          "name_fr": "Placard"
+          "name_fr": "Garde-robe"
         }
       ]
     },
     {
       "key": "meal",
       "name_en": "Meal plans",
-      "name_fr": "Plans de repas",
+      "name_fr": "Forfaits alimentaires",
       "data": [
         {
           "key": "meal_mandatory",
@@ -202,7 +200,7 @@
         {
           "key": "meal_optional",
           "name_en": "Optional?",
-          "name_fr": "Optionell?"
+          "name_fr": "Optionnel?"
         }
       ]
     },
@@ -224,16 +222,16 @@
         {
           "key": "lease_renewable",
           "name_en": "Renewable",
-          "name_fr": "Renouvelable"
+          "name_fr": "Renouvellement de bail"
         }
       ]
     },
     {
       "key": "housekeeping",
       "name_en": "Housekeeping",
-      "name_fr": "Ménagère",
+      "name_fr": "Entretien ménager",
       "description_en": "All common areas are cleaned daily - lounges, bathrooms, hallways, and elevators. Private rooms are your own responsibility.",
-      "description_fr": "Toutes les zones communes sont nettoyées tous les jours - salons, salles de bains, couloirs et ascenseurs. Les chambres privées sont de votre propre responsabilité.",
+      "description_fr": "Tous les endroits communs sont nettoyés quotidiennement – salons, salles de bain, corridors et ascenseurs. Vos chambres individuelles sont à votre discrétion.",
       "data": [
         {
           "key": "none"
@@ -248,12 +246,12 @@
         {
           "key": "secure_card",
           "name_en": "Card access",
-          "name_fr": "Accès à la carte"
+          "name_fr": "Sécurité avec carte d'accès"
         },
         {
           "key": "secure_lock_suite",
           "name_en": "Suite locks",
-          "name_fr": "Serrures à la suite"
+          "name_fr": "Serrures d'unités"
         },
         {
           "key": "secure_lock_room",
@@ -280,7 +278,7 @@
       "address_en": "45 Mann Avenue",
       "address_fr": "45, avenue Mann",
       "description_en": "On the south side of campus, near SITE and the Sports Complex, 45 Mann is a residence exclusively for upper year students. It is an apartment style residence with single rooms available in 1-, 2-, 3-, or 4-bedroom apartments for 12 months at a time.",
-      "description_fr": "Sur le côté sud du campus, près du SITE et du Complexe sportif, 45 Mann est une résidence exclusivement pour les étudiants de la deuxième année. Il s'agit d'une résidence de style appartement avec des chambres simples disponibles en appartements de 1, 2, 3 ou 4 chambres pour 12 mois à la fois.",
+      "description_fr": "Sur le côté sud du campus, près du EITI et du Complexe sportif, 45 Mann est une résidence exclusivement pour les étudiants d'années supérieures. Il s'agit d'une résidence de style appartement avec des chambres pour une personne disponible dans des appartements de 1, 2, 3 ou 4 chambres en intervalle de 12 mois.",
       "image": "/housing_mann.jpg",
       "location": {
         "latitude": 45.4199681,
@@ -337,7 +335,7 @@
       "address_en": "90 University Private",
       "address_fr": "90, rue University",
       "description_en": "This suite style residence is located centrally on campus, in the residence complex. Share a common space, kitchenette, and bathroom with just 1 other person, while sleeping in your own private room.",
-      "description_fr": "Cette résidence de style suite se situe centralement sur le campus principal, dans le complexe résidentiel. Partagez un espace commun, une kitchenette et une salle de bains avec une seule personne, tout en dormissant dans votre propre chambre privée.",
+      "description_fr": "Cette résidence de style suite est située centralement sur le campus, dans le complexe résidentiel. Partagez un espace commun, une cuisinette et une salle de bain avec une seule personne, par contre vous pourrez dormir dans votre chambre individuelle.",
       "image": "/housing_90u.jpg",
       "location": {
         "latitude": 45.4223983,
@@ -393,7 +391,7 @@
       "address_en": "620-638 King Edward Avenue",
       "address_fr": "620-638, avenue King Edward",
       "description_en": "Brooks is an apartment style residence located near the centre of campus. There are 17 separate clusters, each containing up to 12 units of 2- or 4-bedroom units, available for 12 months with options to renew.",
-      "description_fr": "Brooks est une résidence de style appartement située à proximité du centre du campus principal. Il existe 17 grappes séparées, chacune contenant jusqu'à 12 unités d'unités de 2 ou 4 chambres, disponible pour 12 mois avec des options de renouvellement.",
+      "description_fr": "Brooks est une résidence de style appartement située en proximité du centre du campus. Il existe 17 grappes séparées, chacune contient jusqu'à 12 unités de 2 à 4 chambres, offertes pour 12 mois avec des options de renouvellement.",
       "image": "/housing_brooks.jpg",
       "location": {
         "latitude": 45.4226747,
@@ -449,7 +447,7 @@
       "address_en": "240 Friel Street",
       "address_fr": "240, rue Friel",
       "description_en": "Located downtown, approximately a 10-15 minute walk from the north end of campus, Friel offers 1- and 2-bedroom suites with a kitchenette and bathroom available for 8 months at a time.",
-      "description_fr": "Situé au centre-ville, à environ 10-15 minutes à pied du campus principal, Friel propose des suites de 1 et 2 chambres avec une kitchenette et une salle de bain disponible pendant 8 mois à la fois.",
+      "description_fr": "Situé au centre-ville, environ 10-15 minutes à pied de l'extrémité nord du campus. Friel propose des suites à 1 ou 2 chambres avec une cuisinette et une salle de bain, offert en intervalle de 8 mois.",
       "image": "/housing_friel.jpg",
       "location": {
         "latitude": 45.4305525,
@@ -505,7 +503,7 @@
       "address_en": "202 Henderson Avenue",
       "address_fr": "202, avenue Henderson",
       "description_en": "This traditional residence is located near SITE and Sports Complex, towards the south end of campus. It offers single bedrooms connected by a bathroom shared with 1 other person, and large community kitchen and dining areas.",
-      "description_fr": "Cette résidence traditionnelle est située à proximité du SITE et du Complexe sportif, vers l'extrémité sud du campus principal. Il propose des chambres simples reliées par une salle de bain partagée avec une autre personne, et une grande cuisine communautaire et des salles à manger",
+      "description_fr": "Cette résidence traditionnelle est située près du EITI et du Complexe sportif, vers l'extrémité sud du campus. Il propose des chambres individuelles reliées par une salle de bain partagée avec autre personne et une grande cuisine communautaire et plusieurs salles à manger.",
       "image": "/housing_henderson.jpg",
       "location": {
         "latitude": 45.4213361,
@@ -561,7 +559,7 @@
       "address_en": "157 Laurier Avenue East",
       "address_fr": "157, avenue Laurier est",
       "description_en": "Hyman Soloway is an apartment style residence located on the north end of campus, near Tabaret and Hamelin Hall. It offers single rooms in 2-, 3-, or 4-bedroom apartments, available for 12 months at a time.",
-      "description_fr": "Hyman Soloway est une résidence de style appartement située sur l'extrémité nord du campus, près de Tabaret et Hamelin Hall. Il propose des chambres simples dans des appartements de 2, 3 ou 4 chambres, disponibles pendant 12 mois à la fois.",
+      "description_fr": "HHyman Soloway est une résidence de style appartement situé à l'extrémité nord du campus, près de Tabaret et du pavillon Hamelin. Il offre des chambres individuelles soit de 1, 2, 3, ou 4 chambres, offertes en intervalle de 12 mois.",
       "image": "/housing_hymansoloway.jpg",
       "location": {
         "latitude": 45.4251119,
@@ -617,7 +615,7 @@
       "address_en": "45 Copernicus Street",
       "address_fr": "45, rue Copernicus",
       "description_en": "LeBlanc is a small, traditional style residence, ideal for French speaking students interested in a tight knit, francophone community. Single or double bedrooms are available, with shared bathrooms and kitchens on each floor.",
-      "description_fr": "LeBlanc est une petite résidence de style traditionnel, idéale pour les étudiants francophones intéressés par une communauté francophone. Des chambres simples ou doubles sont disponibles, avec salle de bains partagée et cuisines à chaque étage.",
+      "description_fr": "LeBlanc est une résidence de style traditionnel, d'une plus petite grandeur. Une résidence idéale pour les étudiants qui parlent français et qui sont intéressés à développer des liens avec la communauté francophone sur le campus. Des chambres individuelles ou doubles sont disponibles avec des salles de bains et des cuisines partagées sur chaque étage.",
       "image": "/housing_leblanc.jpg",
       "location": {
         "latitude": 45.4243663,
@@ -673,7 +671,7 @@
       "address_en": "110 University Private",
       "address_fr": "110, rue University",
       "description_en": "This traditional style residence accommodates many international exchange students each year. It is a part of the main residence complex, located centrally on campus, with single or double bedrooms available for 8 months at a time.",
-      "description_fr": "Cette résidence de style traditionnel accueille chaque année plusieurs étudiants étrangers. C'est une partie du complexe résidentiel principal, situé centralement sur le campus, avec des chambres simples ou doubles disponibles pendant 8 mois à la fois.",
+      "description_fr": "Cette résidence avec un style traditionnel accommode plusieurs des étudiants qui font un échange international chaque année. Cette résidence fait partie du complexe principal, situé au centre du campus. Elle offre des chambres individuelles ou doubles offertes en intervalle de 8 mois.",
       "image": "/housing_marchand.jpg",
       "location": {
         "latitude": 45.4219082,
@@ -729,7 +727,7 @@
       "address_en": "290 Rideau Street",
       "address_fr": "290, rue Rideau",
       "description_en": "Rideau is a traditional style residence located downtown, approximately a 10 minute walk from the north end of campus. Students may be in large double rooms, sharing a bathroom with only their roommate, or in a single room with a private bathroom.",
-      "description_fr": "Rideau est une résidence de style traditionnel située au centre-ville, à environ 10 minutes à pied de l'extrémité nord du campus. Les étudiants peuvent être dans de grandes chambres doubles, en partageant une salle de bain avec seulement leur colocataire, ou dans une chambre simple avec salle de bain privée.",
+      "description_fr": "Rideau est une résidence de style traditionnel situé au centre-ville, une marche d'approximativement 10 minutes de l'extrémité nord du campus. Les étudiants peuvent se retrouver dans des chambres pour deux personnes de grande taille et partager une salle de bain seulement avec leur colocataire, ou dans une chambre individuelle avec une salle de bain privée.",
       "image": "/housing_rideau.jpg",
       "location": {
         "latitude": 45.4287055,
@@ -785,7 +783,7 @@
       "address_en": "100 University Private",
       "address_fr": "100, rue University",
       "description_en": "Stanton is a traditional residence located centrally on campus, in the residence complex with Marchand and 90u. It offers single and double rooms for 8 months at a time.",
-      "description_fr": "Stanton est une résidence traditionnelle située au centre du campus, dans le complexe résidentiel de Marchand et 90u. Il propose des chambres simples et doubles pour 8 mois à la fois.",
+      "description_fr": "Stanton est une résidence traditionnelle située au centre du campus dans le complexe principal avec Marchand et 90 Université. Elle offre des chambres individuelles et doubles en intervalle de 8 mois.",
       "image": "/housing_stanton.jpg",
       "location": {
         "latitude": 45.4221234,
@@ -841,7 +839,7 @@
       "address_en": "45 University Private",
       "address_fr": "45, rue University",
       "description_en": "This traditional residence is located at the centre of campus, next to Café Nostalgica and the university library, Morisset. There are single and double bedrooms with community lounges and bathrooms on each floor.",
-      "description_fr": "Cette résidence traditionnelle est située au centre du campus, à côté de Café Nostalgica et de la bibliothèque universitaire Morisset. Il y a des chambres simples et doubles avec des salons communautaires et des salles de bains à chaque étage.",
+      "description_fr": "Cette résidence de style traditionnel est située au centre du campus, situé proche du café Nostalgica et la bibliothèque universitaire, Morisset. Il y a des chambres individuelles et doubles avec des salons et salles de bains communes à chaque étage.",
       "image": "/housing_thompson.jpg",
       "location": {
         "latitude": 45.42373,
@@ -905,13 +903,13 @@
     },
     "id": "housing",
     "name_en": "Other resources",
-    "name_fr": "Autre ressources",
+    "name_fr": "Autres ressources",
     "image": "/housing_other.jpg",
     "links": [
       {
         "id": "housing_service",
         "name_en": "Housing Service",
-        "name_fr": "Service du logement",
+        "name_fr": "Service de logement",
         "link_en": "http://www.uottawa.ca/housing/",
         "link_fr": "http://www.uottawa.ca/logement/",
         "description_en": "The home for information on housing at the University of Ottawa. If you don't find what you're looking for anywhere else, you can probably find it here.",
@@ -920,14 +918,14 @@
       {
         "id": "student_billboard",
         "name_en": "Student Housing Billboard",
-        "name_fr": "Service du logement",
+        "name_fr": "Panneau de logement étudiant",
         "link_en": "https://web5.uottawa.ca/rezweb/search.php",
         "link_fr": "https://web5.uottawa.ca/rezweb/searchf.php"
       },
       {
         "id": "apply_for_res",
         "name_en": "Apply for residence",
-        "name_fr": "Demande d’hébergement",
+        "name_fr": "Demande d'hébergement",
         "link_en": "http://www.uottawa.ca/housing/apply-for-residence",
         "link_fr": "http://www.uottawa.ca/logement/faire-une-demande"
       },
@@ -941,14 +939,14 @@
       {
         "id": "compare_res",
         "name_en": "Compare residences",
-        "name_fr": "Comparer les résidences",
+        "name_fr": "Comparaisons des résidences",
         "link_en": "http://www.uottawa.ca/housing/compare-residences",
         "link_fr": "http://www.uottawa.ca/logement/comparer-residences-prix"
       },
       {
         "id": "subletting",
         "name_en": "Subletting / takeover",
-        "name_fr": "Sous-location / reprise de contrat",
+        "name_fr": "Reprise de contrat et sous-location",
         "link_en": "http://www.uottawa.ca/housing/apply-for-residence/sublet-takeover",
         "link_fr": "http://www.uottawa.ca/logement/faire-une-demande/sous-location-reprise-de-contrat"
       },
@@ -962,7 +960,7 @@
       {
         "id": "short_term_accomodation",
         "name_en": "Short term accomodation",
-        "name_fr": "Hébergement de courte durée",
+        "name_fr": "Hébergement de courtes durées",
         "link_en": "http://www.uottawa.ca/housing/short-term",
         "link_fr": "http://www.uottawa.ca/logement/hebergement-courte-duree"
       }
@@ -977,7 +975,7 @@
       "id": "res",
       "image": "/housing.jpg",
       "name_en": "University Residences",
-      "name_fr": "Résidences universitaires"
+      "name_fr": "Résidences à l'université"
     },
     {
       "icon": {

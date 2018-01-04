@@ -3,7 +3,7 @@
     {
       "id": "main",
       "name_en": "Main Campus",
-      "name_fr": "Campus principal",
+      "name_fr": "Campus central",
       "outgoing": {
         "latitude": 45.4222098,
         "longitude": -75.6826635
@@ -89,7 +89,7 @@
           "name_en": "Towards RGN",
           "name_fr": "Ver RGN",
           "route_en": "Main Campus > 200 Lees > St. Paul > RGN",
-          "route_fr": "Campus Principal > 200 Lees > St. Paul > RGN",
+          "route_fr": "Campus central > 200 Lees > St. Paul > RGN",
           "day_times": {
             "01234": ["07:20", "07:55", "08:25", "09:00", "09:40", "10:15", "10:45", "11:50", "12:20", "12:55", "13:25", "14:00", "14:40", "15:15", "15:45", "16:20"],
             "0123": ["17:00", "18:15", "19:40", "20:55"]
@@ -98,9 +98,9 @@
         {
           "id": "incoming",
           "name_en": "Towards Main Campus",
-          "name_fr": "Ver Campus Principal",
+          "name_fr": "Ver campus central",
           "route_en": "RGN > St. Paul > 200 Lees > Main Campus",
-          "route_fr": "RGN > St. Paul > 200 Lees > Campus Principal",
+          "route_fr": "RGN > St. Paul > 200 Lees > Campus central",
           "day_times": {
             "01234": ["07:20", "07:55", "08:25", "09:00", "09:40", "10:15", "10:45", "11:50", "12:20", "12:55", "13:25", "14:00", "14:40", "15:15", "15:45", "16:20"],
             "0123": ["17:40", "18:55", "20:20", "21:35"]
@@ -111,7 +111,7 @@
     {
       "id": "summer",
       "name_en": "Summer",
-      "name_fr": "Été",
+      "name_fr": "L'été",
       "start_date": "2018-04-30",
       "end_date": "2018-08-31",
       "icon": {
@@ -136,7 +136,7 @@
           "name_en": "Towards RGN",
           "name_fr": "Ver RGN",
           "route_en": "Main Campus > 200 Lees > St. Paul > RGN",
-          "route_fr": "Campus Principal > 200 Lees > St. Paul > RGN",
+          "route_fr": "Campus central > 200 Lees > St. Paul > RGN",
           "day_times": {
             "01234": ["08:00", "11:30", "14:30"]
           }
@@ -144,9 +144,9 @@
         {
           "id": "incoming",
           "name_en": "Towards Main Campus",
-          "name_fr": "Ver Campus Principal",
+          "name_fr": "Ver campus central",
           "route_en": "RGN > St. Paul > 200 Lees > Main Campus",
-          "route_fr": "RGN > St. Paul > 200 Lees > Campus Principal",
+          "route_fr": "RGN > St. Paul > 200 Lees > Campus central",
           "day_times": {
             "01234": ["10:00", "13:00", "16:30"]
           }
