@@ -3802,7 +3802,11 @@ module.exports = [
         type: 'studio_music',
       },
       { name: '202' },
-      { name: '203' },
+      {
+        name: '203',
+        alt_name_en: 'Undergraduate Music Students’ Association (ADEMSA)',
+        alt_name_fr: 'Association des étudiant(e)s de premier cycle en musique (ADEMSA)'
+      },
       {
         name: '204',
         alt_name_en: 'Piano Pedagogy Research Laboratory',
@@ -3822,7 +3826,11 @@ module.exports = [
         alt_name_fr: 'Laboratoire de musique et informatique',
         type: 'comp',
       },
-      { name: '213' },
+      {
+        name: '213',
+        alt_name_en: 'Graduate Music Students’ Association (GMSA-AÉDM)',
+        alt_name_fr: 'Association des étudiant(e)s diplômé(e)s de musique (GMSA-AÉDM)'
+      },
       {
         name: '215',
         alt_name_en: 'Recording Studio',
