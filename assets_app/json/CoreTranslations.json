@@ -1,6 +1,6 @@
 {
   "en": {
-    "app_name": "Campus Guide - University of Ottawa",
+    "app_name": "Campus Guide",
 
     "language": "English",
     "continue_in": "Continue in",
@@ -28,7 +28,7 @@
     "next": "Next",
     "skip": "Skip",
 
-    "onboarding_general_title": "Welcome to Campus Guide",
+    "onboarding_general_title": "Welcome to the University of Ottawa Campus Guide",
     "onboarding_general_description": "Your resource for learning all about your university",
     "onboarding_navigation_title": "Get directions to any room on campus",
     "onboarding_navigation_description": "Select the building and room you're looking for, then pick your starting location for step by step directions",
@@ -75,7 +75,7 @@
     "no_path_between_campuses": "Directions cannot currently be given between different campuses. If you think this might be an error, please report it with the room you were trying to reach."
   },
   "fr": {
-    "app_name": "Guide du campus - l'Univerité d'Ottawa",
+    "app_name": "Guide du campus",
 
     "language": "Français",
     "continue_in": "Continuer dans",
@@ -101,22 +101,22 @@
 
     "prev": "Précédent",
     "next": "Prochain",
-    "skip": "Passer",
+    "skip": "Passe",
 
-    "onboarding_general_title": "Bienvenue sur le Campus Guide",
-    "onboarding_general_description": "Votre ressource pour apprendre tout sur votre université",
-    "onboarding_navigation_title": "Obtenez les directions à n'importe quelle pièce sur le campus",
-    "onboarding_navigation_description": "Sélectionnez le bâtiment et la pièce que vous recherchez, puis choisissez votre emplacement de départ pour les instructions étape par étape",
+    "onboarding_general_title": "Bienvenue au guide du campus de l’université d’ottawa",
+    "onboarding_general_description": "Votre ressource pour apprendre tous de votre université",
+    "onboarding_navigation_title": "Trouve les directions pour n'importe qeul salle sur la campus",
+    "onboarding_navigation_description": "Choisissez le bâtiment et la salle que vous cherchez, puis choisissez votre lieu de départ pour les directions étape par étape",
     "onboarding_discover_title": "Découvrez votre campus",
-    "onboarding_discover_description": "En savoir plus sur les services offerts par votre université. Revenez souvent pour de nouvelles sections!",
+    "onboarding_discover_description": "Apprennez plus sur les services offerts part votre université. Revenez souvent pour les nouvelles sections!",
     "onboarding_settings_title": "Rendre l'application vous convient",
     "onboarding_settings_description": "L'accessibilité, la langue et les préférences d'affichage peuvent être trouvées dans les paramètres",
     "onboarding_start_here": "Commencer ici",
     "onboarding_follow_the_directions": "Suivez les instructions",
-    "onboarding_arrive": "Arrivée",
+    "onboarding_arrive": "Arriver",
     "onboarding_bilingual": "Bilingue?",
     "onboarding_accessible": "Accessible?",
-    "onboarding_support": "Aider?",
+    "onboarding_support": "L’appui?",
 
     "update": "Mise à jour",
     "downloaded": "Téléchargé",
@@ -144,9 +144,9 @@
     "street": "Rue",
     "path": "Sentier",
     "hallway": "Couloir",
-    "intersection": "Intersection",
-    "no_accessible_path_found": "Nous n'avons pas pu trouver un chemin accessible à cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre.",
-    "no_path_found": "Nous ne pouvions pas trouver un chemin vers cet endroit! Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre.",
-    "no_path_between_campuses": "Les directions ne peuvent actuellement être données entre différents campus. Si vous pensez que cela pourrait être une erreur, veuillez le signaler avec la pièce que vous essayiez d'atteindre."
+    "intersection": "Croisement",
+    "no_accessible_path_found": "On est incapable à trouver une route accessible pour cet endroit! Si vous pensez que c'est une erreur, s'il vous plaît envoyez un rapport avec la salle que vous cherchez.",
+    "no_path_found": "Nous ne pouvions pas trouver un chemin vers cet endroit! Si vous pensez que c'est une erreur, s'il vous plaît envoyez un rapport avec la salle que vous cherchez.",
+    "no_path_between_campuses": "Les directions ne peuvent actuellement être données entre différents campus. Si vous pensez que c'est une erreur, s'il vous plaît envoyez un rapport avec la salle que vous cherchez."
   }
 }
