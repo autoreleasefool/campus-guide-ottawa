@@ -1,5 +1,6 @@
 [FORMAT]
-floor0=^(0|Gym).*$\nfloor*=^(\d).*$
+floor0=^(0|Gym).*$
+floor*=^(\d).*$
 [EDGES]
 D1|H120:L:27.14:T
 H120|D1:R:27.14:T,H121:L:42.01:T,H132:D:31.10:T

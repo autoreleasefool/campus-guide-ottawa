@@ -1,5 +1,6 @@
 [FORMAT]
-floor0=^(B).*$\nfloor*=^(\d).*$
+floor0=^(B).*$
+floor*=^(\d).*$
 [EDGES]
 D1|H19:U:178.26:T
 H19|D1:D:178.26:T,H110:L:34.06:T,H18:R:96.05:T

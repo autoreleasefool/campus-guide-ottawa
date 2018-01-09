@@ -1,5 +1,6 @@
 [FORMAT]
-floor0=^[A-J]?0.*$\nfloor*=^[KL]?(\d).*$
+floor0=^[A-J]?0.*$
+floor*=^[KL]?(\d).*$
 [EDGES]
 D1|H129:D:33.94:T
 H129|D1:U:33.94:T,H130:D:93.83:T,SD:R:56.71:F
