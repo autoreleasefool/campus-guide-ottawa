@@ -1,5 +1,5 @@
 [FORMAT]
-floor*=^(d).*$
+floor*=^(\d).*$
 [EDGES]
 D1|H11:D:88.01:T
 H11|D1:U:88.01:T,H12:D:64.03:T,R105:R:57.00:T

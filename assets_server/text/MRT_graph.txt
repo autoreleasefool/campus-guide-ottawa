@@ -1,6 +1,6 @@
 [FORMAT]
 floor00=^(00).*$
-floor*=^(d).*$
+floor*=^(\d).*$
 [EDGES]
 D1|H130:U:35.36:T
 H130|D1:D:35.36:T,H131:U:36.36:T,SE:R:35.34:F
