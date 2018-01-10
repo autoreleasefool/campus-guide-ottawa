@@ -1,5 +1,5 @@
 [FORMAT]
-floor*=^(\d).*$
+floor*=^(\d)h?.*$
 [EDGES]
 B113 Osgoode#D1|T240:D:3.54:T
 T240|B113 Osgoode#D1:U:3.54:T,T239:L:4.84:T
