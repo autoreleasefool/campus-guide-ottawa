@@ -21,6 +21,7 @@ react-native-deprecated-custom-components React Native Legacy Custom Components
 react-native-device-info                  react-native-device-info
 react-native-fabric                       react-native-fabric
 react-native-fs                           react-native-fs
+react-native-geolocation-service          react-native-geolocation-service
 react-native-maps                         react-native-maps
 react-native-scrollable-tab-view          react-native-scrollable-tab-view
 react-native-simple-store                 React Native Simple Store
