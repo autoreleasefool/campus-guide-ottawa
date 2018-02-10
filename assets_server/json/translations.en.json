@@ -22,6 +22,8 @@
   "cannot_be_undone_confirmation": "This action cannot be undone. Are you sure?",
   "loading": "Loading...",
   "not_affiliated_with": "Not affiliated with the ",
+  "location_permission_msg": "Your location is required to find the closest available starting point for navigation",
+  "location_permission_title": "Location permission",
 
   // Search
   "search_placeholder": "Search...",

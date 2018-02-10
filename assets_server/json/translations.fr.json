@@ -22,6 +22,8 @@
   "cannot_be_undone_confirmation": "Cette action ne peut pas être annulée. Êtes-vous certain?",
   "loading": "En charge...",
   "not_affiliated_with": "Pas affilié à l'",
+  "location_permission_msg": "Votre emplacement est requis pour trouver le point de départ disponible le plus proche pour la navigation",
+  "location_permission_title": "Permission de localisation",
 
   // Search sections
   "search_placeholder": "Recherche...",
