@@ -60,8 +60,7 @@
         "name_en": "Submit feedback",
         "name_fr": "Soumettre une rétroaction",
         "key": "app_feedback",
-        "type": "link",
-        "link": "mailto:contact@josephroque.ca?subject=Comm%2FSug:%20Ottawa%20Campus%20Guide",
+        "type": "custom",
         "icon": {
           "ios": {
             "class": "ionicon",
