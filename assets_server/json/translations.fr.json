@@ -108,6 +108,7 @@
   "routes_and_times": "Itinéraires et temps",
   "transit_stops": "Arrêts de transit",
   "transit_approximate_times": "Les heures d'arrivée ne sont pas en direct.",
+  "transit_eastern_times": "Tous les temps sont en ET.",
 
   // Shuttle
   "shuttle": "Navette",

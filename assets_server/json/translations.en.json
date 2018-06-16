@@ -107,6 +107,7 @@
   "routes_and_times": "Routes and times",
   "transit_stops": "Transit stops",
   "transit_approximate_times": "Arrival times are not live.",
+  "transit_eastern_times": "All times are in ET.",
 
   // Shuttle
   "shuttle": "Shuttle",
