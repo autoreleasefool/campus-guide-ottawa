@@ -103,7 +103,7 @@
         "name_fr": "Visité le développeur du site web",
         "key": "app_developer_website",
         "type": "link",
-        "link": "http://josephroque.ca",
+        "link": "https://josephroque.ca",
         "icon": {
           "class": "ionicon",
           "name": "md-open"
