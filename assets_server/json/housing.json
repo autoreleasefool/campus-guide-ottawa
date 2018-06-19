@@ -158,12 +158,14 @@
         {
           "key": "furn_single_bed",
           "name_en": "Single bed",
-          "name_fr": "Lit simple"
+          "name_fr": "Lit simple",
+          "description": "Dimensions: 38 x 74.5 in | 96.5 x 189 cm"
         },
         {
           "key": "furn_double_bed",
           "name_en": "Double bed",
-          "name_fr": "Lit double"
+          "name_fr": "Lit double",
+          "description": "Dimensions: 53 x 74.5 in | 134.5 x 189 cm"
         },
         {
           "key": "furn_desk",
