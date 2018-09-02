@@ -64,7 +64,7 @@
   "location_position_unavailable": "Your location could not be determined. Tap to try again",
   "location_timeout": "It took too long to retrieve your location. Tap to try again",
   "choose_rooms_to_navigate": "Choose a room to get directions to it, or tap below for directions to this building",
-  "no_additional_rooms": "No additional rooms",
+  "no_additional_rooms": "This building's rooms are not available for navigation",
 
   // Schedule
   "course": "Course",

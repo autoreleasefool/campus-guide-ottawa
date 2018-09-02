@@ -65,7 +65,7 @@
   "location_position_unavailable": "Votre emplacement n'a pas pu être déterminé. Appuyez pour essayer à nouveau",
   "location_timeout": "Il a fallu trop de temps pour récupérer votre emplacement. Appuyez pour essayer à nouveau",
   "choose_rooms_to_navigate": "Choisissez une pièce pour obtenir les directions, ou appuyez sur ci-dessous pour les directions à cet immeuble",
-  "no_additional_rooms": "Pas de pièces supplémentaires",
+  "no_additional_rooms": "Les chambres de cet immeuble ne sont pas disponibles pour la navigation",
 
   // Schedule
   "course": "Cours",
