@@ -5,14 +5,19 @@
   "name_fr": "Université d'Ottawa",
   "semesters": [
     {
-      "id": "2018w",
-      "name_en": "Winter 2018",
-      "name_fr": "Hiver 2018"
+      "id": "2018f",
+      "name_en": "Fall 2018",
+      "name_fr": "Automne 2018"
     },
     {
-      "id": "2018s",
-      "name_en": "Spring/Summer 2018",
-      "name_fr": "Printemps/été 2018"
+      "id": "2019w",
+      "name_en": "Winter 2019",
+      "name_fr": "Hiver 2019"
+    },
+    {
+      "id": "2019s",
+      "name_en": "Spring/Summer 2019",
+      "name_fr": "Printemps/été 2019"
     }
   ],
   "busInfo": {
