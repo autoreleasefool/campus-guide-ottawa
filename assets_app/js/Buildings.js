@@ -49,6 +49,27 @@ module.exports = [
   },
 
   {
+    shorthand: 'ANX',
+    image: require('../images/buildings/full/ANX.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/ANX.jpg'),
+    name: 'Annex',
+    location: {
+      latitude: 45.426720,
+      longitude: -75.680390,
+    },
+    address_en: '261 Laurier Avenue East',
+    address_fr: '261, avenue Laurier est',
+    facilities: [
+      'bed',
+      'food',
+      'laundry',
+      'mail',
+      'parking',
+    ],
+    rooms: [],
+  },
+
+  {
     shorthand: 'ARC',
     image: require('../images/buildings/full/ARC.jpg'),
     thumbnail: require('../images/buildings/thumbnail/ARC.jpg'),
@@ -273,6 +294,27 @@ module.exports = [
     facilities: [
       'class',
       'lab',
+    ],
+    rooms: [],
+  },
+
+  {
+    shorthand: 'CRX',
+    image: require('../images/buildings/full/CRX.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/CRX.jpg'),
+    name_en: 'Learning Crossroads',
+    name_fr: 'Carrefour des apprentissages',
+    location: {
+      latitude: 45.421826,
+      longitude: -75.681309,
+    },
+    address_en: '100 Louis-Pasteur Private',
+    address_fr: '100, privé Louis-Pasteur',
+    facilities: [
+      'class',
+      'food',
+      'lab',
+      'library',
     ],
     rooms: [],
   },
@@ -4582,6 +4624,24 @@ module.exports = [
       { name: '5118' },
       { name: '5130', type: 'res_lab' },
     ],
+  },
+
+  {
+    shorthand: 'STEM',
+    image: require('../images/buildings/full/STEM.jpg'),
+    thumbnail: require('../images/buildings/thumbnail/STEM.jpg'),
+    name: 'STEM',
+    location: {
+      latitude: 45.420309,
+      longitude: -75.680070,
+    },
+    address_en: '161 Louis-Pasteur Private',
+    address_fr: '161, privé Louis-Pasteur',
+    facilities: [
+      'class',
+      'lab',
+    ],
+    rooms: [],
   },
 
   {
