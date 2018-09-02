@@ -401,6 +401,7 @@
       "address_fr": "261, avenue Laurier est",
       "description_en": "Annex is a suite-style residence located just off campus. It features a number of ammenities such as a fitness centre, a games room, and a community BBQ. The residence offers underground parking and bike parking at an additional cost.",
       "description_fr": "Annex est une résidence de style suite située à proximité du campus. Il dispose de nombreux équipements tels qu'un centre de remise en forme, une salle de jeux et un barbecue communautaire. La résidence propose un parking souterrain et un parking à vélos moyennant des frais supplémentaires.",
+      "image": "/housing_annex.jpg",
       "location": {
         "latitude": 45.426720,
         "longitude": -75.680390
