@@ -114,7 +114,7 @@
   "shuttle": "Navette",
   "route": "Circuit",
   "shuttle_not_in_service": "Avertissement! La navette n'est pas en service aujourd'hui",
-  "shuttle_travel_time": "Notez que la navette prend environ 5-15 minutes pour se déplacer entre les arrêts",
+  "shuttle_travel_time": "Notez que la navette prend environ 5 minutes pour se déplacer entre les arrêts",
   "shuttle_id_required": "Votre carte étudiante est requise pour être autorisée d'utiliser la navette",
   "excluded_dates": "Dates exclus",
   "departure_times": "Heures de départ",

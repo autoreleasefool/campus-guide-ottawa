@@ -38,6 +38,18 @@
       }
     },
     {
+      "id": "petermorand",
+      "name": "Peter Morand",
+      "outgoing": {
+        "latitude": 45.403672,
+        "longitude": -75.642472
+      },
+      "incoming": {
+        "latitude": 45.403672,
+        "longitude": -75.642472
+      }
+    },
+    {
       "id": "rgn",
       "name": "RGN",
       "outgoing": {
@@ -55,8 +67,8 @@
       "id": "regular",
       "name_en": "Regular",
       "name_fr": "Régulier",
-      "start_date": "2017-09-05",
-      "end_date": "2017-04-27",
+      "start_date": "2018-09-04",
+      "end_date": "2019-04-26",
       "icon": {
         "ios": {
           "name": "ios-paper",
@@ -68,28 +80,29 @@
         }
       },
       "excluded_dates": [
-        "2017-09-04",
-        "2017-10-09",
-        "2017-12-25",
-        "2017-12-26",
-        "2017-12-27",
-        "2017-12-28",
-        "2017-12-29",
-        "2017-12-30",
-        "2017-12-31",
-        "2018-01-01",
-        "2018-01-02",
-        "2018-02-19",
-        "2018-03-30",
-        "2018-04-02"
+        "2018-09-03",
+        "2018-10-08",
+        "2018-12-24",
+        "2018-12-25",
+        "2018-12-26",
+        "2018-12-27",
+        "2018-12-28",
+        "2018-12-29",
+        "2018-12-30",
+        "2018-12-31",
+        "2019-01-01",
+        "2019-01-02",
+        "2019-02-18",
+        "2019-04-19",
+        "2018-04-22"
       ],
       "directions": [
         {
           "id": "outgoing",
           "name_en": "Towards RGN",
           "name_fr": "Ver RGN",
-          "route_en": "Main Campus > 200 Lees > St. Paul > RGN",
-          "route_fr": "Campus central > 200 Lees > St. Paul > RGN",
+          "route_en": "Main Campus > 200 Lees > St. Paul > Peter Morand > RGN",
+          "route_fr": "Campus central > 200 Lees > St. Paul > Peter Morand > RGN",
           "day_times": {
             "01234": ["07:20", "07:55", "08:25", "09:00", "09:40", "10:15", "10:45", "11:50", "12:20", "12:55", "13:25", "14:00", "14:40", "15:15", "15:45", "16:20"],
             "0123": ["17:00", "18:15", "19:40", "20:55"]
@@ -99,8 +112,8 @@
           "id": "incoming",
           "name_en": "Towards Main Campus",
           "name_fr": "Ver campus central",
-          "route_en": "RGN > St. Paul > 200 Lees > Main Campus",
-          "route_fr": "RGN > St. Paul > 200 Lees > Campus central",
+          "route_en": "RGN > Peter Morand > St. Paul > 200 Lees > Main Campus",
+          "route_fr": "RGN > Peter Morand > St. Paul > 200 Lees > Campus central",
           "day_times": {
             "01234": ["07:20", "07:55", "08:25", "09:00", "09:40", "10:15", "10:45", "11:50", "12:20", "12:55", "13:25", "14:00", "14:40", "15:15", "15:45", "16:20"],
             "0123": ["17:40", "18:55", "20:20", "21:35"]

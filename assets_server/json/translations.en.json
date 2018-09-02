@@ -113,7 +113,7 @@
   "shuttle": "Shuttle",
   "route": "Route",
   "shuttle_not_in_service": "Warning! The shuttle is not in service today.",
-  "shuttle_travel_time": "Note that shuttle will take approximately 5-15 to travel between stops.",
+  "shuttle_travel_time": "Note that the shuttle will take approximately 5 minutes to travel between stops.",
   "shuttle_id_required": "Your student id is required to be allowed on the shuttle.",
   "excluded_dates": "Excluded dates",
   "departure_times": "Departure times",
