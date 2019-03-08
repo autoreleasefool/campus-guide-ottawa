@@ -114,7 +114,7 @@
         "name_fr": "Visionner la source sur GitHub",
         "key": "app_source",
         "type": "link",
-        "link": "https://github.com/josephroqueca/campus-guide",
+        "link": "https://github.com/josephroquedev/campus-guide",
         "icon": {
           "class": "ionicon",
           "name": "logo-github"
